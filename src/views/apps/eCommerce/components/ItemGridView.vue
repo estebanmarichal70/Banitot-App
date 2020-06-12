@@ -17,8 +17,8 @@
                     <div class="item-img-container bg-white h-64 flex items-center justify-center mb-4 cursor-pointer" @click="navigate_to_detail_view">
                         <img :src="item.image" :alt="item.name" class="grid-view-img px-4">
                     </div>
-                    <div class="item-details px-4">
 
+                    <div class="item-details px-4">
                         <!-- RATING & PRICE -->
                         <div class="flex justify-between items-center">
                             <div class="text-warning border border-solid border-warning flex py-1 px-2 rounded">
@@ -33,6 +33,7 @@
                             <h6 class="truncate font-semibold mb-1 hover:text-primary cursor-pointer" @click="navigate_to_detail_view">{{ item.name }}</h6>
                             <p class="item-description truncate text-sm">{{ item.description }}</p>
                         </div>
+
                     </div>
 
                     <!-- SLOT: ACTION BUTTONS -->

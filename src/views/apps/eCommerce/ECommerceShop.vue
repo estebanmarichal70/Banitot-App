@@ -39,8 +39,8 @@
                             <!-- SORTING -->
                             <ais-sort-by :items="[
                                 { value: 'instant_search', label: 'Featured' },
-                                { value: 'instant_search_price_asc', label: 'Lowest Price' },
-                                { value: 'instant_search_price_desc', label: 'Highest Price' },
+                                { value: 'instant_search_price_asc', label: 'Precio mas bajo' },
+                                { value: 'instant_search_price_desc', label: 'Precio mas alto' },
                             ]">
                                 <vs-select
                                     :value="currentRefinement"
@@ -80,7 +80,7 @@
                     <div class="p-6 filter-container">
 
                         <!-- MULTI RANGE -->
-                        <h6 class="font-bold mb-3">Multi Range</h6>
+                        <h6 class="font-bold mb-3">Rango de precios</h6>
                         <ais-numeric-menu attribute="price" :items="numericItems">
                             <ul slot-scope="{ items, refine, createURL }">
                                 <li
@@ -95,10 +95,6 @@
                             </ul>
                         </ais-numeric-menu>
 
-                        <vs-divider />
-
-                        <!-- PRICE SLIDER -->
-                        <h6 class="font-bold mb-3">Price Slider</h6>
                         <ais-range-input attribute="price">
                             <div slot-scope="{ currentRefinement, range, refine }">
                                 <vs-slider
@@ -113,26 +109,8 @@
 
                         <vs-divider />
 
-                        <!-- CATEGORIES -->
-                        <h6 class="font-bold mb-4">Category</h6>
-                        <ais-hierarchical-menu :attributes="algoliaCategories">
-                            <div slot-scope="{
-                              items,
-                              refine,
-                            }">
-                                <ul>
-                                    <li v-for="item in items" :key="item.value" class="flex items-center cursor-pointer py-1" @click="refine(item.value)">
-                                        <feather-icon icon="CircleIcon" :svgClasses="[{ 'text-primary fill-current': item.isRefined}, 'h-5 w-5']" />
-                                        <span class="ml-2" :class="{'text-primary': item.isRefined}">{{ item.label }}</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </ais-hierarchical-menu>
-
-                        <vs-divider />
-
                         <!-- Brands -->
-                        <h6 class="font-bold mb-4">Brand</h6>
+                        <h6 class="font-bold mb-4">Marcas</h6>
                         <ais-refinement-list attribute="brand">
                             <div slot-scope="{
                               items,
@@ -158,7 +136,7 @@
                                     <div @click.prevent="refine(item.value)" class="flex justify-between items-center">
                                         <div class="flex items-center flex-wrap">
                                             <feather-icon icon="StarIcon" :svgClasses="[{'text-warning': full, 'text-grey': !full, 'ml-1' : index}, 'cursor-pointer stroke-current h-6 w-6']" v-for="(full, index) in item.stars" :key="index" />
-                                            <span class="ml-2">&amp; up</span>
+                                            <span class="ml-2"></span>
                                         </div>
                                         <span>({{ item.count }})</span>
                                     </div>
@@ -352,7 +330,7 @@ export default {
       clickNotClose: true,
       currentItemView: 'item-grid-view',
       numericItems: [
-        { label: 'All' },
+        { label: 'Todos' },
         { label: '<= $10', end: 10 },
         { label: '$10 - $100', start: 10, end: 100 },
         { label: '$100 - $500', start: 100, end: 500 },

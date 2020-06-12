@@ -7,8 +7,8 @@
           <!-- IF CART HAVE ITEMS: HEADER -->
           <template v-if="cartItems.length">
               <div class="notification-header text-center p-5 bg-primary text-white">
-                  <h3 class="text-white">{{ cartItems.length }} Item<span v-show="cartItems.length > 1">s</span></h3>
-                  <p class="opacity-75">In Your Cart</p>
+                  <h3 class="text-white">{{ cartItems.length }} Articulo<span v-show="cartItems.length > 1">s</span></h3>
+                  <p class="opacity-75">En el carrito</p>
               </div>
 
               <!-- CART ITEMS -->
@@ -51,7 +51,7 @@
 
           <!-- IF CART IS EMPTY -->
           <template v-else>
-              <p class="p-4">Your Cart Is Empty.</p>
+              <p class="p-4">Tu carrito esta vacio</p>
           </template>
       </vs-dropdown-menu>
   </vs-dropdown>
