@@ -1,12 +1,3 @@
-<!-- =========================================================================================
-    File Name: Login.vue
-    Description: Login Page
-    ----------------------------------------------------------------------------------------
-    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-      Author: Pixinvent
-    Author URL: http://www.themeforest.net/user/pixinvent
-========================================================================================== -->
-
 
 <template>
   <div class="h-screen flex w-full bg-img vx-row no-gutter items-center justify-center" id="page-login">
@@ -21,26 +12,14 @@
             </div>
 
             <div class="vx-col sm:w-full md:w-full lg:w-1/2 d-theme-dark-bg">
-              <div class="px-8 pt-8 login-tabs-container">
+              <div class="px-8 mb-8 pt-8">
 
-                <div class="vx-card__title mb-4">
-                  <h4 class="mb-4">Login</h4>
-                  <p>Welcome back, please login to your account.</p>
+                <div class="vx-card__title mb-6">
+                  <h4 class="mb-4">Iniciar Sesion</h4>
+                  <p>Bienvenido, por favor accede a tu cuenta.</p>
                 </div>
 
-                <vs-tabs>
-                  <vs-tab label="JWT">
-                    <login-jwt></login-jwt>
-                  </vs-tab>
-
-                  <vs-tab label="Firebase">
-                    <login-firebase></login-firebase>
-                  </vs-tab>
-
-                  <vs-tab label="Auth0">
-                    <login-auth0></login-auth0>
-                  </vs-tab>
-                </vs-tabs>
+                <login-jwt></login-jwt>
 
               </div>
             </div>
@@ -54,14 +33,10 @@
 
 <script>
 import LoginJwt from './LoginJWT.vue'
-import LoginFirebase from './LoginFirebase.vue'
-import LoginAuth0 from './LoginAuth0.vue'
 
 export default {
   components: {
-    LoginJwt,
-    LoginFirebase,
-    LoginAuth0
+    LoginJwt
   }
 }
 </script>
