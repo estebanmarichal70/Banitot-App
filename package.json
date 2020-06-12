@@ -1,6 +1,6 @@
 {
-  "name": "vuexy-vuejs-html-laravel-dashboard-admin-template",
-  "version": "5.0.1",
+  "name": "banitot-app",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
