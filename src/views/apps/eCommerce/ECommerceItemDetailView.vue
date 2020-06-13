@@ -1,11 +1,3 @@
-<!-- =========================================================================================
-  File Name: ECommerceItemDetail.vue
-  Description: eCommerce Item Detail page
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-========================================================================================== -->
 
 <template>
   <div id="item-detail-page">
@@ -46,7 +38,7 @@
                 <h3>{{ item_data.name }}</h3>
 
                 <p class="my-2">
-                  <span class="mr-2">by</span>
+                  <span class="mr-2">de</span>
                   <span>{{ item_data.brand }}</span>
                 </p>
                 <p class="flex items-center flex-wrap">
@@ -63,32 +55,11 @@
                   <vs-list-item
                     v-if="item_data.free_shipping"
                     class="p-0 border-none"
-                    title="Free Sheeping"
+                    title="Envío gratis"
                     icon-pack="feather"
                     icon="icon-truck" />
-                  <vs-list-item class="p-0 border-none" title="EMI options available" icon-pack="feather" icon="icon-dollar-sign"></vs-list-item>
+                  <vs-list-item class="p-0 border-none" title="Impuestos incluidos" icon-pack="feather" icon="icon-dollar-sign"></vs-list-item>
                 </vs-list>
-
-                <vs-divider />
-
-                <!-- Color -->
-                <div class="vx-row">
-                  <div class="vx-col w-full">
-                    <span class="text-xl font-medium">Color</span>
-                    <div class="flex flex-wrap items-center mt-2">
-                      <div
-                        :class="{'border-transparent': opt_color != color}"
-                        class="color-radio rounded-full mx-1 border-2 border-solid cursor-pointer relative"
-                        :style="itemColor({color: color, style: ['borderColor']})"
-                        v-for="color in available_item_colors"
-                        :key="color"
-                        @click="opt_color=color">
-                          <div class="h-6 w-6 rounded-full absolute" :style="itemColor({color: color, style: ['backgroundColor']})"></div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Color -->
 
                 <vs-divider />
 
@@ -97,9 +68,9 @@
 
                   <div class="vx-col w-full">
                     <p class="my-2">
-                      <span>Available</span>
+                      <span>Disponible</span>
                       <span class="mx-2">-</span>
-                      <span class="text-success">In Stock</span>
+                      <span class="text-success">En Stock</span>
                     </p>
                   </div>
 
@@ -113,7 +84,7 @@
                         icon="icon-shopping-cart"
                         v-if="!isInCart(item_data.objectID)"
                         @click="toggleItemInCart(item_data)">
-                        ADD TO CART
+                        Agregar al carrito
                       </vs-button>
 
                       <vs-button
@@ -122,7 +93,7 @@
                         icon-pack="feather"
                         icon="icon-shopping-cart"
                         @click="$router.push({name: 'ecommerce-checkout'}).catch(err => {})">
-                        VIEW IN CART
+                        Ver en el carrito
                       </vs-button>
                       <!-- /Add To Cart Button -->
 
@@ -135,7 +106,7 @@
                         icon="icon-heart"
                         color="danger"
                         @click="toggleItemInWishList(item_data)">
-                        WHISHLIST
+                        Deseado
                       </vs-button>
 
                       <vs-button
@@ -147,7 +118,7 @@
                         icon="icon-heart"
                         color="danger"
                         @click="toggleItemInWishList(item_data)">
-                        WHISHLIST
+                        Deseado
                       </vs-button>
                       <!-- /Wishlist Button -->
 
@@ -155,15 +126,6 @@
                   </div>
                 </div>
                 <!-- /Quantity -->
-
-                <div class="vx-row">
-                  <div class="vx-col flex flex-wrap items-center">
-                    <vs-button class="mr-4" type="border" icon-pack="feather" color="#1551b1" icon="icon-facebook" radius></vs-button>
-                    <vs-button class="mr-4" type="border" icon-pack="feather" color="#00aaff" icon="icon-twitter" radius></vs-button>
-                    <vs-button class="mr-4" type="border" icon-pack="feather" color="#c4302b" icon="icon-youtube" radius></vs-button>
-                    <vs-button class="mr-4" type="border" icon-pack="feather" color="#405DE6" icon="icon-instagram" radius></vs-button>
-                  </div>
-                </div>
 
               </div>
 
@@ -177,61 +139,26 @@
                 <div class="w-64 mx-auto mb-16 md:mb-0">
                   <feather-icon icon="AwardIcon" svgClasses="h-12 w-12 text-primary stroke-current" class="block mb-4" />
                   <span class="font-semibold text-lg">100% Original</span>
-                  <p class="mt-2">Chocolate bar candy canes ice cream toffee cookie halvah.</p>
+                  <p class="mt-2">Nuestros productos son 100% originales.</p>
                 </div>
               </div>
               <div class="vx-col md:w-1/3 w-full">
                 <div class="w-64 mx-auto mb-16 md:mb-0">
                   <feather-icon icon="ClockIcon" svgClasses="h-12 w-12 text-primary stroke-current" class="block mb-4" />
-                  <span class="font-semibold text-lg">10 Day Replacement</span>
-                  <p class="mt-2">Marshmallow biscuit donut dragée fruitcake wafer.</p>
+                  <span class="font-semibold text-lg">10 Dias para devolución</span>
+                  <p class="mt-2">Si no te gustó el producto o presenta fallas, podés cambiarlo en los primeros diéz dias después de la compra.</p>
                 </div>
               </div>
               <div class="vx-col md:w-1/3 w-full">
                 <div class="w-64 mx-auto">
                   <feather-icon icon="ShieldIcon" svgClasses="h-12 w-12 text-primary stroke-current" class="block mb-4" />
-                  <span class="font-semibold text-lg">1 Year Warranty</span>
-                  <p class="mt-2">Cotton candy gingerbread cake I love sugar sweet.</p>
+                  <span class="font-semibold text-lg">1 Año de garantía</span>
+                  <p class="mt-2">Todos nuestros productos cuentan con garantía de un año.</p>
                 </div>
               </div>
             </div>
           </div>
 
-        </div>
-
-        <!-- Related Products -->
-        <div class="related-products text-center px-6">
-
-          <div class="related-headings mb-8 text-center">
-            <h2 class="uppercase">Related Products</h2>
-            <p>People also search for this items</p>
-          </div>
-          <swiper :options="swiperOption" :dir="$vs.rtl ? 'rtl' : 'ltr'" :key="$vs.rtl" class="related-product-swiper px-12 py-6">
-            <swiper-slide v-for="item in related_items" :key="item.objectId" class="p-6 rounded cursor-pointer">
-
-              <!-- Item Heading -->
-              <div class="item-heading mb-4">
-                <p class="text-lg font-semibold truncate">{{ item.name }}</p>
-                <p class="text-sm">
-                  <span class="mr-2">by</span>
-                  <span>{{ item.brand }}</span>
-                </p>
-              </div>
-
-              <!-- Item Image -->
-              <div class="img-container w-32 mx-auto my-base">
-                <img class="responsive" :src="item.image" :alt="item.name">
-              </div>
-
-              <!-- Item Meta -->
-              <div class="item-meta">
-                <star-rating :show-rating="false" :rating="item.rating" :star-size="14" class="justify-center" read-only />
-                <p class="text-lg font-medium text-primary">${{ item.price }}</p>
-              </div>
-            </swiper-slide>
-            <div class="swiper-button-prev" slot="button-prev"></div>
-            <div class="swiper-button-next" slot="button-next"></div>
-          </swiper>
         </div>
 
       </template>

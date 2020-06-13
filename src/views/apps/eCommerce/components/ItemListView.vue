@@ -1,11 +1,3 @@
-<!-- =========================================================================================
-    File Name: ItemListView.vue
-    Description: Item Component - List VIew
-    ----------------------------------------------------------------------------------------
-    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-      Author: Pixinvent
-    Author URL: http://www.themeforest.net/user/pixinvent
-========================================================================================== -->
 
 <template>
     <vx-card class="list-view-item overflow-hidden" v-on="$listeners">
@@ -43,7 +35,7 @@
                             <h5 class="font-bold text-center">${{ item.price }}</h5>
                             <span class="text-grey flex items-start justify-center mt-1" v-if="item.free_shipping">
                                 <feather-icon icon="ShoppingCartIcon" svgClasses="w-4 h-4" />
-                                <span class="text-sm ml-2">Free Shipping</span>
+                                <span class="text-sm ml-2">Envío gratis</span>
                             </span>
                         </div>
 
