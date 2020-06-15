@@ -1,11 +1,3 @@
-<!-- =========================================================================================
-  File Name: ECommerceShop.vue
-  Description: eCommerce Shop Page
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-    Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-========================================================================================== -->
 
 <template>
     <div>
@@ -24,13 +16,13 @@
                         icon="MenuIcon"
                         @click.stop="toggleFilterSidebar" />
 
-                    <p class="lg:inline-flex hidden font-semibold algolia-filters-label">Filters</p>
+                    <p class="lg:inline-flex hidden font-semibold algolia-filters-label">Filtros</p>
 
                     <div class="flex justify-between items-end flex-grow">
                         <!-- Stats -->
                         <ais-stats>
                             <p slot-scope="{ hitsPerPage, nbPages, nbHits, page, processingTimeMS, query }" class="font-semibold md:block hidden">
-                                {{ nbHits }} results found in {{ processingTimeMS }}ms
+                                {{ nbHits }} resultados encontrados 
                             </p>
                         </ais-stats>
 
@@ -38,7 +30,7 @@
 
                             <!-- SORTING -->
                             <ais-sort-by :items="[
-                                { value: 'instant_search', label: 'Featured' },
+                                { value: 'instant_search', label: 'Ordenar por' },
                                 { value: 'instant_search_price_asc', label: 'Precio mas bajo' },
                                 { value: 'instant_search_price_desc', label: 'Precio mas alto' },
                             ]">
@@ -161,7 +153,7 @@
                             <div class="relative mb-8">
 
                                 <!-- SEARCH INPUT -->
-                                <vs-input class="w-full vs-input-shadow-drop vs-input-no-border d-theme-input-dark-bg" placeholder="Search here" v-model="currentRefinement" @input="refine($event)" @keyup.esc="refine('')" size="large" />
+                                <vs-input class="w-full vs-input-shadow-drop vs-input-no-border d-theme-input-dark-bg" placeholder="Buscar" v-model="currentRefinement" @input="refine($event)" @keyup.esc="refine('')" size="large" />
 
                                 <!-- SEARCH LOADING -->
                                 <p :hidden="!isSearchStalled" class="mt-4 text-grey">
@@ -198,13 +190,13 @@
                                                 <div class="flex flex-wrap">
 
                                                     <!-- PRIMARY BUTTON: ADD TO WISH LIST -->
-                                                    <div
+                                                    <!--<div
                                                         class="item-view-primary-action-btn p-3 flex flex-grow items-center justify-center cursor-pointer"
                                                         @click="toggleItemInWishList(item)">
                                                         <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.objectID)}, 'h-4 w-4']" />
 
                                                         <span class="text-sm font-semibold ml-2">WISHLIST</span>
-                                                    </div>
+                                                    </div>-->
 
                                                     <!-- SECONDARY BUTTON: ADD-TO/VIEW-IN CART -->
                                                     <div
@@ -213,7 +205,7 @@
                                                         <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
                                                         <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">VIEW IN CART</span>
-                                                        <span class="text-sm font-semibold ml-2" v-else>ADD TO CART</span>
+                                                        <span class="text-sm font-semibold ml-2" v-else>Agregar al carrito</span>
                                                     </div>
                                                 </div>
                                             </template>
@@ -231,19 +223,19 @@
 
                                         <!-- SLOT: ACTION BUTTONS -->
                                         <template slot="action-buttons">
-                                            <div
+                                            <!--<div
                                                 class="item-view-primary-action-btn p-3 rounded-lg flex flex-grow items-center justify-center cursor-pointer mb-3"
                                                 @click="toggleItemInWishList(item)">
                                                 <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.objectID)}, 'h-4 w-4']" />
                                                 <span class="text-sm font-semibold ml-2">WISHLIST</span>
-                                            </div>
+                                            </div>-->
                                             <div
                                                 class="item-view-secondary-action-btn bg-primary p-3 rounded-lg flex flex-grow items-center justify-center text-white cursor-pointer"
                                                 @click="cartButtonClicked(item)">
                                                 <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">VIEW IN CART</span>
-                                                <span class="text-sm font-semibold ml-2" v-else>ADD TO CART</span>
+                                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">Ver en el carrito</span>
+                                                <span class="text-sm font-semibold ml-2" v-else>Agregar al carrito</span>
                                             </div>
                                         </template>
                                     </item-list-view>
@@ -274,9 +266,7 @@
                             @input="(val) => { refine(val - 1) }" />
                         </div>
                     </ais-pagination>
-
-                    <!-- ALGOLIA LOGO -->
-                    <img class="flex mt-4 mx-auto h-8" src="@/assets/images/pages/eCommerce/Algolia-logo.png" alt="algolia-logo">
+                    <div class="flex mt-4 mx-auto h-8"/>
                 </div>
             </div>
         </ais-instant-search>

@@ -28,30 +28,13 @@ export default [
   //   i18n: "Email",
   // },
   {
-    url: null,
-    name: 'Dashboard',
-    tag: '2',
-    tagColor: 'warning',
-    icon: 'HomeIcon',
-    i18n: 'Dashboard',
-    submenu: [
-      {
-        url: '/dashboard/analytics',
-        name: 'Analytics',
-        slug: 'dashboard-analytics',
-        i18n: 'Analytics'
-      },
-      {
-        url: '/dashboard/ecommerce',
-        name: 'eCommerce',
-        slug: 'dashboard-ecommerce',
-        i18n: 'eCommerce'
-      }
-    ]
+    url: '/',
+    name: 'Inicio',
+    icon: 'HomeIcon'
   },
   {
-    header: 'Apps',
-    icon: 'PackageIcon',
+    header: 'Hardware',
+    icon: 'CpuIcon',
     i18n: 'Apps',
     items: [
       {
@@ -144,8 +127,8 @@ export default [
     ]
   },
   {
-    header: 'UI',
-    icon: 'LayersIcon',
+    header: 'Perifericos',
+    icon: 'HeadphonesIcon',
     i18n: 'UI',
     items: [
       {
@@ -503,8 +486,8 @@ export default [
     ]
   },
   {
-    header: 'Forms & Table',
-    icon: 'Edit3Icon',
+    header: 'Oficina & Hogar',
+    icon: 'PrinterIcon',
     i18n: 'FormsAndTable',
     items: [
       {
@@ -602,8 +585,8 @@ export default [
     ]
   },
   {
-    header: 'Pages',
-    icon: 'FileIcon',
+    header: 'Nosotros',
+    icon: 'UsersIcon',
     i18n: 'Pages',
     items: [
       {
@@ -740,8 +723,8 @@ export default [
     ]
   },
   {
-    header: 'Charts & Maps',
-    icon: 'PieChartIcon',
+    header: 'Contacto',
+    icon: 'PhoneIcon',
     i18n: 'ChartsAndMaps',
     items: [
       {
