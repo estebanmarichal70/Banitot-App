@@ -21,27 +21,20 @@
                     <div class="flex justify-between items-end flex-grow">
                         <!-- Stats -->
                         <ais-stats>
-                            <p slot-scope="{ hitsPerPage, nbPages, nbHits, page, processingTimeMS, query }" class="font-semibold md:block hidden">
-                                {{ nbHits }} resultados encontrados 
+                            <p  class="font-semibold md:block hidden">
+                                {{totalProducts}} resultados encontrados 
                             </p>
                         </ais-stats>
 
                         <div class="flex flex-wrap">
 
                             <!-- SORTING -->
-                            <ais-sort-by :items="[
-                                { value: 'instant_search', label: 'Ordenar por' },
-                                { value: 'instant_search_price_asc', label: 'Precio mas bajo' },
-                                { value: 'instant_search_price_desc', label: 'Precio mas alto' },
-                            ]">
                                 <vs-select
-                                    :value="currentRefinement"
-                                    slot-scope="{ items, currentRefinement, refine }"
-                                    @input="(val) => refine(val)"
+                                    :value="order"
+                                    @input="(val) => changeOrder(val)"
                                     class="mr-4 vs-input-shadow-drop vs-select-no-border d-theme-input-dark-bg w-48">
-                                    <vs-select-item v-for="item in items" :key="item.value" :value="item.value" :text="item.label" />
+                                    <vs-select-item v-for="item in orders" :key="item.value" :value="item.value" :text="item.label" />
                                 </vs-select>
-                            </ais-sort-by>
 
                             <!-- ITEM VIEW - GRID/LIST -->
                             <div>
@@ -148,40 +141,32 @@
                 <div :class="{'sidebar-spacer-with-margin': clickNotClose}">
 
                     <!-- SEARCH BAR -->
-                    <ais-search-box>
-                        <div slot-scope="{ currentRefinement, isSearchStalled, refine }">
+                        <div>
                             <div class="relative mb-8">
 
                                 <!-- SEARCH INPUT -->
-                                <vs-input class="w-full vs-input-shadow-drop vs-input-no-border d-theme-input-dark-bg" placeholder="Buscar" v-model="currentRefinement" @input="refine($event)" @keyup.esc="refine('')" size="large" />
-
-                                <!-- SEARCH LOADING -->
-                                <p :hidden="!isSearchStalled" class="mt-4 text-grey">
-                                  <feather-icon icon="ClockIcon" svgClasses="w-4 h-4" class="mr-2 align-middle" />
-                                  <span>Loading...</span>
-                                </p>
+                                <vs-input class="w-full vs-input-shadow-drop vs-input-no-border d-theme-input-dark-bg" placeholder="Buscar" v-model="searchQuery" @input="search()" size="large" />
 
                                 <!-- SEARCH ICON -->
-                                <div slot="submit-icon" class="absolute top-0 right-0 py-4 px-6" v-show="!currentRefinement">
+                                <div slot="submit-icon" class="absolute top-0 right-0 py-4 px-6" v-show="searchQuery.length == 0">
                                     <feather-icon icon="SearchIcon" svgClasses="h-6 w-6" />
                                 </div>
 
                                 <!-- CLEAR INPUT ICON -->
-                                <div slot="reset-icon" class="absolute top-0 right-0 py-4 px-6" v-show="currentRefinement">
-                                    <feather-icon icon="XIcon" svgClasses="h-6 w-6 cursor-pointer" @click="refine('')" />
+                                <div slot="reset-icon" class="absolute top-0 right-0 py-4 px-6" v-show="searchQuery.length > 0">
+                                    <feather-icon icon="XIcon" svgClasses="h-6 w-6 cursor-pointer" @click="resetSearch()" />
                                 </div>
                             </div>
                         </div>
-                    </ais-search-box>
 
                     <!-- SEARCH RESULT -->
                     <ais-hits>
-                        <div slot-scope="{ items }">
+                        <div>
 
                             <!-- GRID VIEW -->
                             <template v-if="currentItemView == 'item-grid-view'">
                                 <div class="items-grid-view vx-row match-height">
-                                    <div class="vx-col lg:w-1/3 sm:w-1/2 w-full" v-for="item in items" :key="item.objectID">
+                                    <div class="vx-col lg:w-1/3 sm:w-1/2 w-full" v-for="item in products" :key="item.id">
 
                                         <item-grid-view :item="item">
 
@@ -204,7 +189,7 @@
                                                         @click="cartButtonClicked(item)">
                                                         <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                                        <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">VIEW IN CART</span>
+                                                        <span class="text-sm font-semibold ml-2" v-if="isInCart(item.id)">Ver en el carrito</span>
                                                         <span class="text-sm font-semibold ml-2" v-else>Agregar al carrito</span>
                                                     </div>
                                                 </div>
@@ -217,7 +202,7 @@
 
                             <!-- LIST VIEW -->
                             <template v-else>
-                                <div class="items-list-view mb-base" v-for="item in items" :key="item.objectID">
+                                <div class="items-list-view mb-base" v-for="item in products" :key="item.id">
 
                                     <item-list-view :item="item">
 
@@ -234,7 +219,7 @@
                                                 @click="cartButtonClicked(item)">
                                                 <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">Ver en el carrito</span>
+                                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.id)">Ver en el carrito</span>
                                                 <span class="text-sm font-semibold ml-2" v-else>Agregar al carrito</span>
                                             </div>
                                         </template>
@@ -246,26 +231,15 @@
                     </ais-hits>
 
                     <!-- PAGINATION -->
-                    <ais-pagination>
-                        <div slot-scope="{
-                                currentRefinement,
-                                nbPages,
-                                pages,
-                                isFirstPage,
-                                isLastPage,
-                                refine,
-                                createURL
-                            }"
+                        <div 
                         >
 
                         <vs-pagination
-
-                            :total="nbPages"
+                            :total="totalPages"
                             :max="7"
-                            :value="currentRefinement + 1"
-                            @input="(val) => { refine(val - 1) }" />
+                            :value="page"
+                            @input="(val) => changePage(val)" />
                         </div>
-                    </ais-pagination>
                     <div class="flex mt-4 mx-auto h-8"/>
                 </div>
             </div>
@@ -289,7 +263,9 @@ import {
   AisSortBy,
   AisStats
 } from 'vue-instantsearch'
-import algoliasearch from 'algoliasearch/lite'
+import algoliasearch from 'algoliasearch/lite';
+import http from '@/http/banitotServices';
+import debounce from 'lodash.debounce';
 
 export default {
   components: {
@@ -331,9 +307,25 @@ export default {
         'hierarchicalCategories.lvl1',
         'hierarchicalCategories.lvl2',
         'hierarchicalCategories.lvl3'
-      ]
+      ],
+      products:[],
+      page: 1,
+      totalPages: null,
+      totalProducts: null,
+      searchQuery: "",
+      orders:[
+        { value: 'instant_search', label: 'Ordenar por' },
+        { value: 'ASC', label: 'Precio mas bajo' },
+        { value: 'DESC', label: 'Precio mas alto' },
+      ],
+      order:'instant_search'
     }
   },
+  beforeMount(){
+    this.fetchProducts = debounce(this.fetchProducts,200)
+    this.fetchProducts();
+  },
+
   computed: {
     toValue () {
       return (value, range) => [
@@ -354,6 +346,13 @@ export default {
   watch: {
     windowWidth () {
       this.setSidebarWidth()
+    },
+    page() {
+      this.fetchProducts()
+    },
+    order(){
+      this.page = 1;
+      this.fetchProducts()
     }
   },
   methods: {
@@ -363,6 +362,36 @@ export default {
       } else {
         this.isFilterSidebarActive = this.clickNotClose = true
       }
+    },
+
+    changePage(val){
+      this.page = val;
+    },
+
+    changeOrder(val){
+      this.order = val;
+    },
+
+    resetSearch(){
+      this.searchQuery = ""
+      this.search();
+    },
+
+    search(){
+      this.fetchProducts();
+    },
+
+    fetchProducts() {
+      http.services.getAllArticulos(this.page, this.order, this.searchQuery)
+      .then(res => {
+        this.products = res.data.data;
+        console.log(res);
+        this.totalPages = res.data.last_page;
+        this.totalProducts = res.data.total;
+      })
+      .catch(error => {
+        console.log(error)
+      })
     },
 
     // GRID VIEW - ACTIONS

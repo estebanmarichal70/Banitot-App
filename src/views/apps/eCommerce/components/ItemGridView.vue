@@ -1,11 +1,3 @@
-<!-- =========================================================================================
-  File Name: ItemGridView.vue
-  Description: Item Component - Grid VIew
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-========================================================================================== -->
 
 <template>
     <!-- <div class="item-grid-view vx-row match-height">
@@ -15,23 +7,23 @@
 
                     <!-- ITEM IMAGE -->
                     <div class="item-img-container bg-white h-64 flex items-center justify-center mb-4 cursor-pointer" @click="navigate_to_detail_view">
-                        <img :src="item.image" :alt="item.name" class="grid-view-img px-4">
+                        <img :src="item.imagen" :alt="item.nombre" class="grid-view-img px-4">
                     </div>
 
                     <div class="item-details px-4">
                         <!-- RATING & PRICE -->
                         <div class="flex justify-between items-center">
                             <div class="text-warning border border-solid border-warning flex py-1 px-2 rounded">
-                                <span class="text-sm mr-1">{{ item.rating }}</span>
+                                <span class="text-sm mr-1">4</span>
                                 <feather-icon icon="StarIcon" svgClasses="h-4 w-4" />
                             </div>
-                            <h6 class="font-bold">${{ item.price }}</h6>
+                            <h6 class="font-bold">${{ item.precio }}</h6>
                         </div>
 
                         <!-- TITLE & DESCRIPTION -->
                         <div class="my-4">
-                            <h6 class="truncate font-semibold mb-1 hover:text-primary cursor-pointer" @click="navigate_to_detail_view">{{ item.name }}</h6>
-                            <p class="item-description truncate text-sm">{{ item.description }}</p>
+                            <h6 class="truncate font-semibold mb-1 hover:text-primary cursor-pointer" @click="navigate_to_detail_view">{{ item.nombre }}</h6>
+                            <p class="item-description truncate text-sm">{{ item.descripcion }}</p>
                         </div>
 
                     </div>

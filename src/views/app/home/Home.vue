@@ -43,7 +43,7 @@
 
     <div class="vx-row">
       <div class="vx-col w-full mb-base">
-
+        
       </div>
     </div>
   </div>
