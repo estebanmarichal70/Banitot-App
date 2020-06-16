@@ -65,20 +65,24 @@
                     <div class="p-6 filter-container">
 
                         <!-- MULTI RANGE -->
-                        <h6 class="font-bold mb-3">Rango de precios</h6>
-                        <ais-numeric-menu attribute="price" :items="numericItems">
-                            <ul slot-scope="{ items, refine, createURL }">
-                                <li
-                                    v-for="item in items"
-                                    :key="item.value"
-                                    class="flex items-center cursor-pointer py-1"
-                                    @click="refine(item.value)">
-
-                                    <feather-icon icon="CircleIcon" :svgClasses="[{ 'text-primary fill-current': item.isRefined}, 'h-5 w-5']" />
-                                    <span class="ml-2" :class="{'text-primary': item.isRefined}">{{ item.label }}</span>
-                                </li>
-                            </ul>
-                        </ais-numeric-menu>
+                        <div class="flex justify-between">
+                          <h6 class="font-bold mb-3">Rango de precios</h6>
+                          <feather-icon class="cursor-pointer" v-if="precio != null" icon="XIcon" svgClasses="h-6 w-6" @click="resetPrecio()"/>
+                        </div>
+                              <ul>
+                                  <li class="flex items-center cursor-pointer py-1">
+                                      <vs-radio v-model="precio" :vs-value="0" class="ml-0"></vs-radio>
+                                      <span class="ml-2">Hasta $100</span>
+                                  </li>
+                                  <li class="flex items-center cursor-pointer py-1">
+                                      <vs-radio v-model="precio" :vs-value="100" class="ml-0"></vs-radio>
+                                      <span class="ml-2">Desde $100 a $650</span>
+                                  </li>
+                                  <li class="flex items-center cursor-pointer py-1">
+                                      <vs-radio v-model="precio" :vs-value="650" class="ml-0"></vs-radio>
+                                      <span class="ml-2">Más de $650</span>
+                                  </li>
+                              </ul>
 
                         <ais-range-input attribute="price">
                             <div slot-scope="{ currentRefinement, range, refine }">
@@ -176,13 +180,13 @@
                                                 <div class="flex flex-wrap">
 
                                                     <!-- PRIMARY BUTTON: ADD TO WISH LIST -->
-                                                    <!--<div
+                                                    <div
                                                         class="item-view-primary-action-btn p-3 flex flex-grow items-center justify-center cursor-pointer"
                                                         @click="toggleItemInWishList(item)">
                                                         <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.objectID)}, 'h-4 w-4']" />
 
                                                         <span class="text-sm font-semibold ml-2">WISHLIST</span>
-                                                    </div>-->
+                                                    </div>
 
                                                     <!-- SECONDARY BUTTON: ADD-TO/VIEW-IN CART -->
                                                     <div
@@ -209,12 +213,12 @@
 
                                         <!-- SLOT: ACTION BUTTONS -->
                                         <template slot="action-buttons">
-                                            <!--<div
+                                            <div
                                                 class="item-view-primary-action-btn p-3 rounded-lg flex flex-grow items-center justify-center cursor-pointer mb-3"
                                                 @click="toggleItemInWishList(item)">
                                                 <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.objectID)}, 'h-4 w-4']" />
                                                 <span class="text-sm font-semibold ml-2">WISHLIST</span>
-                                            </div>-->
+                                            </div>
                                             <div
                                                 class="item-view-secondary-action-btn bg-primary p-3 rounded-lg flex flex-grow items-center justify-center text-white cursor-pointer"
                                                 @click="cartButtonClicked(item)">
@@ -321,7 +325,10 @@ export default {
       ],
       order:'instant_search',
       marcas:'',
-      marca:''
+      marca:'',
+      precio: null,
+      precioMax: "",
+      precioMin: ""
     }
   },
   beforeMount(){
@@ -359,6 +366,21 @@ export default {
     },
     marca(){
       this.fetchProducts()
+    },
+    precio(){
+      if(this.precio == 0){
+        this.precioMin = 0;
+        this.precioMax = 100;
+      }
+      else if(this.precio == 100){
+        this.precioMin = 100;
+        this.precioMax = 650;
+      }
+      else if(this.precio == 650){
+        this.precioMin = 650;
+        this.precioMax = 0;
+      }
+      this.fetchProducts();
     }
   },
   methods: {
@@ -387,12 +409,16 @@ export default {
       this.marca = ""
     },
 
+    resetPrecio(){
+      this.precio = null
+    },
+
     search(){
       this.fetchProducts();
     },
 
     fetchProducts() {
-      http.services.getAllArticulos(this.page, this.order, this.searchQuery, this.marca)
+      http.services.getAllArticulos(this.page, this.order, this.searchQuery, this.marca, this.precioMax, this.precioMin)
       .then(res => {
         this.products = res.data.articulos.data;
         this.totalPages = res.data.articulos.last_page;
