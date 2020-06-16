@@ -23,12 +23,12 @@
                                 <template slot="item-meta">
                                     <h6
                                       class="item-name font-semibold mb-1 cursor-pointer hover:text-primary"
-                                      @click="$router.push({name: 'ecommerce-item-detail-view', params: {item_id: item.objectID }}).catch(() => {})">{{ item.name }}</h6>
-                                    <p class="text-sm mb-2">De <span class="font-semibold cursor-pointer">{{ item.brand }}</span></p>
-                                    <p class="text-success text-sm">En Stock</p>
+                                      @click="$router.push({name: 'ecommerce-item-detail-view', params: {item_id: item.id }}).catch(() => {})">{{ item.nombre }}</h6>
+                                    <p class="text-sm mb-2">De <span class="font-semibold">{{ item.marca }}</span></p>
+                                    <p class="text-sm">Unidades disponibles: <span class="font-semibold">{{item.stock}}</span></p>
 
                                     <p class="mt-4 font-bold text-sm">Cantidad</p>
-                                    <vs-input-number min="1" max="10" :value="item.quantity" @input="updateItemQuantity($event, index)" class="inline-flex" />
+                                    <vs-input-number :min="1" :max="item.stock" :value="item.quantity" @input="updateItemQuantity($event, index, item.precio)" class="inline-flex" />
 
                                 </template>
 
@@ -59,7 +59,7 @@
                             <vs-divider />
                             <div class="flex justify-between mb-2">
                                 <span class="text-grey">Precio total</span>
-                                <span>$598</span>
+                                <span>{{precio}}</span>
                             </div>
                             <div class="flex justify-between mb-2">
                                 <span class="text-grey">Descuento aplicado</span>
@@ -67,7 +67,7 @@
                             </div>
                             <div class="flex justify-between mb-2">
                                 <span class="text-grey">Iva</span>
-                                <span>$13</span>
+                                <span>22%</span>
                             </div>
                             <div class="flex justify-between mb-2">
                                 <span class="text-grey">Cargos de envío</span>
@@ -78,7 +78,7 @@
 
                             <div class="flex justify-between font-semibold mb-3">
                                 <span>Total</span>
-                                <span>$574.3</span>
+                                <span>{{precioT}}</span>
                             </div>
 
                             <vs-button class="w-full" @click="$refs.checkoutWizard.nextTab()">Comprar</vs-button>
@@ -109,23 +109,23 @@
                                         <vs-input
                                             v-validate="'required|alpha_spaces'"
                                             data-vv-as="field"
-                                            name="fullName"
+                                            name="nombre"
                                             label="Nombre Completo:"
-                                            v-model="fullName"
+                                            v-model="nombre"
                                             class="w-full mt-5" />
-                                        <span v-show="errors.has('add-new-address.fullName')" class="text-danger">{{ errors.first('add-new-address.fullName') }}</span>
+                                        <span v-show="errors.has('add-new-address.nombre')" class="text-danger">Este campo es obligatorio</span>
 
                                     </div>
 
                                     <div class="vx-col sm:w-1/2 w-full">
 
                                         <vs-input
-                                            v-validate="'required|digits:10'"
-                                            name="mobileNum"
+                                            v-validate="'required|numeric'"
+                                            name="telefono"
                                             label="Teléfono:"
-                                            v-model="mobileNum"
+                                            v-model="telefono"
                                             class="w-full mt-5" />
-                                        <span v-show="errors.has('add-new-address.mobileNum')" class="text-danger">{{ errors.first('add-new-address.mobileNum') }}</span>
+                                        <span v-show="errors.has('add-new-address.telefono')" class="text-danger">Este campo es obligatorio</span>
                                     </div>
 
                                 </div>
@@ -137,19 +137,19 @@
 
                                         <vs-input
                                             v-validate="'required'"
-                                            name="houseNum"
+                                            name="calle"
                                             label="Calle:"
-                                            v-model="houseNum"
+                                            v-model="calle"
                                             class="w-full mt-5" />
-                                        <span v-show="errors.has('add-new-address.houseNum')" class="text-danger">{{ errors.first('add-new-address.houseNum') }}</span>
+                                        <span v-show="errors.has('add-new-address.calle')" class="text-danger">Este campo es obligatorio</span>
                                     </div>
 
                                     <div class="vx-col sm:w-1/2 w-full">
 
                                         <vs-input
-                                            name="landmark"
+                                            name="info"
                                             label="Información adicional:"
-                                            v-model="landmark"
+                                            v-model="info"
                                             class="w-full mt-5" />
                                     </div>
 
@@ -161,21 +161,21 @@
 
                                         <vs-input
                                             v-validate="'required'"
-                                            name="city"
+                                            name="ciudad"
                                             label="Ciudad:"
-                                            v-model="city"
+                                            v-model="ciudad"
                                             class="w-full mt-5" />
-                                        <span v-show="errors.has('add-new-address.city')" class="text-danger">{{ errors.first('add-new-address.city') }}</span>
+                                        <span v-show="errors.has('add-new-address.ciudad')" class="text-danger">Este campo es obligatorio</span>
                                     </div>
 
                                     <div class="vx-col sm:w-1/2 w-full">
                                         <vs-input
-                                            v-validate="'required|min:3|max:6|numeric'"
-                                            name="pincode"
+                                            v-validate="'required|numeric'"
+                                            name="codigo"
                                             label="Código postal:"
-                                            v-model="pincode"
+                                            v-model="codigo"
                                             class="w-full mt-5" />
-                                        <span v-show="errors.has('add-new-address.pincode')" class="text-danger">{{ errors.first('add-new-address.pincode') }}</span>
+                                        <span v-show="errors.has('add-new-address.codigo')" class="text-danger">{{ errors.first('add-new-address.codigo') }}</span>
                                     </div>
                                 </div>
 
@@ -186,11 +186,11 @@
 
                                         <vs-input
                                             v-validate="'required'"
-                                            name="state"
+                                            name="departamento"
                                             label="Departamento:"
-                                            v-model="state"
+                                            v-model="departamento"
                                             class="w-full mt-5" />
-                                        <span v-show="errors.has('add-new-address.state')" class="text-danger">{{ errors.first('add-new-address.state') }}</span>
+                                        <span v-show="errors.has('add-new-address.departamento')" class="text-danger">Este campo es obligatorio</span>
                                     </div>
 
 
@@ -288,8 +288,8 @@
                         <vx-card title="Detalles">
 
                             <div class="flex justify-between mb-2">
-                                <span>Precio por 5 artículos</span>
-                                <span class="font-semibold">$699.30</span>
+                                <span>Precio por {{cantidadItems}} artículo/s</span>
+                                <span class="font-semibold">{{precioT}}</span>
                             </div>
                             <div class="flex justify-between mb-2">
                                 <span>Cargos de envío</span>
@@ -300,13 +300,12 @@
 
                             <div class="flex justify-between">
                                 <span>Monto a pagar</span>
-                                <span class="font-semibold">$699.30</span>
+                                <span class="font-semibold">{{precioT}}</span>
                             </div>
                         </vx-card>
                     </div>
                 </div>
             </tab-content>
-
         </form-wizard>
     </div>
 </template>
@@ -320,25 +319,28 @@ export default {
   data () {
     return {
 
+      precio: 0,
+      precioT: 0,
+      cantidadItems: 0,
       // TAB 2
-      fullName: '',
-      mobileNum: '',
-      pincode: '',
-      houseNum: '',
-      area: '',
-      landmark: '',
-      city: '',
-      state: '',
-      addressType: 1,
-      addressTypeOptions: [
-        { text: 'Home', value: 1 },
-        { text: 'Office', value: 2 }
-      ],
-
+      nombre: '',
+      telefono: '',
+      codigo: '',
+      calle: '',
+      info: '',
+      ciudad: '',
+      departamento: '',
       // TAB 3
       paymentMethod: 'debit-card',
       cvv: ''
     }
+  },
+   beforeMount(){
+    this.cartItems.forEach(item =>{
+       this.precio += item.precio
+       this.cantidadItems++
+    })
+    this.precioT = this.precio - this.precio * 0.05
   },
   computed: {
     cartItems () {
@@ -365,8 +367,11 @@ export default {
     toggleItemInWishList (item) {
       this.$store.dispatch('eCommerce/toggleItemInWishList', item)
     },
-    updateItemQuantity (event, index) {
+    updateItemQuantity (event, index, precio) {
       const itemIndex = Math.abs(index + 1 - this.cartItems.length)
+      this.precio = precio*event
+      this.precioT = this.precio - this.precio * 0.05
+      this.cantidadItems = 1*event
       this.$store.dispatch('eCommerce/updateItemQuantity', { quantity: event, index: itemIndex })
     },
 
@@ -380,7 +385,7 @@ export default {
           } else {
             this.$vs.notify({
               title: 'Error',
-              text: 'Please enter valid details',
+              text: 'Por favor ingresa información valida',
               color: 'warning',
               iconPack: 'feather',
               icon: 'icon-alert-circle'
@@ -406,7 +411,7 @@ export default {
           } else {
             this.$vs.notify({
               title: 'Error',
-              text: 'Please enter valid details',
+              text: 'Por favor ingresa detalles validos',
               color: 'warning',
               iconPack: 'feather',
               icon: 'icon-alert-circle'

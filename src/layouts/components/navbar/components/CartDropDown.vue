@@ -18,7 +18,7 @@
                     v-for="item in cartItems"
                     :key="item.objectID"
                     class="vx-row no-gutter cart-item cursor-pointer"
-                    @click="$router.push({name: 'ecommerce-item-detail-view', params: {item_id: item.objectID }}).catch(() => {})">
+                    @click="$router.push({name: 'ecommerce-item-detail-view', params: {item_id: item.id }}).catch(() => {})">
 
                       <!-- IMG COL -->
                       <div class="vx-col w-1/5 item-img-container bg-white flex items-center justify-center">

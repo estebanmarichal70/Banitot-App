@@ -194,7 +194,7 @@
                                                         @click="cartButtonClicked(item)">
                                                         <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                                        <span class="text-sm font-semibold ml-2" v-if="isInCart(item.id)">Ver en el carrito</span>
+                                                        <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">Ver en el carrito</span>
                                                         <span class="text-sm font-semibold ml-2" v-else>Agregar al carrito</span>
                                                     </div>
                                                 </div>
@@ -224,7 +224,7 @@
                                                 @click="cartButtonClicked(item)">
                                                 <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.id)">Ver en el carrito</span>
+                                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">Ver en el carrito</span>
                                                 <span class="text-sm font-semibold ml-2" v-else>Agregar al carrito</span>
                                             </div>
                                         </template>

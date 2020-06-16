@@ -24,7 +24,7 @@
                                 @click="removeItemFromWishList(item)">
                                 <feather-icon icon="XIcon" svgClasses="h-4 w-4" />
 
-                                <span class="text-sm font-semibold ml-2">REMOVE</span>
+                                <span class="text-sm font-semibold ml-2">Remover</span>
                             </div>
 
                             <!-- SECONDARY BUTTON: MOVE TO CART -->
@@ -33,8 +33,8 @@
                                 @click="cartButtonClicked(item)">
                                 <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">VIEW IN CART</span>
-                                <span class="text-sm font-semibold ml-2" v-else>MOVE TO CART</span>
+                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">Ver en carrito</span>
+                                <span class="text-sm font-semibold ml-2" v-else>Mover al carrito</span>
                             </div>
                         </div>
                     </template>
@@ -44,8 +44,8 @@
         </div>
 
         <!-- IF NO ITEMS IN CART -->
-        <vx-card title="You don't have any items in your wish list." v-else>
-            <vs-button @click="$router.push('/apps/eCommerce/shop').catch(() => {})">Browse Shop</vs-button>
+        <vx-card title="No tienes ningún artículo en la lista de deseados." v-else>
+            <vs-button @click="$router.push('/apps/eCommerce/shop').catch(() => {})">Ir a la Tienda</vs-button>
         </vx-card>
   </div>
 </template>

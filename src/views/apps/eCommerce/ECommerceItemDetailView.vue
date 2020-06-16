@@ -2,14 +2,14 @@
 <template>
   <div id="item-detail-page">
 
-    <vs-alert color="danger" title="Error Fetching Product Data" :active.sync="error_occured">
+    <vs-alert color="danger" title="Error al cargar el artículo" :active.sync="error_occured">
       <span>{{ error_msg }}. </span>
       <span>
-        <span>Check </span><router-link :to="{name:'ecommerce-shop'}" class="text-inherit underline">All Items</router-link>
+        <span>Ver </span><router-link :to="{name:'ecommerce-shop'}" class="text-inherit underline">todos los articúlos</router-link>
       </span>
     </vs-alert>
 
-    <vx-card v-if="item_data" :key="item_data.objectID">
+    <vx-card v-if="item_data" :key="item_data.id">
 
 
       <template slot="no-body">
@@ -21,7 +21,7 @@
             <div class="vx-row mt-6">
               <div class="vx-col md:w-2/5 w-full flex items-center justify-center">
                 <div class="product-img-container w-3/5 mx-auto mb-10 md:mb-0">
-                  <img src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/01.png" :alt="item_data.name" class="responsive">
+                  <img :src="item_data.imagen" :alt="item_data.nombre" class="responsive">
 
                   <!--
                     UnComment Below line for true flow
@@ -35,25 +35,24 @@
               <!-- Item Content -->
               <div class="vx-col md:w-3/5 w-full">
 
-                <h3>{{ item_data.name }}</h3>
+                <h3>{{ item_data.nombre }}</h3>
 
                 <p class="my-2">
                   <span class="mr-2">de</span>
-                  <span>{{ item_data.brand }}</span>
+                  <span>{{ item_data.marca }}</span>
                 </p>
                 <p class="flex items-center flex-wrap">
-                  <span class="text-2xl leading-none font-medium text-primary mr-4 mt-2">${{ item_data.price }}</span>
+                  <span class="text-2xl leading-none font-medium text-primary mr-4 mt-2">${{ item_data.precio }}</span>
                   <span class="pl-4 mr-2 mt-2 border border-solid d-theme-border-grey-light border-t-0 border-b-0 border-r-0"><star-rating :show-rating="false" :rating="item_data.rating" :star-size="20" read-only /></span>
                   <span class="cursor-pointer leading-none mt-2">424 ratings</span>
                 </p>
 
                 <vs-divider />
 
-                <p>{{ item_data.description }}</p>
+                <p>{{ item_data.descripcion }}</p>
 
                 <vs-list class="product-sales-meta-list px-0 pt-4">
                   <vs-list-item
-                    v-if="item_data.free_shipping"
                     class="p-0 border-none"
                     title="Envío gratis"
                     icon-pack="feather"
@@ -67,11 +66,12 @@
                 <div class="vx-row">
 
                   <div class="vx-col w-full">
-                    <p class="my-2">
-                      <span>Disponible</span>
+                    <strong><p class="my-2">
+                      <span>Stock</span>
                       <span class="mx-2">-</span>
-                      <span class="text-success">En Stock</span>
-                    </p>
+                      <span class="text-success" v-if="item_data.stock">Disponible</span>
+                      <span class="text-danger" v-else>No disponible</span>
+                    </p></strong>
                   </div>
 
                   <div class="vx-col w-full">
@@ -83,7 +83,8 @@
                         icon-pack="feather"
                         icon="icon-shopping-cart"
                         v-if="!isInCart(item_data.objectID)"
-                        @click="toggleItemInCart(item_data)">
+                        @click="toggleItemInCart(item_data)"
+                        :disabled="item_data.stock ? false : true">
                         Agregar al carrito
                       </vs-button>
 
@@ -92,7 +93,8 @@
                         class="mr-4 mb-4"
                         icon-pack="feather"
                         icon="icon-shopping-cart"
-                        @click="$router.push({name: 'ecommerce-checkout'}).catch(err => {})">
+                        @click="$router.push({name: 'ecommerce-checkout'}).catch(err => {})"
+                        :disabled="item_data.stock ? false : true">
                         Ver en el carrito
                       </vs-button>
                       <!-- /Add To Cart Button -->
@@ -146,7 +148,7 @@
                 <div class="w-64 mx-auto mb-16 md:mb-0">
                   <feather-icon icon="ClockIcon" svgClasses="h-12 w-12 text-primary stroke-current" class="block mb-4" />
                   <span class="font-semibold text-lg">10 Dias para devolución</span>
-                  <p class="mt-2">Si no te gustó el producto o presenta fallas, podés cambiarlo en los primeros diéz dias después de la compra.</p>
+                  <p class="mt-2">Si no te gustó el producto o presenta fallas, podés cambiarlo en los primeros  diez días después de la compra.</p>
                 </div>
               </div>
               <div class="vx-col md:w-1/3 w-full">
@@ -158,9 +160,7 @@
               </div>
             </div>
           </div>
-
         </div>
-
       </template>
     </vx-card>
   </div>
@@ -169,6 +169,7 @@
 <script>
 import 'swiper/dist/css/swiper.min.css'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
+import http from '@/http/banitotServices';
 import algoliasearch from 'algoliasearch/lite'
 import StarRating from 'vue-star-rating'
 
@@ -187,115 +188,10 @@ export default{
       item_data: null,
       error_occured: false,
       error_msg: '',
-
-      // Related Products Swiper
-      swiperOption: {
-        slidesPerView: 5,
-        spaceBetween: 55,
-        breakpoints: {
-          1600: {
-            slidesPerView: 4,
-            spaceBetween: 55
-          },
-          1300: {
-            slidesPerView: 3,
-            spaceBetween: 55
-          },
-          900: {
-            slidesPerView: 2,
-            spaceBetween: 55
-          },
-          640: {
-            slidesPerView: 1,
-            spaceBetween: 55
-          }
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
-        }
-      },
-
-      // Below is data which is common in any item
-      // Algolia's dataSet don't provide this kind of data. So, here's dummy data for demo
-      available_item_colors: ['#7367F0', '#28C76F', '#EA5455', '#FF9F43', '#1E1E1E'],
-      opt_color: '#7367F0',
-      is_hearted: false,
-
-      related_items: [
-        {
-          'name'       : 'Apple - Apple Watch Series 1 42mm Space Gray Aluminum Case Black Sport Band - Space Gray Aluminum',
-          'brand'      : 'Apple',
-          'price'      : 229,
-          'image'      : 'https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/01.png',
-          'rating'     : 4,
-          'objectID'   : '5546604'
-        },
-        {
-          'name'       : 'Beats by Dr. Dre - Powerbeats2 Wireless Earbud Headphones - Black/Red',
-          'brand'      : 'Beats by Dr. Dre',
-          'price'      : 199.99,
-          'image'      : 'https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/08.png',
-          'rating'     : 4,
-          'objectID'   : '5565002'
-        },
-        {
-          'name'       : 'Amazon - Fire TV Stick with Alexa Voice Remote - Black',
-          'brand'      : 'Amazon',
-          'price'      : 39.99,
-          'image'      : 'https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/03.png',
-          'rating'     : 4,
-          'objectID'   : '5477500'
-        },
-        {
-          'name'       : 'Apple - Apple Watch Nike+ 42mm Silver Aluminum Case Silver/Volt Nike Sport Band - Silver Aluminum',
-          'brand'      : 'Apple',
-          'price'      : 399,
-          'image'      : 'https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/07.png',
-          'rating'     : 4,
-          'objectID'   : '5547700'
-        },
-        {
-          'name'       : 'Google - Chromecast Ultra - Black',
-          'brand'      : 'Google',
-          'price'      : 69.99,
-          'image'      : 'https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/05.png',
-          'rating'     : 4,
-          'objectID'   : '5578628'
-        },
-        {
-          'name'       : 'Beats by Dr. Dre - Beats EP Headphones - White',
-          'brand'      : 'Beats by Dr. Dre',
-          'price'      : 129.99,
-          'image'      : 'https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/02.png',
-          'rating'     : 4,
-          'objectID'   : '5577781'
-        },
-        {
-          'name'       : 'LG - 40" Class (39.5" Diag.) - LED - 1080p - HDTV - Black',
-          'brand'      : 'LG',
-          'price'      : 279.99,
-          'image'      : 'https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/09.png',
-          'rating'     : 4,
-          'objectID'   : '5613404'
-        }
-      ]
+      is_hearted: false
     }
   },
   computed: {
-    item_qty () {
-      const item = this.$store.getters['eCommerce/getCartItem'](this.item_data.objectID)
-      return Object.keys(item).length ? item.quantity : 1
-    },
-    itemColor () {
-      return (obj) => {
-        const style_obj = {}
-
-        obj.style.forEach(p => { style_obj[p] = obj.color })
-
-        return style_obj
-      }
-    },
     isInWishList () {
       return (itemId) => this.$store.getters['eCommerce/isInWishList'](itemId)
     },
@@ -311,14 +207,12 @@ export default{
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
     },
     fetch_item_details (id) {
-      this.algolia_index.getObject(id, (err, content) => {
-        if (err) {
-          this.error_occured = true
-          this.error_msg = err.message
-          console.error(err)
-        } else {
-          this.item_data = content
-        }
+      http.services.getArticuloById(id)
+      .then(res => {
+        this.item_data = res.data
+      })
+      .catch(error => {
+        console.log(error)
       })
 
     }
@@ -360,9 +254,6 @@ export default{
   }
 
   .related-product-swiper {
-      // padding-right: 2rem;
-      // padding-left: 2rem;
-
     .swiper-wrapper {
       padding-bottom: 2rem;
 

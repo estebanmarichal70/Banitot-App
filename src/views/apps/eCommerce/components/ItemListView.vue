@@ -72,7 +72,7 @@ export default{
       this.isInCart(item.objectID) ? this.$router.push('/apps/eCommerce/checkout').catch(() => {}) : this.additemInCart(item)
     },
     navigate_to_detail_view () {
-      this.$router.push({name: 'ecommerce-item-detail-view', params: {item_id: this.item.objectID }})
+      this.$router.push({name: 'ecommerce-item-detail-view', params: {item_id: this.item.id }})
         .catch(() => {})
     }
   }
