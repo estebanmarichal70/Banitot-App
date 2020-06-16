@@ -175,13 +175,13 @@
                                                 <div class="flex flex-wrap">
 
                                                     <!-- PRIMARY BUTTON: ADD TO WISH LIST -->
-                                                    <!--<div
+                                                    <div
                                                         class="item-view-primary-action-btn p-3 flex flex-grow items-center justify-center cursor-pointer"
                                                         @click="toggleItemInWishList(item)">
                                                         <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.objectID)}, 'h-4 w-4']" />
 
                                                         <span class="text-sm font-semibold ml-2">WISHLIST</span>
-                                                    </div>-->
+                                                    </div>
 
                                                     <!-- SECONDARY BUTTON: ADD-TO/VIEW-IN CART -->
                                                     <div
@@ -189,7 +189,7 @@
                                                         @click="cartButtonClicked(item)">
                                                         <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                                        <span class="text-sm font-semibold ml-2" v-if="isInCart(item.id)">Ver en el carrito</span>
+                                                        <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">Ver en el carrito</span>
                                                         <span class="text-sm font-semibold ml-2" v-else>Agregar al carrito</span>
                                                     </div>
                                                 </div>
@@ -208,18 +208,18 @@
 
                                         <!-- SLOT: ACTION BUTTONS -->
                                         <template slot="action-buttons">
-                                            <!--<div
+                                            <div
                                                 class="item-view-primary-action-btn p-3 rounded-lg flex flex-grow items-center justify-center cursor-pointer mb-3"
                                                 @click="toggleItemInWishList(item)">
                                                 <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.objectID)}, 'h-4 w-4']" />
                                                 <span class="text-sm font-semibold ml-2">WISHLIST</span>
-                                            </div>-->
+                                            </div>
                                             <div
                                                 class="item-view-secondary-action-btn bg-primary p-3 rounded-lg flex flex-grow items-center justify-center text-white cursor-pointer"
                                                 @click="cartButtonClicked(item)">
                                                 <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.id)">Ver en el carrito</span>
+                                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">Ver en el carrito</span>
                                                 <span class="text-sm font-semibold ml-2" v-else>Agregar al carrito</span>
                                             </div>
                                         </template>
@@ -310,8 +310,8 @@ export default {
       ],
       products:[],
       page: 1,
-      totalPages: null,
-      totalProducts: null,
+      totalPages: 0,
+      totalProducts: 0,
       searchQuery: "",
       orders:[
         { value: 'instant_search', label: 'Ordenar por' },
@@ -385,7 +385,6 @@ export default {
       http.services.getAllArticulos(this.page, this.order, this.searchQuery)
       .then(res => {
         this.products = res.data.data;
-        console.log(res);
         this.totalPages = res.data.last_page;
         this.totalProducts = res.data.total;
       })

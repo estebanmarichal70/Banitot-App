@@ -8,6 +8,9 @@ export default {
     },
     getAllArticulos(page, order, search) {
       return axios.get(API_URL + "/articulos?page=" + page + "&order=" + order + "&search=" + search);
+    },
+    getArticuloById(id) {
+      return axios.get(API_URL + "/articulos/" + id);
     }
   }
 }
