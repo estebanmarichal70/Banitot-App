@@ -4,7 +4,7 @@
 
       <!-- CARD 1: CONGRATS -->
       <div class="vx-col w-full mb-base">
-        <carousel :per-page="1" autoplayTimeout="3000" loop :paginationEnabled="false" centerMode autoplay :mouse-drag="true">
+        <carousel :per-page="1" :autoplayTimeout="3000" loop :paginationEnabled="false" centerMode autoplay :mouse-drag="true">
           <slide>
             <img src="@/assets/images/carousel/1.jpg" alt="Imagen carousel" width="100%">
           </slide>
@@ -43,7 +43,7 @@
 
     <div class="vx-row">
       <div class="vx-col w-full mb-base">
-        
+
       </div>
     </div>
   </div>

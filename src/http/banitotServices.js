@@ -11,6 +11,9 @@ export default {
     },
     getArticuloById(id) {
       return axios.get(API_URL + "/articulos/" + id);
+    },
+    register(data){
+      return axios.post(API_URL + "/auth/register", data);
     }
   }
 }
