@@ -95,19 +95,21 @@
                         <vs-divider />
 
                         <!-- Brands -->
-                        <h6 class="font-bold mb-4">Marcas</h6>
+                        <div class="flex justify-between">
+                          <h6 class="font-bold mb-4">Marcas</h6>
+                          <feather-icon class="" v-if="marca != '' " icon="XIcon" svgClasses="h-6 w-6" @click="resetMarca()"/>
+                        </div>
                         <ais-refinement-list attribute="brand">
                             <div slot-scope="{
                               items,
                               isFromSearch,
-                              refine,
                             }">
                                 <ul>
-                                    <li v-if="isFromSearch && !items.length">No results.</li>
-                                    <li v-for="item in items" :key="item.value" class="mb-2 flex items-center justify-between">
-                                        <vs-checkbox v-model="item.isRefined" class="ml-0" @click="refine(item.value)">{{ item.label }}</vs-checkbox>
-                                        <span>{{ item.count }}</span>
+                                    <li v-if="isFromSearch && !products.length">No hay resultados.</li>
+                                    <li v-for="item in marcas" :key="item.id" class="mb-2 flex items-center justify-between">
+                                        <vs-radio v-model="marca" :vs-value="item.marca" class="ml-0">{{ item.marca }}</vs-radio>
                                     </li>
+                                    
                                 </ul>
                             </div>
                         </ais-refinement-list>
@@ -123,7 +125,6 @@
                                             <feather-icon icon="StarIcon" :svgClasses="[{'text-warning': full, 'text-grey': !full, 'ml-1' : index}, 'cursor-pointer stroke-current h-6 w-6']" v-for="(full, index) in item.stars" :key="index" />
                                             <span class="ml-2"></span>
                                         </div>
-                                        <span>({{ item.count }})</span>
                                     </div>
                                 </li>
                             </ul>
@@ -310,15 +311,17 @@ export default {
       ],
       products:[],
       page: 1,
-      totalPages: null,
-      totalProducts: null,
+      totalPages: 0,
+      totalProducts: 0,
       searchQuery: "",
       orders:[
         { value: 'instant_search', label: 'Ordenar por' },
         { value: 'ASC', label: 'Precio mas bajo' },
         { value: 'DESC', label: 'Precio mas alto' },
       ],
-      order:'instant_search'
+      order:'instant_search',
+      marcas:'',
+      marca:''
     }
   },
   beforeMount(){
@@ -353,6 +356,9 @@ export default {
     order(){
       this.page = 1;
       this.fetchProducts()
+    },
+    marca(){
+      this.fetchProducts()
     }
   },
   methods: {
@@ -377,17 +383,21 @@ export default {
       this.search();
     },
 
+    resetMarca(){
+      this.marca = ""
+    },
+
     search(){
       this.fetchProducts();
     },
 
     fetchProducts() {
-      http.services.getAllArticulos(this.page, this.order, this.searchQuery)
+      http.services.getAllArticulos(this.page, this.order, this.searchQuery, this.marca)
       .then(res => {
-        this.products = res.data.data;
-        console.log(res);
-        this.totalPages = res.data.last_page;
-        this.totalProducts = res.data.total;
+        this.products = res.data.articulos.data;
+        this.totalPages = res.data.articulos.last_page;
+        this.totalProducts = res.data.articulos.total;
+        this.marcas = res.data.marcas
       })
       .catch(error => {
         console.log(error)

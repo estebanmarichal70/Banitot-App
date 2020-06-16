@@ -6,8 +6,8 @@ export default {
     login(data) {
       return axios.post(API_URL + "/auth/login", data);
     },
-    getAllArticulos(page, order, search) {
-      return axios.get(API_URL + "/articulos?page=" + page + "&order=" + order + "&search=" + search);
+    getAllArticulos(page, order, search, marca) {
+      return axios.get(API_URL + "/articulos?page=" + page + "&order=" + order + "&search=" + search + "&marca=" + marca);
     }
   }
 }
