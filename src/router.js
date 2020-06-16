@@ -1284,17 +1284,17 @@ const router = new Router({
           }
         },
         {
-          path: '/pages/login',
+          path: '/acceder',
           name: 'page-login',
-          component: () => import('@/views/pages/login/Login.vue'),
+          component: () => import('@/views/user/login/Login.vue'),
           meta: {
             rule: 'editor'
           }
         },
         {
-          path: '/pages/register',
+          path: '/registrarse',
           name: 'page-register',
-          component: () => import('@/views/pages/register/Register.vue'),
+          component: () => import('@/views/user/register/Register.vue'),
           meta: {
             rule: 'editor'
           }

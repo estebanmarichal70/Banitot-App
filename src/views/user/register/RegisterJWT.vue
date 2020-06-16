@@ -11,16 +11,16 @@
           </div>
           <div class="clearfix">
             <vs-input
-              v-validate="'required|alpha_dash|min:3'"
+              v-validate="'required'"
               data-vv-validate-on="blur"
               label-placeholder="Nombre"
-              name="displayName"
+              name="nombre"
               placeholder="Nombre"
-              v-model="displayName"
+              v-model="nombre"
               class="w-full"
             />
             <span class="text-danger text-sm">{{
-              errors.first("displayName")
+              errors.first("nombre")
             }}</span>
 
             <vs-input
@@ -36,33 +36,45 @@
             <span class="text-danger text-sm">{{ errors.first("email") }}</span>
 
             <vs-input
-              ref="password"
+              ref="contraseña"
               type="password"
               data-vv-validate-on="blur"
               v-validate="'required|min:6|max:10'"
-              name="password"
+              name="contraseña"
               label-placeholder="Contraseña"
               placeholder="Contraseña"
               v-model="password"
               class="w-full mt-6"
             />
             <span class="text-danger text-sm">{{
-              errors.first("password")
+              errors.first("contraseña")
             }}</span>
 
             <vs-input
               type="password"
-              v-validate="'min:6|max:10|confirmed:password'"
+              v-validate="'min:8|max:128|confirmed:contraseña'"
               data-vv-validate-on="blur"
-              data-vv-as="password"
-              name="confirm_password"
+              data-vv-as="contraseña"
+              name="confirmar_contraseña"
               label-placeholder="Confirmar contraseña"
               placeholder="Confirmar contraseña"
               v-model="confirm_password"
               class="w-full mt-6"
             />
             <span class="text-danger text-sm">{{
-              errors.first("confirm_password")
+              errors.first("confirmar_contraseña")
+            }}</span>
+
+            <vs-input
+              type="date"
+              data-vv-as="fechaNac"
+              name="fechaNac"
+              label-placeholder="Fecha de nacimiento"
+              v-model="fecha_nac"
+              class="w-full mt-8"
+            />
+            <span class="text-danger text-sm">{{
+              errors.first("fechaNac")
             }}</span>
           </div>
         </div>
@@ -134,7 +146,7 @@
             <vs-input
               v-validate="'required'"
               data-vv-validate-on="blur"
-              name="codigo_postal"
+              name="codigo postal"
               type="text"
               label-placeholder="Codigo Postal"
               placeholder="Código Postal"
@@ -142,83 +154,115 @@
               class="w-full mt-6"
             />
             <span class="text-danger text-sm">{{
-              errors.first("codigo_postal")
+              errors.first("codigo postal")
             }}</span>
           </div>
         </div>
       </div>
     </div>
     <div class="vx-row no-gutter px-8 justify-between d-theme-dark-bg">
-      <router-link type="border" to="/pages/login" class="mt-6 self-center"
-        >Iniciar Sesión</router-link
+      <router-link type="border" to="/acceder" class="mt-6 self-center"
+      >Iniciar Sesión
+      </router-link
       >
       <vs-button
         class="float-right mt-6"
         @click="registerUserJWt"
         :disabled="!validateForm"
-        >Registrarse</vs-button
+      >Registrarse
+      </vs-button
       >
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      displayName: "",
-      email: "",
-      password: "",
-      confirm_password: "",
-      isTermsConditionAccepted: true
-    };
-  },
-  computed: {
-    validateForm() {
-      return (
-        !this.errors.any() &&
-        this.displayName !== "" &&
-        this.email !== "" &&
-        this.password !== "" &&
-        this.confirm_password !== "" &&
-        this.isTermsConditionAccepted === true
-      );
-    }
-  },
-  methods: {
-    checkLogin() {
-      // If user is already logged in notify
-      if (this.$store.state.auth.isUserLoggedIn()) {
-        // Close animation if passed as payload
-        // this.$vs.loading.close()
 
-        this.$vs.notify({
-          title: "Login Attempt",
-          text: "You are already logged in!",
-          iconPack: "feather",
-          icon: "icon-alert-circle",
-          color: "warning"
-        });
+  import http from "../../../http/banitotServices";
 
-        return false;
-      }
-      return true;
+  export default {
+    data() {
+      return {
+        nombre: "",
+        email: "",
+        password: "",
+        confirm_password: "",
+        calle: "",
+        ciudad: "",
+        departamento: "",
+        codigo_postal: "",
+        fecha_nac: null,
+        telefono: ""
+      };
     },
-    registerUserJWt() {
-      // If form is not validated or user is already login return
-      if (!this.validateForm || !this.checkLogin()) return;
+    computed: {
+      validateForm() {
+        return (
+          !this.errors.any() &&
+          this.nombre !== "" &&
+          this.email !== "" &&
+          this.password !== "" &&
+          this.confirm_password !== "" &&
+          this.codigo_postal !== "" &&
+          this.telefono !== "" &&
+          this.calle !== "" &&
+          this.ciudad !== "" &&
+          this.departamento !== ""
+        );
+      }
+    },
+    methods: {
 
-      const payload = {
-        userDetails: {
-          displayName: this.displayName,
+      registerUserJWt() {
+        if (!this.validateForm) return;
+
+        const payload = {
+          name: this.nombre,
           email: this.email,
           password: this.password,
-          confirmPassword: this.confirm_password
-        },
-        notify: this.$vs.notify
-      };
-      this.$store.dispatch("auth/registerUserJWT", payload);
+          password_confirmation: this.confirm_password,
+          calle: this.calle,
+          ciudad: this.ciudad,
+          departamento: this.departamento,
+          cp: this.codigo_postal,
+          telefono: this.telefono,
+          fecha_nac: this.fecha_nac
+        };
+
+        http.services.register(payload)
+          .then(() => {
+            this.$vs.notify({
+              title: 'Genial!',
+              text: "Se ha creado el usuario. Por favor, inicie sesion.",
+              color: 'success'
+            })
+          })
+          .catch(err => {
+            if (err.response) {
+              if (err.response.data.error.email) {
+                this.$vs.notify({
+                  title: 'Error',
+                  text: "El mail ingresado ya existe.",
+                  color: 'danger'
+                })
+              } else {
+                this.$vs.notify({
+                  title: 'Error',
+                  text: "Ha ocurrido un error inesperado",
+                  color: 'danger'
+                })
+              }
+            } else {
+              this.$vs.notify({
+                title: 'Error',
+                text: "Ha ocurrido un error inesperado",
+                color: 'danger'
+              })
+            }
+          })
+
+
+      }
     }
-  }
-};
+  };
 </script>
