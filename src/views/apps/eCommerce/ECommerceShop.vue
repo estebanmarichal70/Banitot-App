@@ -1,6 +1,6 @@
 
 <template>
-    <div>
+    <div :key="this.$route.params.categoria">
         <ais-instant-search
             :search-client="searchClient"
             index-name="instant_search" id="algolia-instant-search-demo">
@@ -340,12 +340,13 @@ export default {
       rangoMin: 0,
       rangoMax: 0,
       rango:[],
-      flag: false
+      flag: false,
+      categoria:''
     }
   },
   beforeMount(){
     this.fetchProducts = debounce(this.fetchProducts,200)
-    this.fetchProducts();
+    this.loadProductsByCategoria();
     
   },
   computed: {
@@ -394,12 +395,10 @@ export default {
       }
       this.fetchProducts();
     },
-    /*rango(){
-      this.precioMin = this.rangoMin;
-      this.precioMax = this.rangoMax;
-      
-      this.fetchProducts();
-      }*/
+    "$route.params" (){
+      this.products = []
+      this.loadProductsByCategoria();
+    }
   },
   methods: {
     setSidebarWidth () {
@@ -408,6 +407,48 @@ export default {
       } else {
         this.isFilterSidebarActive = this.clickNotClose = true
       }
+    },
+
+    loadProductsByCategoria(){
+        switch(this.$route.params.categoria){
+        case "procesadores" : 
+          this.categoria = "CPU";
+          break;
+        case "motherboards" : 
+          this.categoria = "MOTHERBOARD";
+          break;
+        case "tarjetas-graficas" :
+          this.categoria = "GPU"
+          break;
+        case "rams" :
+          this.categoria = "RAM"
+          break;
+        case "refrigeracion" :
+          this.categoria = "CPU_COOLER"
+          break;
+        case "hdd" :
+          this.categoria = "HDD"
+          break;
+        case "ssd" :
+          this.categoria = "SSD"
+          break;
+        case "fuentes" :
+          this.categoria = "FUENTE"
+          break;
+        case "gabinetes" :
+          this.categoria = "GABINETE"
+          break;
+        case "mouse" :
+          this.categoria = "MOUSE"
+          break;
+        case "teclado" :
+          this.categoria = "TECLADO"
+          break;
+        case "auriculares" :
+          this.categoria = "AURICULARES"
+          break;
+      }
+      this.fetchProducts();
     },
 
     changePage(val){
@@ -446,7 +487,7 @@ export default {
     },
 
     async fetchProducts() {
-      await http.services.getAllArticulos(this.page, this.order, this.searchQuery, this.marca, this.precioMax, this.precioMin)
+      await http.services.getAllArticulos(this.page, this.order, this.searchQuery, this.marca, this.precioMax, this.precioMin, this.categoria)
       .then(res => {
         this.products = res.data.articulos.data;
         this.totalPages = res.data.articulos.last_page;

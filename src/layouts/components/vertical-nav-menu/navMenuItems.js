@@ -31,28 +31,28 @@ export default [
     i18n: 'Apps',
     items: [
       {
-        url: '/apps/email',
+        url: '/tienda/procesadores',
         name: 'Procesadores',
         slug: 'email',
         icon: 'MailIcon',
         i18n: 'Email'
       },
       {
-        url: '/apps/chat',
+        url: '/tienda/motherboards',
         name: 'Motherboards',
         slug: 'chat',
         icon: 'MessageSquareIcon',
         i18n: 'Chat'
       },
       {
-        url: '/apps/todo',
+        url: '/tienda/rams',
         name: 'Memorias RAM',
         slug: 'todo',
         icon: 'CheckSquareIcon',
         i18n: 'Todo'
       },
       {
-        url: '/apps/calendar/vue-simple-calendar',
+        url: '/tienda/tarjetas-graficas',
         name: 'Tarjetas Graficas',
         slug: 'calendar-simple-calendar',
         icon: 'CalendarIcon',
@@ -60,15 +60,7 @@ export default [
         i18n: 'Calendar'
       },
       {
-        url: '/apps/calendar/vue-simple-calendar',
-        name: 'Refrigeracion',
-        slug: 'calendar-simple-calendar',
-        icon: 'CalendarIcon',
-        tagColor: 'success',
-        i18n: 'Calendar'
-      },
-      {
-        url: '/apps/calendar/vue-simple-calendar',
+        url: '/tienda/refrigeracion',
         name: 'Refrigeracion',
         slug: 'calendar-simple-calendar',
         icon: 'CalendarIcon',
@@ -82,13 +74,13 @@ export default [
         i18n: 'eCommerce',
         submenu: [
           {
-            url: '/apps/eCommerce/shop',
+            url: '/tienda/hdd',
             name: 'HDD',
             slug: 'ecommerce-shop',
             i18n: 'Shop'
           },
           {
-            url: '/apps/eCommerce/item/',
+            url: '/tienda/ssd',
             name: 'SSD',
             slug: 'ecommerce-item-detail-view',
             i18n: 'ItemDetails'
@@ -96,7 +88,7 @@ export default [
         ]
       },
       {
-        url: '/apps/calendar/vue-simple-calendar',
+        url: '/tienda/fuentes',
         name: 'Fuentes',
         slug: 'calendar-simple-calendar',
         icon: 'CalendarIcon',
@@ -104,7 +96,7 @@ export default [
         i18n: 'Calendar'
       },
       {
-        url: '/apps/calendar/vue-simple-calendar',
+        url: '/tienda/gabinetes',
         name: 'Gabinetes',
         slug: 'calendar-simple-calendar',
         icon: 'CalendarIcon',
@@ -119,7 +111,7 @@ export default [
     i18n: 'UI',
     items: [
       {
-        url: '/apps/calendar/vue-simple-calendar',
+        url: '/tienda/mouse',
         name: 'Mouse',
         slug: 'calendar-simple-calendar',
         icon: 'CalendarIcon',
@@ -127,7 +119,7 @@ export default [
         i18n: 'Calendar'
       },
       {
-        url: '/apps/calendar/vue-simple-calendar',
+        url: '/tienda/teclados',
         name: 'Teclados',
         slug: 'calendar-simple-calendar',
         icon: 'CalendarIcon',
@@ -135,7 +127,7 @@ export default [
         i18n: 'Calendar'
       },
       {
-        url: '/apps/calendar/vue-simple-calendar',
+        url: '/tienda/auriculares',
         name: 'Auriculares',
         slug: 'calendar-simple-calendar',
         icon: 'CalendarIcon',

@@ -35,7 +35,7 @@ const router = new Router({
           }
         },
         {
-          path: '/apps/eCommerce/shop',
+          path: '/tienda/:categoria',
           name: 'ecommerce-shop',
           component: () => import('./views/apps/eCommerce/ECommerceShop.vue'),
           meta: {
@@ -49,7 +49,7 @@ const router = new Router({
           }
         },
         {
-          path: '/apps/eCommerce/wish-list',
+          path: '/deseados',
           name: 'ecommerce-wish-list',
           component: () => import('./views/apps/eCommerce/ECommerceWishList.vue'),
           meta: {
@@ -63,7 +63,7 @@ const router = new Router({
           }
         },
         {
-          path: '/apps/eCommerce/checkout',
+          path: '/checkout',
           name: 'ecommerce-checkout',
           component: () => import('./views/apps/eCommerce/ECommerceCheckout.vue'),
           meta: {
@@ -86,11 +86,7 @@ const router = new Router({
                     }
                 */
         {
-          path: '/apps/eCommerce/item/',
-          redirect: '/apps/eCommerce/item/5546604'
-        },
-        {
-          path: '/apps/eCommerce/item/:item_id',
+          path: '/articulo/:item_id',
           name: 'ecommerce-item-detail-view',
           component: () => import('./views/apps/eCommerce/ECommerceItemDetailView.vue'),
           meta: {
