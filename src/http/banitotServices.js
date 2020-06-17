@@ -7,8 +7,6 @@ export default {
       return axios.post(API_URL + "/auth/login", data);
     },
     getAllArticulos(page, order, search, marca, preciomax, preciomin) {
-      console.log(preciomin);
-      console.log(preciomax);
       return axios.get(API_URL + "/articulos?page=" + page + "&order=" + order + "&search=" + search + "&marca=" + marca  + "&preciomax=" + preciomax + "&preciomin=" + preciomin);
 
     },

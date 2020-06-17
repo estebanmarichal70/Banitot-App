@@ -67,7 +67,7 @@
                         <!-- MULTI RANGE -->
                         <div class="flex justify-between">
                           <h6 class="font-bold mb-3">Rango de precios</h6>
-                          <feather-icon class="cursor-pointer" v-if="precio != null" icon="XIcon" svgClasses="h-6 w-6" @click="resetPrecio()"/>
+                          <feather-icon v-if="precio != null" icon="XIcon" svgClasses="h-6 w-6" @click="resetPrecio()"/>
                         </div>
                               <ul>
                                   <li class="flex items-center cursor-pointer py-1">
@@ -86,13 +86,21 @@
 
                         <ais-range-input attribute="price">
                             <div slot-scope="{ currentRefinement, range, refine }">
-                                <vs-slider
+                                <!--<vs-slider
                                     class="algolia-price-slider"
                                     text-fixed="$"
                                     :min="range.min"
                                     :max="range.max"
                                     :value="toValue(currentRefinement, range)"
-                                    @input="refine({min: $event[0], max: $event[1]})" />
+                                    @input="refine({min: $event[0], max: $event[1]})" />-->
+                                    <vs-slider 
+                                      class="algolia-price-slider"  
+                                      text-fixed="$" 
+                                      step="5"
+                                      :min="rangoMin"
+                                      :max="rangoMax"
+                                      v-model="rango" 
+                                      @input="onChange" />
                             </div>
                         </ais-range-input>
 
@@ -328,14 +336,18 @@ export default {
       marca:'',
       precio: null,
       precioMax: "",
-      precioMin: ""
+      precioMin: "",
+      rangoMin: 0,
+      rangoMax: 0,
+      rango:[],
+      flag: false
     }
   },
   beforeMount(){
     this.fetchProducts = debounce(this.fetchProducts,200)
     this.fetchProducts();
+    
   },
-
   computed: {
     toValue () {
       return (value, range) => [
@@ -368,20 +380,26 @@ export default {
       this.fetchProducts()
     },
     precio(){
-      if(this.precio == 0){
+      if(this.precio === 0){
         this.precioMin = 0;
         this.precioMax = 100;
       }
-      else if(this.precio == 100){
+      else if(this.precio === 100){
         this.precioMin = 100;
         this.precioMax = 650;
       }
-      else if(this.precio == 650){
+      else if(this.precio === 650){
         this.precioMin = 650;
         this.precioMax = 0;
       }
       this.fetchProducts();
-    }
+    },
+    /*rango(){
+      this.precioMin = this.rangoMin;
+      this.precioMax = this.rangoMax;
+      
+      this.fetchProducts();
+      }*/
   },
   methods: {
     setSidebarWidth () {
@@ -407,23 +425,47 @@ export default {
 
     resetMarca(){
       this.marca = ""
+      this.search();
     },
 
     resetPrecio(){
       this.precio = null
+      this.precioMax = ""
+      this.precioMin = ""
+      this.search();
     },
 
     search(){
       this.fetchProducts();
     },
 
-    fetchProducts() {
-      http.services.getAllArticulos(this.page, this.order, this.searchQuery, this.marca, this.precioMax, this.precioMin)
+    onChange(){
+      this.precioMin = this.rango[0];
+      this.precioMax = this.rango[1];
+      this.fetchProducts();
+    },
+
+    async fetchProducts() {
+      await http.services.getAllArticulos(this.page, this.order, this.searchQuery, this.marca, this.precioMax, this.precioMin)
       .then(res => {
         this.products = res.data.articulos.data;
         this.totalPages = res.data.articulos.last_page;
         this.totalProducts = res.data.articulos.total;
-        this.marcas = res.data.marcas
+        this.marcas = res.data.marcas;
+
+        this.products.forEach((item) => {
+          if(item.precio <= this.rangoMin){
+            this.rangoMin = item.precio
+          }
+          if(item.precio >= this.rangoMax){
+            this.rangoMax = item.precio
+          }
+        });
+        if(!this.flag){
+          this.rango =[this.rangoMin, this.rangoMax];
+          this.flag = true;
+        }
+        
       })
       .catch(error => {
         console.log(error)
