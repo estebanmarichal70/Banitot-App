@@ -179,7 +179,7 @@
                             <!-- GRID VIEW -->
                             <template v-if="currentItemView == 'item-grid-view'">
                                 <div class="items-grid-view vx-row match-height">
-                                    <div class="vx-col lg:w-1/3 sm:w-1/2 w-full" v-for="item in products" :key="item.id">
+                                    <div class="vx-col lg:w-1/3 sm:w-1/2 w-full" v-for="item in products" :key="item.objectID">
 
                                         <item-grid-view :item="item">
 
@@ -215,7 +215,7 @@
 
                             <!-- LIST VIEW -->
                             <template v-else>
-                                <div class="items-list-view mb-base" v-for="item in products" :key="item.id">
+                                <div class="items-list-view mb-base" v-for="item in products" :key="item.objectID">
 
                                     <item-list-view :item="item">
 
@@ -441,7 +441,7 @@ export default {
         case "mouse" :
           this.categoria = "MOUSE"
           break;
-        case "teclado" :
+        case "teclados" :
           this.categoria = "TECLADO"
           break;
         case "auriculares" :
@@ -525,7 +525,7 @@ export default {
       this.$store.dispatch('eCommerce/additemInCart', item)
     },
     cartButtonClicked (item) {
-      this.isInCart(item.objectID) ? this.$router.push('/apps/eCommerce/checkout').catch(() => {}) : this.additemInCart(item)
+      this.isInCart(item.objectID) ? this.$router.push('/checkout').catch(() => {}) : this.additemInCart(item)
     }
   },
   created () {

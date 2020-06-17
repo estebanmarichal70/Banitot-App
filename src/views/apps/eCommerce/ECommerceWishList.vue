@@ -45,7 +45,7 @@
 
         <!-- IF NO ITEMS IN CART -->
         <vx-card title="No tienes ningún artículo en la lista de deseados." v-else>
-            <vs-button @click="$router.push('/apps/eCommerce/shop').catch(() => {})">Ir a la Tienda</vs-button>
+            <vs-button @click="$router.push('/Inicio').catch(() => {})">Ir al Inicio</vs-button>
         </vx-card>
   </div>
 </template>

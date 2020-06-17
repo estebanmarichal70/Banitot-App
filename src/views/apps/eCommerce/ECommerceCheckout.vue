@@ -88,7 +88,7 @@
 
                 <!-- IF NO ITEMS IN CART -->
                 <vx-card title="No tienes ningun elemento en el carrito." v-else>
-                    <vs-button @click="$router.push('/apps/eCommerce/shop').catch(() => {})">Ir a la tienda</vs-button>
+                    <vs-button @click="$router.push('/Inicio').catch(() => {})">Ir al Inicio</vs-button>
                 </vx-card>
 
             </tab-content>
