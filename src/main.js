@@ -8,14 +8,8 @@ import 'vuesax/dist/vuesax.css' // Vuesax
 import axios from './axios.js'
 // API Calls
 import './http/requests'
-// mock
-import './fake-db/index.js'
 // Theme Configurations
 import '../themeConfig.js'
-// Firebase
-import '@/firebase/firebaseConfig'
-// Auth0 Plugin
-import AuthPlugin from './plugins/auth'
 // ACL
 import acl from './acl/acl'
 // Globally Registered Components
@@ -37,11 +31,9 @@ import VueTour from 'vue-tour'
 // VeeValidate
 import VeeValidate, {Validator} from 'vee-validate'
 import es from 'vee-validate/dist/locale/es';
-// Google Maps
-import * as VueGoogleMaps from 'vue2-google-maps'
-// Vuejs - Vue wrapper for hammerjs
+
 import {VueHammer} from 'vue2-hammer'
-// PrismJS
+
 import 'prismjs'
 import 'prismjs/themes/prism-tomorrow.css'
 
@@ -49,10 +41,6 @@ Vue.use(Vuesax)
 
 
 Vue.prototype.$http = axios
-
-
-Vue.use(AuthPlugin)
-
 
 Vue.use(VueClipboard)
 
@@ -64,14 +52,6 @@ require('vue-tour/dist/vue-tour.css')
 Vue.use(VeeValidate);
 Validator.localize('es', es);
 
-
-Vue.use(VueGoogleMaps, {
-  load: {
-    // Add your API key here
-    key: 'AIzaSyB4DDathvvwuwlwnUu7F4Sow3oU22y5T1Y',
-    libraries: 'places' // This is required if you use the Auto complete plug-in
-  }
-})
 
 Vue.use(VueHammer)
 
