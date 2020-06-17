@@ -20,13 +20,6 @@
 
 
 export default [
-  // {
-  //   url: "/apps/email",
-  //   name: "Email",
-  //   slug: "email",
-  //   icon: "MailIcon",
-  //   i18n: "Email",
-  // },
   {
     url: '/',
     name: 'Inicio',
@@ -39,28 +32,44 @@ export default [
     items: [
       {
         url: '/apps/email',
-        name: 'Email',
+        name: 'Procesadores',
         slug: 'email',
         icon: 'MailIcon',
         i18n: 'Email'
       },
       {
         url: '/apps/chat',
-        name: 'Chat',
+        name: 'Motherboards',
         slug: 'chat',
         icon: 'MessageSquareIcon',
         i18n: 'Chat'
       },
       {
         url: '/apps/todo',
-        name: 'Todo',
+        name: 'Memorias RAM',
         slug: 'todo',
         icon: 'CheckSquareIcon',
         i18n: 'Todo'
       },
       {
         url: '/apps/calendar/vue-simple-calendar',
-        name: 'Calendar',
+        name: 'Tarjetas Graficas',
+        slug: 'calendar-simple-calendar',
+        icon: 'CalendarIcon',
+        tagColor: 'success',
+        i18n: 'Calendar'
+      },
+      {
+        url: '/apps/calendar/vue-simple-calendar',
+        name: 'Refrigeracion',
+        slug: 'calendar-simple-calendar',
+        icon: 'CalendarIcon',
+        tagColor: 'success',
+        i18n: 'Calendar'
+      },
+      {
+        url: '/apps/calendar/vue-simple-calendar',
+        name: 'Refrigeracion',
         slug: 'calendar-simple-calendar',
         icon: 'CalendarIcon',
         tagColor: 'success',
@@ -68,62 +77,40 @@ export default [
       },
       {
         url: null,
-        name: 'eCommerce',
+        name: 'Almacenamiento',
         icon: 'ShoppingCartIcon',
         i18n: 'eCommerce',
         submenu: [
           {
             url: '/apps/eCommerce/shop',
-            name: 'Shop',
+            name: 'HDD',
             slug: 'ecommerce-shop',
             i18n: 'Shop'
           },
           {
             url: '/apps/eCommerce/item/',
-            name: 'Item Details',
+            name: 'SSD',
             slug: 'ecommerce-item-detail-view',
             i18n: 'ItemDetails'
           },
-          {
-            url: '/apps/eCommerce/wish-list',
-            name: 'Wish List',
-            slug: 'ecommerce-wish-list',
-            i18n: 'WishList'
-          },
-          {
-            url: '/apps/eCommerce/checkout',
-            name: 'Checkout',
-            slug: 'ecommerce-checkout',
-            i18n: 'Checkout'
-          }
         ]
       },
       {
-        url: null,
-        name: 'User',
-        icon: 'UserIcon',
-        i18n: 'User',
-        submenu: [
-          {
-            url: '/apps/user/user-list',
-            name: 'List',
-            slug: 'app-user-list',
-            i18n: 'List'
-          },
-          {
-            url: '/apps/user/user-view/268',
-            name: 'View',
-            slug: 'app-user-view',
-            i18n: 'View'
-          },
-          {
-            url: '/apps/user/user-edit/268',
-            name: 'Edit',
-            slug: 'app-user-edit',
-            i18n: 'Edit'
-          }
-        ]
-      }
+        url: '/apps/calendar/vue-simple-calendar',
+        name: 'Fuentes',
+        slug: 'calendar-simple-calendar',
+        icon: 'CalendarIcon',
+        tagColor: 'success',
+        i18n: 'Calendar'
+      },
+      {
+        url: '/apps/calendar/vue-simple-calendar',
+        name: 'Gabinetes',
+        slug: 'calendar-simple-calendar',
+        icon: 'CalendarIcon',
+        tagColor: 'success',
+        i18n: 'Calendar'
+      },
     ]
   },
   {
@@ -132,53 +119,28 @@ export default [
     i18n: 'UI',
     items: [
       {
-        url: null,
-        name: 'Data List',
-        tag: 'new',
-        tagColor: 'primary',
-        icon: 'ListIcon',
-        i18n: 'DataList',
-        submenu: [
-          {
-            url: '/ui-elements/data-list/list-view',
-            name: 'List View',
-            slug: 'data-list-list-view',
-            i18n: 'ListView'
-          },
-          {
-            url: '/ui-elements/data-list/thumb-view',
-            name: 'Thumb View',
-            slug: 'data-list-thumb-view',
-            i18n: 'ThumbView'
-          }
-        ]
+        url: '/apps/calendar/vue-simple-calendar',
+        name: 'Mouse',
+        slug: 'calendar-simple-calendar',
+        icon: 'CalendarIcon',
+        tagColor: 'success',
+        i18n: 'Calendar'
       },
       {
-        url: null,
-        name: 'Grid',
-        icon: 'LayoutIcon',
-        i18n: 'Grid',
-        submenu: [
-          {
-            url: '/ui-elements/grid/vuesax',
-            name: 'Vuesax',
-            slug: 'grid-vuesax',
-            i18n: 'Vuesax'
-          },
-          {
-            url: '/ui-elements/grid/tailwind',
-            name: 'Tailwind',
-            slug: 'grid-tailwind',
-            i18n: 'Tailwind'
-          }
-        ]
+        url: '/apps/calendar/vue-simple-calendar',
+        name: 'Teclados',
+        slug: 'calendar-simple-calendar',
+        icon: 'CalendarIcon',
+        tagColor: 'success',
+        i18n: 'Calendar'
       },
       {
-        url: '/ui-elements/colors',
-        name: 'Colors',
-        slug: 'colors',
-        icon: 'DropletIcon',
-        i18n: 'Colors'
+        url: '/apps/calendar/vue-simple-calendar',
+        name: 'Auriculares',
+        slug: 'calendar-simple-calendar',
+        icon: 'CalendarIcon',
+        tagColor: 'success',
+        i18n: 'Calendar'
       },
       {
         url: null,
