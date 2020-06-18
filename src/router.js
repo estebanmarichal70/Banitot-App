@@ -116,7 +116,7 @@ const router = new Router({
           }
         },
         {
-          path: '/apps/user/user-edit/:userId',
+          path: '/usuario/perfil',
           name: 'app-user-edit',
           component: () => import('@/views/apps/user/user-edit/UserEdit.vue'),
           meta: {

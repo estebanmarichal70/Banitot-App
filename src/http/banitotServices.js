@@ -1,6 +1,10 @@
 import axios from "axios";
 import {API_URL} from "../config/config";
 
+let addDefaultHeaders = () => {
+  axios.defaults.headers.common['Authorization'] = "Bearer " + JSON.parse(localStorage.getItem('accessToken'));
+}
+
 export default {
   services: {
     login(data) {
@@ -15,6 +19,11 @@ export default {
     },
     register(data){
       return axios.post(API_URL + "/auth/register", data);
-    }
+    },
+    updateUser(data){
+      console.log(data);
+      addDefaultHeaders();
+      return axios.put(API_URL + "/auth/update", data);
+    },
   }
 }

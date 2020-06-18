@@ -1,14 +1,3 @@
-<!-- =========================================================================================
-  File Name: TheNavbar.vue
-  Description: Navbar component
-  Component Name: TheNavbar
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-========================================================================================== -->
-
-
 <template>
   <div class="relative">
 
@@ -25,11 +14,7 @@
 
         <i18n />
 
-        <search-bar />
-
         <cart-drop-down />
-
-        <notification-drop-down />
 
         <profile-drop-down />
 
