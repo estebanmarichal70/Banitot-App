@@ -64,7 +64,6 @@ export default {
   methods: {
     fetch_user_data () {
       this.user_data = this.$store.state.AppActiveUser;
-      console.log(this.user_data)
       /*this.$store.dispatch('userManagement/fetchUser', userId)
         .then(res => { this.user_data = res.data })
         .catch(err => {
