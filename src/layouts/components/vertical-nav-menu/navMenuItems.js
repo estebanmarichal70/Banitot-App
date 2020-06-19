@@ -33,75 +33,52 @@ export default [
       {
         url: '/tienda/procesadores',
         name: 'Procesadores',
-        slug: 'email',
-        icon: 'MailIcon',
-        i18n: 'Email'
+        icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/motherboards',
         name: 'Motherboards',
-        slug: 'chat',
-        icon: 'MessageSquareIcon',
-        i18n: 'Chat'
+        icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/rams',
         name: 'Memorias RAM',
-        slug: 'todo',
-        icon: 'CheckSquareIcon',
-        i18n: 'Todo'
+        icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/tarjetas-graficas',
         name: 'Tarjetas Graficas',
-        slug: 'calendar-simple-calendar',
-        icon: 'CalendarIcon',
-        tagColor: 'success',
-        i18n: 'Calendar'
+        icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/refrigeracion',
         name: 'Refrigeracion',
-        slug: 'calendar-simple-calendar',
-        icon: 'CalendarIcon',
-        tagColor: 'success',
-        i18n: 'Calendar'
+        icon: 'ChevronRightIcon'
       },
       {
         url: null,
         name: 'Almacenamiento',
-        icon: 'ShoppingCartIcon',
-        i18n: 'eCommerce',
+        icon: 'ChevronRightIcon',
         submenu: [
           {
             url: '/tienda/hdd',
-            name: 'HDD',
-            slug: 'ecommerce-shop',
-            i18n: 'Shop'
+            name: 'HDD'
           },
           {
             url: '/tienda/ssd',
-            name: 'SSD',
-            slug: 'ecommerce-item-detail-view',
-            i18n: 'ItemDetails'
+            name: 'SSD'
           },
         ]
       },
       {
         url: '/tienda/fuentes',
         name: 'Fuentes',
-        slug: 'calendar-simple-calendar',
-        icon: 'CalendarIcon',
-        tagColor: 'success',
-        i18n: 'Calendar'
+        icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/gabinetes',
         name: 'Gabinetes',
-        slug: 'calendar-simple-calendar',
-        icon: 'CalendarIcon',
-        tagColor: 'success',
-        i18n: 'Calendar'
+        icon: 'ChevronRightIcon'
       },
     ]
   },
