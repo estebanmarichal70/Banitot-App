@@ -46,19 +46,20 @@
 
           <vs-input
             class="w-full mt-4"
-            label="Contraseña Anterior"
-            v-model="passwordViejo"
-            name="passwordViejo"
-            type="password"
-          />
-
-          <vs-input
-            class="w-full mt-4"
             label="Contraseña nueva"
             v-model="passwordNuevo"
             name="passwordNuevo"
             type="password"
           />
+
+          <vs-input
+            class="w-full mt-4"
+            label="Contraseña actual"
+            v-model="passwordViejo"
+            name="passwordViejo"
+            type="password"
+          />
+
           <span class="text-danger text-sm"></span>
         </div>
       </div>
@@ -108,7 +109,7 @@
               <vs-button
                 class="ml-auto mt-2"
                 @click="save_changes"
-                :disabled="!validateForm"
+                :disabled="contador == 0"
                 >Guardar cambios</vs-button
               >
               <vs-button
@@ -140,7 +141,12 @@ export default {
   props: {
     data: {
       type: Object,
-      required: true,
+      required: true
+    }
+  },
+  data() {
+    return {
+      data_local: JSON.parse(JSON.stringify(this.data)),
       nombre: "",
       email: "",
       passwordViejo: "",
@@ -150,68 +156,68 @@ export default {
       departamento: "",
       cp: "",
       fecha_nac: null,
-      telefono: ""
-    }
-  },
-  data() {
-    return {
-      data_local: JSON.parse(JSON.stringify(this.data)),
+      telefono: "",
+      contador: 0,
+      usuarioActualizado: {}
     };
   },
-  computed: {
-    validateForm() { 
-        return (
-          !this.errors.any() &&
-          this.nombre !== "" &&
-          this.passwordViejo !== "" &&
-          this.passwordNuevo !== "" &&
-          this.cp !== "" &&
-          this.telefono !== "" &&
-          this.calle !== "" &&
-          this.ciudad !== "" &&
-          this.departamento !== ""
-        );
+  watch: {
+    data_local: {
+      handler() {
+        if (this.data.name !== this.data_local.name && this.data_local.name !== "") {
+            this.usuarioActualizado.nombre = this.data_local.name;
+            this.contador = this.contador + 1;
+        }
+        if (this.data.telefono !== this.data_local.telefono && this.data_local.telefono !== "") {
+            this.usuarioActualizado.telefono = this.data_local.telefono;
+            this.contador = this.contador + 1;
+        }
+        if (this.data.departamento !== this.data_local.departamento && this.data_local.departamento !== "") {
+            this.usuarioActualizado.departamento = this.data_local.departamento;
+            this.contador = this.contador + 1;
+        }
+        if (this.data.cp !== this.data_local.cp && this.data_local.cp !== "") {
+            this.usuarioActualizado.cp = this.data_local.cp;
+            this.contador = this.contador + 1;
+        }
+        if (this.data.calle !== this.data_local.calle && this.data_local.calle !== "") {
+            this.usuarioActualizado.calle = this.data_local.calle;
+            this.contador = this.contador + 1;
+        }
+        if (this.data.ciudad !== this.data_local.ciudad && this.data_local.ciudad !== "") {
+            this.usuarioActualizado.ciudad = this.data_local.ciudad;
+            this.contador = this.contador + 1;
+        }
+      },
+      deep: true
+    },
+    passwordViejo() {
+      if(this.passwordViejo !== "" && this.passwordNuevo !== ""){
+        this.usuarioActualizado.passwordViejo = this.passwordViejo;
+        this.usuarioActualizado.passwordNuevo = this.passwordNuevo;
+        this.contador = this.contador + 1;
+      }
     }
   },
   methods: {
     save_changes() {
-      if (!this.validateForm) return;
-
-        const data = {
-          name: this.data_local.name,
-          email: this.data_local.email,
-          password_Viejo: this.passwordViejo,
-          password_Nuevo: this.passwordNuevo,
-          calle: this.data_local.calle,
-          ciudad: this.data_local.ciudad,
-          departamento: this.data_local.departamento,
-          cp: this.data_local.cp,
-          telefono: this.data_local.telefono,
-          fecha_nac: this.data_local.fecha_nac
-        };
-
+      this.contador = 0;
       http.services
-        .updateUser(data)
+        .updateUser(this.usuarioActualizado)
         .then(() => {
-            this.$vs.notify({
-              title: 'Genial!',
-              text: "Se ha actualizado el usuario correctamente.",
-              color: 'success'
-            })
-          })
-          .catch(err => {
-              this.$vs.notify({
-                title: 'Error',
-                text: "Ha ocurrido un error inesperado",
-                color: 'danger'
-              })
-          })
-
-
-      // Here will go your API call for updating data
-      // You can get data in "this.data_local"
-
-      /* eslint-enable */
+          this.$vs.notify({
+            title: "Genial!",
+            text: "Se ha actualizado el usuario correctamente.",
+            color: "success"
+          });
+        })
+        .catch(err => {
+          this.$vs.notify({
+            title: "Error",
+            text: err.response.data.error,
+            color: "danger"
+          });
+        });
     },
     reset_data() {
       this.data_local = Object.assign({}, this.data);
