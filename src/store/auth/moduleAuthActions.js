@@ -13,7 +13,7 @@ export default {
             router.push(router.currentRoute.query.to || '/')
 
             // Set accessToken
-            localStorage.setItem('accessToken', response.data.token)
+            localStorage.setItem('accessToken', JSON.stringify(response.data.token))
 
             // Update user details
             commit('UPDATE_USER_INFO', response.data.user, {root: true})
