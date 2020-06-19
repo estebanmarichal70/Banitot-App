@@ -16,7 +16,7 @@
 
                     <!-- LEFT COL -->
                     <div class="vx-col lg:w-2/3 w-full relative">
-                        <div class="items-list-view" v-for="(item, index) in cartItems" :key="item.objectID">
+                        <div class="items-list-view" v-for="(item, index) in cartItems" :key="item.id">
                             <item-list-view :item="item" class="mb-base">
 
                                 <!-- SLOT: ITEM META -->
@@ -28,7 +28,7 @@
                                     <p class="text-sm">Unidades disponibles: <span class="font-semibold">{{item.stock}}</span></p>
 
                                     <p class="mt-4 font-bold text-sm">Cantidad</p>
-                                    <vs-input-number :min="1" :max="item.stock" :value="item.quantity" @input="updateItemQuantity($event, index, item.precio)" class="inline-flex" />
+                                    <vs-input-number :min="1" :max="item.stock" :value="item.quantity" @input="updateItemQuantity($event, index, item)" class="inline-flex" />
 
                                 </template>
 
@@ -43,8 +43,8 @@
 
                                     <!-- SECONDARY BUTTON: MOVE-TO/VIEW-IN WISHLIST -->
                                     <div class="item-view-secondary-action-btn bg-primary p-3 rounded-lg flex flex-grow items-center justify-center text-white cursor-pointer" @click="wishListButtonClicked(item)">
-                                        <feather-icon icon="HeartIcon" :svgClasses="[{'text-white fill-current': isInWishList(item.objectID)}, 'h-4 w-4']" />
-                                        <span class="text-sm font-semibold ml-2" v-if="isInWishList(item.objectID)">Deseado</span>
+                                        <feather-icon icon="HeartIcon" :svgClasses="[{'text-white fill-current': isInWishList(item.id)}, 'h-4 w-4']" />
+                                        <span class="text-sm font-semibold ml-2" v-if="isInWishList(item.id)">Deseado</span>
                                         <span class="text-sm font-semibold ml-2" v-else>Deseado</span>
                                     </div>
                                 </template>
@@ -88,7 +88,7 @@
 
                 <!-- IF NO ITEMS IN CART -->
                 <vx-card title="No tienes ningun elemento en el carrito." v-else>
-                    <vs-button @click="$router.push('/Inicio').catch(() => {})">Ir al Inicio</vs-button>
+                    <vs-button @click="$router.push('/inicio').catch(() => {})">Ir al Inicio</vs-button>
                 </vx-card>
 
             </tab-content>
@@ -336,7 +336,7 @@ export default {
     }
   },
    beforeMount(){
-    this.cartItems.forEach(item =>{
+    this.cartItems.forEach(item => {
        this.precio += item.precio
        this.cantidadItems++
     })
@@ -354,27 +354,28 @@ export default {
 
     // TAB 1
     removeItemFromCart (item) {
+      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
     },
     wishListButtonClicked (item) {
       // Toggle in Wish List
-      if (this.isInWishList(item.objectID)) this.$router.push('/apps/eCommerce/wish-list').catch(() => {})
+      if (this.isInWishList(item.id)) this.$router.push('/deseados').catch(() => {})
       else {
         this.toggleItemInWishList(item)
         this.removeItemFromCart(item)
       }
     },
     toggleItemInWishList (item) {
+      item['wishlist_id'] = this.$store.state.AppActiveUser.carrito[0].id;
       this.$store.dispatch('eCommerce/toggleItemInWishList', item)
     },
-    updateItemQuantity (event, index, precio) {
+    updateItemQuantity (event, index, item) {
       const itemIndex = Math.abs(index + 1 - this.cartItems.length)
-      this.precio = precio*event
+      this.precio = item.precio*event
       this.precioT = this.precio - this.precio * 0.05
       this.cantidadItems = 1*event
-      this.$store.dispatch('eCommerce/updateItemQuantity', { quantity: event, index: itemIndex })
+      this.$store.dispatch('eCommerce/updateItemQuantity', { quantity: event, articulo_id: item.id, carrito_id: this.$store.state.AppActiveUser.carrito[0].id,index: itemIndex })
     },
-
     // TAB 2
     submitNewAddressForm () {
       return new Promise(() => {

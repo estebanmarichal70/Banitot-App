@@ -16,7 +16,7 @@
               <ul class="bordered-items">
                   <li
                     v-for="item in cartItems"
-                    :key="item.objectID"
+                    :key="item.id"
                     class="vx-row no-gutter cart-item cursor-pointer"
                     @click="$router.push({name: 'ecommerce-item-detail-view', params: {item_id: item.id }}).catch(() => {})">
 
@@ -83,6 +83,7 @@ export default {
   },
   methods: {
     removeItemFromCart (item) {
+      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
     }
   }

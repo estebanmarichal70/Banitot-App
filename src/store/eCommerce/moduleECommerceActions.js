@@ -1,31 +1,62 @@
-/*=========================================================================================
-  File Name: moduleEcommerceActions.js
-  Description: Ecommerce Module Actions
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
+
+import http from '@/http/banitotServices';
 
 export default {
+  loadCart ({ commit }, item){
+    item['quantity'] = item.pivot.cantidad
+    commit('ADD_ITEM_IN_CART', item)
+  },
+  loadWishlist ({ commit }, item){
+    commit('ADD_ITEM_IN_WISH_LIST', item)
+  },
   toggleItemInWishList ({ commit }, item) {
     commit('TOGGLE_ITEM_IN_WISH_LIST', item)
   },
   toggleItemInCart ({ getters, commit, dispatch }, item) {
-    getters.isInCart(item.objectID) ? commit('REMOVE_ITEM_FROM_CART', item) : dispatch('additemInCart', item)
+    const articulo = {
+      articulo_id: item.id,
+      carrito_id: item.carrito_id
+    }
+    if(getters.isInCart(item.id)) 
+    {
+      http.services.detachCarrito(articulo)
+      .then(() => {})
+      .catch(error => {
+        console.log(error)
+      })
+      commit('REMOVE_ITEM_FROM_CART', item)
+    }
+    else 
+      dispatch('additemInCart', item)
   },
   additemInCart ({ commit }, item) {
-
-    // Below properties should be added as per requirement from back-end
-    // This is added just for demo purpose
     item['quantity'] = 1
-    item['discount_in_percentage'] = Math.floor(Math.random() * 20) + 4
-    item['offers_count'] = Math.floor(Math.random() * 4) + 1
-    item['delivery_date'] = new Date(new Date().getTime() + (Math.random() * 10 * 24 * 60 * 60 * 1000)).toDateString().slice(0, -4)
+    const articulo = {
+      articulo_id: item.id,
+      carrito_id: item.carrito_id,
+      cantidad: item.quantity
+    }
 
+    http.services.atachCarrito(articulo)
+    .then(() => {})
+    .catch(error => {
+      console.log(error)
+    })
     commit('ADD_ITEM_IN_CART', item)
   },
   updateItemQuantity ({ commit }, payload) {
-    commit('UPDATE_ITEM_QUANTITY', payload)
+    const articulo = {
+      articulo_id: payload.articulo_id,
+      carrito_id: payload.carrito_id,
+      cantidad: payload.quantity
+    }
+
+    http.services.atachCarrito(articulo)
+    .then(() => {
+      commit('UPDATE_ITEM_QUANTITY', payload)
+    })
+    .catch(error => {
+      console.log(error)
+    })
   }
 }

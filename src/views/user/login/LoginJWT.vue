@@ -30,7 +30,7 @@
     </div>
     <div class="flex flex-wrap justify-between mb-3">
       <vs-button type="border" @click="registerUser">Registrar</vs-button>
-      <vs-button :disabled="!validateForm" @click="loginJWT">Iniciar Sesion</vs-button>
+      <vs-button :disabled="!validateForm" @click="loginJWT">Iniciar Sesión</vs-button>
     </div>
   </div>
 </template>
@@ -67,7 +67,7 @@
           })
           .catch(error => {
             this.$vs.loading.close()
-            if (error.response.status == 401) {
+            if (error.response.status === 401) {
               this.$vs.notify({
                 title: 'Error',
                 text: "Email o contraseña incorrectos.",

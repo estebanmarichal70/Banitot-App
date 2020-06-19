@@ -1,19 +1,9 @@
-/*=========================================================================================
-  File Name: moduleAuthActions.js
-  Description: Auth Module Actions
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
-
-import jwt from '../../http/requests/auth/jwt/index.js'
 import router from '@/router'
-import http from "../../http/banitotServices";
+import http from '@/http/banitotServices';
 
 export default {
   // JWT
-  loginJWT ({ commit }, payload) {
+  loginJWT ({ commit}, payload) {
     return new Promise((resolve, reject) => {
       http.services.login({...payload.userDetails})
         .then(response => {
@@ -30,14 +20,13 @@ export default {
 
             // Set bearer token in axios
             commit('SET_BEARER', response.data.token)
-
             resolve(response)
           } else {
             reject({message: 'Wrong Email or Password'})
           }
-
         })
         .catch(error => { reject(error) })
     })
+
   }
 }

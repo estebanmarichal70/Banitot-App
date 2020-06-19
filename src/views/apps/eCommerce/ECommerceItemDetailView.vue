@@ -82,7 +82,7 @@
                         class="mr-4 mb-4"
                         icon-pack="feather"
                         icon="icon-shopping-cart"
-                        v-if="!isInCart(item_data.objectID)"
+                        v-if="!isInCart(item_data.id)"
                         @click="toggleItemInCart(item_data)"
                         :disabled="item_data.stock ? false : true">
                         Agregar al carrito
@@ -101,7 +101,7 @@
 
                       <!-- Wishlist Button -->
                       <vs-button
-                        v-if="isInWishList(item_data.objectID)"
+                        v-if="isInWishList(item_data.id)"
                         key="filled"
                         class="mb-4"
                         icon-pack="feather"
@@ -201,9 +201,11 @@ export default{
   },
   methods: {
     toggleItemInWishList (item) {
+      item['wishlist_id'] = this.$store.state.AppActiveUser.wishlist[0].id;
       this.$store.dispatch('eCommerce/toggleItemInWishList', item)
     },
     toggleItemInCart (item) {
+      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
     },
     fetch_item_details (id) {

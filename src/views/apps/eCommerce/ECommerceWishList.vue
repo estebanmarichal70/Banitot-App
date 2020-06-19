@@ -10,7 +10,7 @@
 <template>
   <div id="ecommerce-wishlist-demo">
         <div class="items-grid-view vx-row match-height" v-if="wishListitems.length" appear>
-            <div class="vx-col lg:w-1/4 md:w-1/3 sm:w-1/2 w-full" v-for="item in wishListitems" :key="item.objectID">
+            <div class="vx-col lg:w-1/4 md:w-1/3 sm:w-1/2 w-full" v-for="item in wishListitems" :key="item.id">
 
                 <item-grid-view :item="item">
 
@@ -33,7 +33,7 @@
                                 @click="cartButtonClicked(item)">
                                 <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">Ver en carrito</span>
+                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.id)">Ver en carrito</span>
                                 <span class="text-sm font-semibold ml-2" v-else>Mover al carrito</span>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
 
         <!-- IF NO ITEMS IN CART -->
         <vx-card title="No tienes ningún artículo en la lista de deseados." v-else>
-            <vs-button @click="$router.push('/Inicio').catch(() => {})">Ir al Inicio</vs-button>
+            <vs-button @click="$router.push('/inicio').catch(() => {})">Ir al Inicio</vs-button>
         </vx-card>
   </div>
 </template>
@@ -70,16 +70,18 @@ export default {
   },
   methods: {
     removeItemFromWishList (item) {
+      item['wishlist_id'] = this.$store.state.AppActiveUser.carrito[0].id;
       this.$store.dispatch('eCommerce/toggleItemInWishList', item)
     },
     cartButtonClicked (item) {
-      if (this.isInCart(item.objectID)) this.$router.push('/apps/eCommerce/checkout').catch(() => {})
+      if (this.isInCart(item.id)) this.$router.push('/checkout').catch(() => {})
       else {
         this.additemInCart(item)
         this.removeItemFromWishList(item)
       }
     },
     additemInCart (item) {
+      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
       this.$store.dispatch('eCommerce/additemInCart', item)
     }
   }

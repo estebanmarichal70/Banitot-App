@@ -15,7 +15,7 @@
               <div class="px-8 mb-8 pt-8">
 
                 <div class="vx-card__title mb-6">
-                  <h4 class="mb-4">Iniciar Sesion</h4>
+                  <h4 class="mb-4">Iniciar Sesión</h4>
                   <p>Bienvenido, por favor accede a tu cuenta.</p>
                 </div>
 

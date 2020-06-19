@@ -7,7 +7,8 @@
 
 <script>
 import themeConfig from '@/../themeConfig.js'
-import jwt         from '@/http/requests/auth/jwt/index.js'
+import jwt from '@/http/requests/auth/jwt/index.js'
+import http from '@/http/banitotServices';
 
 export default {
   data () {
@@ -58,7 +59,6 @@ export default {
     document.documentElement.style.setProperty('--vh', `${vh}px`)
   },
   async created () {
-
     // jwt
     jwt.init()
 
@@ -68,6 +68,26 @@ export default {
     window.addEventListener('resize', this.handleWindowResize)
     window.addEventListener('scroll', this.handleScroll)
 
+    if(this.$store.state.AppActiveUser){
+      http.services.getCarrito(this.$store.state.AppActiveUser.carrito[0].id)
+      .then(res => {
+        res.data.articulos.forEach(item => {
+          this.$store.dispatch('eCommerce/loadCart', item)
+        })
+      })
+      .catch(error => {
+        console.log(error)
+      })
+      http.services.getWishlist(this.$store.state.AppActiveUser.wishlist[0].id)
+      .then(res => {
+        res.data.articulos.forEach(item => {
+          this.$store.dispatch('eCommerce/loadWishlist', item)
+        })
+      })
+      .catch(error => {
+        console.log(error)
+      })
+    }
     // Auth0
     try       { await this.$auth.renewTokens() } catch (e) { console.error(e) }
 

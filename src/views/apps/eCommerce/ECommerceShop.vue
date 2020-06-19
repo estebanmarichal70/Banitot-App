@@ -179,7 +179,7 @@
                             <!-- GRID VIEW -->
                             <template v-if="currentItemView == 'item-grid-view'">
                                 <div class="items-grid-view vx-row match-height">
-                                    <div class="vx-col lg:w-1/3 sm:w-1/2 w-full" v-for="item in products" :key="item.objectID">
+                                    <div class="vx-col lg:w-1/3 sm:w-1/2 w-full" v-for="item in products" :key="item.id">
 
                                         <item-grid-view :item="item">
 
@@ -191,7 +191,7 @@
                                                     <div
                                                         class="item-view-primary-action-btn p-3 flex flex-grow items-center justify-center cursor-pointer"
                                                         @click="toggleItemInWishList(item)">
-                                                        <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.objectID)}, 'h-4 w-4']" />
+                                                        <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.id)}, 'h-4 w-4']" />
 
                                                         <span class="text-sm font-semibold ml-2">WISHLIST</span>
                                                     </div>
@@ -202,7 +202,7 @@
                                                         @click="cartButtonClicked(item)">
                                                         <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                                        <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">Ver en el carrito</span>
+                                                        <span class="text-sm font-semibold ml-2" v-if="isInCart(item.id)">Ver en carrito</span>
                                                         <span class="text-sm font-semibold ml-2" v-else>Agregar al carrito</span>
                                                     </div>
                                                 </div>
@@ -215,7 +215,7 @@
 
                             <!-- LIST VIEW -->
                             <template v-else>
-                                <div class="items-list-view mb-base" v-for="item in products" :key="item.objectID">
+                                <div class="items-list-view mb-base" v-for="item in products" :key="item.id">
 
                                     <item-list-view :item="item">
 
@@ -224,7 +224,7 @@
                                             <div
                                                 class="item-view-primary-action-btn p-3 rounded-lg flex flex-grow items-center justify-center cursor-pointer mb-3"
                                                 @click="toggleItemInWishList(item)">
-                                                <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.objectID)}, 'h-4 w-4']" />
+                                                <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.id)}, 'h-4 w-4']" />
                                                 <span class="text-sm font-semibold ml-2">WISHLIST</span>
                                             </div>
                                             <div
@@ -232,7 +232,7 @@
                                                 @click="cartButtonClicked(item)">
                                                 <feather-icon icon="ShoppingBagIcon" svgClasses="h-4 w-4" />
 
-                                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.objectID)">Ver en el carrito</span>
+                                                <span class="text-sm font-semibold ml-2" v-if="isInCart(item.id)">Ver en el carrito</span>
                                                 <span class="text-sm font-semibold ml-2" v-else>Agregar al carrito</span>
                                             </div>
                                         </template>
@@ -519,13 +519,15 @@ export default {
       this.isFilterSidebarActive = !this.isFilterSidebarActive
     },
     toggleItemInWishList (item) {
+      item['wishlist_id'] = this.$store.state.AppActiveUser.wishlist[0].id;
       this.$store.dispatch('eCommerce/toggleItemInWishList', item)
     },
     additemInCart (item) {
+      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
       this.$store.dispatch('eCommerce/additemInCart', item)
     },
     cartButtonClicked (item) {
-      this.isInCart(item.objectID) ? this.$router.push('/checkout').catch(() => {}) : this.additemInCart(item)
+      this.isInCart(item.id) ? this.$router.push('/checkout').catch(() => {}) : this.additemInCart(item)
     }
   },
   created () {

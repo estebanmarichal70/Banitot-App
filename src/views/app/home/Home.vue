@@ -59,7 +59,6 @@
       Carousel,
       Slide
     }
-
   };
 
 </script>
