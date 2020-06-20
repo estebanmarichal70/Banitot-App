@@ -21,9 +21,12 @@ export default {
       return axios.get(`${API_URL}/articulos/${  id}`);
     },
     updateUser(data){
-      console.log(data);
       addDefaultHeaders();
       return axios.put(`${API_URL}/auth/update`, data);
+    },
+    createOrden(data){
+      addDefaultHeaders();
+      return axios.post(`${API_URL}/ordenes`, data);
     },
     getCarrito(id){
       return axios.get(`${API_URL}/carrito/${  id}`);

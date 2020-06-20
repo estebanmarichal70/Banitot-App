@@ -26,6 +26,11 @@ export default [
     icon: 'HomeIcon'
   },
   {
+    url: '/tienda',
+    name: 'Tienda',
+    icon: 'ShoppingCartIcon'
+  },
+  {
     header: 'Hardware',
     icon: 'CpuIcon',
     i18n: 'Apps',

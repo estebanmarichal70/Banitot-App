@@ -110,7 +110,7 @@
                                             v-validate="'required|alpha_spaces'"
                                             data-vv-as="field"
                                             name="nombre"
-                                            label="Nombre Completo:"
+                                            label="Nombre del Destinatario:"
                                             v-model="nombre"
                                             class="w-full mt-5" />
                                         <span v-show="errors.has('add-new-address.nombre')" class="text-danger">Este campo es obligatorio</span>
@@ -327,6 +327,7 @@ export default {
       precioT: 0,
       cartItems: [],
       // TAB 2
+      newAddress: false,
       nombre: '',
       telefono: '',
       codigo: '',
@@ -346,7 +347,6 @@ export default {
   },
   async created () {
     await this.fetchCarrito()
-    console.log(this.$store.state.AppActiveUser)
   },
   methods: {
     // TAB 1
@@ -404,7 +404,7 @@ export default {
       return new Promise(() => {
         this.$validator.validateAll('add-new-address').then(result => {
           if (result) {
-            // if form have no errors
+            this.newAddress = true
             this.$refs.checkoutWizard.nextTab()
           } else {
             this.$vs.notify({
@@ -418,20 +418,65 @@ export default {
         })
       })
     },
-
+    handleDireccion() {
+      if(!this.newAddress){
+        this.nombre = this.$store.state.AppActiveUser.name
+        this.calle = this.$store.state.AppActiveUser.calle
+        this.telefono = this.$store.state.AppActiveUser.telefono
+        this.codigo = this.$store.state.AppActiveUser.cp
+        this.ciudad = this.$store.state.AppActiveUser.ciudad
+        this.departamento = this.$store.state.AppActiveUser.departamento
+      }
+    },
     // TAB 3
     makePayment () {
       return new Promise(() => {
         this.$validator.validateAll('cvv-form').then(result => {
           if (result) {
-            // if form have no errors
-            this.$vs.notify({
-              title: 'Recibido!',
-              text: 'Estamos procesando tu orden.',
-              color: 'success',
-              iconPack: 'feather',
-              icon: 'icon-check'
+            this.handleDireccion()
+            const arti = []
+            this.cartItems.forEach(item => {
+              const art = {
+                id: item.id,
+                cantidad: item.pivot.cantidad
+              }
+              arti.push(art)
             })
+            const orden = {
+              estado:"PENDIENTE",
+              monto:this.precioT,
+              user_id:this.$store.state.AppActiveUser.id,
+              articulos: arti,
+              direccion: {
+                  nombre: this.nombre,
+                  telefono: this.telefono,
+                  calle: this.calle,
+                  info: this.info,
+                  ciudad: this.ciudad,
+                  departamento: this.departamento,
+                  codigo: this.codigo
+              }
+            }
+            http.services.createOrden(orden)
+            .then(() => {
+                this.$vs.notify({
+                  title: 'Recibido!',
+                  text: 'Estamos procesando tu orden.',
+                  color: 'success',
+                  iconPack: 'feather',
+                  icon: 'icon-check',
+                  time: 4000
+                })
+                this.cartItems.forEach(item => {
+                  item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
+                  this.$store.dispatch('eCommerce/toggleItemInCart', item)
+                })
+                this.$router.push('/inicio').catch(() => {})
+              })
+            .catch(error => {
+              console.log(error)
+            })
+            
           } else {
             this.$vs.notify({
               title: 'Error',

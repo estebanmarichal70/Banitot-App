@@ -445,6 +445,8 @@ export default {
         case "auriculares" :
           this.categoria = "AURICULARES"
           break;
+        default:
+          this.categoria = ''
       }
       this.fetchProducts();
     },
@@ -488,6 +490,7 @@ export default {
       this.$vs.loading()
       await http.services.getAllArticulos(this.page, this.order, this.searchQuery, this.marca, this.precioMax, this.precioMin, this.categoria)
       .then(res => {
+        console.log(res.data)
         this.products = res.data.articulos.data;
         this.totalPages = res.data.articulos.last_page;
         this.totalProducts = res.data.articulos.total;
