@@ -21,7 +21,6 @@ export default {
       return axios.get(`${API_URL}/articulos/${  id}`);
     },
     updateUser(data){
-      console.log(data);
       addDefaultHeaders();
       return axios.put(`${API_URL}/auth/update`, data);
     },
@@ -43,5 +42,13 @@ export default {
     detachWishlist(data){
       return axios.post(`${API_URL}/wishlist/detach`, data);
     },
+    cambiarEstado(id){
+      addDefaultHeaders();
+      return axios.put(`${API_URL}/ordenes/${id}`);
+    },
+    fetchUser(){
+      addDefaultHeaders();
+      return axios.get(`${API_URL}/user-detail/`)
+    }
   }
 }
