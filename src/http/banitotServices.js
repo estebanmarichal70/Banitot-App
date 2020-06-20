@@ -20,6 +20,9 @@ export default {
     getArticuloById(id) {
       return axios.get(`${API_URL}/articulos/${  id}`);
     },
+    countRating(id) {
+      return axios.get(`${API_URL}/articulos/count/${  id}`);
+    },
     updateUser(data){
       addDefaultHeaders();
       return axios.put(`${API_URL}/auth/update`, data);

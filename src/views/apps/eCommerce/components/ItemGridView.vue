@@ -14,7 +14,7 @@
                         <!-- RATING & PRICE -->
                         <div class="flex justify-between items-center">
                             <div class="text-warning border border-solid border-warning flex py-1 px-2 rounded">
-                                <span class="text-sm mr-1">4</span>
+                                <span class="text-sm mr-1">{{item.rating}}</span>
                                 <feather-icon icon="StarIcon" svgClasses="h-4 w-4" />
                             </div>
                             <h6 class="font-bold">${{ item.precio }}</h6>

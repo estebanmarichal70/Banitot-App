@@ -356,6 +356,16 @@ export default {
       .then(res => {
         this.cartItems = res.data.articulos
           this.cartItems.forEach(item => {
+          const feed = item.feedbacks
+          let rating = 0
+            feed.forEach(feed => {
+              rating += feed.rating
+            })
+          if(feed.length)
+            rating /= feed.length
+          else
+            rating = 0;
+          item['rating'] = rating
           this.precio += (item.precio*item.pivot.cantidad)
         })
         this.precioT = this.precio - this.precio * 0.05
