@@ -28,7 +28,7 @@
                                     <p class="text-sm">Unidades disponibles: <span class="font-semibold">{{item.stock}}</span></p>
 
                                     <p class="mt-4 font-bold text-sm">Cantidad</p>
-                                    <vs-input-number :min="1" :max="item.stock" :value="item.quantity" @input="updateItemQuantity($event, index, item)" class="inline-flex" />
+                                    <vs-input-number :min="1" :max="item.stock" :value="item.pivot.cantidad" @input="updateItemQuantity($event, index, item)" class="inline-flex" />
 
                                 </template>
 
@@ -202,12 +202,12 @@
 
                     <!-- RIGHT COL: CONTINUE WITH SAVED ADDRESS -->
                     <div class="vx-col lg:w-1/3 w-full">
-                        <vx-card title="John Doe">
+                        <vx-card :title="this.$store.state.AppActiveUser.name">
                             <div>
-                                <p>9447 Glen Eagles Drive</p>
-                                <p>Lewis Center, OH 43035</p>
-                                <p class="my-4">UTC-5: Eastern Standard Time (EST)</p>
-                                <p>202-555-0140</p>
+                                <p>{{this.$store.state.AppActiveUser.ciudad}}, {{this.$store.state.AppActiveUser.departamento}}</p>
+                                <p>{{this.$store.state.AppActiveUser.calle}}</p>
+                                <p class="my-4">Teléfono: {{this.$store.state.AppActiveUser.telefono}}</p>
+                                <p>Código postal: {{this.$store.state.AppActiveUser.cp}}</p>
                             </div>
 
                             <vs-divider />
@@ -240,8 +240,8 @@
                                                 <span>Pago en el momento</span>
                                             </div>
                                         </vs-radio>
-                                        <span>John Doe</span>
-                                        <span>11/2020</span>
+                                        <span>{{this.$store.state.AppActiveUser.name}}</span>
+                                        <span>{{this.$store.state.AppActiveUser.fecha_nac}}</span>
                                     </div>
 
                                     <!-- CVV BLOCK -->
@@ -288,14 +288,17 @@
                         <vx-card title="Detalles">
 
                             <div class="flex justify-between mb-2">
-                                <span>Precio por {{cantidadItems}} artículo/s</span>
-                                <span class="font-semibold">{{precioT}}</span>
+                                <span>Precio por {{cartItems.length}} artículo<span v-show="cartItems.length > 1">s</span></span>
+                                <span class="font-semibold">{{precio}}</span>
+                            </div>
+                            <div class="flex justify-between mb-2">
+                                <span>Descuentos aplicados</span>
+                                <span class="text-success">5%</span>
                             </div>
                             <div class="flex justify-between mb-2">
                                 <span>Cargos de envío</span>
                                 <span class="text-success">Gratis</span>
                             </div>
-
                             <vs-divider />
 
                             <div class="flex justify-between">
@@ -313,15 +316,16 @@
 <script>
 import { FormWizard, TabContent } from 'vue-form-wizard'
 import 'vue-form-wizard/dist/vue-form-wizard.min.css'
+import http from '@/http/banitotServices';
 const ItemListView = () => import('./components/ItemListView.vue')
+
 
 export default {
   data () {
     return {
-
       precio: 0,
       precioT: 0,
-      cantidadItems: 0,
+      cartItems: [],
       // TAB 2
       nombre: '',
       telefono: '',
@@ -335,27 +339,42 @@ export default {
       cvv: ''
     }
   },
-   beforeMount(){
-    this.cartItems.forEach(item => {
-       this.precio += item.precio
-       this.cantidadItems++
-    })
-    this.precioT = this.precio - this.precio * 0.05
-  },
   computed: {
-    cartItems () {
-      return this.$store.state.eCommerce.cartItems.slice().reverse()
-    },
     isInWishList () {
       return (itemId) => this.$store.getters['eCommerce/isInWishList'](itemId)
     }
   },
+  async created () {
+    await this.fetchCarrito()
+    console.log(this.$store.state.AppActiveUser)
+  },
   methods: {
-
     // TAB 1
+    async fetchCarrito() {
+      this.$vs.loading()
+      await http.services.getCarrito(this.$store.state.AppActiveUser.carrito[0].id)
+      .then(res => {
+        this.cartItems = res.data.articulos
+          this.cartItems.forEach(item => {
+          this.precio += (item.precio*item.pivot.cantidad)
+        })
+        this.precioT = this.precio - this.precio * 0.05
+        })
+      .catch(error => {
+        console.log(error)
+      })
+      this.$vs.loading.close()
+    },
     removeItemFromCart (item) {
       item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
+      this.cartItems.forEach((i, index) => {
+          if(i.id === item.id){
+            this.precio -= (i.precio*i.pivot.cantidad)
+            this.precioT = this.precio - this.precio * 0.05
+            this.cartItems.splice(index, 1)
+          }
+      })
     },
     wishListButtonClicked (item) {
       // Toggle in Wish List
@@ -370,11 +389,15 @@ export default {
       this.$store.dispatch('eCommerce/toggleItemInWishList', item)
     },
     updateItemQuantity (event, index, item) {
-      const itemIndex = Math.abs(index + 1 - this.cartItems.length)
-      this.precio = item.precio*event
-      this.precioT = this.precio - this.precio * 0.05
-      this.cantidadItems = 1*event
-      this.$store.dispatch('eCommerce/updateItemQuantity', { quantity: event, articulo_id: item.id, carrito_id: this.$store.state.AppActiveUser.carrito[0].id,index: itemIndex })
+      if(event > 0 && event <= item.stock){
+        const itemIndex = Math.abs(index + 1 - this.cartItems.length)
+
+        this.precio += (item.precio * event - item.precio * item.pivot.cantidad)
+        this.precioT = this.precio - this.precio * 0.05
+        item.pivot.cantidad = event
+
+        this.$store.dispatch('eCommerce/updateItemQuantity', { quantity: event, articulo_id: item.id, carrito_id: this.$store.state.AppActiveUser.carrito[0].id,index: itemIndex })
+      }
     },
     // TAB 2
     submitNewAddressForm () {

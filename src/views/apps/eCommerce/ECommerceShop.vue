@@ -244,10 +244,8 @@
                     </ais-hits>
 
                     <!-- PAGINATION -->
-                        <div 
-                        >
-
-                        <vs-pagination
+                        <div>
+                          <vs-pagination
                             :total="totalPages"
                             :max="7"
                             :value="page"
@@ -487,6 +485,7 @@ export default {
     },
 
     async fetchProducts() {
+      this.$vs.loading()
       await http.services.getAllArticulos(this.page, this.order, this.searchQuery, this.marca, this.precioMax, this.precioMin, this.categoria)
       .then(res => {
         this.products = res.data.articulos.data;
@@ -511,6 +510,7 @@ export default {
       .catch(error => {
         console.log(error)
       })
+      this.$vs.loading.close()
     },
 
     // GRID VIEW - ACTIONS

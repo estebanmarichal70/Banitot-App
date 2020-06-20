@@ -160,6 +160,42 @@
               </div>
             </div>
           </div>
+          
+          <!-- Related Products -->
+          <div class="related-products text-center px-6">
+
+            <div class="related-headings mb-8 text-center">
+              <h2 class="uppercase">Más productos</h2>
+              <p>Las personas tambien buscan por estos artículos</p>
+            </div>
+            <swiper :options="swiperOption" :dir="$vs.rtl ? 'rtl' : 'ltr'" :key="$vs.rtl" class="related-product-swiper px-12 py-6">
+              <swiper-slide v-for="item in related_items" :key="item.id" class="p-6 rounded cursor-pointer">
+                <div @click="handleArticulo(item.id)">
+                  <!-- Item Heading -->
+                  <div class="item-heading mb-4">
+                    <p class="text-lg font-semibold truncate">{{ item.nombre }}</p>
+                    <p class="text-sm">
+                      <span class="mr-2">de</span>
+                      <span>{{ item.marca }}</span>
+                    </p>
+                  </div>
+
+                  <!-- Item Image -->
+                  <div class="img-container w-32 mx-auto my-base">
+                    <img class="responsive" :src="item.imagen" :alt="item.nombre">
+                  </div>
+
+                  <!-- Item Meta -->
+                  <div class="item-meta">
+                    <star-rating :show-rating="false" :rating="item.rating" :star-size="14" class="justify-center" read-only />
+                    <p class="text-lg font-medium text-primary">${{ item.precio }}</p>
+                  </div>
+                </div>
+              </swiper-slide>
+              <div class="swiper-button-prev" slot="button-prev"></div>
+              <div class="swiper-button-next" slot="button-next"></div>
+            </swiper>
+          </div>
         </div>
       </template>
     </vx-card>
@@ -188,8 +224,44 @@ export default{
       item_data: null,
       error_occured: false,
       error_msg: '',
-      is_hearted: false
+      is_hearted: false,
+      productos: null,
+
+      // Related Products Swiper
+      swiperOption: {
+        slidesPerView: 5,
+        spaceBetween: 55,
+        breakpoints: {
+          1600: {
+            slidesPerView: 4,
+            spaceBetween: 55
+          },
+          1300: {
+            slidesPerView: 3,
+            spaceBetween: 55
+          },
+          900: {
+            slidesPerView: 2,
+            spaceBetween: 55
+          },
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 55
+          }
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      },
+      available_item_colors: ['#7367F0', '#28C76F', '#EA5455', '#FF9F43', '#1E1E1E'],
+      opt_color: '#7367F0',
+      related_items: []
     }
+  },
+  created () {
+    this.$vs.loading()
+    this.fetch_item_details(this.$route.params.item_id)
   },
   computed: {
     isInWishList () {
@@ -199,7 +271,18 @@ export default{
       return (itemId) => this.$store.getters['eCommerce/isInCart'](itemId)
     }
   },
+  watch: {
+    "$route.params" (){
+      this.$vs.loading()
+      this.related_items = []
+      this.fetch_item_details(this.$route.params.item_id)
+    }
+  },
   methods: {
+    handleArticulo(itemId){
+        this.$router.push({name: 'ecommerce-item-detail-view', params: {item_id: itemId }})
+        .catch(() => {})
+    },
     toggleItemInWishList (item) {
       item['wishlist_id'] = this.$store.state.AppActiveUser.wishlist[0].id;
       this.$store.dispatch('eCommerce/toggleItemInWishList', item)
@@ -208,19 +291,29 @@ export default{
       item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
     },
-    fetch_item_details (id) {
-      http.services.getArticuloById(id)
-      .then(res => {
+    async fetch_item_details (id) {
+       await http.services.getArticuloById(id)
+      .then(async res => {
         this.item_data = res.data
+        await this.fetchProducts(this.item_data.categoria)
       })
       .catch(error => {
         console.log(error)
       })
-
+    },
+    async fetchProducts(categoria) {
+      await http.services.getAllArticulos(1, "", "", "", "", "", categoria)
+      .then(res => {
+        res.data.articulos.data.forEach(item => {
+          if(this.item_data.id !== item.id)
+            this.related_items.push(item)
+        })
+        this.$vs.loading.close()
+      })
+      .catch(error => {
+        console.log(error)
+      })
     }
-  },
-  created () {
-    this.fetch_item_details(this.$route.params.item_id)
   }
 }
 </script>
