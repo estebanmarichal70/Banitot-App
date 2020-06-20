@@ -6,11 +6,6 @@
       <div slot="no-body" class="tabs-container px-6 pt-6">
 
         <vs-tabs v-model="activeTab" class="tab-action-btn-fill-conatiner">
-          <!--<vs-tab label="Account" icon-pack="feather" icon="icon-user">
-            <div class="tab-text">
-              <user-edit-tab-account class="mt-4" :data="user_data" />
-            </div>
-          </vs-tab>-->
           <vs-tab label="Perfil" icon-pack="feather" icon="icon-info">
             <div class="tab-text">
               <user-edit-tab-information class="mt-4" :data="user_data" />
@@ -18,7 +13,7 @@
           </vs-tab>
           <vs-tab label="Ordenes" icon-pack="feather" icon="icon-dollar-sign">
             <div class="tab-text">
-              <user-edit-tab-social class="mt-4" :data="user_data" />
+              <user-orders class="mt-4" :data="user_data" />
             </div>
           </vs-tab>
         </vs-tabs>
@@ -33,26 +28,23 @@
 import UserEditTabAccount     from './UserEditTabAccount.vue'
 import UserEditTabInformation from './UserEditTabInformation.vue'
 import UserEditTabSocial      from './UserEditTabSocial.vue'
+import UserOrders from '@/views/data-list/thumb-view/DataListThumbView.vue'
 
 // Store Module
 import moduleUserManagement from '@/store/user-management/moduleUserManagement.js'
+import http from "@/http/banitotServices";
 
 export default {
   components: {
     UserEditTabAccount,
     UserEditTabInformation,
-    UserEditTabSocial
+    UserEditTabSocial,
+    UserOrders
   },
   data () {
     return {
       user_data: null,
       user_not_found: false,
-
-      /*
-        This property is created for fetching latest data from API when tab is changed
-
-        Please check it's watcher
-      */
       activeTab: 0
     }
   },
@@ -63,20 +55,20 @@ export default {
   },
   methods: {
     fetch_user_data () {
-      this.user_data = this.$store.state.AppActiveUser;
-      /*this.$store.dispatch('userManagement/fetchUser', userId)
-        .then(res => { this.user_data = res.data })
-        .catch(err => {
-          if (err.response.status === 404) {
-            this.user_not_found = true
-            return
-          }
-          console.error(err) 
-        })*/
+      http.services.fetchUser()
+      .then(res => {
+        this.user_data = res.data.user
+      })
+      .catch(err => {
+        this.$vs.notify({
+            title: "Error",
+            text: err.response.data.error,
+            color: "danger"
+          });
+      })
     }
   },
   created () {
-    // Register Module UserManagement Module
     if (!moduleUserManagement.isRegistered) {
       this.$store.registerModule('userManagement', moduleUserManagement)
       moduleUserManagement.isRegistered = true

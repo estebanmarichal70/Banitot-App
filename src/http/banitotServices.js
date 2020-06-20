@@ -46,5 +46,13 @@ export default {
     detachWishlist(data){
       return axios.post(`${API_URL}/wishlist/detach`, data);
     },
+    cambiarEstado(id){
+      addDefaultHeaders();
+      return axios.put(`${API_URL}/ordenes/${id}`);
+    },
+    fetchUser(){
+      addDefaultHeaders();
+      return axios.get(`${API_URL}/user-detail/`)
+    }
   }
 }

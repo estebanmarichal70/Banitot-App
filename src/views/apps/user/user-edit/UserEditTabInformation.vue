@@ -10,8 +10,6 @@
 
         <!-- Col Content -->
         <div>
-          <!-- DOB -->
-
           <div class="mt-4">
             <label class="text-sm">Fecha de nacimiento</label>
             <flat-pickr
