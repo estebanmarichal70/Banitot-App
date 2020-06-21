@@ -58,6 +58,7 @@ export default {
       return axios.get(`${API_URL}/user-detail/`)
     },
     fetchOrden(id){
+      addDefaultHeaders();
       return axios.get(`${API_URL}/ordenes/${id}`);
     }
   }

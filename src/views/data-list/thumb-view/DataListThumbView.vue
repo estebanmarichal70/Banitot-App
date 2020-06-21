@@ -95,7 +95,7 @@
                         </vs-td>
 
                         <vs-td>
-                          <p class="product-category">{{ item.rating }}</p>
+                          <star-rating :show-rating="false" :rating="item.rating" :star-size="14" read-only />
                         </vs-td>
 
                       </vs-tr>
@@ -116,10 +116,12 @@
 <script>
 import DataViewSidebar from "../DataViewSidebar.vue";
 import http from "@/http/banitotServices";
+import StarRating from 'vue-star-rating'
 
 export default {
   components: {
-    DataViewSidebar
+    DataViewSidebar,
+    StarRating
   },
   props: {
     data: {
@@ -186,6 +188,18 @@ export default {
       http.services.fetchOrden(id)
       .then(res => {
         this.articulos = res.data.articulos;
+        this.articulos.forEach(item => {
+          const feed = item.feedbacks
+          let rating = 0
+            feed.forEach(feed => {
+              rating += feed.rating
+            })
+          if(feed.length)
+            rating /= feed.length
+          else
+            rating = 0;
+          item['rating'] = rating
+        })
       })
       .catch(err => {
           this.$vs.notify({
