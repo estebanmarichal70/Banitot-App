@@ -1,10 +1,10 @@
 <template>
   <div id="data-list-thumb-view" class="data-list-container">
-    <vs-table pagination :max-items="itemsPerPage" search :data="products">
+    <vs-table :data="data_local">
       <template slot="thead">
-        <vs-th sort-key="name">N°</vs-th>
-        <vs-th sort-key="order_status">Estado</vs-th>
-        <vs-th sort-key="price">Precio</vs-th>
+        <vs-th>N°</vs-th>
+        <vs-th>Estado</vs-th>
+        <vs-th>Precio</vs-th>
         <vs-th>Accion</vs-th>
       </template>
 
@@ -29,29 +29,92 @@
 
             <vs-td class="whitespace-no-wrap">
               <feather-icon
+                class="mr-2"
                 icon="ListIcon"
                 svgClasses="w-5 h-5 hover:text-primary stroke-current"
-                @click.stop="editData(tr)"
+                @click="infoOrden(item.id)"
               />
               <span v-if="item.estado == 'PENDIENTE'">
                 <feather-icon
                   icon="TrashIcon"
-                  svgClasses="w-5 h-5 hover:text-danger stroke-current"
-                  class="ml-2"
-                  @click.stop="cambiarEstado(item.id)"
+                  svgClasses="w-5 h-5 hover:text-primary stroke-current"
+                  @click="openConfirm(item.id)"
                 />
-              </span> 
+              </span>
             </vs-td>
           </vs-tr>
         </tbody>
       </template>
+
+      <template lang="html">
+        <div class="centerx">
+          <vs-popup
+            fullscreen
+            title="Información de la orden"
+            :active.sync="popupActivo4"
+          >
+            <template>
+              <div id="data-list-thumb-view" class="data-list-container">
+                <vs-table  :data="articulos"
+                >
+                  <template slot="thead">
+                    <vs-th>Imagen</vs-th>
+                    <vs-th>Nombre</vs-th>
+                    <vs-th>Descripción</vs-th>
+                    <vs-th>Marca</vs-th>
+                    <vs-th>Precio</vs-th>
+                    <vs-th>Rating</vs-th>
+                  </template>
+
+                  <template>
+                    <tbody>
+                      <vs-tr
+                        :key="item.id"
+                        v-for="item in articulos"
+                      >
+                        <vs-td class="img-container">
+                          <img :src="item.imagen" class="product-img" />
+                        </vs-td>
+
+                        <vs-td>
+                          <p class="product-name font-medium truncate">
+                            {{ item.nombre }}
+                          </p>
+                        </vs-td>
+
+                        <vs-td>
+                          <p class="product-category">{{ item.descripcion }}</p>
+                        </vs-td>
+
+                        <vs-td>
+                          <p class="product-category">{{ item.marca }}</p>
+                        </vs-td>
+
+                        <vs-td>
+                          <p class="product-price">${{ item.precio - item.precio * 0.05  }}</p>
+                        </vs-td>
+
+                        <vs-td>
+                          <p class="product-category">{{ item.rating }}</p>
+                        </vs-td>
+
+                      </vs-tr>
+                    </tbody>
+                  </template>
+
+                </vs-table>
+              </div>
+            </template>
+          </vs-popup>
+        </div>
+      </template>
+<!-- termina popup -->
     </vs-table>
   </div>
 </template>
 
 <script>
 import DataViewSidebar from "../DataViewSidebar.vue";
-import moduleDataList from "@/store/data-list/moduleDataList.js";
 import http from "@/http/banitotServices";
 
 export default {
@@ -68,11 +131,13 @@ export default {
     return {
       data_local: JSON.parse(JSON.stringify(this.data.ordenes)),
       selected: [],
-      // products: [],
-      itemsPerPage: 4,
       isMounted: false,
       addNewDataSidebar: false,
-      sidebarData: {}
+      sidebarData: {},
+      activeConfirm: false,
+      estadoId: "",
+      popupActivo4: false,
+      articulos:""
     };
   },
   computed: {
@@ -81,28 +146,28 @@ export default {
         return this.$refs.table.currentx;
       }
       return 0;
-    },
-    products() {
-      return this.$store.state.dataList.products;
-    },
-    queriedItems() {
-      return this.$refs.table
-        ? this.$refs.table.queriedResults.length
-        : this.products.length;
     }
-  },
-  created() {
-    console.log(this.data_local);
-    if (!moduleDataList.isRegistered) {
-      this.$store.registerModule("dataList", moduleDataList);
-      moduleDataList.isRegistered = true;
-    }
-    this.$store.dispatch("dataList/fetchDataListItems");
   },
   methods: {
+    openConfirm(id) {
+      this.estadoId = id;
+      this.$vs.dialog({
+        type: "confirm",
+        color: "danger",
+        title: `Cancelar orden`,
+        acceptText: "Aceptar",
+        cancelText: "Cancelar",
+        text: "¿Esta seguro que quiere cancelar la orden?",
+        accept: this.acceptAlert
+      });
+    },
+    acceptAlert() {
+      this.cambiarEstado(this.estadoId);
+    },
     cambiarEstado(id) {
-      http.services.cambiarEstado(id)
-      .then(() => {
+      http.services
+        .cambiarEstado(id)
+        .then(() => {
           this.$vs.notify({
             title: "Genial!",
             text: "Se ha actualizado el estado correctamente.",
@@ -117,17 +182,26 @@ export default {
           });
         });
     },
-    editData(data) {
-      // this.sidebarData = JSON.parse(JSON.stringify(this.blankData))
-      this.sidebarData = data;
-      this.toggleDataSidebar(true);
+    infoOrden(id){
+      http.services.fetchOrden(id)
+      .then(res => {
+        this.articulos = res.data.articulos;
+      })
+      .catch(err => {
+          this.$vs.notify({
+            title: "Error",
+            text: err.response.data.error,
+            color: "danger"
+          });
+      });
+      this.popupActivo4 = true
     },
     getOrderStatusColor(status) {
-      if (status === "PENDIENTE") return "#9000D3";
+      if (status === "PENDIENTE") return "warning";
       if (status === "CONFIRMADO") return "#009FEB";
       if (status === "CANCELADO") return "danger";
       if (status === "RECIBIDO") return "success";
-      if (status === "EMBARCADO") return "warning";
+      if (status === "EMBARCADO") return "#8B00AA";
       return "primary";
     },
     toggleDataSidebar(val = false) {

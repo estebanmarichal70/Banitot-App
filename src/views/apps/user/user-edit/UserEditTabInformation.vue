@@ -139,7 +139,7 @@ export default {
   props: {
     data: {
       type: Object,
-      required: true
+      required: true,
     }
   },
   data() {
@@ -216,6 +216,7 @@ export default {
             color: "danger"
           });
         });
+        this.$emit('fetch');
     },
     reset_data() {
       this.data_local = Object.assign({}, this.data);

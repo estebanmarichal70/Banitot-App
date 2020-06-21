@@ -53,6 +53,9 @@ export default {
     fetchUser(){
       addDefaultHeaders();
       return axios.get(`${API_URL}/user-detail/`)
+    },
+    fetchOrden(id){
+      return axios.get(`${API_URL}/ordenes/${id}`);
     }
   }
 }

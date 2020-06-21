@@ -8,12 +8,12 @@
         <vs-tabs v-model="activeTab" class="tab-action-btn-fill-conatiner">
           <vs-tab label="Perfil" icon-pack="feather" icon="icon-info">
             <div class="tab-text">
-              <user-edit-tab-information class="mt-4" :data="user_data" />
+              <user-edit-tab-information class="mt-4" :data="user_data" @fetch="fetch_user_data" />
             </div>
           </vs-tab>
-          <vs-tab label="Ordenes" icon-pack="feather" icon="icon-dollar-sign">
+          <vs-tab label="Ordenes" icon-pack="feather" icon="icon-truck">
             <div class="tab-text">
-              <user-orders class="mt-4" :data="user_data" />
+              <user-orders class="mt-4" :data="user_data" @fetch="fetch_user_data" />
             </div>
           </vs-tab>
         </vs-tabs>
