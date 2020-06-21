@@ -26,38 +26,38 @@ export default [
     icon: 'HomeIcon'
   },
   {
-    url: '/tienda',
-    name: 'Tienda',
-    icon: 'ShoppingCartIcon'
-  },
-  {
     header: 'Hardware',
     icon: 'CpuIcon',
     i18n: 'Apps',
     items: [
       {
         url: '/tienda/procesadores',
+        slug: 'procesadores',
         name: 'Procesadores',
         icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/motherboards',
+        slug: 'motherboards',
         name: 'Motherboards',
         icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/rams',
+        slug: 'rams',
         name: 'Memorias RAM',
         icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/tarjetas-graficas',
-        name: 'Tarjetas Graficas',
+        slug: 'gpu',
+        name: 'Tarjetas Gráficas',
         icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/refrigeracion',
-        name: 'Refrigeracion',
+        slug: 'refrigeracion',
+        name: 'Refrigeración',
         icon: 'ChevronRightIcon'
       },
       {
@@ -67,21 +67,25 @@ export default [
         submenu: [
           {
             url: '/tienda/hdd',
+            slug: 'hdd',
             name: 'HDD'
           },
           {
             url: '/tienda/ssd',
+            slug: 'ssd',
             name: 'SSD'
           },
         ]
       },
       {
         url: '/tienda/fuentes',
+        slug: 'fuentes',
         name: 'Fuentes',
         icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/gabinetes',
+        slug: 'gabinetes',
         name: 'Gabinetes',
         icon: 'ChevronRightIcon'
       },
@@ -90,435 +94,86 @@ export default [
   {
     header: 'Perifericos',
     icon: 'HeadphonesIcon',
-    i18n: 'UI',
     items: [
       {
         url: '/tienda/mouse',
+        slug: 'mouse',
         name: 'Mouse',
-        slug: 'calendar-simple-calendar',
-        icon: 'CalendarIcon',
-        tagColor: 'success',
-        i18n: 'Calendar'
+        icon: 'ChevronRightIcon'
+      },
+      {
+        url: '/tienda/mousepad',
+        slug: 'mousepad',
+        name: 'Mousepad',
+        icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/teclados',
+        slug: 'teclados',
         name: 'Teclados',
-        slug: 'calendar-simple-calendar',
-        icon: 'CalendarIcon',
-        tagColor: 'success',
-        i18n: 'Calendar'
+        icon: 'ChevronRightIcon'
       },
       {
         url: '/tienda/auriculares',
+        slug: 'auriculares',
         name: 'Auriculares',
-        slug: 'calendar-simple-calendar',
-        icon: 'CalendarIcon',
-        tagColor: 'success',
-        i18n: 'Calendar'
+        icon: 'ChevronRightIcon'
       },
       {
-        url: null,
-        name: 'Card',
-        icon: 'CreditCardIcon',
-        i18n: 'Card',
-        submenu: [
-          {
-            url: '/ui-elements/card/basic',
-            name: 'Basic',
-            slug: 'basic-cards',
-            i18n: 'Basic'
-          },
-          {
-            url: '/ui-elements/card/statistics',
-            name: 'Statistics',
-            slug: 'statistics-cards',
-            i18n: 'Statistics'
-          },
-          {
-            url: '/ui-elements/card/analytics',
-            name: 'Analytics',
-            slug: 'analytics-cards',
-            i18n: 'Analytics'
-          },
-          {
-            url: '/ui-elements/card/card-actions',
-            name: 'Card Actions',
-            slug: 'card-actions',
-            i18n: 'CardActions'
-          },
-          {
-            url: '/ui-elements/card/card-colors',
-            name: 'Card Colors',
-            slug: 'card-colors',
-            i18n: 'CardColors'
-          }
-        ]
+        url: '/tienda/microfonos',
+        slug: 'microfonos',
+        name: 'Micrófonos',
+        icon: 'ChevronRightIcon'
       },
       {
-        url: null,
-        name: 'Components',
-        icon: 'ArchiveIcon',
-        i18n: 'Components',
-        submenu: [
-          {
-            url: '/components/alert',
-            name: 'Alert',
-            slug: 'component-alert',
-            i18n: 'Alert'
-          },
-          {
-            url: '/components/avatar',
-            name: 'Avatar',
-            slug: 'component-avatar',
-            i18n: 'Avatar'
-          },
-          {
-            url: '/components/breadcrumb',
-            name: 'Breadcrumb',
-            slug: 'component-breadcrumb',
-            i18n: 'Breadcrumb'
-          },
-          {
-            url: '/components/button',
-            name: 'Button',
-            slug: 'component-button',
-            i18n: 'Button'
-          },
-          {
-            url: '/components/button-group',
-            name: 'Button Group',
-            slug: 'component-button-group',
-            i18n: 'ButtonGroup'
-          },
-          {
-            url: '/components/chip',
-            name: 'Chip',
-            slug: 'component-chip',
-            i18n: 'Chip'
-          },
-          {
-            url: '/components/collapse',
-            name: 'Collapse',
-            slug: 'component-collapse',
-            i18n: 'Collapse'
-          },
-          {
-            url: '/components/dialogs',
-            name: 'Dialogs',
-            slug: 'component-dialog',
-            i18n: 'Dialogs'
-          },
-          {
-            url: '/components/divider',
-            name: 'Divider',
-            slug: 'component-divider',
-            i18n: 'Divider'
-          },
-          {
-            url: '/components/dropdown',
-            name: 'DropDown',
-            slug: 'component-drop-down',
-            i18n: 'DropDown'
-          },
-          {
-            url: '/components/list',
-            name: 'List',
-            slug: 'component-list',
-            i18n: 'List'
-          },
-          {
-            url: '/components/loading',
-            name: 'Loading',
-            slug: 'component-loading',
-            i18n: 'Loading'
-          },
-          {
-            url: '/components/navbar',
-            name: 'Navbar',
-            slug: 'component-navbar',
-            i18n: 'Navbar'
-          },
-          {
-            url: '/components/notifications',
-            name: 'Notifications',
-            slug: 'component-notifications',
-            i18n: 'Notifications'
-          },
-          {
-            url: '/components/pagination',
-            name: 'Pagination',
-            slug: 'component-pagination',
-            i18n: 'Pagination'
-          },
-          {
-            url: '/components/popup',
-            name: 'Popup',
-            slug: 'component-popup',
-            i18n: 'Popup'
-          },
-          {
-            url: '/components/progress',
-            name: 'Progress',
-            slug: 'component-progress',
-            i18n: 'Progress'
-          },
-          {
-            url: '/components/sidebar',
-            name: 'Sidebar',
-            slug: 'component-sidebar',
-            i18n: 'Sidebar'
-          },
-          {
-            url: '/components/slider',
-            name: 'Slider',
-            slug: 'component-slider',
-            i18n: 'Slider'
-          },
-          {
-            url: '/components/tabs',
-            name: 'Tabs',
-            slug: 'component-tabs',
-            i18n: 'Tabs'
-          },
-          {
-            url: '/components/tooltip',
-            name: 'Tooltip',
-            slug: 'component-tooltip',
-            i18n: 'Tooltip'
-          },
-          {
-            url: '/components/upload',
-            name: 'Upload',
-            slug: 'component-upload',
-            i18n: 'Upload'
-          }
-        ]
+        url: '/tienda/joysticks-y-gamepads',
+        slug: 'joysticks',
+        name: 'Joysticks y Gamepads',
+        icon: 'ChevronRightIcon'
       },
       {
-        url: null,
-        name: 'Extensions',
-        icon: 'PlusCircleIcon',
-        i18n: 'Extensions',
-        submenu: [
-          {
-            url: '/extensions/select',
-            name: 'Select',
-            icon: 'PocketIcon',
-            slug: 'extra-component-select',
-            i18n: 'Select'
-          },
-          {
-            url: '/extensions/quill-editor',
-            name: 'Quill Editor',
-            icon: 'EditIcon',
-            slug: 'extra-component-quill-editor',
-            i18n: 'QuillEditor'
-          },
-          {
-            url: '/extensions/drag-and-drop',
-            name: 'Drag & Drop',
-            icon: 'DropletIcon',
-            slug: 'extra-component-drag-and-drop',
-            i18n: 'DragAndDrop'
-          },
-          {
-            url: '/extensions/datepicker',
-            name: 'Datepicker',
-            icon: 'CalendarIcon',
-            slug: 'extra-component-datepicker',
-            i18n: 'Datepicker'
-          },
-          {
-            url: '/extensions/datetime-picker',
-            name: 'Datetime Picker',
-            icon: 'ClockIcon',
-            slug: 'extra-component-datetime-picker',
-            i18n: 'DatetimePicker'
-          },
-          {
-            url: '/extensions/access-control',
-            name: 'Access Control',
-            slug: 'extra-component-access-control',
-            i18n: 'AccessControl'
-          },
-          {
-            url: '/extensions/i18n',
-            name: 'I18n',
-            slug: 'extra-component-i18n',
-            i18n: 'I18n'
-          },
-          {
-            url: '/extensions/carousel',
-            name: 'Carousel',
-            icon: 'LayersIcon',
-            slug: 'extra-component-carousel',
-            i18n: 'Carousel'
-          },
-          {
-            url: '/extensions/clipboard',
-            name: 'Clipboard',
-            icon: 'CopyIcon',
-            slug: 'extra-component-clipboard',
-            i18n: 'Clipboard'
-          },
-          {
-            url: '/extensions/context-menu',
-            name: 'Context Menu',
-            icon: 'MoreHorizontalIcon',
-            slug: 'extra-component-context-menu',
-            i18n: 'ContextMenu'
-          },
-          {
-            url: '/extensions/star-ratings',
-            name: 'Star Ratings',
-            icon: 'StarIcon',
-            slug: 'extra-component-star-ratings',
-            i18n: 'StarRatings'
-          },
-          {
-            url: '/extensions/autocomplete',
-            name: 'Autocomplete',
-            icon: 'Edit3Icon',
-            slug: 'extra-component-autocomplete',
-            i18n: 'Autocomplete'
-          },
-          {
-            url: '/extensions/tree',
-            name: 'Tree',
-            icon: 'GitPullRequestIcon',
-            slug: 'extra-component-tree',
-            i18n: 'Tree'
-          },
-          // {
-          //   name: "Import/Export",
-          //   i18n: "Import/Export",
-          //   submenu: [
-
-          //   ]
-          // },
-          {
-            url: '/import-export/import',
-            name: 'Import',
-            icon: 'HomeIcon',
-            slug: 'import',
-            i18n: 'Import'
-          },
-          {
-            url: '/import-export/export',
-            name: 'Export',
-            icon: 'HomeIcon',
-            slug: 'export',
-            i18n: 'Export'
-          },
-          {
-            url: '/import-export/export-selected',
-            name: 'Export Selected',
-            icon: 'HomeIcon',
-            slug: 'export-selected',
-            i18n: 'ExportSelected'
-          }
-        ]
-      }
+        url: '/tienda/camaras-web',
+        slug: 'camaras',
+        name: 'Camaras Web',
+        icon: 'ChevronRightIcon'
+      },
+      {
+        url: '/tienda/parlantes',
+        slug: 'parlantes',
+        name: 'Parlantes',
+        icon: 'ChevronRightIcon'
+      },
     ]
   },
   {
     header: 'Oficina & Hogar',
     icon: 'PrinterIcon',
-    i18n: 'FormsAndTable',
     items: [
-      {
-        url: null,
-        name: 'Form Elements',
-        icon: 'CopyIcon',
-        i18n: 'FormElements',
-        submenu: [
-          // {
-          //  url: '/forms/form-elements/select',
-          //  name: "Select",
-          //  slug: "form-element-select",
-          //  i18n: "Select",
-          // },
           {
-            url: '/forms/form-elements/switch',
-            name: 'Switch',
-            slug: 'form-element-switch',
-            i18n: 'Switch'
+            url: '/tienda/portatiles',
+            slug: 'portatiles',
+            name: 'Portátiles',
+            icon: 'ChevronRightIcon',
           },
           {
-            url: '/forms/form-elements/checkbox',
-            name: 'Checkbox',
-            slug: 'form-element-checkbox',
-            i18n: 'Checkbox'
+            url: '/tienda/monitores',
+            slug: 'monitores',
+            name: 'Monitores y TV',
+            icon: 'ChevronRightIcon',
           },
           {
-            url: '/forms/form-elements/radio',
-            name: 'Radio',
-            slug: 'form-element-radio',
-            i18n: 'Radio'
+            url: '/tienda/sillas',
+            slug: 'sillas',
+            name: 'Sillas',
+            icon: 'ChevronRightIcon',
           },
           {
-            url: '/forms/form-elements/input',
-            name: 'Input',
-            slug: 'form-element-input',
-            i18n: 'Input'
-          },
-          {
-            url: '/forms/form-elements/number-input',
-            name: 'Number Input',
-            slug: 'form-element-number-input',
-            i18n: 'NumberInput'
-          },
-          {
-            url: '/forms/form-elements/textarea',
-            name: 'Textarea',
-            slug: 'form-element-textarea',
-            i18n: 'Textarea'
+            url: '/tienda/escritorios',
+            name: 'Escritorios',
+            slug: 'escritorios',
+            icon: 'ChevronRightIcon',
           }
         ]
-      },
-      {
-        url: '/forms/form-layouts',
-        name: 'Form Layouts',
-        icon: 'PackageIcon',
-        slug: 'forms-form-layouts',
-        i18n: 'FormLayouts'
-      },
-      {
-        url: '/forms/form-wizard',
-        name: 'Form Wizard',
-        icon: 'PackageIcon',
-        slug: 'extra-component-form-wizard',
-        i18n: 'FormWizard'
-      },
-      {
-        url: '/forms/form-validation',
-        name: 'Form Validation',
-        icon: 'CheckCircleIcon',
-        slug: 'extra-component-form-validation',
-        i18n: 'FormValidation'
-      },
-      {
-        url: '/forms/form-input-group',
-        name: 'Form Input Group',
-        icon: 'MenuIcon',
-        slug: 'extra-component-form-input-group',
-        i18n: 'FormInputGroup'
-      },
-      {
-        url: '/ui-elements/table',
-        name: 'Table',
-        slug: 'table',
-        icon: 'GridIcon',
-        i18n: 'Table'
-      },
-      {
-        url: '/ui-elements/ag-grid-table',
-        name: 'agGrid Table',
-        slug: 'ag-grid-table',
-        icon: 'GridIcon',
-        i18n: 'agGridTable'
-      }
-    ]
   },
   {
     header: 'Nosotros',

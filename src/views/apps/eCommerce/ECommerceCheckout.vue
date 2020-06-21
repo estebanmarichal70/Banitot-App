@@ -201,13 +201,13 @@
                     </div>
 
                     <!-- RIGHT COL: CONTINUE WITH SAVED ADDRESS -->
-                    <div class="vx-col lg:w-1/3 w-full">
-                        <vx-card :title="this.$store.state.AppActiveUser.name">
+                    <div class="vx-col lg:w-1/3 w-full" v-if="user">
+                        <vx-card :title="this.user.name">
                             <div>
-                                <p>{{this.$store.state.AppActiveUser.ciudad}}, {{this.$store.state.AppActiveUser.departamento}}</p>
-                                <p>{{this.$store.state.AppActiveUser.calle}}</p>
-                                <p class="my-4">Teléfono: {{this.$store.state.AppActiveUser.telefono}}</p>
-                                <p>Código postal: {{this.$store.state.AppActiveUser.cp}}</p>
+                                <p>{{this.user.ciudad}}, {{this.user.departamento}}</p>
+                                <p>{{this.user.calle}}</p>
+                                <p class="my-4">Teléfono: {{this.user.telefono}}</p>
+                                <p>Código postal: {{this.user.cp}}</p>
                             </div>
 
                             <vs-divider />
@@ -233,15 +233,15 @@
                                   <!-- OPTION 1 -->
                                   <li>
                                     <!-- CARD DETAILS -->
-                                    <div class="flex flex-wrap justify-between items-center">
+                                    <div class="flex flex-wrap justify-between items-center" v-if="user">
                                         <vs-radio v-model="paymentMethod" vs-value="debit-card">
                                             <div class="flex items-center">
                                                 <img src="@/assets/images/pages/eCommerce/bank.png" alt="bank-logo" height="40" width="50" class="inline-flex">
                                                 <span>Pago en el momento</span>
                                             </div>
                                         </vs-radio>
-                                        <span>{{this.$store.state.AppActiveUser.name}}</span>
-                                        <span>{{this.$store.state.AppActiveUser.fecha_nac}}</span>
+                                        <span>{{this.user.name}}</span>
+                                        <span>{{this.user.fecha_nac}}</span>
                                     </div>
 
                                     <!-- CVV BLOCK -->
@@ -327,6 +327,7 @@ export default {
       precioT: 0,
       cartItems: [],
       // TAB 2
+      user : null,
       newAddress: false,
       nombre: '',
       telefono: '',
@@ -347,15 +348,36 @@ export default {
   },
   async created () {
     await this.fetchCarrito()
+    await this.fetchUser()
   },
   methods: {
     // TAB 1
+    async fetchUser() {
+      await http.services.fetchUser()
+      .then(res => {
+            this.user = res.data.user
+        })
+      .catch(error => {
+        console.log(error)
+      })
+      this.$vs.loading.close()
+    },
     async fetchCarrito() {
       this.$vs.loading()
       await http.services.getCarrito(this.$store.state.AppActiveUser.carrito[0].id)
       .then(res => {
         this.cartItems = res.data.articulos
           this.cartItems.forEach(item => {
+          const feed = item.feedbacks
+          let rating = 0
+            feed.forEach(feed => {
+              rating += feed.rating
+            })
+          if(feed.length)
+            rating /= feed.length
+          else
+            rating = 0;
+          item['rating'] = rating
           this.precio += (item.precio*item.pivot.cantidad)
         })
         this.precioT = this.precio - this.precio * 0.05
@@ -363,10 +385,9 @@ export default {
       .catch(error => {
         console.log(error)
       })
-      this.$vs.loading.close()
     },
     removeItemFromCart (item) {
-      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id
+      item['carrito_id'] = this.user.carrito[0].id
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
       this.cartItems.forEach((i, index) => {
           if(i.id === item.id){
@@ -420,12 +441,12 @@ export default {
     },
     handleDireccion() {
       if(!this.newAddress){
-        this.nombre = this.$store.state.AppActiveUser.name
-        this.calle = this.$store.state.AppActiveUser.calle
-        this.telefono = this.$store.state.AppActiveUser.telefono
-        this.codigo = this.$store.state.AppActiveUser.cp
-        this.ciudad = this.$store.state.AppActiveUser.ciudad
-        this.departamento = this.$store.state.AppActiveUser.departamento
+        this.nombre = this.user.name
+        this.calle = this.user.calle
+        this.telefono = this.user.telefono
+        this.codigo = this.user.cp
+        this.ciudad = this.user.ciudad
+        this.departamento = this.user.departamento
       }
     },
     // TAB 3

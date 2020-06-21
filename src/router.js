@@ -35,20 +35,6 @@ const router = new Router({
           }
         },
         {
-          path: '/tienda/',
-          name: 'ecommerce-shop',
-          component: () => import('./views/apps/eCommerce/ECommerceShop.vue'),
-          meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'eCommerce'},
-              { title: 'Shop', active: true }
-            ],
-            pageTitle: 'Shop',
-            rule: 'editor'
-          }
-        },
-        {
           path: '/tienda/:categoria',
           name: 'ecommerce-shop',
           component: () => import('./views/apps/eCommerce/ECommerceShop.vue'),

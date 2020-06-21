@@ -96,7 +96,17 @@
       http.services.getAllArticulos(1, "", "", "", "", "", "GPU")
       .then(res => {
         res.data.articulos.data.forEach(item => {
-            this.related_items.push(item)
+          const feed = item.feedbacks
+          let rating = 0
+            feed.forEach(feed => {
+              rating += feed.rating
+            })
+          if(feed.length)
+            rating /= feed.length
+          else
+            rating = 0;
+          item['rating'] = rating
+          this.related_items.push(item)
         })
       })
       .catch(error => {

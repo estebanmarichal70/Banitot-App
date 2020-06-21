@@ -65,8 +65,8 @@
                     <div class="p-6 filter-container">
 
                         <!-- MULTI RANGE -->
-                        <div class="flex justify-between">
-                          <h6 class="font-bold mb-3">Rango de precios</h6>
+                        <div class="align mb-3">
+                          <h6 class="font-bold mt-1 mb-1">Rango de precios</h6>
                           <feather-icon v-if="precio != null" icon="XIcon" svgClasses="h-6 w-6" @click="resetPrecio()"/>
                         </div>
                               <ul>
@@ -85,30 +85,23 @@
                               </ul>
 
                         <ais-range-input attribute="price">
-                            <div slot-scope="{ currentRefinement, range, refine }">
-                                <!--<vs-slider
-                                    class="algolia-price-slider"
-                                    text-fixed="$"
-                                    :min="range.min"
-                                    :max="range.max"
-                                    :value="toValue(currentRefinement, range)"
-                                    @input="refine({min: $event[0], max: $event[1]})" />-->
-                                    <vs-slider 
-                                      class="algolia-price-slider"  
-                                      text-fixed="$" 
-                                      step="5"
-                                      :min="rangoMin"
-                                      :max="rangoMax"
-                                      v-model="rango" 
-                                      @input="onChange" />
+                            <div>
+                                <vs-slider 
+                                  class="algolia-price-slider"  
+                                  text-fixed="$" 
+                                  step="5"
+                                  :min="rangoMin"
+                                  :max="rangoMax"
+                                  v-model="rango" 
+                                  @input="onChange" />
                             </div>
                         </ais-range-input>
 
                         <vs-divider />
 
                         <!-- Brands -->
-                        <div class="flex justify-between">
-                          <h6 class="font-bold mb-4">Marcas</h6>
+                        <div class="align mb-4">
+                          <h6 class="font-bold mt-1 mb-1">Marcas</h6>
                           <feather-icon class="" v-if="marca != '' " icon="XIcon" svgClasses="h-6 w-6" @click="resetMarca()"/>
                         </div>
                         <ais-refinement-list attribute="brand">
@@ -127,25 +120,8 @@
                         </ais-refinement-list>
                         <vs-divider />
 
-                        <!-- Rating -->
-                        <h6 class="font-bold mb-3">Rating</h6>
-                        <ais-rating-menu attribute="rating">
-                            <ul slot-scope="{ items, refine, createURL }">
-                                <li v-for="item in items" :key="item.value" class="mb-2">
-                                    <div @click.prevent="refine(item.value)" class="flex justify-between items-center">
-                                        <div class="flex items-center flex-wrap">
-                                            <feather-icon icon="StarIcon" :svgClasses="[{'text-warning': full, 'text-grey': !full, 'ml-1' : index}, 'cursor-pointer stroke-current h-6 w-6']" v-for="(full, index) in item.stars" :key="index" />
-                                            <span class="ml-2"></span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </ais-rating-menu>
-
-                        <vs-divider />
-
                         <ais-clear-refinements class="flex justify-center">
-                            <vs-button class="w-full" slot-scope="{ canRefine, refine, createURL }" @click.prevent="refine" :disabled="!canRefine">Remove Filters</vs-button>
+                            <vs-button class="w-full" @click="resetAll" >Remover Filtros</vs-button>
                         </ais-clear-refinements>
                     </div>
                 </vs-sidebar>
@@ -268,7 +244,6 @@ import {
   AisNumericMenu,
   AisPagination,
   AisRangeInput,
-  AisRatingMenu,
   AisRefinementList,
   AisSearchBox,
   AisSortBy,
@@ -290,7 +265,6 @@ export default {
     AisNumericMenu,
     AisPagination,
     AisRangeInput,
-    AisRatingMenu,
     AisRefinementList,
     AisSearchBox,
     AisSortBy,
@@ -415,11 +389,11 @@ export default {
         case "motherboards" : 
           this.categoria = "MOTHERBOARD";
           break;
-        case "tarjetas-graficas" :
-          this.categoria = "GPU"
-          break;
         case "rams" :
           this.categoria = "RAM"
+          break;
+        case "tarjetas-graficas" :
+          this.categoria = "GPU"
           break;
         case "refrigeracion" :
           this.categoria = "CPU_COOLER"
@@ -439,11 +413,38 @@ export default {
         case "mouse" :
           this.categoria = "MOUSE"
           break;
+        case "mousepad" :
+          this.categoria = "MOUSEPAD"
+          break;
         case "teclados" :
           this.categoria = "TECLADO"
           break;
         case "auriculares" :
           this.categoria = "AURICULARES"
+          break;
+        case "microfonos" :
+          this.categoria = "MICROFONO"
+          break;
+        case "joysticks-y-gamepads" :
+          this.categoria = "GAMEPAD"
+          break;
+        case "camaras-web" :
+          this.categoria = "CAMARA"
+          break;
+        case "parlantes" :
+          this.categoria = "PARLANTE"
+          break;
+        case "portatiles" :
+          this.categoria = "PORTATIL"
+          break;
+        case "monitores" :
+          this.categoria = "MONITOR"
+          break;
+        case "sillas" :
+          this.categoria = "SILLA"
+          break;
+        case "escritorios" :
+          this.categoria = "ESCRITORIO"
           break;
         default:
           this.categoria = ''
@@ -476,6 +477,13 @@ export default {
       this.search();
     },
 
+    resetAll () {
+        this.resetSearch()
+        this.resetMarca()
+        this.resetPrecio()
+        this.order = 'instant_search'
+    },
+
     search(){
       this.fetchProducts();
     },
@@ -490,8 +498,19 @@ export default {
       this.$vs.loading()
       await http.services.getAllArticulos(this.page, this.order, this.searchQuery, this.marca, this.precioMax, this.precioMin, this.categoria)
       .then(res => {
-        console.log(res.data)
         this.products = res.data.articulos.data;
+        this.products.forEach(item => {
+          const feed = item.feedbacks
+          let rating = 0
+            feed.forEach(feed => {
+              rating += feed.rating
+            })
+          if(feed.length)
+            rating /= feed.length
+          else
+            rating = 0;
+          item['rating'] = rating
+        })
         this.totalPages = res.data.articulos.last_page;
         this.totalProducts = res.data.articulos.total;
         this.marcas = res.data.marcas;
@@ -542,13 +561,18 @@ export default {
 
 
 <style lang="scss">
+
 #algolia-instant-search-demo {
   .algolia-header {
     .algolia-filters-label {
       width: calc(260px + 2.4rem);
     }
   }
-
+  .align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   #algolia-content-container {
 
     .vs-sidebar {
@@ -556,6 +580,7 @@ export default {
       float: left;
     }
   }
+
 
   .algolia-search-input-right-aligned-icon {
     padding: 1rem 1.5rem;
@@ -573,16 +598,6 @@ export default {
 
   .item-view-secondary-action-btn {
     min-width: 50%;
-  }
-}
-
-.theme-dark {
-  #algolia-instant-search-demo {
-    #algolia-content-container {
-      .vs-sidebar {
-        background-color: #10163a;
-      }
-    }
   }
 }
 

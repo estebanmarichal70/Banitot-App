@@ -27,7 +27,7 @@
                     <div class="p-4 flex flex-col w-full">
 
                         <div class="text-warning flex self-end border border-solid border-warning py-1 px-2 rounded">
-                            <span class="text-sm mr-1">5</span>
+                            <span class="text-sm mr-1">{{item.rating}}</span>
                             <feather-icon icon="StarIcon" svgClasses="h-4 w-4" />
                         </div>
 

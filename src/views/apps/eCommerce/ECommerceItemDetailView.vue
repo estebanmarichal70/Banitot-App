@@ -44,7 +44,7 @@
                 <p class="flex items-center flex-wrap">
                   <span class="text-2xl leading-none font-medium text-primary mr-4 mt-2">${{ item_data.precio }}</span>
                   <span class="pl-4 mr-2 mt-2 border border-solid d-theme-border-grey-light border-t-0 border-b-0 border-r-0"><star-rating :show-rating="false" :rating="item_data.rating" :star-size="20" read-only /></span>
-                  <span class="cursor-pointer leading-none mt-2">424 ratings</span>
+                  <span class="cursor-pointer leading-none mt-2">{{item_data.count}} ratings</span>
                 </p>
 
                 <vs-divider />
@@ -293,6 +293,24 @@ export default{
        await http.services.getArticuloById(id)
       .then(async res => {
         this.item_data = res.data
+        http.services.countRating(this.item_data.id)
+        .then(res => {
+          this.item_data['count'] = res.data
+          const feed = this.item_data.feedbacks
+          let rating = 0
+            feed.forEach(feed => {
+              rating += feed.rating
+            })
+          if(feed.length)
+            rating /= feed.length
+          else
+            rating = 0;
+          this.item_data['rating'] = rating
+          console.log(this.item_data)
+        })
+        .catch(error => {
+          console.log(error)
+        })
         await this.fetchProducts(this.item_data.categoria)
       })
       .catch(error => {
@@ -303,8 +321,19 @@ export default{
       await http.services.getAllArticulos(1, "", "", "", "", "", categoria)
       .then(res => {
         res.data.articulos.data.forEach(item => {
-          if(this.item_data.id !== item.id)
+          if(this.item_data.id !== item.id){
+            const feed = item.feedbacks
+            let rating = 0
+              feed.forEach(feed => {
+                rating += feed.rating
+              })
+            if(feed.length)
+              rating /= feed.length
+            else
+              rating = 0;
+            item['rating'] = rating
             this.related_items.push(item)
+          }
         })
         this.$vs.loading.close()
       })
