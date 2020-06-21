@@ -426,7 +426,7 @@ export default {
           this.categoria = "MICROFONO"
           break;
         case "joysticks-y-gamepads" :
-          this.categoria = "GAMEPADS"
+          this.categoria = "GAMEPAD"
           break;
         case "camaras-web" :
           this.categoria = "CAMARA"

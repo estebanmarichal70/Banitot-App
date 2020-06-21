@@ -44,7 +44,7 @@
                 <p class="flex items-center flex-wrap">
                   <span class="text-2xl leading-none font-medium text-primary mr-4 mt-2">${{ item_data.precio }}</span>
                   <span class="pl-4 mr-2 mt-2 border border-solid d-theme-border-grey-light border-t-0 border-b-0 border-r-0"><star-rating :show-rating="false" :rating="item_data.rating" :star-size="20" read-only /></span>
-                  <span class="cursor-pointer leading-none mt-2">{{item_data.count}}</span>
+                  <span class="cursor-pointer leading-none mt-2">{{item_data.count}} ratings</span>
                 </p>
 
                 <vs-divider />
