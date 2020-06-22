@@ -60,6 +60,9 @@ export default {
     fetchOrden(id){
       addDefaultHeaders();
       return axios.get(`${API_URL}/ordenes/${id}`);
+    },
+    getPrecios(categoria){
+      return axios.get(`${API_URL}/articulos/precios?categoria=${ categoria }`);
     }
   }
 }

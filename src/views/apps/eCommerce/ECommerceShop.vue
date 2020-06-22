@@ -89,7 +89,7 @@
                                 <vs-slider 
                                   class="algolia-price-slider"  
                                   text-fixed="US$" 
-                                  step="5"
+                                  step="1"
                                   :min="rangoMin"
                                   :max="rangoMax"
                                   v-model="rango" 
@@ -313,7 +313,7 @@ export default {
       rangoMax: 0,
       rango:[],
       flag: false,
-      categoria:''
+      categoria:'',
     }
   },
   beforeMount(){
@@ -452,8 +452,9 @@ export default {
         default:
           this.categoria = ''
       }
-      this.page = 1
+      this.page = 1;
       this.fetchProducts();
+      this.getPrecios();
     },
 
     changePage(val){
@@ -519,19 +520,6 @@ export default {
         this.totalProducts = res.data.articulos.total;
         this.marcas = res.data.marcas;
 
-        this.products.forEach((item) => {
-          if(item.precio <= this.rangoMin){
-            this.rangoMin = item.precio
-          }
-          if(item.precio >= this.rangoMax){
-            this.rangoMax = item.precio
-          }
-        });
-        if(!this.flag){
-          this.rango =[this.rangoMin, this.rangoMax];
-          this.flag = true;
-        }
-        
       })
       .catch(error => {
         console.log(error)
@@ -539,6 +527,18 @@ export default {
       this.$vs.loading.close()
     },
 
+    async getPrecios(){
+
+      await http.services.getPrecios(this.categoria)
+        .then(res => {
+          this.rangoMin = Math.floor(res.data.precioMin);
+          this.rangoMax = Math.ceil(res.data.precioMax);
+          this.rango =[this.rangoMin, this.rangoMax];
+        })
+        .catch(err => {
+          console.log(err);
+        })
+    },
     // GRID VIEW - ACTIONS
     toggleFilterSidebar () {
       if (this.clickNotClose) return

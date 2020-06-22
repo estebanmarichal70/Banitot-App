@@ -57,7 +57,7 @@
 
             <!-- Item Image -->
             <div class="img-container w-32 mx-auto my-base">
-              <img class="responsive" :src="item.imagen" :alt="item.nombre">
+              <img class="responsive imagen" :src="item.imagen" :alt="item.nombre">
             </div>
 
             <!-- Item Meta -->
@@ -163,8 +163,13 @@
     .swiper-wrapper {
       padding-bottom: 2rem;
 
+      .imagen{
+        height: 112px;
+        width: auto;
+      }
+
       > .swiper-slide {
-        background-color: #f7f7f7;
+        background-color: #ffffff;
         box-shadow: 0 4px 18px 0 rgba(0,0,0,0.1), 0 5px 12px 0 rgba(0,0,0,0.08) !important;
 
         .theme-dark & {
