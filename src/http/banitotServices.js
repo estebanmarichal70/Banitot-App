@@ -66,6 +66,9 @@ export default {
     },
     resetPassword(data) {
       return axios.post(`${API_URL}/password/reset`, data);
+    },
+    getPrecios(categoria) {
+      return axios.get(`${API_URL}/articulos/precios?categoria=${categoria}`);
     }
   }
 }
