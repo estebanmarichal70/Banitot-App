@@ -1,7 +1,7 @@
 <template>
   <div>
       <!-- CARD 1: CONGRATS -->
-      <div class="vx-col w-full mb-base">
+      <div >
         <carousel :per-page="1" :autoplayTimeout="3000" loop :paginationEnabled="false" centerMode autoplay :mouse-drag="true">
           <slide>
             <img src="@/assets/images/carousel/1.jpg" alt="Imagen carousel" width="100%">
@@ -63,7 +63,7 @@
             <!-- Item Meta -->
             <div class="item-meta">
               <star-rating :show-rating="false" :rating="item.rating" :star-size="14" class="justify-center" read-only />
-              <p class="text-lg font-medium text-primary">${{ item.precio }}</p>
+              <p class="text-lg font-medium text-primary">US$ {{ item.precio }}</p>
             </div>
           </div>
         </swiper-slide>

@@ -32,7 +32,7 @@
                         </div>
 
                         <div class="my-6">
-                            <h5 class="font-bold text-center">${{ item.precio }}</h5>
+                            <h5 class="font-bold text-center">US$ {{ item.precio }}</h5>
                         </div>
 
                         <!-- SLOT: ACTION BUTTONS -->

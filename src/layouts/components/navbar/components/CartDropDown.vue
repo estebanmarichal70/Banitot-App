@@ -22,15 +22,15 @@
 
                       <!-- IMG COL -->
                       <div class="vx-col w-1/5 item-img-container bg-white flex items-center justify-center">
-                          <img :src="item.image" alt="item" class="cart-dropdown-item-img p-4">
+                          <img :src="item.imagen" alt="item" class="cart-dropdown-item-img p-4">
                       </div>
 
                       <!-- INFO COL -->
                       <div class="vx-col w-4/5 pr-4 pl-2 py-4 flex flex-col justify-center">
-                          <span class="font-medium block cart-item-title truncate">{{ item.name }}</span>
-                          <small class="truncate mb-2">{{ item.description }}</small>
+                          <span class="font-medium block cart-item-title truncate">{{ item.nombre }}</span>
+                          <small class="truncate mb-2">{{ item.descripcion }}</small>
                           <div class="flex items-center justify-between">
-                              <span class="text-sm font-medium">{{ item.quantity }} <small>x</small> ${{ item.price }}</span>
+                              <span class="text-sm font-medium">{{ item.quantity }} <small>x</small> ${{ item.precio }}</span>
                               <feather-icon icon="XIcon" svgClasses="h-4 w-4 cursor-pointer text-danger" class="hover:text-danger" @click.stop="removeItemFromCart(item)" />
                           </div>
                       </div>

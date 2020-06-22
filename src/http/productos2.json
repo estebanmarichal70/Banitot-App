@@ -1,0 +1,1289 @@
+[
+    {
+        "nombre": "WESTERN DIGITAL SATA 3.5 2TB NEW PULL",
+        "descripcion": "DISCO 2TB",
+        "precio": 63,
+        "stock": 41,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXVA012.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 1TB PURPLE 3.5",
+        "descripcion": "DISCO 1TB",
+        "precio": 74,
+        "stock": 23,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD1PE.jpg"
+    },
+    {
+        "nombre": "SEAGATE DISCO 3,5 2TB Barracuda",
+        "descripcion": "DISCO 2TB",
+        "precio": 83,
+        "stock": 11,
+        "marca": "Seagate",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXSE2TB.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 2TB BLUE 3.5",
+        "descripcion": "DISCO 2TB",
+        "precio": 89,
+        "stock": 56,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD2BL.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 1TB RED 3.5",
+        "descripcion": "DISCO 1TB",
+        "precio": 104,
+        "stock": 67,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD1R.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 2TB PURPLE 3.5",
+        "descripcion": "DISCO 2TB",
+        "precio": 108,
+        "stock": 7,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWB2PU.jpg"
+    },
+    {
+        "nombre": "SEAGATE DISCO 3.5 SKYHAWK 3TB ST3000VX010",
+        "descripcion": "DISCO 3TB",
+        "precio": 111,
+        "stock": 55,
+        "marca": "Seagate",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXSE3TV.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 1TB BLACK 3.5",
+        "descripcion": "DISCO 1TB",
+        "precio": 125,
+        "stock": 28,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD1TB.jpg"
+    },
+    {
+        "nombre": "SEAGATE DISCO 3,5 3TB Barracuda",
+        "descripcion": "DISCO 3TB",
+        "precio": 127,
+        "stock": 32,
+        "marca": "Seagate",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXSE3TB.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 2TB RED 3.5",
+        "descripcion": "DISCO 2TB",
+        "precio": 133,
+        "stock": 25,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD2RE.jpg"
+    },
+    {
+        "nombre": "SEAGATE DISCO BARRACUDA 4TB",
+        "descripcion": "DISCO 4TB",
+        "precio": 138,
+        "stock": 47,
+        "marca": "Seagate",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXSE400.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 3TB BLUE 3.5",
+        "descripcion": "DISCO 3TB",
+        "precio": 140,
+        "stock": 46,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD3BL.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 3TB PURPLE 3.5",
+        "descripcion": "DISCO 3TB",
+        "precio": 143,
+        "stock": 11,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD3P.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 4TB BLUE 3.5",
+        "descripcion": "DISCO 4TB",
+        "precio": 168,
+        "stock": 26,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD4BL.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 4TB PURPLE 3.5",
+        "descripcion": "DISCO 4TB",
+        "precio": 172,
+        "stock": 14,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD4P.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 3TB RED 3.5",
+        "descripcion": "DISCO 3TB",
+        "precio": 176,
+        "stock": 27,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD3R.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 2TB BLACK 3.5",
+        "descripcion": "DISCO 2TB",
+        "precio": 185,
+        "stock": 44,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD2T.jpg"
+    },
+    {
+        "nombre": "Dell DISCO 1TB 7200 RPM 400-AFYB",
+        "descripcion": "DISCO 1TB",
+        "precio": 188,
+        "stock": 6,
+        "marca": "Dell",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/dh700del30.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 4TB RED 3.5",
+        "descripcion": "DISCO 4TB",
+        "precio": 208,
+        "stock": 67,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD4RG.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 6TB PURPLE 3.5",
+        "descripcion": "DISCO 6TB",
+        "precio": 262,
+        "stock": 26,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD6TBP.jpg"
+    },
+    {
+        "nombre": "Dell DISCO 2TB 7200 RPM 400-AVUD",
+        "descripcion": "DISCO 2TB",
+        "precio": 266,
+        "stock": 10,
+        "marca": "Dell",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/dh701del31.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO BLACK 4TB 3.5",
+        "descripcion": "DISCO 4TB",
+        "precio": 292,
+        "stock": 24,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD4B.jpg"
+    },
+    {
+        "nombre": "SEAGATE DISCO SATA 3.5 SKYHAWK 8TB",
+        "descripcion": "DISCO 8TB",
+        "precio": 298,
+        "stock": 23,
+        "marca": "Seagate",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXSE022.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 8TB PURPLE 3.5",
+        "descripcion": "DISCO 8TB",
+        "precio": 358,
+        "stock": 37,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD8PU.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 6TB RED PRO",
+        "descripcion": "DISCO 6TB",
+        "precio": 385,
+        "stock": 42,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/dh966wdc13.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 8TB RED 3.5",
+        "descripcion": "DISCO 8TB",
+        "precio": 432,
+        "stock": 47,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD8TB.jpg"
+    },
+    {
+        "nombre": "SEAGATE DISCO 3,5 10TB SkyHawk ST10000VX0004",
+        "descripcion": "DISCO 10TB",
+        "precio": 434,
+        "stock": 21,
+        "marca": "Seagate",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/dh970sea03.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 3.5 10TB RED",
+        "descripcion": "DISCO 10TB",
+        "precio": 458,
+        "stock": 14,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXDI10.jpg"
+    },
+    {
+        "nombre": "Western Digital DISCO 12TB PURPLE",
+        "descripcion": "DISCO 2TB",
+        "precio": 548,
+        "stock": 35,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/dh972wdc04.jpg"
+    },
+    {
+        "nombre": "SEAGATE DISCO 3.5 SKYHAWK 12TB ST12000VX0008",
+        "descripcion": "DISCO 12TB",
+        "precio": 589,
+        "stock": 21,
+        "marca": "Seagate",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXSED01.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 12TB PURPLE 3.5",
+        "descripcion": "DISCO 12TB",
+        "precio": 612,
+        "stock": 34,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD12T.jpg"
+    },
+    {
+        "nombre": "TEAM GX1 2.5 SSD 120GB",
+        "descripcion": "Alto rendimiento: la velocidad de lectura de hasta 530 MB / s 1 aumenta la capacidad de respuesta y el rendimiento del sistema en general Factor de forma delgado: unidad de 2,5 pulgadas disponible en 7 mm para adaptarse a más sistemas (incluso portátiles más delgados) Compatible con SMART: controla el estado de su unidad Soporta TRIM – mantiene el máximo rendimiento de los sistemas operativos compatibles",
+        "precio": 30,
+        "stock": 54,
+        "marca": "Team Group",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/4725865746ea6d63c959633b40f89575509a8d0-20190326162826_ea3190959cef4685801b4890461f126e.jpg"
+    },
+    {
+        "nombre": "Kingston A400 SSD 120GB",
+        "descripcion": "La unidad A400 de estado sólido de Kingston ofrece enormes mejoras en la velocidad de respuesta, sin actualizaciones adicionales del hardware. Brinda lapsos de arranque, carga y de transferencia de archivos increíblemente más breves en comparación con las unidades de disco duro mecánico. Apoyada en su controlador de la más reciente generación, que ofrece velocidades de lectura y escritura de hasta 500 MB/s y 450 MB/s1, respectivamente, esta unidad SSD es 10 veces más rápida que los discos duros tradicionales1 y provee un mejor rendimiento, velocidad de respuesta ultrarrápida en el procesamiento multitareas y una aceleración general del sistema. Además son más fiables y duraderas que las unidades de disco duro, y están disponibles en varias capacidades que van de 120 GB hasta 480 GB2.",
+        "precio": 35.99,
+        "stock": 14,
+        "marca": "Kingston",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/3982689a400_ca51e3f65a0d49eda74968414a595694.png"
+    },
+    {
+        "nombre": "Patriot Burst SSD 120GB",
+        "descripcion": "DISCO 1TB",
+        "precio": 37,
+        "stock": 21,
+        "marca": "Patriot",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/patriot-burst-25-inch-ssd-sata-6g-120gb-sspm-023-65475-2-800x800-1.jpg"
+    },
+    {
+        "nombre": "TEAM GX1 2.5 SSD 240GB",
+        "descripcion": "Alto rendimiento: la velocidad de lectura de hasta 530 MB / s 1 aumenta la capacidad de respuesta y el rendimiento del sistema en general Factor de forma delgado: unidad de 2,5 pulgadas disponible en 7 mm para adaptarse a más sistemas (incluso portátiles más delgados) Compatible con SMART: controla el estado de su unidad Soporta TRIM – mantiene el máximo rendimiento de los sistemas operativos compatibles",
+        "precio": 50,
+        "stock": 36,
+        "marca": "Team Group",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/1376312746ea6d63c959633b40f89575509a8d0-20190326162826_de36a76343b1455a80642998e1f3d5bb.jpg"
+    },
+    {
+        "nombre": "Biostar SSD S100 256GB",
+        "descripcion": "Capacity 256GB Thickness 7.0mm Form Factor 2.5 Weight(up to) 36g Max. Read 540MB/s Max. Write 460MB/s Operating Temperature 0~70°C Operation System Windows/Linux/Mac",
+        "precio": 50,
+        "stock": 27,
+        "marca": "Biostar",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/Sin-t%C3%ADtulo-2.png"
+    },
+    {
+        "nombre": "Patriot Burst SSD 240GB",
+        "descripcion": "4K Aligned Random Read: up to 80K IOPs • 4K Aligned Random Write: up to 60K IOPs • Sequential Read (ATTO): up to 555MB/s • Sequential Write (ATTO): up to 500MB/S • Terrabytes Written (TBW): 180TB • Interface: SATA III 6Gb/s • Form Factor: 2.5″ • Operating Voltage: 5v • Operating Temperature: 0 ~ 70°C",
+        "precio": 55,
+        "stock": 39,
+        "marca": "Patriot",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/1-5-600x600.jpg"
+    },
+    {
+        "nombre": "Kingston A400 SSD 240GB",
+        "descripcion": "La unidad A400 de estado sólido de Kingston ofrece enormes mejoras en la velocidad de respuesta, sin actualizaciones adicionales del hardware. Brinda lapsos de arranque, carga y de transferencia de archivos increíblemente más breves en comparación con las unidades de disco duro mecánico. Apoyada en su controlador de la más reciente generación, que ofrece velocidades de lectura y escritura de hasta 500 MB/s y 450 MB/s1, respectivamente, esta unidad SSD es 10 veces más rápida que los discos duros tradicionales1 y provee un mejor rendimiento, velocidad de respuesta ultrarrápida en el procesamiento multitareas y una aceleración general del sistema. Además son más fiables y duraderas que las unidades de disco duro, y están disponibles en varias capacidades que van de 120 GB hasta 480 GB.",
+        "precio": 57,
+        "stock": 85,
+        "marca": "Kingston",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/2389612a400_50b76dd32f1546a3aa958b7b384bddb5.png"
+    },
+    {
+        "nombre": "Kingston HyperX Fury 3D SSD 240GB",
+        "descripcion": "El SSD HyperX® FURY 3D es una actualización de SSD perfecta para el gamer que busca darle un impulso a su rendimiento sin pagar un precio alto. Conéctate a los videojuegos rápidamente y acelera tus tiempos de carga e inicio gracias a su rendimiento y a sus velocidades de escritura/lectura",
+        "precio": 59,
+        "stock": 11,
+        "marca": "Kingston",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/2586867hx_61e65eb75a0248fbbd5039c21b238cd5.png"
+    },
+    {
+        "nombre": "TEAM GX1 2.5 SSD 480GB",
+        "descripcion": "Alto rendimiento: la velocidad de lectura de hasta 530 MB / s 1 aumenta la capacidad de respuesta y el rendimiento del sistema en general Factor de forma delgado: unidad de 2,5 pulgadas disponible en 7 mm para adaptarse a más sistemas (incluso portátiles más delgados) Compatible con SMART: controla el estado de su unidad Soporta TRIM – mantiene el máximo rendimiento de los sistemas operativos compatibles",
+        "precio": 85,
+        "stock": 27,
+        "marca": "Team Group",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/6038442746ea6d63c959633b40f89575509a8d0-20190326162826_bee4ab37aa134b29a7c7ca608981f24d.jpg"
+    },
+    {
+        "nombre": "Patriot Burst SSD 480GB",
+        "descripcion": "4K Aligned Random Read: up to 60K IOPs • 4K Aligned Random Write: up to 60K IOPs • Sequential Read (ATTO): up to 560MB/s • Sequential Write (ATTO): up to 540MB/S • Terrabytes Written (TBW): 425TB • Interface: SATA III 6Gb/s • Form Factor: 2.5″ • Operating Voltage: 5v • Operating Temperature: 0 ~ 70°C",
+        "precio": 90,
+        "stock": 11,
+        "marca": "Patriot",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/1-5.jpg"
+    },
+    {
+        "nombre": "Kingston A400 SSD 480GB",
+        "descripcion": "La unidad A400 de estado sólido de Kingston ofrece enormes mejoras en la velocidad de respuesta, sin actualizaciones adicionales del hardware. Brinda lapsos de arranque, carga y de transferencia de archivos increíblemente más breves en comparación con las unidades de disco duro mecánico. Apoyada en su controlador de la más reciente generación, que ofrece velocidades de lectura y escritura de hasta 500 MB/s y 450 MB/s1, respectivamente, esta unidad SSD es 10 veces más rápida que los discos duros tradicionales1 y provee un mejor rendimiento, velocidad de respuesta ultrarrápida en el procesamiento multitareas y una aceleración general del sistema. Además son más fiables y duraderas que las unidades de disco duro, y están disponibles en varias capacidades que van de 120 GB hasta 480 GB2.",
+        "precio": 94.99,
+        "stock": 55,
+        "marca": "Kingston",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/5927393a400_8c5f01cb6fd24dc58b654a9f40a00b66.png"
+    },
+    {
+        "nombre": "Kingston HyperX Fury 3D SSD 480GB",
+        "descripcion": "El SSD HyperX® FURY 3D es una actualización de SSD perfecta para el gamer que busca darle un impulso a su rendimiento sin pagar un precio alto. Conéctate a los videojuegos rápidamente y acelera tus tiempos de carga e inicio gracias a su rendimiento y a sus velocidades de escritura/lectura",
+        "precio": 95,
+        "stock": 47,
+        "marca": "Kingston",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/8239881hx_0078c2d985694fecb5777bf5c6c10256.png"
+    },
+    {
+        "nombre": "Crucial BX500 SSD 960GB",
+        "descripcion": "Crucial BX500 960GB 3D NAND SATA 2.5-inch SSD CT960BX500SSD1 Form Factor: 2.5-inch internal SSD Total Capacity: 960GB Specs: 960GB 2.5-inch internal SSD • SATA 6.0Gb/s • 540 MB/s Read, 500 MB/s Write Series: BX500 Product Line: Client SSD Interface: SATA 6.0Gb/s",
+        "precio": 150,
+        "stock": 69,
+        "marca": "Crucial",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/8298458397976227856635b724603n16d5fe76_7a29dce3a73d4d75b1ce0403513b4dca-600x600_0d004af10a3d4eb8a4bda3e965029b13.jpg"
+    },
+    {
+        "nombre": "Kingston A400 SSD 960GB",
+        "descripcion": "La unidad de estado sólido A400 de Kingston mejora dramáticamente la capacidad de respuesta de su sistema existente con velocidades increíbles de inicio, carga y transferencia, comparadas con los discos duros mecánicos. Usando un controlador de última generación para leer y escribir a velocidades de hasta 500MB/seg y 450MB/seg, este SSD es 10 veces más rápido que un disco duro tradicional1 para un mejor rendimiento, mayor capacidad de respuesta y multi-tarea, y en general un sistema más rápido. Además de ser más confiable y duradero, el A400 está disponible en múltiples capacidades, desde 120GB a 960GB.",
+        "precio": 159.99,
+        "stock": 42,
+        "marca": "Kingston",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/20122913982689a400_ca51e3f65a0d49eda74968414a595694-600x506_486578cfa4ab4ed0acc8813d628ab790.png"
+    },
+    {
+        "nombre": "Crucial BX500 SSD 2TB",
+        "descripcion": "Crucial BX500 2TB 3D NAND SATA 2.5-inch SSD CT960BX500SSD1 Form Factor: 2.5-inch internal SSD Total Capacity: 2TGB Specs: 960GB 2.5-inch internal SSD • SATA 6.0Gb/s • 540 MB/s Read, 500 MB/s Write Series: BX500 Product Line: Client SSD Interface: SATA 6.0Gb/s",
+        "precio": 319.99,
+        "stock": 89,
+        "marca": "Crucial",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/8298458397976227856635b724603n16d5fe76_7a29dce3a73d4d75b1ce0403513b4dca-600x600_0d004af10a3d4eb8a4bda3e965029b13.jpg"
+    },
+    {
+        "nombre": "Western Digital SSD Green 120GB M.2 3D NAND",
+        "descripcion": "Para brindar confiabilidad y lograr un rendimiento rápido, los discos SSD WD Green mejoran la experiencia informática diaria en su computadora portátil o de escritorio. Capacidad: 120 GB Interfaz: SATA III Factor De Forma: m.2 2280 Dimensiones (Largo, Ancho Y Alto): 3.15 x 0.87 x 0.06",
+        "precio": 37.99,
+        "stock": 45,
+        "marca": "Western Digital",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/Sin-t%C3%ADtulo-1.png"
+    },
+    {
+        "nombre": "Team Elite MS30 M.2 256GB",
+        "descripcion": "Form Factor – M.2 2242    M.2 2280 Interface – SATA Rev. 3.0 (6Gb/s) Capacity – 256GB Performance: 256GB Read/Write: up to 520/150 MB/s IOPS: 256GB 4K Random Read/Write: 35K/40K IOPS Max ATTO: 256GB Read/Write: up to 530/300 MB/s IOPS: 256GB 4K Random Read/Write: 35K/70K IOPS Max Dimensions: 42.0mm × 22.0mm × 3.5mm (1.65 x 0.87 x 0.14)    80.0mm × 22.0mm × 3.5mm (3.15 x 0.87 x 0.14)",
+        "precio": 44.99,
+        "stock": 12,
+        "marca": "Team Group",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/04/3925343cea90c2d20616b9332b678906d20c5a4-20181130122210_9d874ccc355643a38afaa52bed625706.jpg"
+    },
+    {
+        "nombre": "Western Digital SSD Green 240GB M.2 3D NAND",
+        "descripcion": "Para brindar confiabilidad y lograr un rendimiento rápido, los discos SSD WD Green mejoran la experiencia informática diaria en su computadora portátil o de escritorio. Capacidad: 240 GB Interfaz: SATA III Factor De Forma: m.2 2280 Dimensiones (Largo, Ancho Y Alto): 3.15 x 0.87 x 0.06",
+        "precio": 53,
+        "stock": 29,
+        "marca": "Western Digital",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/Sin-t%C3%ADtulo-1.png"
+    },
+    {
+        "nombre": "Gigabyte SSD M.2 NVMe 2280 256GB",
+        "descripcion": "Form Factor: M.2 2280 Interface: PCI-Express 3.0 x2, NVMe 1.3 Total Capacity: 256GB* Sequential Read Speed : up to 1200 MB/s** Sequential Write speed : up to 800 MB/s** HMB (Host Memory Buffer) supported TRIM & S.M.A.R.T supported",
+        "precio": 58,
+        "stock": 50,
+        "marca": "Gigabyte",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/256.jpg"
+    },
+    {
+        "nombre": "Gigabyte SSD M.2 NVMe 2280 512GB",
+        "descripcion": "Form Factor: M.2 2280 Interface: PCI-Express 3.0 x2, NVMe 1.3 Total Capacity: 512GB* Sequential Read Speed : up to 1550 MB/s** Sequential Write speed : up to 850 MB/s** HMB (Host Memory Buffer) supported TRIM & S.M.A.R.T supported",
+        "precio": 101.99,
+        "stock": 33,
+        "marca": "Gigabyte",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/512.jpg"
+    },
+    {
+        "nombre": "TEAM M.2-2280 Pci-e Gen3 x4 MP33 512GB",
+        "descripcion": "Interfaz – PCIe 3.0 x4 con NVMe 1.3 Capacidad 512 GB Voltaje    DC + 3.3V Terabyte escrito 512 GB /> 400TB Actuación Crystal Disk Mark: 512GB Lectura / Escritura: hasta 1,700 / 1,400 MB / s",
+        "precio": 115,
+        "stock": 20,
+        "marca": "Team Group",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/mp33.jpg"
+    },
+    {
+        "nombre": "Crucial SSD M.2 NVMe P1 500GB",
+        "descripcion": "Brand – Crucial SSD Series – P1 Sequential Read – 1,900 MB/s Sequential Write – 950 MB/s Total density – 500GB Interface – PCIe G3 1×4 / NVMe Specs – 500GB M.2 SSD • PCIe NVMe Gen 3 • 1,900 MB/s Read, 950 MB/s Write",
+        "precio": 115,
+        "stock": 23,
+        "marca": "Crucial",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/Sin-t%C3%ADtulo.png"
+    },
+    {
+        "nombre": "Gigabyte SSD M.2 NVMe 2280 1TB",
+        "descripcion": "Form Factor: M.2 2280 Interface: PCI-Express 3.0 x4, NVMe 1.3 Total Capacity: 1TB* Sequential Read Speed : up to 2500 MB/s** Sequential Write speed : up to 2100 MB/s** HMB (Host Memory Buffer) supported TRIM & S.M.A.R.T supported",
+        "precio": 161.99,
+        "stock": 69,
+        "marca": "Gigabyte",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/1tb.png"
+    },
+    {
+        "nombre": "Samsung 970 EVO Plus 500GB",
+        "descripcion": "MZ-V7S500 (500 GB) Característica general FACTOR DE FORMA M.2 (2280) INTERFAZ PCIe Gen 3.0 x4, NVMe 1.3 Rendimiento LECTURA SECUENCIAL Hasta 3,500 MB / s ESCRITURA SECUENCIAL 500 GB: hasta 3.200 MB / s",
+        "precio": 199.99,
+        "stock": 11,
+        "marca": "Samsung",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/8508361LD0005195433_2_0005196072_cd38d14eb4f64b29970f0091fb99f215.jpg"
+    },
+    {
+        "nombre": "TEAM M.2-2280 Pci-e Gen3 x4 MP33 1TB",
+        "descripcion": "Interfaz – PCIe 3.0 x4 con NVMe 1.3 Capacidad 512 GB / 1 TB Voltaje    DC + 3.3V temperatura de operacion 0?C ~ 70?C Temperatura de almacenamiento -40?C ~ 80?C Terabyte escrito 512 GB /> 800 1 TB /> 1.660 TB Actuación Crystal Disk Mark: 512GB Lectura / Escritura: hasta 3,000 / 1,700 MB / s 1TB Lectura / Escritura: hasta 3,000 / 2,600 MB / s IOPS: 512GB Lectura / Escritura: 350K / 300K IOPS Max 1TB Lectura / Escritura: 450K / 400K IOPS Max Guru3D Premio al gran valor TechPowerUp Premio a la elección del editor, Premio al presupuesto Hardware de T om",
+        "precio": 199.99,
+        "stock": 16,
+        "marca": "Team Group",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/5484324TM8FP4512G0C101_3_c7c9798d92e84574b03ba296baf3cbd5.jpg"
+    },
+    {
+        "nombre": "Crucial SSD M.2 NVMe P1 1TB",
+        "descripcion": "Capacidad: 1TB Serie: P1 Interfaz: NVMe/PCIe Gen3 x4 Factor de forma: M.2 Type 2280 Especificaciones: 1TB M.2 SSD • PCIe NVMe Gen 3 • 2,000 MB/s Read, 1,700 MB/s Write Tipo de dispositivo: SSD Interno Altura de la unidad: 22mm x 80mm Factor de forma SSD: M.2",
+        "precio": 199.99,
+        "stock": 37,
+        "marca": "Crucial",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/2630891Sin_t_tulo_dfe2dab108194110aa575ad231cd04d7.png"
+    },
+    {
+        "nombre": "Samsung 970 EVO Plus 1TB",
+        "descripcion": "MZ-V7S1T0 1 TB Característica general FACTOR DE FORMA M.2 2280 INTERFAZ PCIe Gen 3.0 x4, NVMe 1.3 Rendimiento LECTURA SECUENCIAL Hasta 3,500 MB / s ESCRITURA SECUENCIAL 500 GB: hasta 3.300 MB / s",
+        "precio": 399.99,
+        "stock": 39,
+        "marca": "Samsung",
+        "categoria": "SSD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/5658780LD0005195433_2_0005196072_8e7a24a108784ac4b67530d767b75814.jpg"
+    },
+    {
+        "nombre": "Cooler Master Elite V3 FR 400W",
+        "descripcion": "PFC activo Silenciosa Controlador de ventilador inteligente M/B 20+4 PIN: 1 CPU 4+4 PIN: 1 PCI-e 6+2 PIN: 1 SATA: 6 Peripheral 4 PIN: 3 FDD Cable 4 PIN: 1",
+        "precio": 39,
+        "stock": 38,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/511191423.cooler-master-elite-v3-400w.jpg"
+    },
+    {
+        "nombre": "Gigabyte PW400 80 Plus",
+        "descripcion": "80 PLUS certified 120mm Silent Fan Single +12V rail – 30A OPP/UVP/OVP/SCP/OCP/OTP Fully protection",
+        "precio": 42.99,
+        "stock": 63,
+        "marca": "Gigabyte",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/4925850400_edb26eb00a8442de971b2e8054eeaeab.png"
+    },
+    {
+        "nombre": "Cooler Master Elite V3 FR 500W",
+        "descripcion": "PFC activo Silenciosa Controlador de ventilador inteligente M/B 20+4 PIN: 1 CPU 4+4 PIN: 1 PCI-e 6+2 PIN: 2 SATA: 6 Peripheral 4 PIN: 3 FDD Cable 4 PIN: 1",
+        "precio": 44.99,
+        "stock": 44,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/13253397_2585b5bb4548496fabfa6d1b6614e716.jpg"
+    },
+    {
+        "nombre": "Cooler Master Elite V3 FR 600W",
+        "descripcion": "PFC activo Silenciosa Controlador de ventilador inteligente M/B 20+4 PIN: 1 CPU 4+4 PIN: 1 PCI-e 6+2 PIN: 2 SATA: 6 Peripheral 4 PIN: 3 FDD Cable 4 PIN: 1",
+        "precio": 55,
+        "stock": 22,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/08/6006094fuente-pc-600w-coolermaster-elite-v3-full-range-envio-gratis-D_NQ_NP_635474-MLU31245648491_062019-F_e545a1eb5b324809b0142a0df92d9095.jpg"
+    },
+    {
+        "nombre": "Cooler Master MWE 500W 80 Plus",
+        "descripcion": "MWE 500 FIABLE Y ENERGÉTICAMENTE EFICIENTE Alta eficiencia y bajo ruido ErP 2013 Cumple con el lote 6 Resistencia térmica comprobada Silencioso y duradero Resistente a daños",
+        "precio": 55,
+        "stock": 56,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/61wAq6Ccz6L._AC_SX466_.jpg"
+    },
+    {
+        "nombre": "Cooler Master MWE 600W 80 Plus",
+        "descripcion": "MWE 600 FIABLE Y ENERGÉTICAMENTE EFICIENTE Alta eficiencia y bajo ruido ErP 2013 Cumple con el lote 6 Resistencia térmica comprobada Silencioso y duradero Resistente a daños",
+        "precio": 65,
+        "stock": 36,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/61zC7WHJtUL._AC_SX466_.jpg"
+    },
+    {
+        "nombre": "Cooler Master MWE Bronze 500W",
+        "descripcion": "La familia de opciones de energía de Cooler Master presenta una línea de fuentes de alimentación estables, de alta calidad, 80 Plus Bronze. La serie MWE Bronze es compacta y está disponible en salidas adecuadas para la mayoría de los sistemas. En el interior, las aspas del ventilador Silencio funcionan con menos turbulencia, mientras que los rodamientos LDB sellados garantizan una vida útil más larga. Los componentes de alta calidad se mantienen al día con las demandas de energía diarias, a la vez que ofrecen una salida constante incluso en entornos de 40 ° C de forma fresca y silenciosa.",
+        "precio": 65,
+        "stock": 25,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-1-1.png"
+    },
+    {
+        "nombre": "Gigabyte GP-P650B 80 Plus Bronze",
+        "descripcion": "80 PLUS bronze certified: up to 89% efficiency 100% Japanese Capacitors 120mm Hydraulic Bearing (HYB) Fan Single +12V rail – 54A Meet ErP LOT6 2013 (< 0.5W at standby mode) OPP/UVP/OVP/SCP/OCP protection",
+        "precio": 69,
+        "stock": 72,
+        "marca": "Gigabyte",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/04/29835052017081617271726_src_ee0292a5a0164984a4631e0e10e335bb.png"
+    },
+    {
+        "nombre": "Cooler Master MWE 700W 80 Plus",
+        "descripcion": "PFC activo Silenciosa Controlador de ventilador inteligente M/B 20+4 PIN: 1 CPU 4+4 PIN: 1 PCI-e 6+2 PIN: 2 SATA: 6 Peripheral 4 PIN: 3 FDD Cable 4 PIN: 1",
+        "precio": 70,
+        "stock": 11,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/613K8iORHsL._AC_SX425_-1.jpg"
+    },
+    {
+        "nombre": "Gigabyte B700H 80 Plus Bronze Semimodular",
+        "descripcion": "Modular Design High quality Japanese electrolytic capacitors 120mm smart control fan 80 Plus Bronze certified Single +12V rail- 54A Supports NVIDIA SLI / AMD CROSSFIRE",
+        "precio": 74.99,
+        "stock": 68,
+        "marca": "Gigabyte",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/04/832656520160128152046_src_7c0949f5108e4f9ab838f46972530861.png"
+    },
+    {
+        "nombre": "Cooler Master MWE Bronze 600W",
+        "descripcion": "La familia de opciones de energía de Cooler Master presenta una línea de fuentes de alimentación estables, de alta calidad, 80 Plus Bronze. La serie MWE Bronze es compacta y está disponible en salidas adecuadas para la mayoría de los sistemas. En el interior, las aspas del ventilador Silencio funcionan con menos turbulencia, mientras que los rodamientos LDB sellados garantizan una vida útil más larga. Los componentes de alta calidad se mantienen al día con las demandas de energía diarias, a la vez que ofrecen una salida constante incluso en entornos de 40 ° C de forma fresca y silenciosa.",
+        "precio": 74.99,
+        "stock": 24,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/71C9cjI1zL._AC_SX522_.jpg"
+    },
+    {
+        "nombre": "Gigabyte G750H 80 Plus Gold",
+        "descripcion": "Modular Design High quality 100% Japanese electrolytic capacitors 140mm smart control fan 80 Plus Gold certified Single +12V rail – 62A Supports NVIDIA SLI / AMD CROSSFIRE",
+        "precio": 85,
+        "stock": 36,
+        "marca": "Gigabyte",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/04/993927120160128152229_src_4439e579ddce436892b63e61824f3575.png"
+    },
+    {
+        "nombre": "Cooler Master MWE Gold 550W Full Modular",
+        "descripcion": "MWE Gold ofrece una solución de energía altamente eficiente y asequible. Disfrute de una eficiencia confiable del 90% con una certificación de oro 80 PLUS. Las técnicas de diseño de Cooler Master aseguran una mayor eficiencia al tiempo que mantienen bajas temperaturas y un funcionamiento silencioso. Los componentes resistentes al calor mantienen un rendimiento de nivel de oro incluso a temperaturas elevadas de hasta 45 ° C. Un ventilador Silencio casi silencioso con un rodamiento LDB exclusivo reduce el ruido y dura más que los rodamientos estándar. Los cables planos y flexibles mejoran el flujo de aire al reducir el volumen del cable. Disfrute de la potencia nominal de oro a un precio asequible.",
+        "precio": 85,
+        "stock": 46,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-2-1.jpg"
+    },
+    {
+        "nombre": "Cooler Master MWE Bronze 750W",
+        "descripcion": "La familia de opciones de energía de Cooler Master presenta una línea de fuentes de alimentación estables, de alta calidad, 80 Plus Bronze. La serie MWE Bronze es compacta y está disponible en salidas adecuadas para la mayoría de los sistemas. En el interior, las aspas del ventilador Silencio funcionan con menos turbulencia, mientras que los rodamientos LDB sellados garantizan una vida útil más larga. Los componentes de alta calidad se mantienen al día con las demandas de energía diarias, a la vez que ofrecen una salida constante incluso en entornos de 40 ° C de forma fresca y silenciosa.",
+        "precio": 90,
+        "stock": 8,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/1-2.png"
+    },
+    {
+        "nombre": "Cooler Master MWE Gold 650W Full Modular",
+        "descripcion": "MWE Gold ofrece una solución de energía altamente eficiente y asequible. Disfrute de una eficiencia confiable del 90% con una certificación de oro 80 PLUS. Las técnicas de diseño de Cooler Master aseguran una mayor eficiencia al tiempo que mantienen bajas temperaturas y un funcionamiento silencioso. Los componentes resistentes al calor mantienen un rendimiento de nivel de oro incluso a temperaturas elevadas de hasta 45 ° C. Un ventilador Silencio casi silencioso con un rodamiento LDB exclusivo reduce el ruido y dura más que los rodamientos estándar. Los cables planos y flexibles mejoran el flujo de aire al reducir el volumen del cable. Disfrute de la potencia nominal de oro a un precio asequible.",
+        "precio": 100,
+        "stock": 39,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/PSUCLM5652.jpg"
+    },
+    {
+        "nombre": "EVGA 700BR 80 Plus Bronze",
+        "descripcion": "LARGO DE CABLE ATX Cable 1x 550mm EPS Cable 1x 600mm PCIE Cable 2x 550mm, 670mm SATA Cable 3x 450mm, 570mm, 690mm Cable Periférico de Cuatro-Pin 1x 450mm, 570mm, 690mm + 810mm (Floppy) Adaptador Flexible 1x AC Power 1x 1200mm (m) Tipo de Cable Modular No CANTIDAD DE CONECTORES 24 Pin ATX 1x EPS (CPU) 1x 8pin (4+4) PCIE 4x 8pin (6+2) SATA 9x Periférico de Cuatro-Pin 3x Floppy 1x ESPECIFICACIONES DE POTENCIA AC Entrada 100 – 240 VAC, 10/5A, 50 – 60 Hz DC Salida +3.3V +5V +12V +5Vsb -12V MAX Salida 24A 20A 58.3 3A 0.3A 699.6W 150W 699.6W 15W 3.6W Potencia de Salida 700W @ +30C",
+        "precio": 110,
+        "stock": 25,
+        "marca": "EVGA",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/7516511100-BR-0700-K1_LG_1_071ea18bb814401ea2d3c2d8ab47c943.jpg"
+    },
+    {
+        "nombre": "Cooler Master MWE Gold 750W Full Modular",
+        "descripcion": "MWE Gold ofrece una solución de energía altamente eficiente y asequible. Disfrute de una eficiencia confiable del 90% con una certificación de oro 80 PLUS. Las técnicas de diseño de Cooler Master aseguran una mayor eficiencia al tiempo que mantienen bajas temperaturas y un funcionamiento silencioso. Los componentes resistentes al calor mantienen un rendimiento de nivel de oro incluso a temperaturas elevadas de hasta 45 ° C. Un ventilador Silencio casi silencioso con un rodamiento LDB exclusivo reduce el ruido y dura más que los rodamientos estándar. Los cables planos y flexibles mejoran el flujo de aire al reducir el volumen del cable. Disfrute de la potencia nominal de oro a un precio asequible.",
+        "precio": 115,
+        "stock": 47,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/PSUCLM5752.jpg"
+    },
+    {
+        "nombre": "Cooler Master V 850 Gold Full Modular",
+        "descripcion": "El V Gold es una unidad de fuente de alimentación de grado profesional hecha para el uso diario. Es más que la calificación de eficiencia 80 PLUS Gold. Es el rendimiento, la estabilidad, la fiabilidad, la vida útil y mucho más. Esa calidad comienza con la tecnología utilizada en el interior. El convertidor resonante LLC de medio puente y la tecnología DC-DC, fabricados con condensadores 100% japoneses, trabajan juntos para crear una fuente de alimentación que ofrece salidas de voltaje confiables y estables para un rendimiento más seguro y confiable y una mayor eficiencia.",
+        "precio": 190,
+        "stock": 22,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/cooler-master-v850w-gold-power-supply-mpy-8501-afaagv-uk-chocobozz-2004-12-F1648636_2.jpg"
+    },
+    {
+        "nombre": "Cooler Master V 1300 Platinum Full Modular",
+        "descripcion": "El modo de regulación térmica mantiene el V Platinum silencioso y estable al mantener una velocidad constante del ventilador de hasta el 60% de la carga máxima. Una vez que se supera este umbral, el sistema aumentará la rotación del ventilador según los requisitos térmicos de la carga actual. Este sistema aumenta la vida útil de la unidad de fuente de alimentación al mantener el ventilador bajo una tensión mínima sin arriesgar la seguridad o el rendimiento de la PSU o del sistema en su conjunto. El interruptor de riel incorporado le permite modificar la fuente de alimentación de rieles simples a múltiples para adaptar el rendimiento de la unidad a sus necesidades. Use el modo de riel múltiple para uso normal y el modo de riel único para necesidades especializadas como el overclocking. Cambia de modo con solo pulsar un interruptor La serie V Platinum viene con cables 16AWG PCI-e. Estos son más gruesos que los cables 18AWG estándar de la industria actual, lo que significa menos resistencia al calor durante el uso. La reducción de la resistencia al calor mejora la eficiencia y la estabilidad para que sus componentes puedan aprovechar al máximo esa clasificación 80 PLUS Platinum. Como beneficio adicional, la resistencia más baja significa que se expulsa menos calor ambiental en su carcasa de sus cables, lo que hace que todo su sistema sea más seguro y más frío que la misma configuración con cables de emisión estándar. Para cumplir con las más altas exigencias de rendimiento, el ventilador de 135 mm del V Platinum utiliza un rodamiento de bolas doble. Aunque rara vez se usa en unidades de fuente de alimentación, este cojinete de ventilador especial puede funcionar de manera segura y confiable en temperaturas de hasta 70 ° C. Esta temperatura máxima segura considerablemente alta permite a los usuarios realizar con seguridad operaciones estresantes como la minería y el overclocking sin tener que preocuparse por la falla de su ventilador de PSU.",
+        "precio": 375,
+        "stock": 44,
+        "marca": "Cooler Master",
+        "categoria": "FUENTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/ImgW.jpg"
+    },
+    {
+        "nombre": "EVGA 600W 100-BR-0600-K1",
+        "descripcion": "Fuente EVGA 600W",
+        "precio": 105,
+        "stock": 32,
+        "marca": "EVGA",
+        "categoria": "FUENTE",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXEVF01.jpg"
+    },
+    {
+        "nombre": "ASUS 550W ROG-STRIX-550G",
+        "descripcion": "Fuente ASUS 550W",
+        "precio": 225,
+        "stock": 21,
+        "marca": "ASUS",
+        "categoria": "FUENTE",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXASF02.jpg"
+    },
+    {
+        "nombre": "ASUS ROG-THOR-1200P 1200W",
+        "descripcion": "Fuente ASUS 1200W",
+        "precio": 536,
+        "stock": 72,
+        "marca": "ASUS",
+        "categoria": "FUENTE",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXASF12.jpg"
+    },
+    {
+        "nombre": "EVGA 500W 100-W1-0500-KR",
+        "descripcion": "Fuente EVGA 5000W",
+        "precio": 71,
+        "stock": 45,
+        "marca": "EVGA",
+        "categoria": "FUENTE",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/FBX019466.jpg"
+    },
+    {
+        "nombre": "Monitor Acer V206 19.5″ HDMI",
+        "descripcion": "Part Number UM.IV6AA.B01 Area Visible 19.5 Iluminación LED Formato 16:9 Resolución 1366×768 Tiempo De Respuesta 5 ms Contraste 100:1 Brillo 200 cd/m2 Angulo De Visión 90° Parlantes no Color negro Consumo Off 0.17 W Sleep 0.35 W On 11W Interface VGA HDMI Tipo De Panel TN",
+        "precio": 91.99,
+        "stock": 36,
+        "marca": "Acer",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/05/1171574196824V226HQL-product-sku-main_34a5c9a6f50f41f7bd0f043a04072b50.png"
+    },
+    {
+        "nombre": "Monitor Acer V226 22″ Full HD – VGA – HDMI",
+        "descripcion": "Los monitores de la serie V6 cuentan con la tecnología Acer eColor para obtener imágenes sorprendentes y las innovaciones de Acer ComfyView que reducen el deslumbramiento para ofrecer una visión más cómoda. Estos monitores robustos también tienen una amplia gama de puertos, por lo que puede conectar muchos tipos de dispositivo.",
+        "precio": 128.99,
+        "stock": 47,
+        "marca": "Acer",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/04/4196824V226HQL-product-sku-main_34a5c9a6f50f41f7bd0f043a04072b50.png"
+    },
+    {
+        "nombre": "Monitor Samsung LS22F350 22″ HDMI",
+        "descripcion": "22″ Monitor Full HD con diseño Super Slim • Modo Juego: Optimiza al momento los colores de pantalla y el contraste para jugar. El Modo Juego te asegura que veas cada escena al máximo. • Modo Eye Saver: Reduciendo las emisiones de luz azul, que estimulan la retina más que cualquier otro color, el modo Eye Saver reduce la fatiga del ojo y ofrece una experiencia visual más cómoda. • Flicker Free: La tecnología Flicker Free de Samsung minimiza los parpadeos de la pantalla para que puedas trabajar o jugar por más tiempo.",
+        "precio": 129,
+        "stock": 33,
+        "marca": "Samsung",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/7458044monitor-19-samsung-led-19f355-slim-hd-720p-vga-gtia-3-anos-D_NQ_NP_875678-MLA26251212740_102017-F_29fb1156b00d412ab3ebcef89e0f29f5.jpg"
+    },
+    {
+        "nombre": "Monitor Acer K242 Full HD – VGA – DVI – HDMI",
+        "descripcion": "Los monitores Acer serie K2 son soluciones visuales asequibles para uso diario de PC. Ofrecen una experiencia libre de complicaciones sin sacrificar la calidad de imagen. El diseño inteligente aúna multitud de puertos de conexión, un rendimiento excepcional y el respeto por el medio ambiente.",
+        "precio": 158.99,
+        "stock": 72,
+        "marca": "Acer",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/04/5517932K242HL_sku_main_45c6af3e3ec446cb98ac975cdf08d2b1.png"
+    },
+    {
+        "nombre": "Monitor Samsung LS24F350 24″ HDMI",
+        "descripcion": "24″ Monitor Full HD con diseño Super Slim • AMD FreeSync: Al sincronizar dinámicamente la tasa de refresco de la pantalla con la tasa de cuadros de la imagen, la tecnología AMD FreeSync minimiza el parpadeo y le asegura una experiencia de juego suave. • Modo Juego: Optimiza al momento los colores de pantalla y el contraste para jugar. El Modo Juego te asegura que veas cada escena al máximo. • Modo Eye Saver: Reduciendo las emisiones de luz azul, que estimulan la retina más que cualquier otro color, el modo Eye Saver reduce la fatiga del ojo y ofrece una experiencia visual más cómoda. • Flicker Free: La tecnología Flicker Free de Samsung minimiza los parpadeos de la pantalla para que puedas trabajar o jugar por más tiempo.",
+        "precio": 159,
+        "stock": 39,
+        "marca": "Samsung",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/2721594monitor-19-samsung-led-19f355-slim-hd-720p-vga-gtia-3-anos-D_NQ_NP_875678-MLA26251212740_102017-F_01f815d5f1124c06b05df06f382e6dfa.jpg"
+    },
+    {
+        "nombre": "Monitor / TV Samsung TE310 con Sintonizador de TV – 24″",
+        "descripcion": "Monitor / TV Samsung",
+        "precio": 159,
+        "stock": 42,
+        "marca": "Samsung",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/02/2086956tv_8df954a2cbb343cdbeece0c3b320bb94.png"
+    },
+    {
+        "nombre": "Monitor Samsung Curvo C24F390FHL 24”",
+        "descripcion": "Descubre una auténtica experiencia de visualización envolvente con el monitor Samsung más curvo del mercado. Como si el campo de visión de una pantalla de cine iMax te envolviera, la pantalla de 1,800 R (con un radio del arco de 1,800 mm para una mayor curvatura) crea un campo de visión más ancho, mejora la percepción de profundidad y minimiza las distracciones periféricas para sumergirte aún más en el contenido. Así que, ya sea una película en línea, tu programa de TV favorito o un fascinante juego, la curvatura más profunda de la pantalla de Samsung te sumergirá aún más tu contenido multimedia.",
+        "precio": 185,
+        "stock": 39,
+        "marca": "Samsung",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/4867537m_187c5febad7e41888d0e66ebe70082ec.png"
+    },
+    {
+        "nombre": "ZOWIE RL2455S e-Sports 24″ 1ms - Licencia Oficial para PS4 ™",
+        "descripcion": "Cada detalle de la serie RL está diseñado y ajustado para la excepcional experiencia de e-Sports en PS4 ™. El monitor e-Sports ZOWIE serie RL es utilizado en todo el mundo por jugadores profesionales de e-Sports y tiene la licencia oficial de Sony Interactive Entertainment Europe exclusivamente para su uso con PlayStation®4.",
+        "precio": 284.99,
+        "stock": 22,
+        "marca": "ZOWIE",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/5638104zw_a539bee2ff744657b3bfbc20fedb698f.png"
+    },
+    {
+        "nombre": "Monitor Samsung Curvo C27F390FHL 27″",
+        "descripcion": "Descubre una auténtica experiencia de visualización envolvente con el monitor Samsung más curvo del mercado. Como si el campo de visión de una pantalla de cine iMax te envolviera, la pantalla de 1,800 R (con un radio del arco de 1,800 mm para una mayor curvatura) crea un campo de visión más ancho, mejora la percepción de profundidad y minimiza las distracciones periféricas para sumergirte aún más en el contenido. Así que, ya sea una película en línea, tu programa de TV favorito o un fascinante juego, la curvatura más profunda de la pantalla de Samsung te sumergirá aún más tu contenido multimedia.",
+        "precio": 295,
+        "stock": 87,
+        "marca": "Samsung",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/5035989m_da3b80cae3034e5f8150d017cadeca61.png"
+    },
+    {
+        "nombre": "Monitor Acer Gaming KG241Q 120/144hz 1ms 24″",
+        "descripcion": "Screen Size 24″ Screen Mode Full HD Response Time 1 ms GTG Aspect Ratio 16:9 Horizontal Viewing Angle 170° Vertical Viewing Angle 160° Mount Type Wall Mountable Backlight Technology LED Panel Technology Twisted Nematic Film (TN Film) Tilt Angle -5°to15° Swivel Angle No Maximum Adjustable Height No Adjustable Display Pivot No Video Maximum Resolution 1920 x 1080 Standard Refresh Rate 144 Hz Color Supported 16.7 Million Colors Brightness 350 Nit Tearing Prevention Technology AMD FreeSync™ Audio Number of Speakers 2 Speaker Output Power 2 W No incluye cable DisplayPort",
+        "precio": 315,
+        "stock": 35,
+        "marca": "Acer",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/11/3237871KG241P_main_9fd18d5855ec414eb186fbee6d5afa7f.png"
+    },
+    {
+        "nombre": "Monitor Samsung Gaming Curvo 144hz C24RG50 24”",
+        "descripcion": "Pantalla (pulgadas)23.5 Pantalla (cm)59.8 Clase de pantalla24 Plana/CurvaCurvo Active Display Size (HxV) (mm)521.3952(H) * 293.2848(V) Curvatura de Pantalla1800R Relación de aspecto16:9 PanelVA Brillo (Normal)250cd/m2 Peak Brightness (Typical)250cd/m2 cd/? Brillo (Min)200cd/m2 Relación de contraste estático3,000:1(Typ) Ratio de Contraste DinámicoMega DCR HDR(High Dynamic Range)N/A Resolución1,920 x 1,080 Tiempo de Respuesta4ms (GTG) Ángulo de Visión (H/V)178°(H)/178°(V) Color16.7M Color Gamut (NTSC 1976)72% Color Gamut (DCI Coverage)N/A sRGB CoverageN/A Adobe RGB CoverageN/A Refresco 144Hz",
+        "precio": 325,
+        "stock": 22,
+        "marca": "Samsung",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/4886173s144_159498489a064fcaa48f6aba6778b26c.png"
+    },
+    {
+        "nombre": "Acer Nitro 24″ IPS 144hz Vg240y",
+        "descripcion": "Tamaño de Pantalla 23,8″ Resolución máx. (Full HD)1920 x 1080@ 144 Hz Relación de aspecto 16:9 Tiempo de Respuesta 1 ms VRB Brillo 250 cd/m² Retroiluminación LED Ángulos de visión 178° Horizontal – 178° Vertical Base Tilt (-5°~20°) Puertos & conectores VGA – HDMI® 2x HDMI®-in Alimentación 16 W (Power On) Colores Negro Tecnología anti-fragmentación AMD Free-Sync Compatible VESA (Sí) 100 x 100mm",
+        "precio": 335,
+        "stock": 39,
+        "marca": "Acer",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/5446344Acer-VG0-Series_overview_feature_large_26e66e4a66bc43f29b30cb22a4451828.jpg"
+    },
+    {
+        "nombre": "Monitor Acer Gaming KG271 144hz 1ms 27″",
+        "descripcion": "Screen Size 27 Screen Mode Full HD Response Time 1 ms GTG Aspect Ratio 16:9 Horizontal Viewing Angle 170° Vertical Viewing Angle 160° Mount Type Wall Mountable Backlight Technology LED Panel Technology Twisted Nematic Film (TN Film) Tilt Angle -5°to15° Swivel Angle No Maximum Adjustable Height No Adjustable Display Pivot No Video Maximum Resolution 1920 x 1080 Standard Refresh Rate 144 Hz Color Supported 16.7 Million Colors Brightness 400 Nit Tearing Prevention Technology AMD FreeSync™ Audio Number of Speakers 2 Speaker Output Power 2 W",
+        "precio": 339,
+        "stock": 11,
+        "marca": "Acer",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/11/3769798KG241P_main_ed40c78f549246b383b335b77e8a8065.png"
+    },
+    {
+        "nombre": "Monitor ViewSonic VX2478 24″ IPS",
+        "descripcion": "El estilo y el contenido van de la mano con el monitor WQHD VX2478-smhd de ViewSonic® de 24″ (23,8″ visibles). La tecnología de panel SuperClear® IPS, los amplios ángulos de visualización y el excelente rendimiento de la pantalla proporcionan una claridad visual ideal para la oficina, el diseño gráfico y el entretenimiento en el hogar. Una ID premium incluye una pantalla elegante sin marco, de borde a borde que, cuando se combina con una resolución vivida de 2560×1440 y altavoces duales, ofrecen una experiencia visual inmersiva para aplicaciones multimedia. Las entradas versátiles HDMI, DisplayPort y Mini DisplayPort lo mantienen conectado a sus dispositivos favoritos, mientras que el diseño moderno de bisel sin marco con montaje empotrado hace una gran diferencia en cualquier hogar u oficina.",
+        "precio": 374.99,
+        "stock": 48,
+        "marca": "ViewSonic",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-12.png"
+    },
+    {
+        "nombre": "Acer Nitro 27″ IPS 144hz Vg270",
+        "descripcion": "Tamaño de Pantalla 27 Resolución máx. (Full HD)1920 x 1080@ 144 Hz Relación de aspecto 16:9 Tiempo de Respuesta 1 ms VRB Brillo 250 cd/m² Retroiluminación LED Ángulos de visión 178° Horizontal – 178° Vertical Base Tilt (-5°~20°) Altavoces 2 x 2 W Puertos & conectores VGA – HDMI® 2x HDMI®-in Alimentación 16 W (Power On) Colores Negro Tecnología anti-fragmentación AMD Free-Sync Compatible VESA (Sí) 100 x 100mm",
+        "precio": 399,
+        "stock": 61,
+        "marca": "Acer",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/7640155Acer-VG0-Series_overview_feature_large_950b8c4f9be14a97acbfa50474d1d63e.jpg"
+    },
+    {
+        "nombre": "ZOWIE XL2411P e-Sports 24″ 144hz",
+        "descripcion": "El monitor de 1 ms con una frecuencia de actualización de 144 Hz ofrece una experiencia de juego muy fluida en juegos FPS y MOBA • Black eQualizer para una mayor claridad visual en escenas oscuras sin la sobreexposición del área brillante que ayuda al jugador a adquirir objetivos fácilmente y ofrece comodidad de visualización en el juego • Color Vibrance le brinda la flexibilidad de sintonizar fácilmente el tono de color preferido y hace que la clasificación del color esté más definida • Variedad de conectores de entrada, incluyendo DisplayPort, DVI-DL, HDMI y conector para auriculares • La serie ZOWIE XL fue adoptada en todo el mundo por la mayoría de los torneos y jugadores profesionales de PC eSports, el monitor oficial de e-Sports del DreamHack Open 2016/2017, ESL-ONE Colonia 2017, PGL Major Krakow 2017, IEM temporada 6 ~ 10, MLG 2015 / 2016, ESEA 2015/2016, ESWC 2013 ~ 2016, ELEAGUE temporada 1",
+        "precio": 425,
+        "stock": 35,
+        "marca": "ZOWIE",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/6677172zw2_67f35ecac24a430f9aba30f12e631350.png"
+    },
+    {
+        "nombre": "ZOWIE RL2755S e-Sports 27″ 1ms – Licencia Oficial para PS4™",
+        "descripcion": "Cada detalle de la serie RL está diseñado y ajustado para la excepcional experiencia de e-Sports en PS4 ™. El monitor e-Sports de la serie ZOWIE RL es utilizado en todo el mundo por jugadores profesionales de e-Sports y tiene licencia oficial de Sony Interactive Entertainment Europe exclusivamente para su uso con PlayStation®4.",
+        "precio": 425,
+        "stock": 11,
+        "marca": "ZOWIE",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/5455648zowie-rl2755-console-esports-monitor-officially-licensed-by-playstation-ps4-3_d3e899dc489246a086945376a8b9e14a.png"
+    },
+    {
+        "nombre": "Monitor Samsung Curvo JG50 144Hz 2560×1440 27″",
+        "descripcion": "Screen Size: 27 Display Type: VA Curved Curvature: 1800R Resolution: 2,560 x 1,440 Aspect Ratio: 16:9 Static Contrast Ratio: 3,000:1 Response Time: 4 ms Color Support: 16.7M",
+        "precio": 434.99,
+        "stock": 64,
+        "marca": "Samsung",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/WhatsApp-Image-2020-03-26-at-16.19.48.jpeg"
+    },
+    {
+        "nombre": "ZOWIE XL2430 e-Sports 24″ 144hz",
+        "descripcion": "Spot Enemigos Ocultos Nunca vuelvas a ser víctima de un camper cobarde en un rincón oscuro de nuevo. Black eQualizer aumenta la visibilidad en escenas oscuras sin la sobreexposición de las áreas brillantes. Optimizar la precisión del juego Color Vibrance te da la flexibilidad para obtener el rendimiento del color. Con 20 niveles de configuración de Color Vibrance, puede obtener requisitos de visualización específicos y preferencias para todos los tipos de juego. Acceda fácilmente a la configuración para diferentes escenarios Diferentes escenarios de uso requieren diferentes configuraciones de visualización. El interruptor S está diseñado para acceder fácilmente a la configuración y cambiar entre los modos guardados. Ya sea que esté viendo, leyendo, navegando o jugando, cambiar entre los ajustes preestablecidos y navegar entre menús es tan simple como 1-2-3. Personalizar ángulos de visión El soporte de altura ajustable se puede operar con un solo dedo, de modo que puede ajustar fácilmente la altura del monitor a su ángulo de visión preferido, maximizando su comodidad. Modos de juego para una experiencia de juego mejorada Cada juego tiene su propia configuración óptima. Hemos equipado todos los monitores de la serie XL con varias configuraciones. Puede cambiar fácilmente a estos modos de juego con solo tocar una tecla de acceso rápido. Comodidad para el juego de larga duración La tecnología sin parpadeo ayuda a reducir la fatiga visual, lo que puede ayudarlo a seguir practicando las horas prolongadas necesarias para mantenerse en la cima de su juego. Minimizar las distracciones visuales La concentración es un factor clave para los deportes electrónicos. El marco LCD de la serie XL fue especialmente diseñado para reducir el reflejo de la luz de la pantalla, manteniendo su enfoque en el juego. ",
+        "precio": 525,
+        "stock": 30,
+        "marca": "ZOWIE",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/2550281XnXiQksVL._SX569__9ac583c9ea154aa4a9e6d8da7c319409.jpg"
+    },
+    {
+        "nombre": "Monitor Acer Gaming Xf270hu 144hz 2K 1ms 27″",
+        "descripcion": "Screen Size: 27″ Maximum Resolution: (WQHD)2560 x 1440@144 Hz Aspect Ratio: 16:9 Contrast Ratio: 1,000:1 Response Time: 1 ms GTG Color Supported: 16.7 Million Adaptive Contrast Management (ACM): 100,000,000:1 Viewing Angles: 170° Horizontal – 160° Vertical Panel Type: TN (Twisted Nematic Film) Ports & Connectors: 2x HDMI®-in – 1x DisplayPort Tearing Prevention Technology: AMD Free-Sync VESA Compatible: Yes 100 x 100mm",
+        "precio": 545,
+        "stock": 10,
+        "marca": "Acer",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-5.jpg"
+    },
+    {
+        "nombre": "ZOWIE Monitor XL2731 e-Sports 27″ 144hz",
+        "descripcion": "Encuentra enemigos ocultos Nunca vuelvas a ser víctima de un campista cobarde en un rincón oscuro de nuevo. Black eQualizer aumenta la visibilidad en escenas oscuras sin sobreexponer las áreas brillantes. Optimizar la precisión de los juegos Color Vibrance le brinda la flexibilidad para ajustar fácilmente el tono de color preferido y hace que la gradación de color sea más definida. Con 20 niveles de configuración de Intensidad de color, puedes obtener requisitos de visualización específicos y preferencias para todo tipo de juego. Personalizar ángulos de visión El soporte de altura ajustable se puede operar con un solo dedo para que pueda ajustar fácilmente la altura del monitor a su ángulo de visión preferido, maximizando su comodidad. Comodidad para un juego duradero La tecnología sin parpadeo ayuda a reducir la fatiga visual, lo que puede ayudarlo a practicar las horas extendidas necesarias para mantenerse en la cima de su juego. Minimiza las distracciones visuales La concentración es un factor clave para los deportes electrónicos. El marco LCD de la serie XL fue especialmente diseñado para reducir el reflejo de la luz de la pantalla, manteniendo su enfoque en el juego.",
+        "precio": 624.99,
+        "stock": 39,
+        "marca": "ZOWIE",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/6677172zw2_67f35ecac24a430f9aba30f12e631350.png"
+    },
+    {
+        "nombre": "Monitor Aorus Gaming CV27F 165hz 27″ Curvo ",
+        "descripcion": "Pantalla FHD de 27″ y 1920×1080 con una frecuencia de actualización de 165Hz, tiempo de respuesta de 1 ms y compatibilidad con sincronización gratuita Panel curvo 1500R nativo HDR y 90% DCI-P3 Primera pantalla táctica del mundo con cancelación activa de ruido (ANC) Características exclusivas de AORUS: Game Assist, OSD Sidekick y Dashboard Diseño ergonómico con ajustes de giro, pivote, inclinación y altura. Retroiluminación LED RGB digital incorporada 1x Puerto de pantalla 1. 2, 2x HDMI 2. 0",
+        "precio": 700,
+        "stock": 55,
+        "marca": "Aorus",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/99236232019-09-24-product-2_44fb073217f644348acaa1369f8fe779.jpg"
+    },
+    {
+        "nombre": "ZOWIE XL2546 DyAc™ e-Sports 24,5″ 240hz",
+        "descripcion": "Tecnología DyAc ™ – Una sensación de spray diferente La tecnología exclusiva de ZOWIE – Precisión dinámica mantiene una claridad notable durante los movimientos dentro del juego, lo que permite una experiencia más suave. Las acciones con un movimiento vigoroso de la pantalla, como la pulverización de armas, se beneficiarán más de DyAc ™, ya que poder ver con mayor claridad puede ayudar a controlar el retroceso. Frecuencia de actualización nativa de 240 Hz – Evolución de la suavidad Capture todos los detalles del movimiento y disfrute del juego más fluido con el monitor de frecuencia de actualización de 240Hz nativo de ZOWIE, que garantiza una visión impecable de movimiento rápido en todo momento. (Asegúrese de que el rendimiento de la PC esté a la par para activar por completo 240Hz) Requisito de tarjeta de video recomendado: NVIDIA GeForce GTX 980 o mejor AMD Radeon RX 480 o mejor Shield – Ayudarte a centrarte en el juego Escudo: revela la forma de concentrarte en los juegos. El ángulo ajustable y el diseño extraíble permiten que Shield adopte varios entornos según sus preferencias. Solo concéntrate en ganar el juego. Spot Enemigos Ocultos Nunca vuelvas a ser víctima de un camper cobarde en un rincón oscuro de nuevo. Black eQualizer aumenta la visibilidad en escenas oscuras sin la sobreexposición de las áreas brillantes. Optimizar la precisión del juego Color Vibrance te da la flexibilidad para obtener el rendimiento del color. Con 20 niveles de configuración de Color Vibrance, puede obtener requisitos de visualización específicos y preferencias para todos los tipos de juego. Personalizar ángulos de visión El soporte de altura ajustable se puede operar con un solo dedo, de modo que puede ajustar fácilmente la altura del monitor a su ángulo de visión preferido, maximizando su comodidad. Acceda fácilmente a la configuración para diferentes escenarios Para personalizar el XL con diferentes escenarios de uso, el S-Switch está diseñado para acceder fácilmente al menú del monitor, cambiar entre los modos guardados y cambiar rápidamente entre los dispositivos conectados. Para ir a la configuración de pantalla que prefiera con los modelos seleccionados, S-Switch le permite guardar y transferir 3 perfiles con diseño sin conductor dentro del mismo modelo. Modos de juego para una experiencia de juego mejorada Cada juego tiene su propia configuración óptima. Hemos equipado todos los monitores de la serie XL con varias configuraciones. Puede cambiar fácilmente a estos modos de juego con solo tocar una tecla de acceso rápido. Minimizar las distracciones visuales La concentración es un factor clave para los deportes electrónicos. El marco LCD de la serie XL fue especialmente diseñado para reducir el reflejo de la luz de la pantalla, manteniendo su enfoque en el juego.",
+        "precio": 750,
+        "stock": 66,
+        "marca": "ZOWIE",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/973376u_10177741_abdb704d236b40e79733e791aba04ad1.jpg"
+    },
+    {
+        "nombre": "Monitor Samsung 49″ Gamer 144hz Super Ultra-wide Screen 32:9",
+        "descripcion": "La pantalla curva de 49 pulgadas con su innovadora relación de aspecto de 32: 9 significa que siempre puedes ver escenas de juegos en su totalidad, exactamente como lo intentaron sus desarrolladores. Y el panel curvo 1800R te sumerge en el juego y ofrece una visión cinematográfica al estilo iMax para películas y contenido de video. La veloz frecuencia de actualización de la pantalla de 144Hz le asegura escenas de acción sin problemas incluso en juegos con altas velocidades de cuadros. Y puede ajustar la frecuencia de actualización a 60Hz / 120Hz cuando sea necesario.",
+        "precio": 1529.99,
+        "stock": 48,
+        "marca": "Samsung",
+        "categoria": "MONITOR",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/04/110522ar-hg90dmlxzb-lc49hg90dmlxzb-lperspectiveblack-89961689_13d862c4c3cf4af8bac5e26451b84245.jpg"
+    },
+    {
+        "nombre": "Cooler Master Master Box E300L",
+        "descripcion": "SIZE Mini Tower AVAILABLE COLOR(S) Silver, Red, Blue MATERIALS Steel, Plastic DIMENSIONS (LXWXH) 448 x 180 x 364mm MOTHERBOARD SUPPORT Mini ITX, Micro ATX EXPANSION SLOTS 4 5.25 DRIVE BAYS 1 3.5 DRIVE BAYS 2 2.5 DRIVE BAYS 3 I/O PANEL 2x USB 3.0, Audio In & Out (supports HD audio) PRE-INSTALLED FANS – FRONT 1x 120mm CLEARANCE – CPU COOLER 148mm CLEARANCE – GFX 363mm",
+        "precio": 44.99,
+        "stock": 54,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/56213084138BS2peFL_549edb70f22841048d791fccd5ee5d9b.jpg"
+    },
+    {
+        "nombre": "Cougar MX410 Mesh",
+        "descripcion": "El ancho de 210 mm de la malla MX410 permite un espacio interior mucho más grande con un mejor rendimiento de enfriamiento y gestión de cables. Sin embargo, su dimensión exterior compacta ocupa menos espacio en el escritorio. En MX410 Mesh puede caber en una placa madre ATX de tamaño completo, una tarjeta gráfica de 300 mm de longitud, tres SSD de 2.5 «y dos HDD de 3.5», que le permiten lograr la operación extrema y abundante espacio de almacenamiento.",
+        "precio": 49,
+        "stock": 44,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/06/Sin-t%C3%ADtulo.png"
+    },
+    {
+        "nombre": "Cougar MG120-g mATX",
+        "descripcion": "MG120-G tiene un diseño elegante y compacto con un panel frontal transparente de espejo oscuro y una ventana lateral de vidrio templado, que muestra una vista clara y atractiva de los componentes internos de su computadora. Además, admite seis ventiladores de enfriamiento y tres radiadores para un rendimiento de enfriamiento optimizado",
+        "precio": 50,
+        "stock": 11,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/885035701-4_ca39ba53ba1c428d9975e6267e2d8504.png"
+    },
+    {
+        "nombre": "Corsair Carbide 88R",
+        "descripcion": "Case Dimensions: 440mm x 198mm x 378mm Maximum GPU Length: 383mm Maximum PSU Length: 160mm Maximum CPU Cooler Height: 150mm Case Expansion Slots: 4 Case Drive Bays: (x1) 5.25in (x2) 3.5in (x2) 2.5in Case Form Factor: Mid-Tower",
+        "precio": 50,
+        "stock": 27,
+        "marca": "Corsair",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/6247056Sin_t_tulo_40a84e8a514748f0b406827992e1317b.png"
+    },
+    {
+        "nombre": "Cooler Master Box Lite 3.1 TG",
+        "descripcion": "Un elegante panel frontal DarkMirror y tres colores de recorte personalizados (incluidos en la caja) ofrecen un excelente primer punto de entrada para la personalización. Además, viene con un panel lateral de vidrio templado de borde a borde de 4 mm de espesor para mostrar sus componentes internos. Y con soporte para hasta 3 ventiladores de refrigeración y un sistema de refrigeración por agua, nos aseguramos de que su rendimiento no se vea afectado.",
+        "precio": 55,
+        "stock": 28,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/48171899_bad7317717c1432b895e37f513538495-2.jpg"
+    },
+    {
+        "nombre": "Cooler Master Q300L",
+        "descripcion": "Alta flexibilidad para la construcción del sistema Dimensión minimizada con ATX PSU Filtro de polvo con diseño + Espacio de enrutamiento Excelente rendimiento térmico Panel lateral transparente de borde a borde Posición vertical y horizontal",
+        "precio": 55,
+        "stock": 30,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/816613571wQRkRxzLL._SL1200__8ab7089d79844479aa5389041f25c421.jpg"
+    },
+    {
+        "nombre": "Cooler Master MB311 L",
+        "descripcion": "Panel frontal de malla fina Entradas de malla Flujo de aire optimizado Panel lateral de vidrio templado Jaula de unidad adaptable Opciones de enfriamiento versátiles",
+        "precio": 59,
+        "stock": 36,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/mb311l_gallery_01-zoom-600x600.png"
+    },
+    {
+        "nombre": "Cooler Master MB320 L",
+        "descripcion": "Panel frontal Dark Mirror Entradas de malla Entradas de malla Panel lateral de vidrio templado Opciones de enfriamiento versátiles Espacio para actualizaciones",
+        "precio": 59,
+        "stock": 22,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/mb320l_gallery_01-zoom-600x600.png"
+    },
+    {
+        "nombre": "Cougar Qbx M1 ITX",
+        "descripcion": "El chasis compacto más avanzado del mercado ha llegado. COUGAR QBX viene a conquistar el mundo con tres grandes armas contenidas en un espacio compacto. Sus dimensiones, su potencial de expansión y su refrigeración insuperable. Las dimensiones de QBX (178 x 291 x 384 mm ) lo hacen extremadamente compacto Los jugadores ya no necesitan escritorios enormes con grandes cantidades de espacio para instalar componentes de alta gama para disfrutar de juegos de nueva generación. El QBX cuenta con formato ITX, soporte para watercooling y soporte para gráficas de hasta 35cm.",
+        "precio": 60,
+        "stock": 55,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/excelente-gabinete-cougar-qbx-m1-692901-MLU20421366403_092015-F_3462ea3a709b43598f59784d67f406d4-4.jpg"
+    },
+    {
+        "nombre": "Cooler Master MB600L wo/ODD",
+        "descripcion": "El panel frontal cepillado le da al estuche un aspecto elegante. Muestra tu estilo de construcción a través del panel lateral de acrílico transparente de borde a borde y deja que tu sistema se destaque con un fondo completamente negro y una cubierta de fuente de alimentación.",
+        "precio": 60,
+        "stock": 44,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/542517216_d919343731d946beb956700caf35d6ff.jpg"
+    },
+    {
+        "nombre": "Cougar MX410 Mini ITX/Micro ATX/ATX",
+        "descripcion": "MX410 integra tiras de iluminación RGB y salidas de aire en el panel frontal. Le ofrece un diseño más elegante y más efectos de iluminación RGB. El ancho de 210 mm del MX410 permite un espacio interior mucho más grande con un mejor rendimiento de enfriamiento y gestión de cables. Sin embargo, su dimensión exterior compacta ocupa menos espacio en el escritorio. MX410 seguramente puede caber en una placa madre ATX de tamaño completo, una tarjeta gráfica de 300 mm de longitud, tres SSD de 2.5 «y dos HDD de 3.5», que le permiten lograr la operación extrema y abundante espacio de almacenamiento.",
+        "precio": 60,
+        "stock": 71,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/06/Sin-t%C3%ADtulo-1.png"
+    },
+    {
+        "nombre": "Cooler Master Box TD500L",
+        "descripcion": "Diseño de corte de diamante : destaque del resto con un diseño de corte de diamante tridimensional del bisel frontal y el panel lateral. Panel lateral transparente de borde a borde : muestre su construcción a través del panel lateral acrílico de borde a borde de forma única y disfrute de los efectos de iluminación especiales desde diferentes ángulos de visión. Administración de cables : la cubierta de la fuente de alimentación y los 19 mm de espacio detrás de la bandeja de la placa base le brindan muchas opciones de administración de cables para mantener su construcción agradable y limpia. Rendimiento de enfriamiento : el soporte para un total de seis ventiladores de 120 mm y el soporte para la colocación de radiadores delanteros, superiores y traseros garantizan que no tenga que comprometer el rendimiento. Soporte de tarjeta gráfica : equípese con la última tarjeta gráfica de hasta 410 mm de longitud para la construcción de su sistema de punta.",
+        "precio": 65,
+        "stock": 21,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/8132089gabinete-cooler-master-masterbox-td500l-gamer-atx-7-slots-D_NQ_NP_834018-MLU31399506756_072019-F_1afb738b8fb54735ba19e8f7f81f2718.jpg"
+    },
+    {
+        "nombre": "Cougar MX350 Mesh ATX/mATX",
+        "descripcion": "MX350 MESH le ofrece un diseño de alta gama con una visión clara de los componentes internos de su computadora gracias a su panel lateral de vidrio templado. Agregue a esto un soporte impresionante para la refrigeración y los componentes, y un panel de malla frontal que permite que el aire entre sin problemas y tiene una de las mejores torres intermedias de la historia.",
+        "precio": 68.99,
+        "stock": 36,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/2101108productos35_3986_a0f3c90a90ba4fcda1aad4083c4ff139.png"
+    },
+    {
+        "nombre": "Cooler Master H100",
+        "descripcion": "Un diseño altamente compacto utiliza eficientemente el espacio para mantener las dimensiones minimizadas. Todo el panel frontal y parte del panel superior presenta la característica malla fina de Cooler Master, probada para filtrar el polvo, proporcionar ventilación sin restricciones y hacer que el proceso de limpieza y mantenimiento sea más eficiente. Incluso con dimensiones compactas, el MasterCase H100 presenta el icónico ventilador RGB de 200 mm de la serie H. Las fuentes de alimentación ATX de tamaño completo son compatibles para mejorar la compatibilidad del hardware y garantizar una alimentación eficiente del sistema.",
+        "precio": 74.99,
+        "stock": 11,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/h100-1-min-image.png"
+    },
+    {
+        "nombre": "Cooler Master MB320 L ARGB",
+        "descripcion": "Panel frontal Dark Mirror Entradas de malla Ventiladores ARGB dobles Flujo de aire optimizado Panel lateral de vidrio templado Jaula de unidad adaptable Opciones de enfriamiento versátiles Espacio para actualizaciones",
+        "precio": 79,
+        "stock": 29,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/mb320l_argb_gallery_01-zoom-600x600.png"
+    },
+    {
+        "nombre": "Cooler Master Box Lite 5 RGB C/Control",
+        "descripcion": "El MasterBox Lite 5 RGB ATX es su opción directa para la creación de su PC que no ignora el aspecto, la personalización o el rendimiento. Viene de serie con tres ventiladores RGB de 120 mm, instalados detrás de un elegante panel frontal DarkMirror. Con los tres colores de acabado personalizados (negro, rojo y blanco) que se incluyen en la caja, el estuche ofrece un excelente primer punto de entrada para la personalización.",
+        "precio": 95,
+        "stock": 39,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/9249796100_93f738143413441298a2b399d82038e5-2.jpg"
+    },
+    {
+        "nombre": "Cooler Master Box Q300P w/RGB Fans",
+        "descripcion": "La caja MasterBox Q300P admite refrigeradores de CPU de hasta 159 mm de altura, tarjetas gráficas de hasta 360 mm de longitud y fuentes de alimentación de hasta 160 mm de longitud.",
+        "precio": 95,
+        "stock": 48,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/231180513_ee780c603c8742b684bccca9c9488598.jpg"
+    },
+    {
+        "nombre": "Cooler Master Master Box MB500",
+        "descripcion": "AVAILABLE COLOR(S) Black MATERIALS Steel, Plastic, Tempered Glass DIMENSIONS (LXWXH) 494 x 211 x 475mm MOTHERBOARD SUPPORT ATX, Micro ATX, Mini ITX EXPANSION SLOTS 7 3.5 DRIVE BAYS 2 DRIVE BAYS 2.5 SSD 2 (Max. 4) I/O PANEL 2x USB 3.0, Audio In & Out (supports HD audio) PRE-INSTALLED FANS – FRONT 120mm x 2 RGB LED fan PRE-INSTALLED FANS – REAR 120mm x 1 RGB LED fan FAN SUPPORT – FRONT 120mm x 3, 140mm x 2 FAN SUPPORT – TOP 2 x 120mm FAN SUPPORT – REAR 120mm x 1 RADIATOR SUPPORT – FRONT 120mm, 140mm, 240mm, 280mm, 360mm RADIATOR SUPPORT – REAR 120mm CLEARANCE – CPU COOLER 163mm / 6.41 CLEARANCE – GPU 400mm CLEARANCE – PSU 180mm/7.1 CABLE ROUTING – BEHIND MOTHERBOARD TRAY 15-23mm / 0.59-0.90 DUST FILTERS Front, Bottom POWER SUPPLY SUPPORT Bottom Mount, ATX EAN CODE 4719512067345 UPC CODE 884102039867 SIZE Mid Tower SERIES MasterBox Series",
+        "precio": 95,
+        "stock": 37,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/33595216467543-l_cefaf81988b941bcb9e1cb8727848eb8.jpg"
+    },
+    {
+        "nombre": "Cooler Master Master Box MB500 TUF Edition",
+        "descripcion": "COLORES DISPONIBLES Negro MATERIALES Acero, Plástico, Vidrio Templado DIMENSIONES (LXWXH) 494 x 211 x 475 mm SOPORTE DE PLACA BASE ATX, Micro ATX, Mini ITX RANURAS DE EXPANSIÓN 7 BAHÍAS DE UNIDAD DE 3.5 2 BAHÍAS DE UNIDAD – SSD 2 PANEL DE E / S 2x USB 3.0, entrada y salida de audio (admite audio HD) VENTILADORES PREINSTALADOS – FRENTE 2x ventilador LED RGB de 120 mm VENTILADORES PREINSTALADOS: TRASEROS 1x ventilador LED RGB de 120 mm SOPORTE DE VENTILADOR: DELANTERO 3x 120 mm, 2x 140 mm SOPORTE DE VENTILADOR: TRASERO 1x 120 mm SOPORTE DE VENTILADOR: SUPERIOR 2x 120mm SOPORTE DEL RADIADOR – DELANTERO 120 mm, 140 mm, 240 mm, 280 mm, 360 mm SOPORTE DEL RADIADOR – TRASERO 120mm LIQUIDACIÓN – CPU COOLER 163 mm / 6.41 LIQUIDACIÓN – GFX 400mm LIQUIDACIÓN – PSU 180 mm / 7.1 ENRUTAMIENTO DE CABLES: DETRÁS DE LA BANDEJA DE LA PLACA BASE 15-23 mm / 0.59-0.90 FILTROS DE POLVO Frente, abajo SOPORTE DE FUENTE DE ALIMENTACIÓN Montaje inferior, ATX",
+        "precio": 99.99,
+        "stock": 56,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/557362gabinete-atx-coolermaster-masterbox-mb500-tuf-D_NQ_NP_788936-MLU30143860944_042019-F_ed3efefb7376440b8817c2d5a5b600bd-1.jpg"
+    },
+    {
+        "nombre": "Cooler Master TD500 Mesh w/Controlador ARGB",
+        "descripcion": "Un diseño cristalino se extiende por los bordes del panel lateral de vidrio templado, diseñado con precisión para la resistencia y la estética , elevando la forma en que las construcciones y la iluminación del sistema interactúan con el diseño . Tres ventiladores RGB direccionables inundan el panel frontal de malla poligonal con iluminación mientras proporcionan un flujo de aire considerable al sistema. Certificado compatible con: placas base ASUS, Gigabyte, MSI y ASRock . Para una refrigeración de grado entusiasta, se admiten dos radiadores de 360 ??mm en el panel superior y frontal para mantener frescos los sistemas más extremos.",
+        "precio": 115,
+        "stock": 39,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/81sVfkB8vjL._AC_SX425_.jpg"
+    },
+    {
+        "nombre": "Cougar Panzer-S",
+        "descripcion": "Cougar Panzer ha sido diseñado para encarnar todo lo que un caso de juego necesitaría. Sigue los elementos de diseño originales del Panzer Max utilizando un diseño potente que incluye dos cubiertas laterales de vidrio templado totalmente transparentes, soporte para hasta cuatro radiadores, ocho ventiladores y tres tarjetas gráficas con una longitud máxima de 425 mm. El Panzer albergará el sistema de juego de tus sueños.",
+        "precio": 128.99,
+        "stock": 22,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/1549675679714-MLA25765189307_072017-F-1-800x800_6dea608273744a39a526baceccbafad7.jpg"
+    },
+    {
+        "nombre": "Cooler Master H500 ARGB",
+        "descripcion": "El MasterCase H500 se establece como el chasis ideal para un flujo de aire de alto rendimiento. Ahora, con ventiladores ARGB de 200 mm. Cada elección de paneles frontales decide si la construcción sobresaldrá con un rendimiento despiadado del flujo de aire o una estética deslumbrante. Por supuesto, la malla es la opción ideal para proporcionar a los ventiladores preinstalados grandes volúmenes de aire fresco. Los icónicos y direccionables ventiladores RGB son el núcleo de la serie H en diseño y función, capaces de operar en silencio mientras se mueven grandes volúmenes de aire debido a su tamaño. Los ventiladores ARGB preinstalados se pueden administrar mediante la placa base o un controlador incluido, conectado por el divisor incluido, para crear un sistema de iluminación ARGB completo.",
+        "precio": 138.99,
+        "stock": 58,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/h500_argb_gallery_01-image.png"
+    },
+    {
+        "nombre": "Cougar Panzer G",
+        "descripcion": "Con PANZER-G, COUGAR está impulsando la evolución de los gabinetes mid tower hacia una dirección más moderna, elegante y atractiva que se convertirá en el nuevo estándar para este formato en los años siguientes. Combinando un cuerpo alto que da soporte a todos los componentes de un equipo de gama alta y al mismo tiempo mantiene una forma delgada, cuatro tapas de vidrio templado masivas y tres de los nuevos ventiladores LED Vortex con iluminación circular, PANZER-G se destaca por encima de todos los demás gabinetes de su clase.",
+        "precio": 142,
+        "stock": 66,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/07/9470987002_0b6ae1366d2048bf9e9e021ade7dcb52.png"
+    },
+    {
+        "nombre": "Cougar Puritas",
+        "descripcion": "PURITAS no solo es una hermosa carcasa, sino también está diseñada para poder albergar una computadora realmente poderosa. Cuenta con un excelente soporte para componentes de juegos de alta gama. Con siete ranuras de expansión, PURITAS le permite instalar hasta tres tarjetas gráficas de 425 mm de largo. También tiene espacio dedicado para almacenamiento: dos bahías de 3.5 y cuatro bahías de 2.5 le brindan espacio para todos los SDD y discos duros que necesita.",
+        "precio": 159.99,
+        "stock": 40,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/07/790879004_fa5a31cd804e4687934efb0240dc1a28.png"
+    },
+    {
+        "nombre": "Cooler Master CM694 TG",
+        "descripcion": "3 jaulas de unidades se pueden agregar, quitar o reposicionar individualmente para dejar espacio para tarjetas gráficas más largas y / o radiadores superiores y frontales. Las tarjetas gráficas instaladas dentro de la caja están reforzadas por un brazo, lo que garantiza la entrega y el transporte seguros de los sistemas. El panel de E / S a prueba de polvo cuenta con protectores de goma, 2 x puertos USB 3.0, un puerto USB 3.1 (Gen 2) Tipo-C y un conector para auriculares de 4 polos.",
+        "precio": 175,
+        "stock": 5,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/MasterBox_CM694-3.jpg"
+    },
+    {
+        "nombre": "Cougar Panzer Max mATX/ATX/eATX",
+        "descripcion": "PANZER MAX es un gabinete full tower diseñado con gamers, overclockers, modders y los amantes del modding y entusiastas del hardware para proporcionar niveles de libertad sin precedentes al diseñar su sistema, dándole máxima capacidad en la elección de componentes.",
+        "precio": 185,
+        "stock": 36,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/07/802409002_724b06657f974990b90e553b2568cb05.png"
+    },
+    {
+        "nombre": "Cooler Master H500P Mesh",
+        "descripcion": "MASTERCASE H500P MESH DISEÑO SORPRENDENTE Dos ventiladores RGB de 200 mm detrás de una malla Cubiertas del panel frontal para un montaje limpio Montaje vertical de tarjeta gráfica Panel lateral de vidrio templado teñido gris claro Controlador RGB preparado para refrigeración líquida y 1 a 3 cable divisor para ventiladores LED RGB",
+        "precio": 195,
+        "stock": 27,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/395877391vIa7kin_L._SX466__9fbf4c2b912b4724b77b01ef2c256c37.jpg"
+    },
+    {
+        "nombre": "Cooler Master CM Storm Stryker SE Full Tower",
+        "descripcion": "AVAILABLE COLOR(S) White MATERIALS Steel, Plastic, Tempered Glass DIMENSIONS (LXWXH) 578.5 x 250 x 605.6mm MOTHERBOARD SUPPORT XL-ATX, ATX, Micro ATX, Mini ITX, E-ATX EXPANSION SLOTS 9+2 5.25 DRIVE BAYS 1 3.5 DRIVE BAYS 2 DRIVE BAYS 2.5 SSD 4 + 1 (from X-Dock) I/O PANEL 2x USB 3.0, 2x USB 2.0, Audio In & Out (supports HD audio), Fan Speed & LED on/off buttons PRE-INSTALLED FANS – FRONT 120mm White LED fan x 2 (1200RPM) PRE-INSTALLED FANS – TOP 200mm x 1 PRE-INSTALLED FANS – REAR 1x 140mm, 1200RPM FAN SUPPORT – FRONT 120mm / 140mm x 3 FAN SUPPORT – REAR 120/140mm x 1 FAN SUPPORT – TOP 200mm x 1, 120 / 140mm x 2 FAN SUPPORT – BOTTOM 120mm x 2 RADIATOR SUPPORT – FRONT 120mm, 140mm, 240mm, 280mm, 360mm RADIATOR SUPPORT – TOP 120mm, 140mm, 240mm RADIATOR SUPPORT – REAR 120mm, 140mm RADIATOR SUPPORT – BOTTOM 120mm, 140mm, 240mm CLEARANCE – CPU COOLER 186mm CLEARANCE – GPU 322mm CABLE ROUTING 17.9mm DUST FILTERS Top, Front, Bottom POWER SUPPLY SUPPORT Bottom Mount, ATX EAN CODE 4719512065402 UPC CODE 884102037924 SERIES CM Storm Series SIZE Full Tower",
+        "precio": 208,
+        "stock": 47,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/4633981section1-img_9c45dd05bcf942febcaf14cb7b3473a6.png"
+    },
+    {
+        "nombre": "Cougar Gemini T",
+        "descripcion": "Case Form Factor Mid-Tower Dimensions 227 x 535 x 527 (mm) 8.9 x 21.0 x 20.7 (in) Motherboard Formats Mini ITX / Micro ATX / ATX / CEB I/O Panel USB 3.1 Type-C x 1 / USB3.0 x 2, Mic x 1 / Audio x 1, RGB Control Button 3.5 Drive Bay 2 2.5 Drive Bay 3 Expansion Slots 7+2",
+        "precio": 219,
+        "stock": 21,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/841383804-s4-4_3d377634607d4c999c9296fecfde13fe.png"
+    },
+    {
+        "nombre": "Cougar Panzer EVO Full Tower",
+        "descripcion": "Cuatro piezas de vidrio templado cubren el inmenso espacio que este gabinete te brinda para construir y desarrollar la PC de tus sueños mientras te permite ver todos los componentes de alta gama que instalas dentro de ella. Para agregar un fuerte efecto de iluminación, cuatro ventiladores LED de 120 mm (tres en la parte delantera y uno en la parte posterior) mejoran aún más la majestuosidad de esta pieza de arte.",
+        "precio": 219.99,
+        "stock": 49,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/07/2243599008_f727333f7d3947c6a13ba78bd76dc292.png"
+    },
+    {
+        "nombre": "RIOTORO CR1288 PRISM Full Tower RGB",
+        "descripcion": "Gabinete RIOTORO PRISM",
+        "precio": 225,
+        "stock": 7,
+        "marca": "RIOTORO",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/719246055r_5546932e2c2c4ab98c717f47245191a7-2.png"
+    },
+    {
+        "nombre": "DEEPCOOL Dukase LIQUID CASE 2 ATX/mATX",
+        "descripcion": "Un gabinete optimizado con sistema de refrigeración líquida integrada de 240mm Sistema de iluminación LED atmosférico Dos rotores de flujo instalados para hacer que el flujo de líquido sea claramente visible Cabina independiente para la fuente de alimentación y gran espacio para el ruteo de cables Lateral transparente",
+        "precio": 239,
+        "stock": 98,
+        "marca": "Gamer Storm",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/08/44540920170315140614_f14b36fa_2323d5ad16854a689995bca6cc120453.jpeg"
+    },
+    {
+        "nombre": "Cooler Master SL600M",
+        "descripcion": "Paneles de aluminio anodizado Disposición vertical y efecto de chimenea Reducción acústica de ruido Reducción de ruido operacional Soporte PCI giratorio Soporte de almacenamiento versátil Panel de iluminación y E / S de proximidad Ventilación superior ajustable.",
+        "precio": 270,
+        "stock": 39,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/gabinete-cooler-master-mastercase-sl600m-mcm-sl600m-sgnn-s00-D_NQ_NP_761612-MLM31236526888_062019-F.jpg"
+    },
+    {
+        "nombre": "Cooler Master H500M",
+        "descripcion": "Elija entre el panel frontal de malla para un flujo de aire optimizado o la opción de vidrio para un equilibrio de estética y rendimiento con el accesorio incluido. Mueva el aire de manera elegante y silenciosa con dos ventiladores RGB direccionables de 200 mm controlados por un controlador RGB direccionable incluido. Los paneles laterales de vidrio de borde a borde en ambos lados, un panel superior de vidrio y un panel frontal de vidrio ofrecen una vista clara y completa del sistema. Alivie el estrés del peso y refuerce las tarjetas gráficas más grandes y largas con un brazo de soporte de tarjeta gráfica ajustable incluido. El panel frontal es compatible con radiadores de hasta 360 mm, incluido el soporte para radiadores de 200 mm. El soporte superior admite radiadores de hasta 360 mm junto con ventiladores de 200 mm. Un soporte de bomba de agua dedicado ofrece opciones de montaje directamente sobre la cubierta de la fuente de alimentación.",
+        "precio": 270,
+        "stock": 28,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/61sJahig4YL.jpg"
+    },
+    {
+        "nombre": "Cougar Conquer Essence",
+        "descripcion": "Gabinete Micro ATX de diseño abierto con cuerpo de aluminio y paneles de vidrio templado. Al mundo le encantó el diseño de aluminio fresado CNC de COUGAR Conquer. Ahora, COUGAR está lanzando un formato más pequeño y compacto para aquellos que desean disfrutar de las mismas miradas impresionantes en un espacio más pequeño. Con soporte tanto para Micro-ATX como para Mini-ITX, excelentes capacidades de refrigeración y espacio para componentes de juegos de alta gama, este gabinete albergará la compilación compacta de sus sueños.",
+        "precio": 284.99,
+        "stock": 54,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/1156380conq_ess_f541774cea8546949a07f5c83ead1f1b.png"
+    },
+    {
+        "nombre": "DEEPCOOL Genome II BK-RD ATX/mATX",
+        "descripcion": "El gabinete del mundo con sistema integrado de refrigeración líquida Sistema de enfriamiento líquido con radiador de 360mm (incluye tubo delantero en hélice preinstalado) Estructura interna optimizada, separando las áreas funcionales. Dos posiciones de fijación para cajas HDD de 3,5 '' para ofrecer un espacio flexible para PSU Luces LED en ventiladores de refrigeración de líquidos y bomba de agua Espacio adicional reservado para el sistema de enfriamiento de agua DIY Ranura adicional optimizada para la instalación vertical de la tarjeta gráfica (cable de extensión PCI-E incluido) Recorte mucho más grande en la bandeja del MB para una instalación más fácil del refrigerador de la CPU Mejor ruteo de cables Amortiguador de goma y filtro de polvo para PSU",
+        "precio": 300,
+        "stock": 71,
+        "marca": "Gamer Storm",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/08/1980959DeepCool-GENOME-1_97809e6c1d2b4dc29e8b8de80e7b34ed.jpg"
+    },
+    {
+        "nombre": "Cougar Conquer",
+        "descripcion": "Conquer se basa en el excepcional y consistente diseño de ADN de COUGAR con estética, estructura de aluminio y estilo militar. A través del marco innovador de la aleación de aluminio para forjar una nueva obra maestra final y con estilo. Además, puede mostrar su sistema de juegos de gama alta y potente, incluyendo tarjetas gráficas de tamaño completo de hasta 350 mm con una visión increíble más allá de su imaginación. COUGAR Conquer es una obra maestra en sus sueños.",
+        "precio": 325,
+        "stock": 11,
+        "marca": "Cougar",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/1740989conq_785691a7c09343648c1aef99938dd35c.png"
+    },
+    {
+        "nombre": "Cooler Master Cosmos C700M",
+        "descripcion": "Gabinete Cooler Master Cosmos",
+        "precio": 589.99,
+        "stock": 32,
+        "marca": "Cooler Master",
+        "categoria": "GABINETE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/gabinete-cooler-master-cosmos-c700m-rgb-full-tower-gamer-D_NQ_NP_789987-MLU32033414224_092019-F.jpg"
+    }
+]

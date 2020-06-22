@@ -42,7 +42,7 @@
                   <span>{{ item_data.marca }}</span>
                 </p>
                 <p class="flex items-center flex-wrap">
-                  <span class="text-2xl leading-none font-medium text-primary mr-4 mt-2">${{ item_data.precio }}</span>
+                  <span class="text-2xl leading-none font-medium text-primary mr-4 mt-2">US$ {{ item_data.precio }}</span>
                   <span class="pl-4 mr-2 mt-2 border border-solid d-theme-border-grey-light border-t-0 border-b-0 border-r-0"><star-rating :show-rating="false" :rating="item_data.rating" :star-size="20" read-only /></span>
                   <span class="cursor-pointer leading-none mt-2">{{item_data.count}} ratings</span>
                 </p>
@@ -188,7 +188,7 @@
                   <!-- Item Meta -->
                   <div class="item-meta">
                     <star-rating :show-rating="false" :rating="item.rating" :star-size="14" class="justify-center" read-only />
-                    <p class="text-lg font-medium text-primary">${{ item.precio }}</p>
+                    <p class="text-lg font-medium text-primary">US$ {{ item.precio }}</p>
                   </div>
                 </div>
               </swiper-slide>

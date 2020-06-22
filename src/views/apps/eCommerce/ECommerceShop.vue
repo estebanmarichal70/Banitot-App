@@ -88,7 +88,7 @@
                             <div>
                                 <vs-slider 
                                   class="algolia-price-slider"  
-                                  text-fixed="$" 
+                                  text-fixed="US$" 
                                   step="5"
                                   :min="rangoMin"
                                   :max="rangoMax"
@@ -223,7 +223,7 @@
                         <div>
                           <vs-pagination
                             :total="totalPages"
-                            :max="7"
+                            :max="5"
                             :value="page"
                             @input="(val) => changePage(val)" />
                         </div>
@@ -395,8 +395,11 @@ export default {
         case "tarjetas-graficas" :
           this.categoria = "GPU"
           break;
-        case "refrigeracion" :
+        case "refrigeracion-cpu" :
           this.categoria = "CPU_COOLER"
+          break;
+        case "refrigeracion-gabinete" :
+          this.categoria = "CASE_COOLER"
           break;
         case "hdd" :
           this.categoria = "HDD"
@@ -449,6 +452,7 @@ export default {
         default:
           this.categoria = ''
       }
+      this.page = 1
       this.fetchProducts();
     },
 

@@ -59,7 +59,7 @@
                             <vs-divider />
                             <div class="flex justify-between mb-2">
                                 <span class="text-grey">Precio total</span>
-                                <span>{{precio}}</span>
+                                <span>US$ {{precio}}</span>
                             </div>
                             <div class="flex justify-between mb-2">
                                 <span class="text-grey">Descuento aplicado</span>
@@ -78,7 +78,7 @@
 
                             <div class="flex justify-between font-semibold mb-3">
                                 <span>Total</span>
-                                <span>{{precioT}}</span>
+                                <span>US$ {{precioT}}</span>
                             </div>
 
                             <vs-button class="w-full" @click="$refs.checkoutWizard.nextTab()">Comprar</vs-button>
@@ -289,7 +289,7 @@
 
                             <div class="flex justify-between mb-2">
                                 <span>Precio por {{cartItems.length}} artículo<span v-show="cartItems.length > 1">s</span></span>
-                                <span class="font-semibold">{{precio}}</span>
+                                <span class="font-semibold">${{precio * 42}}</span>
                             </div>
                             <div class="flex justify-between mb-2">
                                 <span>Descuentos aplicados</span>
@@ -303,7 +303,7 @@
 
                             <div class="flex justify-between">
                                 <span>Monto a pagar</span>
-                                <span class="font-semibold">{{precioT}}</span>
+                                <span class="font-semibold">${{precioT *42}}</span>
                             </div>
                         </vx-card>
                     </div>
@@ -380,7 +380,8 @@ export default {
           item['rating'] = rating
           this.precio += (item.precio*item.pivot.cantidad)
         })
-        this.precioT = this.precio - this.precio * 0.05
+        this.precio = this.precio.toFixed(2)
+        this.precioT = (this.precio - this.precio * 0.05).toFixed(2)
         })
       .catch(error => {
         console.log(error)
@@ -392,10 +393,11 @@ export default {
       this.cartItems.forEach((i, index) => {
           if(i.id === item.id){
             this.precio -= (i.precio*i.pivot.cantidad)
-            this.precioT = this.precio - this.precio * 0.05
+            this.precioT = (this.precio - this.precio * 0.05).toFixed(2)
             this.cartItems.splice(index, 1)
           }
       })
+      this.precio = this.precio.toFixed(2)
     },
     wishListButtonClicked (item) {
       // Toggle in Wish List
@@ -414,7 +416,8 @@ export default {
         const itemIndex = Math.abs(index + 1 - this.cartItems.length)
 
         this.precio += (item.precio * event - item.precio * item.pivot.cantidad)
-        this.precioT = this.precio - this.precio * 0.05
+        this.precio = this.precio.toFixed(2)
+        this.precioT = (this.precio - this.precio * 0.05).toFixed(2)
         item.pivot.cantidad = event
 
         this.$store.dispatch('eCommerce/updateItemQuantity', { quantity: event, articulo_id: item.id, carrito_id: this.$store.state.AppActiveUser.carrito[0].id,index: itemIndex })

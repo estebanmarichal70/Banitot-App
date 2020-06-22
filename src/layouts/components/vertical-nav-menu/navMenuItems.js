@@ -55,10 +55,21 @@ export default [
         icon: 'ChevronRightIcon'
       },
       {
-        url: '/tienda/refrigeracion',
-        slug: 'refrigeracion',
+        url: null,
         name: 'Refrigeración',
-        icon: 'ChevronRightIcon'
+        icon: 'ChevronRightIcon',
+        submenu: [
+          {
+            url: '/tienda/refrigeracion-cpu',
+            slug: 'refcpi',
+            name: 'CPU'
+          },
+          {
+            url: '/tienda/refrigeracion-gabinete',
+            slug: 'refgabinete',
+            name: 'Gabinete'
+          },
+        ]
       },
       {
         url: null,

@@ -1,0 +1,1550 @@
+[
+    {
+        "nombre": "ASUS GT1030-2G-CSM",
+        "descripcion": "Bus estándar PCI Express 3.0\n OpenGL OpenGL®4.5\n Memoria de video GDDR5 2GB\n Reloj del motor – Modo OC – Reloj GPU Boost: 1506 MHz, Reloj base GPU: 1266 MHz  – Modo de juego (Predeterminado) – Reloj GPU Boost: 1468 MHz, Reloj base GPU: 1228 MHz\n CUDA Core 384\n Reloj de la memoria 6008 MHz\n interfaz de memoria 64 bits\n Resolución Resolución máxima de DVI: 1920×1200\n Interfaz Salida DVI: Sí x 1 (Nativo) (DVI-D) –  Salida HDMI: Sí x 1 (Nativo)\n Soporte HDCP: Sí",
+        "precio": 134.99,
+        "stock": 10,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/7586738P_setting_fff_1_90_end_500_6f6b253bf0eb4cb9a8c4ba7d633557f5.jpg"
+    },
+    {
+        "nombre": "Biostar Radeon RX560 4gb gddr5",
+        "descripcion": "AMD Radeon RX560 GPU\n – 4GB GDDR5, 128bit with DVI/Display port/HDMI output\n – PCI Express 3.0 bus interface\n – Support Radeon Freesync Technology\n – DirectX 12 and Vulkan Optimized\n – AMD XConnect and HDR Ready",
+        "precio": 145,
+        "stock": 20,
+        "marca": "Biostar",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/b20190912.jpg"
+    },
+    {
+        "nombre": "ASUS Radeon RX570 Strix 4Gb DDR5",
+        "descripcion": "AMD Radeon RX 570\n OpenGL®4.5\n Video Memory GDDR5 4GB\n Engine Clock 1310 MHz (OC Mode) 1300 MHz (Gaming Mode)\n Stream Processors 2048\n Memory Clock 7000 MHz\n Memory Interface 256-bit\n\n Resolution\n Digital Max Resolution:5120×2880\n\n Interface\n DVI Output : Yes x 2 (Native) (DVI-D)\n HDMI Output : Yes x 1 (Native) (HDMI 2.0)\n Display Port : Yes x 1 (Native) (Regular DP)\n HDCP Support : Yes\n Power Connectors\n 1 x 8-pin",
+        "precio": 210,
+        "stock": 13,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/9453291fes1130o351_1_5f3bfa2972f64c4795495ba5e3d871d7.jpg"
+    },
+    {
+        "nombre": "Gigabyte RX570 Dual Fan 8Gb Gddr5",
+        "descripcion": "Caracteristicas\n Desarrollado por Radeon ™ RX 570\n WINDFORCE 2X con diseño de ventilador de cuchilla de 90 mm\n RGB Fusion 2.0: sincronice con otros dispositivos AORUS\n Elegante placa posterior de metal\n\n Reloj de núcleo\n Modo OC: 1255MHz\n Modo de juego: 1244 MHz",
+        "precio": 235,
+        "stock": 19,
+        "marca": "Gigabyte",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/9453291fes1130o351_1_5f3bfa2972f64c4795495ba5e3d871d7.jpg"
+    },
+    {
+        "nombre": "ASUS GeForce GTX1650-4G DUAL",
+        "descripcion": "La ASUS Dual GeForce® GTX 1650 Edición OC 4GB GDDR5 es la forma ideal de empezar en el mundo del gaming PC. La ASUS Dual GeForce®GTX 1650 incorpora los avances tecnológicos de la arquitectura NVIDIA Turing™. Disfruta de los últimos juegos con un rendimiento el doble de rápido que la GeForce GTX 950 y hasta un 70 % más rápido que la GTX 1050. GeForce Experience: Captura y comparte vídeos, capturas de pantalla y livestreamings con tus amigos. Mantén tus drivers actualizados y optimiza tu configuración de juego. Con GeForce Experience puedes hacer todo eso y mucho más, es el compañero perfecto de tu gráfica GeForce. Resistencia al polvo IP5X: Evita que las partículas accedan al interior y aumenta la durabilidad. Tecnología Auto-Extreme: Proceso de fabricación que potencia la fiabilidad. Programa de validación de 144 horas: Batería de pruebas que contrasta la compatibilidad con los últimos juegos. GPU Tweak II permite ajustar el rendimiento y la temperatura de forma intuitiva.",
+        "precio": 249.99,
+        "stock": 10,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/25794101650_dual_35452150319f4837b7635e639ff31001.png"
+    },
+    {
+        "nombre": "ASUS TUF GTX1650 4G-GAMING",
+        "descripcion": "La GeForce® GTX 1650 está construida con el rendimiento gráfico innovador de la galardonada arquitectura NVIDIA Turing ™. Transmita su juego con el codificador de hardware dedicado de la GTX 1650 que está optimizado para Open Broadcaster Software (OBS). GeForce Experience le permite capturar y compartir videos, capturas de pantalla y transmisiones en vivo con amigos, mantener actualizados los controladores de GeForce y optimizar fácilmente la configuración del juego. El lubricante de grado espacial aporta la durabilidad de los rodamientos de bolas dobles a diseños de cojinetes de manguito más silenciosos. La resistencia al polvo IP5X ofrece protección contra la entrada de partículas para una mejor durabilidad. La tecnología Auto-Extreme utiliza la automatización para mejorar la confiabilidad. Una placa posterior protectora asegura los componentes durante el transporte y la instalación. Las pruebas de compatibilidad de TUF garantizan que los componentes de la alianza TUF Gaming y TUF Gaming trabajen juntos sin problemas. El programa de validación de 144 horas somete a las tarjetas a una serie de rigurosas pruebas para garantizar la compatibilidad con los últimos juegos. GPU Tweak II proporciona ajustes intuitivos de rendimiento, controles térmicos y monitoreo del sistema.",
+        "precio": 249.99,
+        "stock": 5,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1650-tuf.jpg"
+    },
+    {
+        "nombre": "ASUS TUF GTX1650 SUPER 4G-GAMING",
+        "descripcion": "ASUS TUF Gaming GeForce® GTX 1650 4GB GDDR5 es su boleto para los juegos de PC. La GeForce® GTX 1650 está construida con el rendimiento gráfico innovador de la galardonada arquitectura NVIDIA Turing™. Transmita su juego con el codificador de hardware dedicado de GTX 1650 que está optimizado para Open Broadcaster Software (OBS). GeForce Experience le permite capturar y compartir videos, capturas de pantalla y transmisiones en vivo con amigos, mantener actualizados los controladores de GeForce y optimizar fácilmente la configuración del juego. El lubricante de grado espacial aporta a la durabilidad de los baleros de bola doble para diseños de cojinetes más silenciosos. La resistencia al polvo IP5X ofrece protección contra la entrada de partículas para una mejor durabilidad. La tecnología Auto-Extreme utiliza la automatización para mejorar la confiabilidad. Una placa trasera protectora asegura los componentes durante el transporte y la instalación. Las pruebas de compatibilidad de TUF garantizan que los componentes de la alianza TUF Gaming y TUF Gaming trabajen juntos sin problemas. El programa de validación de 144 horas somete a las tarjetas a una serie de rigurosas pruebas para garantizar la compatibilidad con los últimos juegos. GPU Tweak II proporciona ajustes intuitivos de rendimiento, controles térmicos y monitoreo del sistema.",
+        "precio": 275,
+        "stock": 11,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/2757251650_s_tuf_31cdfc6a872b407dbfef12451c06ba79.png"
+    },
+    {
+        "nombre": "Zotac GeForce GTX1650 SUPER Twin Fan 4gb DDR6",
+        "descripcion": "GPU GeForce® GTX 1650 SUPER CUDA cores 1280 Memoria Video 4GB GDDR6 Bus Memoria 128-bit Reloj del motor Boost: 1725 MHz Reloj de memoria 12 Gbps PCI Express 3.0 Salida de Video DisplayPort 1.4 – HDMI 2.0b – Dual Link DVI-D Soporta HDCP Yes Capacidad Multi Pantalla Triple Display Recomendad fuente de poder 450W Consumo de Energia 100W Entrada de Poder 6-pin",
+        "precio": 275,
+        "stock": 12,
+        "marca": "Zotac",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/1816963zt-t16510f-10l-image1_9bf35c578cfd450cb5cbcf5812f58033.jpg"
+    },
+    {
+        "nombre": "Asrock Radeon RX580 8gb Phantom",
+        "descripcion": "Core Clock/Memory OC Mode: 1435 MHz / 8032 MHz Default Mode: 1380 MHz / 8000 MHz Silent Mode: 1324 MHz / 7968 MHz 8 GB GDDR5 Features Double Ball Bearings Fan Design High Performance Composite Heatpipes Support 8K Resolution Graphic Outputs: 3 DisplayPort, HDMI, DVI Phantom Gaming Tweak Utility Temperature and Fan Speed Monitoring Core / Memory Clock Tweak Core / Memory Voltage Tweak",
+        "precio": 284.99,
+        "stock": 15,
+        "marca": "AsRock",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/03/4319179Sin_t_tulo_e276715192e542a1ab9ca67e373e83fd.png"
+    },
+    {
+        "nombre": "ASUS DUAL RX5500XT-O8G-EVO",
+        "descripcion": "ASUS Dual Radeon ™ RX 5500 XT EVO ofrece una experiencia de juego de 1080p plug-and-play Edición OC : Boost Clock ~ 1865 MHz (modo OC) / ~ 1845Mhz (modo de juego) El diseño del ventilador de tecnología axial presenta un cubo de ventilador más pequeño que facilita las aspas más largas y un anillo de barrera que aumenta la presión de aire hacia abajo. La tecnología 0dB te permite disfrutar de juegos ligeros en relativo silencio. La resistencia al polvo IP5X ofrece protección contra la entrada de partículas para una mejor durabilidad. La tecnología Auto-Extreme utiliza la automatización para mejorar la confiabilidad. Una placa posterior protectora asegura los componentes durante el transporte y la instalación. Un programa de validación de 144 horas somete a las tarjetas a una serie de pruebas estrictas para garantizar la compatibilidad con los últimos juegos.",
+        "precio": 349.99,
+        "stock": 16,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/8016077tarjeta-grafica-gaming-asus-dual-rx5500xt-o8g-evo-galeria_715c12ec960d446e98913f6b12a27093.jpg"
+    },
+    {
+        "nombre": "MSI GeForce GTX1660 6gb gddr5 Ventus",
+        "descripcion": "Núcleo/Memoria Boost Clock / Velocidad de memoria 1830 MHz / 8 Gbps 6GB GDDR5 DisplayPort x 3 / HDMI x 1 Ventilador TORX 2.0 Aspas de dispersión: curvas pronunciadas que aceleran el flujo de aire Aspas tradicionales: proporciona una corriente de aire estable al disipador grande que se encuentra debajo Utilitario de Overclocking Afterburner Control inalámbrico a través de dispositivos Android/iOS . Predator: Grabación de video en juego. Kombustor: benchmark DirectX12. GeForce Experience Captura y comparte videos, capturas de pantalla y livestreams con tus amigos. Mantén los drivers actualizados y optimiza tus configuraciones de juego",
+        "precio": 374.99,
+        "stock": 20,
+        "marca": "MSI",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/08/1589247product_6_20190314113217_5c89cb410e79e_edf76dd517444e02bd12b87060234804.png"
+    },
+    {
+        "nombre": "Zotac GeForce GTX1660 SUPER 6Gb DDR6",
+        "descripcion": "La nueva generación de tarjetas gráficas ZOTAC GAMING GeForce GTX SUPER está aquí. Basado en la nueva arquitectura NVIDIA Turing, prepárate para ser rápido y fuerte. GPU GeForce® GTX 1660 SUPER CUDA cores 1408 Video Memory 6GB GDDR6 Memory Bus 192-bit Engine Clock Boost: 1785 MHz Memory Clock 14 Gbps PCI Express 3.0",
+        "precio": 374.99,
+        "stock": 14,
+        "marca": "Zotac",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/5785944zt-t16620f-10l_image1_403e798dc8934953976fe147ffe8f1f2.jpg"
+    },
+    {
+        "nombre": "ASUS PH-GTX1660 SUPER 6G",
+        "descripcion": "Motor Gráfico: NVIDIA® GeForce GTX 1660 SUPER™ Bus: PCI Express 3.0 OpenGL: OpenGL®4.6 Memoria de Video: GDDR6 6GB Frecuencia del Reloj: Modo Gaming (por defecto) – Reloj GPU acelerado: 1785 MHZ , Reloj base GPU: 1530 MHz OC Mode – 1815 MHz (Boost Clock) Núcleo CUDA: 1408 Frecuencia de la Memoria: 14002 MHz Interfaz de Memoria: 192 bits Resolución: Max. resolución digital: 7680×4320 Interfaz Salida DVI: Sí x 1 (DVI-D) Salida HDMI: Sí x 1 (HDMI 2.0b) DisplayPort : Sí x 1 (DisplayPort 1.4) Soporte HDCP: Sí Maximum Display Support: 3 NVlink/ Crossfire Support: No PSU recomendada: 450W Conector alimentación: 1 x 8 contactos Accesorios: 1 x Guía Software: ASUS GPU Tweak II & Drivers: please download all software from the support site. Dimensiones 6.9  x 4.8 x 1.5  pulgadas 17.4 x 12.1 x3.9 cm. Ranura: 2 slot",
+        "precio": 375,
+        "stock": 19,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/1660sph.png"
+    },
+    {
+        "nombre": "ASUS TUF GTX1660 SUPER 6G-GAMING",
+        "descripcion": "ASUS TUF Gaming GeForce® GTX 1660 SUPER ™ 6GB GDDR6 alcanza altas tasas de actualización sin sudar. La GeForce GTX 1660 SUPER es hasta un 20% más rápida que la GTX 1660 original y hasta 1.5 veces más rápida que la GTX 1060 6GB de la generación anterior. Impulsado por la galardonada arquitectura NVIDIA Turing ™ y la memoria GDDR6 ultrarrápida, es un supercargador para los juegos más populares de la actualidad. Es hora de prepararse y ponerse SUPER. GDDR6 ultrarrápido con más del 50% más de ancho de banda de memoria para juegos de alta velocidad.? Experiencia GeForce: capture y comparta videos, capturas de pantalla y transmisiones en vivo con amigos. Mantenga sus controladores actualizados y optimice la configuración del juego. GeForce Experience le permite hacerlo todo, convirtiéndolo en el compañero esencial de su tarjeta gráfica GeForce.? El lubricante de grado espacial brinda la durabilidad de los rodamientos de bolas dobles a diseños de cojinetes de manguito más silenciosos. Los heatpipes de cobre DirectCU II hacen contacto directo con la matriz para un mejor enfriamiento. La resistencia al polvo IP5X ofrece protección contra la entrada de partículas para una mejor durabilidad. Tecnología Auto-Extreme utiliza la automatización para mejorar la confiabilidad. Una placa protectora asegura los componentes durante el transporte y la instalación. Un diseño compacto maximiza la compatibilidad. Las pruebas de compatibilidad de TUF garantizan que los productos TUF Gaming y TUF Alliance funcionen juntos sin problemas. Un programa de validación de 144 horas somete a las tarjetas a una serie de pruebas estrictas para garantizar la compatibilidad con los últimos juegos.",
+        "precio": 385,
+        "stock": 14,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/27375661DZuvqHbuL._AC_SL1001__4dea2471834040fbab9482d8fe8fca2e.jpg"
+    },
+    {
+        "nombre": "ASUS TUF GTX1660 SUPER Triple fan 6G",
+        "descripcion": "Edición OC: Boost Clock 1860 MHz (modo OC) / 1830 MHz (modo de juego) La GeForce GTX 1660 SUPER es hasta un 20% más rápida que la GTX 1660 original y hasta 1.5 veces más rápida que la GTX 1060 6GB de la generación anterior. Desarrollado por la galardonada arquitectura NVIDIA Turing ™ y la memoria ultrarrápida GDDR6, es un supercargador para los juegos más populares de la actualidad. Es hora de prepararse y ponerse SUPER. GDDR6 ultrarrápido con más del 50% más de ancho de banda de memoria para juegos de alta velocidad. Experiencia GeForce: capture y comparta videos, capturas de pantalla y transmisiones en vivo con amigos. Mantenga sus controladores actualizados y optimice la configuración del juego. GeForce Experience le permite hacerlo todo, convirtiéndolo en el compañero esencial de su tarjeta gráfica GeForce. El lubricante de grado espacial aporta la durabilidad de los rodamientos de bolas dobles a diseños de cojinetes de manguito más silenciosos. Los heatpipes de cobre DirectCU III hacen contacto directo con la matriz para un mejor enfriamiento. La resistencia al polvo IP5X ofrece protección contra la entrada de partículas para una mejor durabilidad. La tecnología Auto-Extreme utiliza la automatización para mejorar la confiabilidad. Una placa posterior protectora asegura los componentes durante el transporte y la instalación. Las pruebas de compatibilidad de TUF garantizan que los componentes de la alianza TUF Gaming y TUF Gaming trabajen juntos sin problemas. El programa de validación de 144 horas somete a las tarjetas a una serie de estrictas pruebas para garantizar la compatibilidad con los últimos juegos.",
+        "precio": 400,
+        "stock": 10,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/06/91EPhrkTwfL._AC_SX466_.jpg"
+    },
+    {
+        "nombre": "Zotac GeForce GTX1660ti Twin Fan 6gb ddr6",
+        "descripcion": "GPU GeForce® GTX 1660 Ti CUDA cores 1536 Video Memory 6GB GDDR6 Memory Bus 192-bit Engine Clock Boost: 1770 MHz Memory Clock 12 Gbps PCI Express 3.0 Display Outputs 3 x DisplayPort 1.4 HDMI 2.0b HDCP Support Yes Multi Display Capability Quad Display",
+        "precio": 450,
+        "stock": 40,
+        "marca": "Zotac",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/08/9388986zt-t16610f-10l_image01_0_186ceda7d023472ab2b4ffc112c3fb66.jpg"
+    },
+    {
+        "nombre": "ASUS TUF 3-RX5600XT-O6G-EVO-GAMING",
+        "descripcion": "Los tanques ASUS TUF Gaming X3 Radeon ™ RX 5600 XT EVO a través de juegos de 1080p Edición OC : Boost Clock ~ 1770 MHz (modo OC) / ~ 1750 MHz (modo de juego) El diseño del ventilador de tecnología axial presenta un cubo de ventilador más pequeño que facilita las aspas más largas y un anillo de barrera que aumenta la presión de aire hacia abajo. La tecnología 0dB te permite disfrutar de juegos ligeros en relativo silencio. El diseño de 2.7 ranuras amplía la superficie de enfriamiento para aprovechar al máximo los tres potentes ventiladores. Los rodamientos de doble ventilador de bola pueden durar hasta dos veces más que los diseños de rodamientos de manga. La tecnología Auto-Extreme utiliza la automatización para mejorar la confiabilidad. Una placa posterior protectora asegura los componentes durante el transporte y la instalación. Las pruebas de compatibilidad de TUF garantizan que los productos de TUF Gaming y TUF Alliance trabajen juntos sin problemas. Un programa de validación de 144 horas somete a las tarjetas a una serie de pruebas estrictas para garantizar la compatibilidad con los últimos juegos.",
+        "precio": 524.99,
+        "stock": 33,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/60249610073768_0_d9f4f1a58f7b41fab72e429246dcd309.jpeg"
+    },
+    {
+        "nombre": "ASUS ROG STRIX RTX2060 6G-GAMING",
+        "descripcion": "ROG Strix GeForce RTX™ 2060 de 6GB GDDR6 con enfriamiento potente para mayores frecuencias de actualización NVIDIA TURINGTM: Las tarjetas de video ASUS GeForce RTX™ cuentan con la arquitectura Turing y todo lo nuevo a la tecnología RTX. Esto se traduce 6 veces más rendimiento que las tarjetas gráficas de la generación anterior y así mismo tiene la capacidad de rastreo de rayos en tiempo real y la inteligencia artificial para los juegos compatibles. DirectX 12: Cuenta con nuevos efectos visuales y técnicas de renderización para juegos más realistas NVIDIA Shadowplay™ Graba y comparte videos de tus juegos en alta calidad, capturas de pantalla y transmisiones en vivo con tus amigos Ventiladores patentados Wing-blade Brinda alta presión de aire, niveles de ruido reducidos, resistencia al polvo con certificación IP5X y modo de 0dB para juegos silenciosos.* Tecnología MaxContact permite 2 veces más contacto con el chip del GPU para una transferencia térmica mejorada. Tecnología Auto-Extreme proceso de fabricación 100% automatizado. Super Alloy Power II incluye chokes premium, capacitores sólidos de polímero y una variedad de potencias de alta corriente para alimentar los núcleos de Turing™’s. ASUS FanConnect II cuenta con 2 cabezales para ventiladores híbridos para una refrigeración óptima del sistema. GPU Tweak II ajusta de forma intuitiva el rendimiento de la tarjet",
+        "precio": 550,
+        "stock": 23,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/90746275E532DED0B4804A5C80E84697.jpg"
+    },
+    {
+        "nombre": "Gigabyte RX5700 Gaming OC",
+        "descripcion": "Features Powered by AMD Radeon™ RX 5700 Integrated with 8GB GDDR6 256-bit memory interface WINDFORCE 3X Cooling System with alternate spinning fans RGB Fusion 2.0 – synchronize with other AORUS devices Metal Back Plate PCI-Express 4.0 Support Core Clock Boost Clock : up to 1750 MHz (Reference card is 1725 MHz) Game Clock* : 1720 MHz (Reference card is 1625 MHz) Base Clock : 1565 MHz (Reference card is 1465 MHz)",
+        "precio": 585,
+        "stock": 12,
+        "marca": "Gigabyte",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/2019080509583946fce519e96510729bbba742f3adedfc9d_m.png"
+    },
+    {
+        "nombre": "ASUS DUAL RTX2060 SUPER EVO 8G",
+        "descripcion": "La ASUS Dual GeForce® RTX 2060 SUPER™ EVO 8GB GDDR6 con dos potentes ventiladores Axial-tech para disfrutar de juegos triple A y trazado de rayos en tiempo real Núcleos RT: El hardware de trazado de rayos produce una representación en tiempo real de objetos y entornos más realista, con sombras, reflejos, refracciones y una iluminación global más precisa y natural. Punto flotante concurrente y procesamiento de enteros: Las GPU Turing procesan de manera más eficiente las pesadas cargas de trabajo de los juegos actuales. GDDR6 de alta velocidad: Disfruta de juegos con una acción trepidante en alta resolución con un ancho de banda de memoria de hasta 496 GB/s. Los ventiladores Axial-tech presentan unas aspas más largas y un anillo de bloqueo que incrementa la presión de aire hacia abajo. La tecnología 0 dB permite disfrutar de juegos ligeros prácticamente en silencio. El diseño de 2,7 ranuras aumenta el área de disipación para sacar el máximo partido de los ventiladores Axial-tech. La tecnología Auto-Extreme aumenta la fiabilidad automatizando la manufactura. La estructura reforzada evita que la placa de circuito ceda bajo una torsión o flexión lateral excesiva. GPU Tweak II permite ajustar el rendimiento, la temperatura y supervisar el sistema de forma intuitiva.",
+        "precio": 660,
+        "stock": 28,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/asus-dual-geforce-rtx-2060-super-evo-oc-edition-8gb-gddr6-v2.jpg"
+    },
+    {
+        "nombre": "ASUS ROG STRIX RTX2060 SUPER 8G-GAMING",
+        "descripcion": "ROG Strix GeForce® RTX 2060 SUPER™ Advanced edition 8GB GDDR6 con una refrigeración muy potente y un rendimiento superior para alcanzar frecuencias de refresco más rápidas y VR gaming Núcleos RT: El hardware de trazado de rayos produce una representación en tiempo real de objetos y entornos más realista, con sombras, reflejos, refracciones y una iluminación global más precisa y natural. Punto flotante concurrente y procesamiento de enteros: Las GPU Turing procesan de manera más eficiente las pesadas cargas de trabajo de los juegos actuales. GDDR6 de alta velocidad: Disfruta de juegos con una acción trepidante en alta resolución con un ancho de banda de memoria de hasta 496 GB/s. Los ventiladores Axial-tech presentan unas aspas más largas y un anillo de bloqueo que incrementa la presión de aire hacia abajo. La tecnología 0 dB permite disfrutar de juegos ligeros prácticamente en silencio. El interruptor de la BIOS te permite cambiar entre los perfiles de BIOS Silencioso y Rendimiento sin utilizar el programa. La tecnología Auto-Extreme aumenta la fiabilidad automatizando la manufactura. Super Alloy Power II incorpora chokes de aleación premium, condensadores de polímeros sólidos y una matriz de etapas de potencia de alta corriente. La tecnología MaxContact duplica la superficie en contacto con la GPU para optimizar la transferencia térmica. La estructura reforzada evita que la placa de circuito ceda bajo una torsión o flexión lateral excesiva. GPU Tweak II permite ajustar el rendimiento, la temperatura y supervisar el sistema de forma intuitiva. Aura Sync permite sincronizar los efectos de iluminación con el resto de hardware compatible. ASUS FanConnect II incluye dos conectores híbridos para optimizar la refrigeración del sistema.",
+        "precio": 699,
+        "stock": 14,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/8223386LD0005382489_2__1__64da26e3ebe94abda8cf6bdadeafa502-600x600.jpg"
+    },
+    {
+        "nombre": "MSI GeForce RTX2060 SUPER 8gb gddr6 Gaming X",
+        "descripcion": "Núcleo/Memoria Boost Clock / Velocidad de memoria 1665 MHz / 14 Gbps 8GB GDDR6 DisplayPort x 3 / HDMI x 1 Ventilador TORX 2.0 Aspas de dispersión: Curvas pronunciadas que aceleran el flujo de aire. Aspas tradicionales: Producen un flujo de aire constante al disipador grande ubicado debajo de ellas. Utilitario de Overclocking Afterburner OC Scanner: Una función automatizada que encuentra las configuraciones estables más altas para overclock. Kombustor: Soporta las últimas versiones para benchmark DirectX. Predator: Grabación de video en juego. NVIDIA G-SYNC™ y HDR Disfruta de un juego fluido y sin tear de pantalla con la tasa de actualización  de hasta 240 Hz, HDR, y más. El mejor monitor para juegos y el equipamiento indispensable para el gamer entusiasta.",
+        "precio": 704.99,
+        "stock": 18,
+        "marca": "MSI",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/product_5_20190709152313_5d2440e125ae0.png"
+    },
+    {
+        "nombre": "ASUS DUAL RTX2070 SUPER 8G-EVO",
+        "descripcion": "El ASUS Dual GeForce ® RTX 2070 SUPER ™ EVO 8GB GDDR6 con dos potentes ventiladores Axial-tech para juegos AAA y VR de alta frecuencia de actualización Núcleos RT: el hardware dedicado de trazado de rayos permite un rápido trazado de rayos en tiempo real de objetos y entornos con sombras, reflejos, refracciones e iluminación global físicamente precisos. Procesamiento simultáneo de coma flotante y entero: las GPU Turing procesan de manera más eficiente las cargas de trabajo pesadas de los juegos modernos. GDDR6 ultrarrápido: experimente hasta 496 GB / s de ancho de banda de memoria para juegos de alta velocidad y alta resolución. El diseño del ventilador de tecnología axial presenta un cubo de ventilador más pequeño que facilita las aspas más largas y un anillo de barrera que aumenta la presión de aire hacia abajo. La tecnología 0dB te permite disfrutar de juegos ligeros en relativo silencio. El diseño de 2.7 ranuras amplía la superficie de enfriamiento para aprovechar al máximo los dos potentes ventiladores Axial-tech. La tecnología Auto-Extreme utiliza la automatización para mejorar la confiabilidad. Una placa posterior protectora asegura los componentes durante el transporte y la instalación. GPU Tweak II proporciona ajustes intuitivos de rendimiento, controles térmicos y monitoreo del sistema. El programa de validación de 144 horas somete a las tarjetas a una serie de rigurosas pruebas para garantizar la compatibilidad con los últimos juegos.",
+        "precio": 850,
+        "stock": 26,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/6442523LD0005067047_2_0005111885_58c267b07bae45b29c0d55b79c5c62a0.jpg"
+    },
+    {
+        "nombre": "EVGA GeForce RTX2070 Super Xc 8GB GDDR6",
+        "descripcion": "RENDIMIENTO NVIDIA RTX 2070 Super 2560 CUDA Cores 1800 MHz Boost Clock 288GT/s Texture Fill Rate MEMORIA 8192 MB, 256 bit GDDR6 14000 MHz (effective) 448 GB/s Memory Bandwidth REFRIGERACIÓN iCX2 Technology LED: RGB INTERFAZ PCIe 3.0 16x DisplayPort, HDMI, DisplayPort, USB Type-C, DisplayPort RESOLUCIÓN Y ACTUALIZAR Max Monitors Supported: 4 Max Refresh Rate Max Analog : Max Digital : 7680×4320",
+        "precio": 905,
+        "stock": 39,
+        "marca": "EVGA",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/08G-P4-3172-KR_LG_1.jpg"
+    },
+    {
+        "nombre": "Zotac GeForce RTX2080 Super 8Gb GDDR6 Twin Fan",
+        "descripcion": "Todo es excelente con las nuevas tarjetas gráficas ZOTAC GAMING GeForce RTX 20 Series SUPER. Basado en la arquitectura NVIDIA Turing, está repleto de más núcleos y memoria GDDR6 ultrarrápida. Integrado con tecnologías más inteligentes y optimizadas, prepárate para RÁPIDO y JUEGO FUERTE. Memoria GDDR6 Refrigeración IceStorm 2.0 Placa posterior de metal Control activo del ventilador Sistema de iluminación SPECTRA OC Scanner Utilidad FireStorm",
+        "precio": 1100,
+        "stock": 11,
+        "marca": "Zotac",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-16.png"
+    },
+    {
+        "nombre": "ASUS DUAL RTX2080S-O8G-EVO",
+        "descripcion": "Tarjeta Gráfica ASUS Dual GeForce® RTX 2080 SUPER™ EVO OC edition 8GB GDDR6 con dos potentes ventiladores Axial-tech para disfrutar de juegos triple A y VR con frecuencias de refresco más altas Núcleos RT: El hardware de trazado de rayos produce una representación en tiempo real de objetos y entornos más realista, con sombras, reflejos, refracciones y una iluminación global más precisa y natural. Punto flotante concurrente y procesamiento de enteros: Las GPU Turing procesan de manera más eficiente las pesadas cargas de trabajo de los juegos actuales. GDDR6 de alta velocidad: Disfruta de juegos con una acción trepidante en alta resolución con un ancho de banda de memoria de hasta 496 GB/s. Los ventiladores Axial-tech presentan unas aspas más largas y un anillo de bloqueo que incrementa la presión de aire hacia abajo. La tecnología 0 dB permite disfrutar de juegos ligeros prácticamente en silencio. El diseño de 2,7 ranuras aumenta el área de disipación para sacar el máximo partido de los ventiladores Axial-tech. La tecnología Auto-Extreme aumenta la fiabilidad automatizando la manufactura. La estructura reforzada evita que la placa de circuito ceda bajo una torsión o flexión lateral excesiva. GPU Tweak II: Permite ajustar el rendimiento, la temperatura y supervisar el sistema de forma intuitiva. El programa de validación de 144 horas contrasta la compatibilidad con los últimos juegos.",
+        "precio": 1150,
+        "stock": 23,
+        "marca": "ASUS",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/6582269BFXAST11_e58530cdc50446e3ac1ccf998d3614fe.jpg"
+    },
+    {
+        "nombre": "MSI GeForce RTX2080 Ventus OC 8Gb DDR6",
+        "descripcion": "Core/Memory Boost Clock / Memory Speed 1800 MHz / 14 Gbps 8GB GDDR6 Customized Dual Fan Design Double ball bearing: Strong and lasting core for years of smooth gaming Smooth Heat Pipes: Squared shape at bottom maximize heat transfer from the copper base plate. Afterburner Overclocking Utility Wireless control through Android/iOS devices. Predator: In-game video recording. Kombustor: DirectX12 benchmark. Supports multi-GPU setups.",
+        "precio": 1220,
+        "stock": 12,
+        "marca": "MSI",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/04/3039659product_4_20180919150424_5ba1f4f88c3e2_e1cbaf97a5e3435b950db1bc9998fbe5.png"
+    },
+    {
+        "nombre": "Zotac RTX2080 8Gb DDR6 SUPER AMP",
+        "descripcion": "GPU GeForce RTX 2080 SUPER CUDA cores 3072 Video Memory 8GB GDDR6 Memory Bus 256-bit Engine Clock Boost: 1845 MHz Memory Clock 15.5 Gbps PCI Express 3.0 Display Outputs 3 x DisplayPort (4096×2160@60Hz) HDMI 2.0 (3840×2160@60Hz) HDCP Support Yes Multi Display Capability Quad Display",
+        "precio": 1250,
+        "stock": 15,
+        "marca": "Zotac",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/08/5168894zt-t20820d-10p_image01_rgb_872d0079ca5a4aeea88c805bc5679e49.jpg"
+    },
+    {
+        "nombre": "Gigabyte RTX2080 Super Gaming OC 8Gb GDDR6",
+        "descripcion": "Desarrollado por GeForce® RTX 2080 SUPER ™ Integrado con 8 GB de interfaz de memoria GDDR6 de 256 bits Sistema de enfriamiento WINDFORCE 3X con ventiladores giratorios alternativos RGB Fusion 2.0: sincronice con otros dispositivos AORUS Placa trasera de metal",
+        "precio": 1280,
+        "stock": 32,
+        "marca": "Gigabyte",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/6392072080_34b7c43bee444cce9f89903a297ca0f6.png"
+    },
+    {
+        "nombre": "Zotac Geforce RTX2080ti 11Gb DDR6 Dual Fan",
+        "descripcion": "La nueva generación de tarjetas gráficas ZOTAC GAMING GeForce está aquí. Basado en la nueva arquitectura NVIDIA Turing, está repleto de más núcleos y una memoria ultrarrápida GDDR6 completamente nueva. Integrado con tecnologías más inteligentes y optimizadas, prepárate para ser rápido y fuerte como nunca antes. Características: – Control activo del ventilador – Iluminación Spectra – Memoria GDDR6 – Escáner OC – Utilidad FireStorm",
+        "precio": 1900,
+        "stock": 14,
+        "marca": "Zotac",
+        "categoria": "GPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/5067512zt-t20810g-10p_image01_0_cb0793efcc3c4ce2a0c35b135f159dad.jpg"
+    },
+    {
+        "nombre": "Pasta térmica siliconada genérica Cooler Master",
+        "descripcion": "CONDUCTIVIDAD TÉRMICA 5 (W / mK) GRAVEDAD ESPECÍFICA 2.5 (g / cm3) (25 ° C) VOLUMEN 1,5 ml LIMPIADOR DE GRASA si CÓDIGO EAN 4719512077757 CÓDIGO UPC 884102050244 SERIE Grasa térmica, serie MasterGel",
+        "precio": 1,
+        "stock": 223,
+        "marca": "Cooler Master",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/81777294cea8e11f3fd5_68887773b287444199ec6433f3c3f277.jpg"
+    },
+    {
+        "nombre": "Pasta térmica Cooler Master Gel Regular",
+        "descripcion": "CONDUCTIVIDAD TÉRMICA 5 (W / mK) GRAVEDAD ESPECÍFICA 2.5 (g / cm3) (25 ° C) VOLUMEN 1,5 ml LIMPIADOR DE GRASA si CÓDIGO EAN 4719512077757 CÓDIGO UPC 884102050244 SERIE Grasa térmica, serie MasterGel",
+        "precio": 6.50,
+        "stock": 133,
+        "marca": "Cooler Master",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/71kXRmFntaL._AC_SX679_.jpg"
+    },
+    {
+        "nombre": "Pasta térmica Cooler Master Gel Maker Nano",
+        "descripcion": "MasterGel Maker está desarrollado para usuarios que necesitan la mejor conductividad térmica para CPU, GPU o incluso conjuntos de chips de alto rendimiento. Los rasgos conductores no eléctricos y no curados ayudan a evitar cualquier cortocircuito y proporcionan protección y rendimiento para el uso a largo plazo. Las partículas de Nano Diamond agregadas no abrasivas permiten que el MasterGel Maker sea extremadamente liviano y fácil de esparcir o remover, evitando al mismo tiempo la autooxidación o el desgaste de la erosión. Conductividad ultra alta (11 W / m.k) Las partículas de Nano Diamond se mantienen a través de un amplio rango de temperaturas (-50 a 150 ?) Su excelente viscosidad hace que sea fácil de esparcir o eliminar sin agrietarse o secarse",
+        "precio": 12.99,
+        "stock": 255,
+        "marca": "Cooler Master",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/921979415_bd482cea480b46a3a5793851ecac34d4.jpg"
+    },
+    {
+        "nombre": "Pote pasta Cooler Master Mastergel Maker 40g",
+        "descripcion": "Pasta Coolermaster MasterGel Maker 40g MasterGel Maker está desarrollado para usuarios que necesitan la mejor conductividad térmica para CPU de alto rendimiento, GPU o incluso chipsets. Las características conductoras no curables y no eléctricas ayudan a evitar cualquier cortocircuito y proporcionan protección y rendimiento para un uso a largo plazo. Las partículas Nano Diamond no abrasivas agregadas permiten que MasterGel Maker sea extremadamente liviano y fácil de esparcir o eliminar, al tiempo que evita la oxidación automática o la erosión en el tiempo extra.",
+        "precio": 32.99,
+        "stock": 89,
+        "marca": "Cooler Master",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/2984667Sin_t_tulo_3653082fb3b04e06abcaf850e9845d87.jpg"
+    },
+    {
+        "nombre": "AMD A6 9500 AM4",
+        "descripcion": "N.° de núcleos de CPU 2 N.° de núcleos de GPU 6 Núcleos de cómputo 8 (2 CPU + 6 GPU) Reloj base 3.5GHz Reloj de aumento máx. Hasta 3.8GHz Caché L2 total 1MB Desbloqueados Sí CMOS 28nm Paquete AM4 Versión de PCI Express PCIe® 3.0 x8 TDP/TDP predeterminado 65W cTDP 45/65W",
+        "precio": 59,
+        "stock": 55,
+        "marca": "AMD",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/10/198459111_edf0644b41ba4fb99b5e335a08994d23.jpg"
+    },
+    {
+        "nombre": "Intel Dualcore G4930 Coffee Lake",
+        "descripcion": "Modelo Dualcore G4930 Frecuencia 3200 MHz Socket 1151 Microarquitectura Coffee Lake Número de núcleos físicos 2 Número de hilos 2 Gráficos integrados UHD Intel® 610",
+        "precio": 67.99,
+        "stock": 12,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/131259944771677566474BX80662G3900_058e6fcbf055412ab7a0f2b7508cd428.jpg"
+    },
+    {
+        "nombre": "AMD Athlon 3000G",
+        "descripcion": "N.° de núcleos de CPU: 2 N.° de subprocesos: 4 N.° de núcleos de GPU: 3 Núcleos de cómputo: 5 (2 CPU + 3 GPU) Reloj base: 3.5GHz Caché L1 total: 192KB Caché L2 total: 1MB Caché L3 total: 4MB Desbloqueados: Si CMOS: 14nm Paquete: AM4 TDP/TDP predeterminado: 35W Temp. máx.: 95°C",
+        "precio": 83,
+        "stock": 23,
+        "marca": "AMD",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/961173241833191_65ed08edb887458e85f184712180d2a9-600x600_3b5b56098bf84867aa41a7883de1e6c1.jpg"
+    },
+    {
+        "nombre": "Intel Dualcore G5400 Gold Coffee Lake",
+        "descripcion": "Modelo Dualcore G5400 Frecuencia 3700 MHz Socket 1151 Microarquitectura Coffee Lake Número de núcleos físicos 2 Número de hilos 4 Gráficos integrados HD 610",
+        "precio": 89.84,
+        "stock": 26,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/1908350intel-pentium-gold-g5400-boxed_4eaa3ce281ca4a2c8488ca1e279b0ecb.jpg"
+    },
+    {
+        "nombre": "Intel Core i3 9100f Coffee Lake 9na Gen",
+        "descripcion": "Modelo Core I3 9100f Frecuencia 3600/4200 MHz Socket FCLGA1151 Microarquitectura Coffee Lake Número de núcleos físicos 4 Número de hilos 4",
+        "precio": 129,
+        "stock": 45,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/80992061_98c31e9e5b644d4b8158b59a3b29c7ea.jpg"
+    },
+    {
+        "nombre": "AMD Ryzen 3 3200G con Radeon Vega 8",
+        "descripcion": "N.° de núcleos de CPU 4 N.° de subprocesos 4 N.° de núcleos de GPU 8 Reloj base 3.6GHz Reloj de aumento máx. 4GHz Caché L1 total 384KB Caché L2 total 2MB Caché L3 total 4MB Desbloqueados Sí CMOS 12nm FinFET Paquete AM4 Versión de PCI Express PCIe 3.0 x8 Solución térmica Wraith Stealth TDP/TDP predeterminado 65W cTDP 45-65W",
+        "precio": 158.99,
+        "stock": 22,
+        "marca": "AMD",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/8087722r3_025c8649b3f346b5ac0fe16f367d8ec2.png"
+    },
+    {
+        "nombre": "Intel Core i3 8100 Coffee Lake 8va Gen",
+        "descripcion": "Modelo Core I3 8100 Frecuencia 3600 MHz Socket FCLGA1151 Microarquitectura Coffee Lake Número de núcleos físicos 4 Número de hilos 4 Gráficos integrados Intel UHD 630",
+        "precio": 180,
+        "stock": 44,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/11/50439640i3_8c9b1e3e0a7749f6ab8e43a8ba51b6cf.png"
+    },
+    {
+        "nombre": "AMD Ryzen 5 2600 AM4",
+        "descripcion": "Modelo Ryzen 5 2600 Frecuencia 3400 / 3900 MHz Socket AM4 Microarquitectura Zen+ Núcleo Summit Ridge Número de núcleos físicos 6 Número de hilos 12",
+        "precio": 199.99,
+        "stock": 15,
+        "marca": "AMD",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/05/16174313122110cpu-microprocesador-amd-ryzen-5-1400-32ghz-quad-core-socket-am4_6c24b7ff8b2c497bbe98d7710b7cac52-600x600_0e49aee530844f56b52a34f5e3d7f579.jpg"
+    },
+    {
+        "nombre": "Intel Core i5 9400F Coffee Lake 9na Gen",
+        "descripcion": "Cantidad de núcleos: 6 Cantidad de subprocesos: 6 Frecuencia básica del procesador: 2,90 GHz Frecuencia turbo máxima: 4,10 GHz Caché: 9 MB SmartCache Velocidad del bus: 8 GT/s DMI3 TDP: 65 W",
+        "precio": 228.99,
+        "stock": 14,
+        "marca": "228.99",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/13965839na_79d717d658a248819e2f24cb81e22115.jpg"
+    },
+    {
+        "nombre": "Intel Core i5 10400f 2.9GHz 12MB LGA1200 10th Gen",
+        "descripcion": "Cantidad de núcleos 6 Cantidad de subprocesos 12 Frecuencia básica del procesador 2,90 GHz Frecuencia turbo máxima 4,30 GHz Caché 12 MB Intel® Smart Cache Velocidad del bus 8 GT/s TDP 65 W",
+        "precio": 252.99,
+        "stock": 36,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/i5-10.png"
+    },
+    {
+        "nombre": "Intel Core i5 8400 Coffee Lake 1151",
+        "descripcion": "Modelo Core I5 8400 Frecuencia 2800 / 4000 MHz Socket FCLGA1151 Microarquitectura Coffee Lake Número de núcleos físicos 6 Número de hilos 6 Gráficos integrados Intel UHD 630",
+        "precio": 274.99,
+        "stock": 45,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/11/70753500i5_e603af040bfa4194a8fb6f489833c0e2.png"
+    },
+    {
+        "nombre": "Intel Core i5 10400 2.9GHz 12MB LGA1200 10th Gen",
+        "descripcion": "Cantidad de núcleos 6 Cantidad de subprocesos 12 Frecuencia básica del procesador 2,90 GHz Frecuencia turbo máxima 4,30 GHz Caché 12 MB Intel® Smart Cache Velocidad del bus 8 GT/s TDP 65 W",
+        "precio": 279,
+        "stock": 52,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/i5-10-1.png"
+    },
+    {
+        "nombre": "Intel Core i5 9400 Coffee Lake 9na Gen",
+        "descripcion": "Cantidad de núcleos: 6 Cantidad de subprocesos: 6 Frecuencia básica del procesador: 2,90 GHz Frecuencia turbo máxima: 4,10 GHz Caché: 9 MB SmartCache Velocidad del bus: 8 GT/s DMI3 TDP: 65 W Gráficos del procesador Gráficos HD Intel® 630",
+        "precio": 284.99,
+        "stock": 20,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/567331813965839na_79d717d658a248819e2f24cb81e22115-600x536_820feaf1afd04b279905c0c6057ae8f9.jpg"
+    },
+    {
+        "nombre": "AMD Ryzen 5 3600",
+        "descripcion": "# de núcleos de CPU 6 # de hilos 12 Reloj base 3.6GHz Reloj de aumento máx. 4.2GHz Caché L1 total 64KB Caché L2 total 3MB Caché L3 total 32MB Desbloqueados Sí CMOS TSMC 7nm FinFET Package AM4 Versión de PCI Express PCIe 4.0 x16 Solución térmica Wraith Stealth TDP/TDP predeterminado 65W Temp. máx. 95°C",
+        "precio": 300,
+        "stock": 36,
+        "marca": "AMD",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/08/118487r5_aeec9b292fcb42fdb1d2133d7a152169.png"
+    },
+    {
+        "nombre": "Intel Core I5 9600KF Coffee Lake 9na Gen",
+        "descripcion": "Modelo Core I5 9600kf Frecuencia 3700 MHz Turbo 4600 MHz Socket FCLGA1151 Microarquitectura Coffee Lake Número de núcleos físicos 6 Número de hilos 6 Gráficos integrados Intel UHD 630",
+        "precio": 305,
+        "stock": 38,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/11/2983345LD0005049040_2_49dde22f01c048409f6c224dfea072e6.jpg"
+    },
+    {
+        "nombre": "AMD Ryzen 7 2700X AM4",
+        "descripcion": "Modelo Ryzen 7 2700X Frecuencia 3700 / 4300 MHz Socket AM4 Microarquitectura Zen+ Núcleo Summit Ridge Número de núcleos físicos 8 Número de hilos 16 Solución térmica Wraith Spire with RGB LED",
+        "precio": 349.99,
+        "stock": 25,
+        "marca": "AMD",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/195976385006498875725ryzen7-wof-3d-rt-facing_6c7fcf72179b4613bc680aa874f7577d-600x600_4778ea95a7994e549c6f51da620aa7f6.jpg"
+    },
+    {
+        "nombre": "AMD Ryzen 5 3600X",
+        "descripcion": "# de núcleos de CPU 6 # de hilos 12 Reloj base 3.8GHz Reloj de aumento máx. Hasta 4.4GHz Caché L1 total 384KB Caché L2 total 3MB Caché L3 total 32MB Desbloqueados Sí CMOS TSMC 7nm FinFET Package AM4 Versión de PCI Express PCIe 4.0 x16 Solución térmica Wraith Spire Thermal Solution (MPK) Wraith Spire TDP/TDP predeterminado 95W Temp. máx. 95°C",
+        "precio": 355,
+        "stock": 40,
+        "marca": "AMD",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/1363312118487r5_aeec9b292fcb42fdb1d2133d7a152169.png"
+    },
+    {
+        "nombre": "Intel Core I7 9700F Coffee Lake",
+        "descripcion": "Modelo Core I7 9700f Frecuencia 3000 MHz Turbo 4700 MHz Socket FCLGA1151 Microarquitectura Coffee Lake Número de núcleos físicos 8 Número de hilos 8",
+        "precio": 489.99,
+        "stock": 44,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/55819919700f_f94ea755e5434a52af0e76f01435aaa3.png"
+    },
+    {
+        "nombre": "Intel Core I7 9700 Coffee Lake 9va Gen",
+        "descripcion": "Modelo Core I7 9700 Frecuencia 3000 MHz Turbo 4700 MHz Socket FCLGA1151 Microarquitectura Coffee Lake Número de núcleos físicos 8 Número de hilos 8",
+        "precio": 498.99,
+        "stock": 48,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/364345755819919700f_f94ea755e5434a52af0e76f01435aaa3.png"
+    },
+    {
+        "nombre": "AMD Ryzen 7 3700x",
+        "descripcion": "# de núcleos de CPU 8 # de hilos 16 Reloj base 3.6GHz Reloj de aumento máx. 4.4GHz Caché L2 total 4MB Caché L3 total 32MB Desbloqueados Sí CMOS TSMC 7nm FinFET Package AM4 Versión de PCI Express PCIe 4.0 x16 Solución térmica Wraith Prism with RGB LED TDP/TDP predeterminado 65W",
+        "precio": 499.99,
+        "stock": 65,
+        "marca": "AMD",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/5432065compragamer_Imganen_general_14088_Procesador_AMD_RYZEN_7_3800X_4.5Ghz_AM4_Wraith_Prism_RGB_Led_Cooler_1f645e9a_00848be7c6b3462eb4d78e45783bd8ce.jpg"
+    },
+    {
+        "nombre": "Intel Core I7 9700KF Coffee Lake 9na Gen",
+        "descripcion": "Modelo Core I7 9700KF Frecuencia 3600 MHz Turbo 4900 MHz Socket FCLGA1151 Microarquitectura Coffee Lake Número de núcleos físicos 8 Número de hilos 8",
+        "precio": 554.99,
+        "stock": 52,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/484159255819919700f_f94ea755e5434a52af0e76f01435aaa3.png"
+    },
+    {
+        "nombre": "AMD Ryzen 7 3800x",
+        "descripcion": "# de núcleos de CPU 8 # de hilos 16 Reloj base 3.9GHz Reloj de aumento máx. 4.5GHz Caché L2 total 4MB Caché L3 total 32MB Desbloqueados Sí CMOS TSMC 7nm FinFET Package AM4 Versión de PCI Express PCIe 4.0 x16 Solución térmica Wraith Prism with RGB LED TDP/TDP predeterminado 105W",
+        "precio": 610.99,
+        "stock": 28,
+        "marca": "AMD",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/8460663compragamer_Imganen_general_14088_Procesador_AMD_RYZEN_7_3800X_4.5Ghz_AM4_Wraith_Prism_RGB_Led_Cooler_1f645e9a_4d16c891284f4eda98e7e8d7135086a3.jpg"
+    },
+    {
+        "nombre": "Intel Core i7 10700K 3.80GHz 16MB LGA1200 10th Gen",
+        "descripcion": "# de núcleos 8 # de los hilos 16 Frecuencia base del procesador 3.80 GHz Frecuencia turbo máxima 5.10 GHz CacheCaché inteligente Intel® de 16 MB Velocidad del autobús 8 GT / s Tecnología Intel® Turbo Boost Max 3.0 Frecuencia ‡5.10 GHz TDP 125 W Frecuencia configurable de reducción de TDP 3.50 GHz Configurable TDP-down 95 W",
+        "precio": 632,
+        "stock": 55,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/i7-10.png"
+    },
+    {
+        "nombre": "AMD Ryzen 9 3900x",
+        "descripcion": "# de núcleos de CPU 12 # de hilos 24 Reloj base 3.8GHz Reloj de aumento máx. 4.6GHz Caché L2 total 6MB Caché L3 total 64MB Desbloqueados Sí CMOS TSMC 7nm FinFET Package AM4 Versión de PCI Express PCIe 4.0 x16 Solución térmica Wraith Prism with RGB LED TDP/TDP predeterminado",
+        "precio": 778.99,
+        "stock": 48,
+        "marca": "AMD",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/901936r9_c4570821aee041c6a53c2e52431e7dc7.png"
+    },
+    {
+        "nombre": "Intel Core I9 9900K Coffee Lake 9na Gen",
+        "descripcion": "Cantidad de núcleos: 8 Cantidad de subprocesos: 16 Frecuencia básica del procesador: 3,60 GHz Frecuencia turbo máxima: 5,00 GHz Caché: 16 MB SmartCache Velocidad del bus: 8 GT/s DMI3 TDP: 95 W",
+        "precio": 804.99,
+        "stock": 46,
+        "marca": "Intel",
+        "categoria": "CPU",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/1905517s-l300_f78ef5f3a8544dadaf11e6099f64f97e.png"
+    },
+    {
+        "nombre": "Biostar A68MDE – Socket FM2+",
+        "descripcion": "Support Socket FM2+/FM2 processors AMD A-series/ E2-series processor Support AMD Mutil Core(x4,x2) AMD A68H Chipset Support 2-DIMM DDR3-2600(OC)/ 2400(OC) up to 32G maximum capacity Support USB 3.1 Gen1 Support DVI display port Support GbE LAN AMD Dual Graphics Technology",
+        "precio": 60,
+        "stock": 26,
+        "marca": "Biostar",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/02/5799364b20180110_543fc81c60484ecf8a3c313e07ef89b0.png"
+    },
+    {
+        "nombre": "Biostar H110MHV3 DDR3 – Socket 1151",
+        "descripcion": "H110MHV3 Ver. 7.x Socket : 1151 Supports 6th Generation Intel® Core™ Processor Intel H110 single chip architecture Support 2-DIMM DDR3L-1866(OC)/ 1600/ 1333 up to 16G maximum capacity Support USB 3.0 Support HDMI multimedia port Support GbE LAN",
+        "precio": 65,
+        "stock": 25,
+        "marca": "Biostar",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/9384059b20160106_3_f6c992a08cb245e1b332f79141988f64.jpg"
+    },
+    {
+        "nombre": "Biostar H110MHC – Socket 1151",
+        "descripcion": "H110MHC Ver. 7.x Socket : 1151 Support 7th Generation Intel® Core™ Processor Intel H110 single chip architecture Support 2-DIMM DDR4-2400/ 2133/ 1866 up to 32G maximum capacity Support USB 3.0 Support HDMI multimedia port Support GbE LAN",
+        "precio": 67.49,
+        "stock": 54,
+        "marca": "Biostar",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/2989306b20170315_4_d33de52c1d0f44f0a955c823f55601d6.jpg"
+    },
+    {
+        "nombre": "Gigabyte A320M-H AM4",
+        "descripcion": "Supports AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics/ Ryzen™ 1st Generation/ 7th Generation A-series/ Athlon X4 Processors Dual Channel Non-ECC Unbuffered DDR4, 2 DIMMs Ultra-Fast PCIe Gen3 x4 M.2 with PCIe NVMe & SATA mode support High Quality Audio Capacitors and Audio Noise Guard Realtek® Gigabit LAN with cFosSpeed Internet Accelerator Software Smart Fan 5 features 5 Temperature Sensors and 2 Hybrid Fan Headers GIGABYTE™ UEFI BIOS All New GIGABYTE™™ APP Center, Simple and Easy Use",
+        "precio": 74.99,
+        "stock": 25,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/2640231a320m-h_064e4b8bb4c94153acc0644d9485e514.png"
+    },
+    {
+        "nombre": "Biostar A320MH – Socket AM4",
+        "descripcion": "AMD Socket AM4 2 x DIMM DDR4-2667 Slots 4 x SATA3 Connectors USB3.1 Gen1 Header PCIe x16 3.0 Slot 7.1ch HD Audio HDMI Connector",
+        "precio": 74.99,
+        "stock": 14,
+        "marca": "Biostar",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/03/1044993Sin_t_tulo_f2ff3ae7079f4e62819f3be3cbfb1ac2.png"
+    },
+    {
+        "nombre": "Biostar H81M HV3 – Socket 1150",
+        "descripcion": "Support the Intel 4th generation Core i7, Core i5, Core i3, Pentium and Celeron processors in the 1150 package Intel H81 single chip architecture Support 2-DIMM DDR3-1600/1333 up to 16G maximum capacity",
+        "precio": 74.99,
+        "stock": 33,
+        "marca": "Biostar",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/02/3507337b20140303_10__1__e168d47c5bde44109c2b3f8e182d8216.jpg"
+    },
+    {
+        "nombre": "Biostar H310MHC – Socket 1151",
+        "descripcion": "H310MHC Ver. 7.x Socket : 1151 Supports 8th Generation Intel® Core™ Processor Intel H310 single chip architecture Support 2-DIMM DDR4-1866/ 2133/ 2400/ 2666 up to 32G maximum capacity Support USB 3.1 Gen1 Support HDMI display port Support GbE LAN",
+        "precio": 75,
+        "stock": 18,
+        "marca": "Biostar",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/3366562b20180622_2_9d4d449ae77749fe9d9dab5ae25d37f2-3.jpeg"
+    },
+    {
+        "nombre": "Gigabyte AB350M-DS3H",
+        "descripcion": "Supports AMD Ryzen™ & 7th Generation A-series/ Athlon™ Processors Dual Channel Non-ECC Unbuffered DDR4, 4 DIMMs Ultra-Fast PCIe Gen3 x4 M.2 with PCIe NVMe & SATA mode support High Quality Audio Capacitors and Audio Noise Guard with LED Trace Path Lighting RGB FUSION supports RGB LED strips in 7 colors Realtek® Gigabit LAN with cFosSpeed Internet Accelerator Software Smart Fan 5 features 5 Temperature Sensors and 2 Hybrid Fan Headers GIGABYTE UEFI BIOS APP Center Including EasyTune™ and Cloud Station™ Utilities",
+        "precio": 80,
+        "stock": 8,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/15525292018011817572751_m_59c3153225f64a6fa9b80bfb7f500842.png"
+    },
+    {
+        "nombre": "MSI A320M Pro-M2 V2",
+        "descripcion": "Soporta AMD ® Ryzen 1 st y 2 nd generación / Ryzen ™ y Athlon ™ con Radeon ™ Vega Graphics / A-series y procesadores Athlon ™ X4 para Socket AM4 Admite memoria DDR4, hasta 3200+ (OC) MHz Turbo M.2: la ejecución en PCI-E Gen3 x4 maximiza el rendimiento de los SSD basados ??en NVMe. DDR4 Boost: tecnología avanzada para entregar señales de datos puros para el mejor rendimiento y estabilidad. Audio Boost: recompense sus oídos con calidad de sonido de estudio. EZ Debug LED: la forma más fácil de solucionar problemas X-Boost: software que detecta automáticamente y le permite aumentar el rendimiento de cualquier dispositivo de almacenamiento o USB. Core Boost: con diseño premium y diseño de potencia totalmente digital para admitir más núcleos y proporcionar un mejor rendimiento. Ranura de acero PCI-E: Protección de tarjetas VGA contra la flexión para un mejor rendimiento, estabilidad y resistencia.",
+        "precio": 80,
+        "stock": 29,
+        "marca": "MSI",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/4309549Sin_t_tulo_62b62dcaf0454beba147303ca39909c9.png"
+    },
+    {
+        "nombre": "Gigabyte GA-H310M-A con conector RGB",
+        "descripcion": "Intel H310 Ultra Durable motherboard with Intel GbE LAN with cFosSpeed, PCIe Gen2 x4 M.2, 7 colors RGB LED strips support, Anti-Sulfur Resistor, Smart Fan 5, CEC 2019 ready Supports 9th and 8th Gen Intel® Core™ Processors Dual Channel Non-ECC Unbuffered DDR4 8-Channel HD Audio with High Quality Audio Capacitors Ultra-Fast M.2 with PCIe Gen2 X4 & SATA interface Supports RGB LED strips in 7 colors Intel® GbE LAN with cFosSpeed Internet Accelerator Software CEC 2019 Ready, Save Power With a Simple Click Smart Fan 5 features Multiple Temperature Sensors and Hybrid Fan Headers with FAN STOP All new GIGABYTE™ APP Center, simple and easy use Anti-Sulfur Resistors Design",
+        "precio": 80,
+        "stock": 27,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/28319642018031311155770_big_eedcbf5737f34dae977ab028aee9f959.png"
+    },
+    {
+        "nombre": "Biostar IH61MF-Q5",
+        "descripcion": "IH61MF-Q5 Socket : 1155 Socket LGA 1155 Supported the Intel 3rd and 2nd generation Core i7/ i5/ i3 processors in the 1155 package Supported 2 DIMM of DDR3 1600/1333/1066MHz",
+        "precio": 85,
+        "stock": 44,
+        "marca": "Biostar",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/4943874b20171228_d8df7db16252430fa836742c205670ef.png"
+    },
+    {
+        "nombre": "Gigabyte B450M DS3H",
+        "descripcion": "AMD B450 Ultra Durable Motherboard with Realtek® GbE LAN with cFosSpeed, PCIe Gen3 x4 M.2, 7-colors RGB LED Strips Support, Anti-Sulfur Resistor, CEC 2019 ready DDR4 Dual Channel Non-ECC Unbuffered , 4 DIMMs Supports AMD 2nd Generation Ryzen™/ Ryzen™ with Radeon™ Vega Graphics/ 1st Generation Ryzen™ Processors Ultra-Fast PCIe Gen3 x4 M.2 con PCIe NVMe y soporte SATA CEC 2019 Ready, Save Power With a Simple Click HDMI, DVI-D Ports for Multiple Display Capacitadores de audio de alta calidad y con protección de ruido con separación de audio led Realtek® Gigabit LAN con el software cFosSpeed Internet Accelerator APP Center, que incluye las utilidades EasyTune™ y Cloud Station™ RGB FUSION supports RGB LED strips in 7 colors Smart Fan 5 features 5 Temperature Sensors and 2 Hybrid Fan Headers",
+        "precio": 108.99,
+        "stock": 24,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/11/15467566da84710_6_91a92b0af4a54118ad9f033070443293.png"
+    },
+    {
+        "nombre": "Gigabyte B450M GAMING",
+        "descripcion": "Placa madre para juegos AMD B450 con PWM digital híbrido, LAN para juegos GIGABYTE con gestión de ancho de banda, PCIe Gen3 x4 M.2, soporte de tiras de LED RGB de 7 colores, diseño de resistencias anti-azufre Compatible con AMD 3rd Gen Ryzen ™ / 2nd Gen Ryzen ™ / 1st Gen Ryzen ™ / 2nd Gen Ryzen ™ con Radeon ™ Vega Graphics / 1st Gen Ryzen ™ con Radeon ™ Vega Graphics / Athlon ™ con Radeon ™ Vega Graphics Processors DDR4 sin búfer sin ECC de doble canal, 2 DIMM Puertos HDMI, DVI-D, D-sub para pantallas múltiples Ultrarrápido PCIe Gen3 x4 M.2 con soporte para modo PCIe NVMe y SATA LAN exclusiva para juegos 8118 de GIGABYTE con gestión de ancho de banda RGB Fusion admite tiras de LED RGB en 7 colores Condensadores de audio de alta calidad y protección de ruido de audio con iluminación LED de trazado Smart Fan 5 presenta 5 sensores de temperatura y 3 encabezados de ventilador híbridos",
+        "precio": 108.99,
+        "stock": 24,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/102875120190131151052345017b456c76bbcab49d74b18210fd1f5_src_0b4c731380db42a3afcc9e179f19aab2.png"
+    },
+    {
+        "nombre": "ASUS PRIME B450M-A",
+        "descripcion": "AMD AM4 mATX motherboard with Aura Sync RGB header, DDR4 3200MHz, M.2, HDMI 2.0b, SATA 6Gbps and USB 3.1 Gen 2 Fan Xpert 2+: Flexible controls for ultimate cooling and silence, plus GPU-temperature sensing for cooler gaming Ultrafast connectivity: Supreme flexibility with USB 3.1 Gen 2 and native M.2 ASUS Aura Sync header: Onboard connector for RGB LED strips, easily synced with an ever-growing portfolio of Aura Sync-capable hardware 5X Protection III: Multiple hardware safeguards for all-around system protection",
+        "precio": 110,
+        "stock": 27,
+        "marca": "ASUS",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/09/2248906P_setting_fff_1_90_end_500__2__bf379d269bca454b83c8058a11ba5171.png"
+    },
+    {
+        "nombre": "MSI B365M PRO VDH",
+        "descripcion": "Placa madre Intel LGA-1151 Micro-ATX con DDR4 2666MHz, Core Boost, DDR4 Boost, Audio Boost y LED EZ Debug Soportes 9 º / 8 º Gen Intel ® Core ™ / Pentium ® Oro / Celeron ® procesadores LGA 1151 para socket Admite memoria DDR4, hasta 2666 MHz Turbo M.2: la ejecución en PCI-E Gen3 x4 maximiza el rendimiento de los SSD basados ??en NVMe. Core Boost: con diseño premium y diseño de potencia totalmente digital para admitir más núcleos y proporcionar un mejor rendimiento. Audio Boost: recompense sus oídos con calidad de sonido de estudio. EZ Debug LED: la forma más fácil de solucionar problemas. X-Boost: software que detecta automáticamente y le permite aumentar el rendimiento de cualquier dispositivo de almacenamiento o USB.",
+        "precio": 110,
+        "stock": 41,
+        "marca": "MSI",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/7209304product_6_20190705105918_5d1ebd0628a3f_4649ed87260d402e98eacd0dc13abdcd.png"
+    },
+    {
+        "nombre": "Gigabyte B365M Gaming HD",
+        "descripcion": "Intel B365 Gaming motherboard with GIGABYTE 8118 Gaming LAN, PCIe Gen3 x4 M.2, Anti-Sulfur Resistor, Smart Fan 5, CEC 2019 ready Supports 9th and 8th Gen Intel® Core™ Processors Dual Channel Non-ECC Unbuffered DDR4 New Hybrid Digital PWM Design High Quality Audio Capacitors and Audio Noise Guard with LED Trace Path Lighting Ultra-Fast M.2 with PCIe Gen3 X4 & SATA interface GIGABYTE Exclusive 8118 Gaming LAN with Bandwidth Management CEC 2019 Ready, Save the Power as Easy as One Click Smart Fan 5 features Multiple Temperature Sensors and Hybrid Fan Headers with FAN STOP Anti-Sulfur Resistors Design Ultra Durable™ 15KV Surge LAN Protection Intel® Optane™ Memory Ready",
+        "precio": 115,
+        "stock": 41,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/20190625164146262c3eb4500633e0001db3f4423c4d5f25_src.png"
+    },
+    {
+        "nombre": "MSI B450M Pro Vdh Plus",
+        "descripcion": "Soporte nativo para 1ª, 2ª generación AMD ® Ryzen ™ / Ryzen ™ Radeon ™ con Vega Gráficos / 2ª generación AMD ® Ryzen ™ con gráficos Radeon ™ y Athlon ™ Radeon ™ con gráficos de escritorio Vega procesadores para Socket AM4 (requiere actualización de bios para serie 3000) Admite memoria DDR4, hasta 3466+ (OC) MHz Turbo M.2: la ejecución en PCI-E Gen3 x4 maximiza el rendimiento de los SSD basados ??en NVMe. DDR4 Boost: tecnología avanzada para entregar señales de datos puros para el mejor rendimiento y estabilidad. Audio Boost: recompense sus oídos con calidad de sonido de estudio. EZ Debug LED: la forma más fácil de solucionar problemas X-Boost: software que detecta automáticamente y le permite aumentar el rendimiento de cualquier dispositivo de almacenamiento o USB. Core Boost: con diseño premium y diseño de potencia totalmente digital para admitir más núcleos y proporcionar un mejor rendimiento. PCI-E Steel Armor: Protección de tarjetas VGA contra flexión y EMI.",
+        "precio": 120,
+        "stock": 21,
+        "marca": "MSI",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/4641907Sin_t_tulo_c2e01585bcc44fed9d88407755cc0feb.png"
+    },
+    {
+        "nombre": "Gigabyte B365M DS3H",
+        "descripcion": "Intel B365 Ultra Durable motherboard with GIGABYTE 8118 Gaming LAN, PCIe Gen3 x4 M.2, 7 colors RGB LED strips support, Anti-Sulfur Resistor, Smart Fan 5, DualBIOS™, CEC 2019 ready Supports 9th and 8th Gen Intel® Core™ Processors Dual Channel Non-ECC Unbuffered DDR4 New Hybrid Digital PWM Design High Quality Audio Capacitors and Audio Noise Guard with LED Trace Path Lighting Ultra-Fast M.2 with PCIe Gen3 X4 & SATA interface RGB FUSION supports RGB LED strips in 7 colors GIGABYTE Exclusive 8118 Gaming LAN with Bandwidth Management CEC 2019 Ready, Save the Power as Easy as One Click Smart Fan 5 features Multiple Temperature Sensors and Hybrid Fan Headers with FAN STOP Anti-Sulfur Resistors Design Ultra Durable™ 15KV Surge LAN Protection Intel® Optane™ Memory Ready",
+        "precio": 120,
+        "stock": 38,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/268329720190603135959729267f9db316ee778f6b2b792a12c0a0d_m_704c8659a9c0420d8b8ada85a4bc951c.png"
+    },
+    {
+        "nombre": "Biostar B365GTA",
+        "descripcion": "B365GTA Ver. 5.x Socket : 1151 Supports 9th & 8th Generation Intel® Core™ Processor Intel B365 single chip architecture Support 4-DIMM DDR4-1866/ 2133/ 2400/ 2666 up to 64GB maximum capacity Support PCIe M.2(32Gb/s) Support Intel® Optane Technology Support USB 3.1 Gen1 Supports HDMI 4K resolution Support GbE LAN",
+        "precio": 124.99,
+        "stock": 16,
+        "marca": "Biostar",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/8381015B365_b4b1faab97bf4a0f8e38bc1e1faff8cc.png"
+    },
+    {
+        "nombre": "ASUS PRIME B365M-A",
+        "descripcion": "Placa base Intel LGA-1151 mATX con encabezado Aura Sync RGB, DDR4 2666MHz, soporte M.2, HDMI, memoria Intel Optane lista, SATA 6Gbps ASUS OptiMem: Enrutamiento cuidadoso de trazas y vías para preservar la integridad de la señal para mejorar la estabilidad de la memoria. Fan Xpert 2+: controles flexibles para la máxima refrigeración y tranquilidad, además de detección de temperatura de GPU para juegos más frescos. 5X Protection III: múltiples protecciones de hardware para una protección integral. Cabecera ASUS Aura Sync: conector integrado para tiras de LED RGB, sincronizado fácilmente con una cartera cada vez mayor de hardware compatible con Aura Sync. Conectividad ultrarrápida: flexibilidad suprema con soporte nativo M.2 para velocidades de almacenamiento ultrarrápidas",
+        "precio": 125,
+        "stock": 46,
+        "marca": "ASUS",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/2987537t-madre-asus-prime-b365m-a-chipset-intel-b365soporta-D_NQ_NP_908985-MLM32324078932_092019-F_c8ad086e4a544f1d9c77f389c6965aaa.jpg"
+    },
+    {
+        "nombre": "Gigabyte GA-H370M DS3H",
+        "descripcion": "Supports 8th Gen Intel® Core™ Processors Dual Channel Non-ECC Unbuffered DDR4 New Hybrid Digital PWM Design High Quality Audio Capacitors and Audio Noise Guard with LED Trace Path Lighting Dual Ultra-Fast M.2 with PCIe Gen3 X4/X2 & SATA interface RGB FUSION supports RGB LED strips in 7 colors Intel® USB 3.1 Gen1 USB Type-C™ Header Intel® GbE LAN with cFosSpeed Internet Accelerator Software CEC 2019 Ready, Save the Power as Easy as One Click Smart Fan 5 features Multiple Temperature Sensors and Hybrid Fan Headers with FAN STOP Anti-Sulfur Resistors Design Ultra Durable™ 25KV ESD and 15KV Surge LAN Protection Intel® Optane™ Memory Ready Lightning-Fast Intel® Thunderbolt™ 3 AIC Support",
+        "precio": 130,
+        "stock": 39,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/04/81711622018030515480857_m_2fc4861e55924a7dbea5d0d896a77be4.png"
+    },
+    {
+        "nombre": "Gigabyte B450 GAMING X",
+        "descripcion": "Placa base AMD B450 para juegos con PWM digital híbrido, NVMe PCIe Gen3 x4 M.2, RGB FUSION 2.0, LAN para juegos GIGABYTE con gestión de ancho de banda, lista para CEC 2019 Admite AMD Ryzen ™ 2da generación / Ryzen ™ con Radeon ™ Vega Graphics / Athlon ™ con Radeon ™ Vega Graphics / Ryzen ™ 1ra generación de procesadores DDR4 sin búfer sin ECC de doble canal, 4 DIMM Puertos HDMI, DVI-D para visualización múltiple NVMe PCIe Gen3 x4 M.2 ultrarrápido Capacitores de audio de alta calidad y diseño de protección de ruido de audio RGB FUSION 2.0 con soporte de tiras de LED RGB y RGB direccionables GIGABYTE LAN de juego 8118 exclusiva con gestión de ancho de banda Smart Fan 5 cuenta con 6 sensores de temperatura y 4 cabeceras de ventilador híbridas con parada de ventilador. Centro de aplicaciones que incluye las utilidades EasyTune ™ y Cloud Station ™ Listo para CEC 2019, Ahorre energía con un simple clic",
+        "precio": 130,
+        "stock": 7,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/95969772019032709451715bea7c944013bcc5e4664caeb01642d69_src_d299319d5d9e4a88a980e54ab2e60c57.png"
+    },
+    {
+        "nombre": "ASUS TUF B450M-PLUS GAMING",
+        "descripcion": "Tarjeta madre para juegos AMD B450 mATX con iluminación Aura Sync RGB LED, soporta hasta DDR4 3200MHz, 32Gbps M.2, HDMI 2.0b, USB 3.1 Gen 2 nativo y USB Tipo C. Detección de temperatura del GPU con Fan Xpert 2+: Garantiza que cada ventilador logre el mejor equilibrio entre refrigeración y acústica TUF Protection: SafeSlot, ESD Guards, protección sobre voltaje en DDR4, Digi+ VRM, y un panel traserio I/O de acero inoxidable para mayor durabilidad Componentes de grado militar TUF: TUF LANGuard, TUF Chokes, Capacitores TUF, y TUF MOSFETs para una máxima durabilidad Audio personalizado DTS® exclusivo: Ofrece señales de posición para audífonos estéreo, lo que te ayuda a identificar a tus enemigos en la acción Aura Sync RGB: Sincroniza la iluminación LED con una amplia gama de equipos/accesorios compatibles",
+        "precio": 134.99,
+        "stock": 47,
+        "marca": "ASUS",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/7119395compragamer_Imganen_general_9716_Mother_ASUS_TUF_B450M-PLUS_Gaming_HDMI_Aura_Sync_AM4__70a9845f-grn_3b4e4454a599420c8fec580fdf393507.jpg"
+    },
+    {
+        "nombre": "Gigabyte B365M Aorus Elite",
+        "descripcion": "Intel B365 AORUS motherboard with RGB Fusion 2.0 with Digital LEDs, Intel GbE LAN with cFosSpeed, Dual M.2 slots, Ultra Durable PCIe Armor, Anti-Sulfur Resistor, Smart Fan 5, DualBIOS™, CEC 2019 ready Supports 9th and 8th Gen Intel® Core™ Processors Dual Channel Non-ECC Unbuffered DDR4 New Hybrid Digital PWM Design M.2 Socket 1 slot for WIFI upgradable High Quality Audio Capacitors and Audio Noise Guard with LED Trace Path Lighting Dual Ultra-Fast M.2 with PCIe Gen3 X4/X4 & SATA interface RGB FUSION 2.0 with Digital LED Light Show design Intel® USB 3.1 Gen1 USB Type-C™ Intel® GbE LAN with cFosSpeed Internet Accelerator Software CEC 2019 Ready, Save the Power as Easy as One Click Smart Fan 5 features Multiple Temperature Sensors and Hybrid Fan Headers with FAN STOP Anti-Sulfur Resistors Design Ultra Durable™ 25KV ESD and 15KV Surge LAN Protection Intel® Optane™ Memory Ready",
+        "precio": 138.99,
+        "stock": 23,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/35525532019050316560495df4ceed60682e8f2964e1c8b48d04d52_src_0c202d16ec614085908fc008a7902743.png"
+    },
+    {
+        "nombre": "Gigabyte B365M DS3H WIFI",
+        "descripcion": "Intel B365 Ultra Durable motherboard with GIGABYTE 8118 Gaming LAN, PCIe Gen3 x4 M.2,RGB FUSION 2.0, Intel® Dual Band 802.11ac WIFI, CEC 2019 ready Supports 9th and 8th Gen Intel® Core™ Processors Dual Channel Non-ECC Unbuffered DDR4 New Hybrid Digital PWM Design High Quality Audio Capacitors Ultra-Fast M.2 with PCIe Gen3 X4 & SATA interface Intel® Dual Band 802.11ac WIFI & BT 4.2 RGB FUSION 2.0 with Addressable RGB & RGB LED Strips Support GIGABYTE Exclusive 8118 Gaming LAN with Bandwidth Management CEC 2019 Ready, Save the Power as Easy as One Click Smart Fan 5 features Multiple Temperature Sensors and Hybrid Fan Headers with FAN STOP Anti-Sulfur Resistors Design Ultra Durable™ 15KV Surge LAN Protection Intel® Optane™ Memory Ready GIGABYTE UEFI DualBIOS™",
+        "precio": 138.99,
+        "stock": 32,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/5192532019071715534574ee6dd68473d966c014785c789b608307_m_ac5a7bd8aa914e40b492bc0253a4cadd.png"
+    },
+    {
+        "nombre": "AsRock B450M Steel Legend AM4",
+        "descripcion": "Socket AMD AM4 Soporta memoria DDR4 3533+ (OC) 1 PCIe 3.0 x16, 1 PCIe 2.0 x16, 1 PCIe 2.0 x1 AMD Quad CrossFireX™ Opciones de salida gráficos: DisplayPort, HDMI Audio 7.1 canales HD (Códec de audio Realtek ALC892), Capacitadores finos de Audio Nichicon Serie oro 4 SATA3, 1 Ultra M.2 (PCIe Gen3 x4), 1 M.2 (SATA3) 2 USB 3.1 Gen2 (Trasero Tipo A+C) 6 USB 3.1 Gen1 (2 Frontales, 4 Traseros) Realtek Gigabit LAN",
+        "precio": 145,
+        "stock": 26,
+        "marca": "AsRock",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/4781597Sin_t_tulo_35afa3db5c704c87894d38df818df93b.png"
+    },
+    {
+        "nombre": "MSI H370M Bazooka",
+        "descripcion": "Supports 8th Gen Intel® Core™ / Pentium® Gold /Celeron® processors for LGA 1151 socket Supports DDR4 Memory, up to 2666 MHz Turbo M.2: Running at PCI-E Gen3 x4 maximizes performance for NVMe based SSDs Extended Heatsink Design: MSI extended PWM and enhanced circuit design ensures even high-end processors to run in full speed. Core Boost: With premium layout optimized power design to support more cores and provide better performance. DDR4 Boost: Advanced technology to deliver pure data signals for the best gaming performance and stability. Audio Boost: Reward your ears with studio grade sound quality for the most immersive audio experience PCI-E Steel Armor: Protecting VGA cards against bending and EMI X-Boost: Software that auto-detects and allows you to boost the performance of any storage, Optane or USB device EZ Debug LED: Easiest way to troubleshoot.",
+        "precio": 155,
+        "stock": 52,
+        "marca": "MSI",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/06/2426825product_4_20180402164106_5ac1eca287cf2_bf5a9ab76a8340afaf2bb4c082955763.png"
+    },
+    {
+        "nombre": "ASUS TUF B365M-PLUS GAMING (WIFI)",
+        "descripcion": "Tarjeta madre para juegos Intel LGA 1151 mATX con iluminación LED Aura Sync RGB, soporte DDR4 2666MHz, 32Gbps M.2, memoria Intel Optane Protección TUF: protecciones ESD, protección contra sobretensiones DDR4, Digi + VRM y E/S posterior de acero Componentes TUF de grado militar: TUF LANGuard, TUF Chokes, TUF Capacitors y TUF MOSFET para una máxima durabilidad. inoxidable para una confiabilidad a largo plazo. Aura Sync RGB: Sincronice la iluminación LED con una amplia cartera de equipos de PC compatibles Memoria Intel® Optane™ preparada: Explote la última tecnología de almacenamiento de alta velocidad. Native M.2: Velocidades de almacenamiento ultra rápidas. Disipador térmico M.2 integrado: Enfría su unidad M.2, brindando un rendimiento de almacenamiento constante y una confiabilidad mejorada. Paquete de una tarjeta PCIE a M.2 WIFI.",
+        "precio": 175,
+        "stock": 1,
+        "marca": "ASUS",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/3378932compragamer_Imganen_general_15605_Mother_ASUS_TUF_B365M-PLUS_GAMING_WiFi_1151_9th_Gen_9f3a5f6f-grn_79f56e1f684f4622bb62f508d9a80a74.jpg"
+    },
+    {
+        "nombre": "ASUS ROG Strix B450-F Gaming",
+        "descripcion": "Socket AM4 para procesadores AMD Ryzen™. Memoria y almacenamiento más rápidos: Dual-channel DDR4 3200MHz (OC) y soporte para RAID con NVM Express®. Iluminación RGB: Se puede sincronizar con un amplio portafolio de dispositivos Aura Sync. Conectividad gamer: Doble M.2 y conectores USB 3.1 Gen 2 Tipo-A Redes para juegos: Intel Gigabit Ethernet, además de tecnologías como ASUS LANGuard y GameFirst. 5-Way Optimization: Ajustes automáticos de todo el sistema con perfiles de overclocking y refrigeración creados específicamente para tu equipo. Audio para juegos: SupremeFX S1220A y Sonic Studio III crean una ambientación sónica que te mete de lleno en la acción. Gamer’s Guardian: Panel I/O, ASUS SafeSlot y componentes premium que duran más tiempo.",
+        "precio": 189.99,
+        "stock": 68,
+        "marca": "ASUS",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/b450m-f.png"
+    },
+    {
+        "nombre": "Gigabyte X570 UD",
+        "descripcion": "AMD X570 UD Motherboard with 10+2 Phases Digital VRM, Advanced Thermal Design with Enlarge Heatsink, PCIe 4.0 x4 M.2 Connector, PCIe 4.0 x16 Slot Armor with Ultra Durable™ Design, GIGABYTE Gaming GbE LAN with Bandwidth Management, HDMI 2.0 Supports AMD 3rd Gen Ryzen™/ 2nd Gen Ryzen™/ 2nd Gen Ryzen™ with Radeon™ Vega Graphics/ Ryzen™ with Radeon™ Vega Graphics Processors Dual Channel Non-ECC Unbuffered DDR4, 4 DIMMs 10+2 Phases Digital VRM Solution Advanced Thermal Design with Enlarge Heatsink Ultra-Fast NVMe PCIe 4.0/3.0 x4 M.2 Connector High Quality Audio Capacitors and Audio Noise Guard for Ultimate Audio Quality GIGABYTE Gaming GbE LAN with Bandwidth Management Supports RGB Light Strip in Full Colors Smart Fan 5 features Multiple Temperature Sensors and Hybrid Fan Headers with FAN STOP Featured HDMI 2.0 support Q-Flash Plus update BIOS without installing CPU, Memory and Graphics card",
+        "precio": 199.99,
+        "stock": 23,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/198984520190716164937686c74f5fc47fc31f25b3d263fbcebac1b_src_ab1693940682484b9c96b995385b8629.png"
+    },
+    {
+        "nombre": "MSI Z390-A PRO",
+        "descripcion": "Admite procesadores Intel® Core ™ / Pentium® Celeron® de 9ª / 8ª generación para el zócalo LGA 1151 Admite memoria DDR4, hasta 4400 (OC) MHz Turbo M.2: la ejecución en PCI-E Gen3 x4 maximiza el rendimiento de los SSD basados en NVMe. Establezca Core Power Free: Core Boost, conector de alimentación de CPU de 8 + 4 pines, Core Boost, DDR4 Boost Audio Boost: Recompense sus oídos con una calidad de sonido de calidad de estudio. Diseño de disipador térmico ampliado: el PWM extendido MSI y el diseño de circuito mejorado garantizan que incluso los procesadores de alta gama funcionen a toda velocidad. Intel® LAN: solución de red premium de Intel® para uso profesional y multimedia. Ofrece una conexión de red segura, estable y rápida. Multi-GPU: Con ranuras de armadura de acero PCI-E. Soporta AMD Crossfire ™ de 2 vías Intel Turbo USB 3.1 Gen2: Desarrollado por el controlador Intel USB 3.1 Gen2, el Turbo USB garantiza una conexión ininterrumpida con más estabilidad y velocidades USB más rápidas.",
+        "precio": 209,
+        "stock": 41,
+        "marca": "MSI",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/3878672product_6_20181008102018_5bbabee2dfad1_d7a72acf84ce4a3d84a2e0364e1cb327.png"
+    },
+    {
+        "nombre": "MSI MPG Z390 Gaming Plus",
+        "descripcion": "Satisfying gamers with what they really need, MPG Z390 GAMING PLUS is equipped with Extended Heatsink Design, Core boost, Twin Turbo M.2, Game Boost, Turbo USB and Intel CNVi connector and MSI latest Dragon Center APP Supports 9th / 8th Gen Intel® Core™ / Pentium® Gold / Celeron® processors for LGA 1151 socket Supports DDR4 Memory, up to 4400(OC) MHz Lightning Fast Game experience: 2x TURBO M.2, Intel Optane Memory Ready. Turbo USB 3.1 GEN2 Set Core Power Free: Extended Heatsink Design, Core Boost, Game Boost, DDR4 Boost Intel CNVi Ready: Supports Intel CNVi Wi-Fi module, IEEE802.11 AC wave2, providing a high speed wireless network connection Audio Boost: Reward your ears with studio grade sound quality for the most immersive gaming experience Dragon Center: A brand new software which integrates all MSI tools like GAME MODE, VOICE BOOST, LIVE UPDATE  with user friendly user interface.",
+        "precio": 219,
+        "stock": 52,
+        "marca": "MSI",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/832001product_7_20181008103003_5bbac12b10a3b_e4362007713844d58127f70eddc1bb79.png"
+    },
+    {
+        "nombre": "Gigabyte X570 GAMING X",
+        "descripcion": "AMD X570 GAMING Motherboard with 10+2 Phases Digital VRM, Advanced Thermal Design with Enlarge Heatsink, Dual PCIe 4.0 M.2, M.2 Thermal Guard, GIGABYTE Gaming GbE LAN with Bandwidth Management, HDMI 2.0, RGB Fusion 2.0 Supports AMD 3rd Gen Ryzen™/ 2nd Gen Ryzen™/ 2nd Gen Ryzen™ with Radeon™ Vega Graphics/ Ryzen™ with Radeon™ Vega Graphics Processors Dual Channel Non-ECC Unbuffered DDR4, 4 DIMMs 10+2 Phases Digital VRM Solution Advanced Thermal Design with Enlarge Heatsink Dual Ultra-Fast NVMe PCIe 4.0/3.0 x4 M.2 with one Thermal Guard High Quality Audio Capacitors and Audio Noise Guard for Ultimate Audio Quality GIGABYTE Gaming GbE LAN with Bandwidth Management RGB FUSION 2.0 with Multi-Zone Addressable LED Light Show Design, Supports Addressable LED & RGB LED Strips Smart Fan 5 features Multiple Temperature Sensors and Hybrid Fan Headers with FAN STOP Integrated I/O Shield Armor & HDMI 2.0 support Q-Flash Plus update BIOS without installing CPU, Memory and Graphics card",
+        "precio": 228.99,
+        "stock": 22,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/08/974989720190702153642246d75ea4563aa946f3b1cf53e79a0559c_m_48330cddb23b4821874af09f792f86b7.png"
+    },
+    {
+        "nombre": "MSI X570-A PRO",
+        "descripcion": "Inspirado en el diseño arquitectónico, con la solución Lightning Gen 4 PCIe y M.2, disipador térmico Frozr, Core Boost, DDR4 Boost, Audio Boost 4, conector USB 3.2 Gen2 Admite AMD Ryzen ™ / Ryzen ™ de segunda y tercera generación con gráficos Radeon ™ Vega y procesadores de escritorio AMD Ryzen ™ de segunda generación con gráficos Radeon ™ para zócalo AM4 Admite 4 DIMM, memoria de doble canal DDR4, hasta 4400+ (OC) MHz Solución Lightning Gen 4: la última solución Gen4 PCI-E y M.2 con un ancho de banda de hasta 64 GB / s para una velocidad de transferencia y rendimiento máximos. Diseño del disipador térmico Frozr: diseñado con el ventilador patentado y los rodamientos de bolas dobles para proporcionar el mejor rendimiento para los entusiastas de los juegos y los prosumidores. Establecer Core Power Free: Core Boost, conectores de alimentación de CPU de 8 + 4 pines, DDR4 Boost Audio Boost 4: recompense sus oídos con calidad de sonido de calidad de estudio. Multi-GPU: con ranuras PCI-E de armadura de acero. Admite AMD Crossfire ™ de 2 vías AMD Turbo USB 3.2 Gen2: Desarrollado por el controlador AMD USB 3.2 Gen2, garantiza una conexión ininterrumpida con más estabilidad y velocidades USB más rápidas",
+        "precio": 249.99,
+        "stock": 58,
+        "marca": "MSI",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/1416826product_10_20190705101438_5d1eb28e858fb_08ef820f040c4d65a9a575c297671ee1.png"
+    },
+    {
+        "nombre": "AsRock X299 Gaming K6",
+        "descripcion": "ASRock Super Alloy Gaming Armor: Power / Memory / VGA / Internet / Cooling / Audio Admite la familia de procesadores Intel® Core ™ serie X para el zócalo LGA 2066 11 Diseño de fase de potencia, Digi Power Admite DDR4 4400+ (OC) 4 PCIe 3.0 x16, 1 PCIe 3.0 x1 NVIDIA ® 3-Way SLI ™, AMD 3-Way CrossFireX ™ Audio 7.1 CH HD (Códec de audio Realtek ALC1220), compatible con Creative Sound Blaster ™ Cinema 3 8 SATA3, 3 Ultra M.2 (PCIe Gen3 x4 y SATA3) 2 USB 3.1 Gen2 10Gb / s (1 Tipo-A + 1 Tipo-C), 8 USB 3.1 Gen1 (4 Frontales, 4 Traseros) LAN Intel® Gigabit dual ASRock RGB LED Hyper BCLK Engine III",
+        "precio": 250,
+        "stock": 41,
+        "marca": "AsRock",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/9827157Fatal1ty_X299_Gaming_K6_M1__201f0163698545ca80cdb522bba2bbcb.png"
+    },
+    {
+        "nombre": "AsRock Z390 Steel Steel Legend S1151",
+        "descripcion": "Soporta procesadores Intel® Core™ de 9ª y 8ª Generación (Socket 1151) Soporta memoria DDR4 4266MHz+ (OC) 2 PCIe 3.0 x16, 3 PCIe 3.0 x1, 1 M.2 Key E para WiFi AMD Quad CrossFireX™ y CrossFireX™ Opciones de salida gráficos: DisplayPort, HDMI Audio 7.1 canales HD (Códec de audio Realtek ALC1200), Capacitadores finos de Audio Nichicon Serie oro 6 SATA3, 2 Ultra M.2 (PCIe Gen3 x4 & SATA3) 2 USB 3.2 Gen2 (Trasero Tipo A+C) 6 USB 3.2 Gen1 (4 Frontales, 2 Traseros) Intel® Gigabit LAN Polychrome RGB SYNC",
+        "precio": 251.99,
+        "stock": 12,
+        "marca": "AsRock",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/7997183Sin_t_tulo_b6a7828bace94b239410521c161f1dcb.png"
+    },
+    {
+        "nombre": "Gigabyte Z490 UD",
+        "descripcion": "Intel ® Z490 Ultra Durable placa base con Direct 11 + 1 fases VRM digital, extendido MOS disipador de calor, doble NVMe PCIe 3.0 x4 M.2, GbE LAN Gaming, O Shield Integrado I / O, Q-Flash PLUS, RGB FUSION 2.0 Admite procesadores Intel® Core ™ de 10a generación. DDR4 sin búfer sin ECC de doble canal, 4 DIMM Intel ® Memoria Ready ™ Optane Solución de VRM digital de 11 + 1 fases directas con MOSFET de bajo RDS (activado) Disipador térmico VRM ampliado con ranurado de flujo de aire de contacto superficial aumentado LAN exclusiva para juegos 8118 de GIGABYTE con gestión de ancho de banda Soporte de gráficos de múltiples vías con PCIe Armor y diseño Ultra Durable ™ Dual Ultra-Fast M.2 con PCIe Gen3 X4 y uno compatible con el protocolo SATA Intel ® nativo USB 3.2 Gen2 tipo A con velocidad de hasta 10 Gbps RGB FUSION 2.0 admite tiras LED direccionables y LED RGB Smart Fan 5 presenta múltiples sensores de temperatura, encabezados de ventilador híbridos con FAN STOP Q-Flash PLUS actualiza el BIOS sin instalar la CPU, la memoria y la tarjeta gráfica Armadura de E / S trasera con escudo de E / S preinstalado Listo para CEC 2019, ahorre energía tan fácil como un clic La velocidad del rayo Intel ® Thunderbolt ™ 3 AIC Soporte",
+        "precio": 258.99,
+        "stock": 37,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/2020043009295533516f45ed898f7d967afcaeea54b11311_m.png"
+    },
+    {
+        "nombre": "Gigabyte X299 AORUS Gaming",
+        "descripcion": "Supports Intel® Core™ i7-7740X & i5-7640X (4 Cores) Processor Only, Intel X299 Gaming motherboard with RGB Fusion, Digital LED strip support, Dual M.2, 120dB SNR ALC1220, Intel Gaming LAN, USB 3.1 Gen 2 Type-A Supports Intel® Core™ i7-7740X & i7-7640X (4 Cores) Processor Only DDR4 Dual Channel Non-ECC Unbuffered , 4 DIMMs Memoria Intel® Optane™ ASMedia 3142 USB 3.1 Gen 2 with USB Type-A 3-Way Graphics Support ALC1220 120dB SNR HD Audio con amplificadores inteligentes y capacitadores de audio WIMA La función RGB FUSION soporta tiras de Digital LED y tiras de luz RGBW Smart Fan 5 con sensores de múltiple temperatura y cabezales de ventilación híbrida con FAN STOP M.2 dual ultra-rápida con interfaz PCIe Gen3 x4 NVMe PCIe Gen3 x4 U.2con soporte mediante adaptador opcional Intel® GbE LAN Gaming Network con software de aceleración de Internet cFosSpeed Diseño resistente al azufre Ultra Durable™ 25KV ESD y protección contra la sobretensión Soporte para Lightning-Fast Intel® Thunderbolt™ 3 AIC GIGABYTE UEFI DualBIOS™ APP Center, que incluye las utilidades EasyTune™ y Cloud Station™",
+        "precio": 259.99,
+        "stock": 41,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/683209233535d22_6_ad725ebda5a947028f5726071c32ee77-1.png"
+    },
+    {
+        "nombre": "ASUS TUF Z390-PRO GAMING",
+        "descripcion": "Placa madre ASUS TUF Z390-Pro Gaming LGA1151 (Intel 8a y 9a generación) ATX DDR4 HDMI M.2 USB 3.1 Gen2 LAN Gigabit Diseñado para procesadores Intel® Core ™ de novena y octava generación para maximizar la conectividad y la velocidad con M.2 dual, Gigabit LAN, USB 3.1 Gen2 Los componentes TUF de grado militar como TUF LANGuard, TUF Chokes, TUF Capacitors y TUF MOSFET maximizan la durabilidad del sistema Gamer's Guardian con SafeSlot y FanXpert 4 proporciona protecciones a nivel de hardware para un rendimiento máximo con enfriamiento dinámico del sistema Audio de juegos HD de 8 canales con códec de audio de alta definición Realtek® S1200A impulsado por condensadores japoneses para un sonido cálido e inmersivo ASUS OptiMem II mejora la estabilidad y el rendimiento de la memoria al mejorar el aislamiento de trazas entre capas de PCB para mantener",
+        "precio": 265,
+        "stock": 26,
+        "marca": "ASUS",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/3509458z390_pro_81e287d128db4cdbab04713206a75d2a.png"
+    },
+    {
+        "nombre": "ASUS TUF Z390-PLUS GAMING",
+        "descripcion": "Placa base Intel Z390 ATX para juegos con OptiMem II, iluminación LED Aura Sync RGB, compatibilidad con DDR4 4266+ MHz, 32 Gbps M.2, memoria Intel Optane lista y USB 3.1 Gen 2 nativo. Protección TUF: SafeSlot, protecciones ESD, protección contra sobretensiones DDR4, Digi + VRM y E / S posterior de acero inoxidable para una confiabilidad a largo plazo Componentes TUF de grado militar: TUF LANGuard, choques TUF, condensadores TUF y MOSFET TUF para una máxima durabilidad OptiMem II: enrutamiento cuidadoso de trazas y vías, además de optimizaciones de la capa de tierra para preservar la integridad de la señal para un overclocking de memoria mejorado MemOK! II: corrige automáticamente las fallas de arranque que surgen debido al overclocking de memoria y la inestabilidad Códec Realtek S1200A: presenta una relación señal / ruido de 108 dB sin precedentes para la salida de línea estéreo y una SNR de 103 dB para la entrada de línea, proporcionando una calidad de audio impecable Sensor de temperatura de la GPU y ventilador Xpert 4: garantiza que cada ventilador logre el mejor equilibrio entre rendimiento de refrigeración y acústica Aura Sync RGB: sincronice la iluminación LED con una amplia cartera de equipos de PC compatibles",
+        "precio": 275,
+        "stock": 38,
+        "marca": "ASUS",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/28953motherboard-asus-tuf-z390-plus-gaming-intel-s-1151-4x-dimm-ddr4-max-64gb-hdmi_3051de36aea449fdbb13476232a6d02d.jpg"
+    },
+    {
+        "nombre": "MSI MPG X570 Gaming Plus",
+        "descripcion": "Soporta procesadores desktop 2da y 3ra Gen AMD Ryzen™ / Ryzen™ con gráficos Radeon™ Vega para socket AM4 Soporta memoria DDR4 Juego ultrarrápido: PCIe 4.0, Lightning Gen4 x4 M.2 con M.2 Shield Frozr accesorio, StoreMI, AMD Turbo USB 3.2 GEN2 Diseño de Disipador Frozr:  Diseñado con el ventilador patentado y doble rodamiento, ofrece el máximo desempeño para gamers entusiastas y prosumers. Libera la potencia del núcleo: Diseño de Disipador Extendido, Core Boost, Digital PWM IC, conector de energía de CPU de 8+4 pines, Game Boost, DDR4 Boost MYSTIC LIGHT: 16.8 millones de colores / 29 efectos controlados con un clic. MYSTIC LIGHT EXTENSION soporta tiras LED RGB y RAINBOW. AUDIO BOOST 4: Gratifica tus oídos con el sonido con calidad de estudio para la experiencia de juego más inmersiva Dragon Center: Un nuevo software que integra todas las herramientas MSI como GAME MODE, VOICE BOOST y LIVE UPDATE  en una interfaz fácil de usar.",
+        "precio": 284.99,
+        "stock": 18,
+        "marca": "MSI",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/955845Sin_t_tulo_dd77bcb7edfe4afd949b5edbb65cb266.png"
+    },
+    {
+        "nombre": "Gigabyte Z490M GAMING X",
+        "descripcion": "Intel ® Z490M JUEGO placa base con Direct 11 + 1 fases de diseño de energía, de 2 vías CrossFire ™ multi-gráficos, Intel ® GbE con cFosSpeed, USB 3.2 Tipo-A Gen2, USB 3.2 Gen2 tipo C ™, M.2 con Guardia térmica , Smart Fan 5, doble armadura con diseño Ultra Durable ™, RGB FUSION 2.0 Admite procesadores Intel® Core ™ de 10a generación. Solución digital VRM de fases directas de 11 + 1 con MOSFET de bajo RDS (activado) DDR4 sin búfer sin ECC de doble canal, 4 DIMM Disipador térmico VRM ampliado con almohadilla termoconductora 5W / mK PCIe ultrarrápido Gen3 X4 M.2 con protector térmico Soporte de gráficos multidireccional con doble armadura y diseño Ultra Durable ™ Smart Fan 5 presenta múltiples sensores de temperatura, encabezados de ventilador híbridos con FAN STOP Intel ® Memoria Ready ™ Optane Intel ®  GbE LAN con cFosSpeed Internet Software acelerador Intel ® USB 3.2 Gen2 Tipo-A y USB 3.2 Gen2 tipo C Support ™ Audio multicanal ALC1200 con condensadores de audio de alta calidad y protección contra ruido de audio RGB FUSION 2.0 con diseño de espectáculo de luces LED direccionables multizona, compatible con tiras LED direccionables y LED RGB IO Shield preinstalado para una instalación fácil y rápida Q-Flash Plus Update BIOS sin instalar la CPU, la memoria y la tarjeta gráfica",
+        "precio": 295,
+        "stock": 11,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/2020043014292936e3a8c21e009a017fe8e955236fd249fc_m.png"
+    },
+    {
+        "nombre": "Gigabyte X570 AORUS ELITE",
+        "descripcion": "Motherboard AMD X570 AORUS con 12 + 2 Fases VRM digital con DrMOS, diseño térmico avanzado con disipador extendido, doble PCIe 4.0 M.2 con Thermal Guard (x1), LAN Intel® GbE con cFosSpeed, USB frontal Tipo-C, RGB Fusion 2.0 Soporta AMD 3°. y 2°. Gen. Ryzen™ CPU / AMD 2° y 1° Gen. Ryzen™ con Radeon™ Vega Graphics APU Doble Canal No-ECC Unbuffered DDR4, 4 DIMMs Solución con 12 + 2 Fases VRM digital con DrMOS Diseño térmico avanzado con disipador extendido Dual M.2 NVMe PCIe 4.0/3.0 x4 Ultra-rápido con Thermal Guard único Capacitores de audio de alta calidad y protección de ruido, iluminación LED con trayectoria de seguimiento Intel® Gigabit LAN con cFosSpeed Internet Accelerator RGB FUSION 2.0 con diseño Multi-Zone Addressable LED Light Show, admite tiras LED Direccionables y LED RGB Smart Fan 5 cuenta con múltiples sensores de temperatura, cabezales de ventilador híbridos con FAN STOP Cabezales USB 3.1 Gen. 2 Tipo-C ™ frontales y traseros y soporte a HDMI 2.0 Placa I/O trasera integrada Q-Flash Plus actualiza el BIOS sin instalar CPU, memoria y tarjeta gráfica",
+        "precio": 299,
+        "stock": 29,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/298585320190709113622941565964950ce6e7265b7ce1b95077d05_m_5c1be4708674434ea593124fc2e03b88.png"
+    },
+    {
+        "nombre": "ASUS TUF GAMING X570-PLUS Wifi",
+        "descripcion": "Socket AMD AM4: Listo para los procesadores AMD RyzenTM de 2da y 3ra generación. Solución de energía mejorada: Componentes TUF de grado militar, socket ProCool y Digi+ VRM para una máxima durabilidad. Enfriamiento integral: Disipador térmico PCH activo, Disipador térmico VRM, Disipador térmico M.2, Cabezales de ventilador híbridas y Fan Xpert 4. Conectividad de próxima generación: Dual PCIe 4.0 M.2 y USB 3.2 Gen 2 Type-A / Type-C. Redes de juegos: El exclusivo Realtek® L8200A Gigabit Ethernet, Wi-Fi Intel 2×2 802.11ac con soporte MU-MIMO, Bluetooth 5.0, TUF LANGuard y tecnología TurboLAN. Codec Realtek S1200A: Presenta una relación señal/ruido de 108dB sin precedentes para la salida de línea estéreo y una SNR de 103dB para la entrada de línea, que brinda una calidad de audio impecable. Aura Sync RGB: Sincronice la iluminación LED con una amplia gama de equipos para PC compatibles, que incluyen tiras RGB direccionables. TUF Gaming Alliance: El ecosistema de hardware de ASUS garantiza la mejor compatibilidad y la estética complementaria de los componentes al gabinete.",
+        "precio": 299,
+        "stock": 46,
+        "marca": "ASUS",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/Asus-TUF-GAMING-X570-PLUS-Wifi.jpg"
+    },
+    {
+        "nombre": "Gigabyte X570 AORUS ELITE WIFI",
+        "descripcion": "Motherboard AMD X570 AORUS con 12 + 2 fases VRM digitales con DrMOS, diseño térmico avanzado con disipador extendido, doble PCIe 4.0 M.2 con Thermal Guard (x1), LAN Intel® GbE con cFosSpeed, Intel®GbE con cFosSpeed, Intel® Dual Band 802.11ac inalámbrico, USB frontal -C, RGB Fusion 2.0 Soporta AMD 3°. y 2°. Gen. Ryzen™ CPU / AMD 2° y 1° Gen. Ryzen™ con Radeon Vega Graphics APU Doble Canal No-ECC Unbuffered DDR4, 4 DIMMs Solución con 12 + 2 fases VRM digitales con DrMOS Diseño térmico avanzado con disipador extendido Dual M.2 NVMe PCIe 4.0/3.0 x4 Ultra-rápido con Thermal Guard único Capacitores de audio de alta calidad y protección de ruido, iluminación LED con trayectoria de seguimiento Intel®Gigabit LAN con cFosSpeed Internet Accelerator Intel® Dual Band 802.11ac WIFI & BT 4.2 RGB FUSION 2.0 con diseño Multi-Zone Addressable LED Light Show, admite tiras LED Direccionables y LED RGB Smart Fan 5 cuenta con múltiples sensores de temperatura, cabezales de ventilador híbridos con FAN STOP Cabezal USB 3.1 Gen. 2 Tipo-C ™ frontal y soporte a HDMI 2.0 Placa I/O trasera integrada Q-Flash Plus actualiza el BIOS sin instalar CPU, memoria y tarjeta gráfica",
+        "precio": 310,
+        "stock": 28,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/118369320190709154842832ba4f0cbe2527279210ad6dc00a23ca6_m_00af62e9a97143068d1c619772439589.png"
+    },
+    {
+        "nombre": "Gigabyte Z490 GAMING X",
+        "descripcion": "Intel ® Z490 JUEGO placa base con Direct 11 + 1 fases de diseño de energía, de 2 vías CrossFire ™ multi-gráficos, Intel ® GbE con cFosSpeed, USB 3.2 Gen2 Tipo-A, Dual M.2 con 1 Protector térmico, ventilador inteligente 5, Dual Armadura con tecnología Ultra Durable ™, RGB FUSION 2.0, Q-FLASH PLUS Admite procesadores Intel® Core ™ de 10a generación. DDR4 sin búfer sin ECC de doble canal, 4 DIMM Intel ®  Memoria Ready ™ Optane Solución de VRM digital directa de 11 + 1 fases con DrMOS Disipador térmico VRM ampliado con almohadilla termoconductora 5W / mK Intel ®  GbE LAN con cFosSpeed Internet Software acelerador Soporte de gráficos multidireccional con doble armadura y diseño Ultra Durable ™ Audio multicanal ALC1200 con condensadores de audio de alta calidad y protección contra ruido de audio Dual Ultra-Fast M.2 con PCIe Gen3 X4 (1 con protección térmica) e interfaz SATA Intel ®  nativo USB 3.2 Gen2 tipo A con velocidad de hasta 10 Gbps RGB FUSION 2.0 admite tiras LED direccionables y LED RGB Smart Fan 5 presenta múltiples sensores de temperatura, encabezados de ventilador híbridos con FAN STOP Q-Flash Plus actualiza el BIOS sin instalar la CPU, la memoria y la tarjeta gráfica Listo para CEC 2019, ahorre energía tan fácil como un clic La velocidad del rayo Intel ®  Thunderbolt ™ 3 AIC Soporte",
+        "precio": 310,
+        "stock": 26,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/202004301150144737ebcc865c28babd668455ead202864e_m.png"
+    },
+    {
+        "nombre": "Gigabyte Z390 AORUS PRO Wifi",
+        "descripcion": "Supports 9th and 8th Gen Intel® Core™ Processors Dual Channel Non-ECC Unbuffered DDR4, 4 DIMMs Intel® Optane™ Memory Ready 12+1 Phases Digital VRM Solution with DrMOS Advanced Thermal Design with Multi-cuts Heatsinks and Heatpipe Onboard Intel® CNVi 802.11ac 2×2 Wave 2 Wi-Fi ALC1220-VB Enhance 114dB(Rear) / 110dB(Front) SNR in Microphone with WIMA Audio Capacitors Intel® Gigabit LAN with cFosSpeed RGB FUSION 2.0 with Multi-Zone LED Light Show Design, Supports Addressable LED & RGB LED Strips Smart Fan 5 features Multiple Temperature Sensors and Hybrid Fan Headers with FAN STOP Front USB 3.1 Gen 1 Type-C™ Header Dual Ultra-Fast NVMe PCIe Gen3 x4 M.2 with Thermal Guards Multi-Way Graphics Support with Dual Armor and Ultra Durable™ Design",
+        "precio": 330,
+        "stock": 38,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/34187622019012514500381ca8692c2ae0204a26ad2d945de5522fc_m_14b3e2875efd479aad883e26624ab2df.png"
+    },
+    {
+        "nombre": "AsRock X570 Steel Legend AM4",
+        "descripcion": "Admite procesadores AMD AM4 Socket Ryzen ™ de las series 2000 y 3000 Diseño de 10 fases de potencia Admite DDR4 4666+ (OC) 2 PCIe 4.0 x16, 3 PCIe 4.0 x1, 1 M.2 (clave E) para WiFi AMD Quad CrossFireX ™ y CrossFireX ™ Opciones de salida de gráficos: HDMI, DisplayPort Audio 7.1 CH HD (Códec de audio Realtek ALC1220), Nichicon Audio Caps 8 SATA3, 1 Hyper M.2 (PCIe Gen4 x4 y SATA3), 1 Hyper M.2 (PCIe Gen4 x4) 2 USB 3.2 Gen2 (posterior tipo A + C), 10 USB 3.2 Gen1 (4 frontal, 6 posterior) Intel ® Gigabit LAN ASRock Polychrome SYNC",
+        "precio": 335,
+        "stock": 11,
+        "marca": "AsRock",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/9332501Sin_t_tulo_af7d8f1e97e6497d9fc666ce8507d778.png"
+    },
+    {
+        "nombre": "Gigabyte Z390 AORUS ULTRA",
+        "descripcion": "Motherboard Intel Z390 AORUS con fases 12+1 VRM digital, Heatpipe de contacto directo,RGB Fusion 2.0, 802.11ac Wireless, Triple M.2 con Thermal Guards, Intel® GbE LAN con cFosSpeed, USB frontal y trasero 3.1 Gen. 2 Tipo-C Soporte para procesadores intel® Core ™ de 9°. y 8°. Gen. DDR4 de doble canal, Non-ECC Unbuffered, 4 DIMM Lista para memoria Intel® Optane™ Solution Digital en Fases 12+1 VRM IR con DrMOS Diseño Térmico Avanzado con Direct Touch Heatpipe Wi-Fi Integrado Intel® CNVi 802.11ac 2×2 Wave 2 ALC1220-VB Mejorado 114dB (trasero) / 110dB (delantero) SNR en micrófono con capacitores de audio WIMA Intel® Gigabit LAN con cFosSpeed RGB FUSION 2.0 con diseño Multi-Zone Addressable LED Light Show, compatible con tiras de LED Direccionables y RGB Smart Fan 5 cuenta con varios sensores de temperatura y cabezales de ventilador híbridos con FAN STOP Cabezal frontal USB 3.1 Gen. 2 Tipo-C ™ Triple M.2, Ultra-Rápido con interfaz PCIe Gen3 x4 con triple protección térmica USB DAC-UP 2 con voltaje ajustable Listo para CEC 2019, ahorre energía tan fácil como con un solo clic Soporte de gráficos de múltiples vías con doble armadura y diseño Ultra Durable ™",
+        "precio": 344.99,
+        "stock": 42,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/191087320190125142856777bcd17a7df6269ec03f6f5caf3ae45fb_m_1f2ba17dff444e02bbd69d7ce6d5ae56.png"
+    },
+    {
+        "nombre": "Gigabyte X570 AORUS PRO WIFI",
+        "descripcion": "Gigabyte X570 AORUS Motherboard with 12+2 Phases IR Digital VRM, Fins-Array Heatsink & Direct Touch Heatpipe, Dual PCIe 4.0 M.2 with Thermal Guards, Intel® WiFi 6 802.11ax, Intel® GbE LAN with cFosSpeed, USB Type-C, RGB Fusion 2.0 Supports AMD 3rd Gen Ryzen™/ 2nd Gen Ryzen™/ 2nd Gen Ryzen™ with Radeon™ Vega Graphics/ Ryzen™ with Radeon™ Vega Graphics Processors Dual Channel ECC/ Non-ECC Unbuffered DDR4, 4 DIMMs 12+2 Phases IR Digital VRM Solution with PowIRstage Advanced Thermal Design with Fins-Array Heatsink and Direct Touch Heatpipe Dual Ultra-Fast NVMe PCIe 4.0/3.0 x4 M.2 with Dual Thermal Guards Intel® WiFi 6 802.11ax 2T2R & BT 5 ALC1220-VB Enhance 114dB(Rear)/ 110dB(Front) SNR in Microphone with WIMA Audio Capacitors Intel® Gigabit LAN with cFosSpeed Internet Accelerator Networking RGB FUSION 2.0 with Multi-Zone Addressable LED Light Show Design, Supports Addressable LED & RGB LED Strips Smart Fan 5 features Multiple Temperature Sensors, Hybrid Fan Headers with FAN STOP Front & Rear USB 3.2 Gen2 Type-C™ Header & HDMI 2.0 support Integrated I/O Shield Armor Q-Flash Plus update BIOS Without Installing CPU, Memory and Graphics card",
+        "precio": 360,
+        "stock": 41,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/08/88029872019070215355935920759bf6718ef0ae917768209f118e2_m_47c121f4a5f840b683e2c2dce4a99cd1.png"
+    },
+    {
+        "nombre": "Gigabyte X570 AORUS ULTRA",
+        "descripcion": "Soporta AMD 3°. y 2°. Gen. Ryzen™ CPU / AMD 2° y 1° Gen. Ryzen™ con Radeon™ Vega Graphics APU Doble Canal ECC/ No-ECC Unbuffered DDR4, 4 DIMMs Solución con 12 + 2 Fases VRM digital IR con PowIRstage Diseño térmico avanzado con arreglo de láminas de disipación y tubo de contacto directo Triple M.2 NVMe PCIe 4.0/3.0 x4 Ultra-rápido con triple Thermal Guard Intel® WiFi 6 802.11ax 2T2R & BT 5 ALC1220-VB Mejora de 114dB (posterior) / 110dB (frontal) SNR en micrófono con capacitores de audio WIMA Intel® Gigabit LAN con cFosSpeed Internet Accelerator Networking RGB FUSION 2.0 con diseño Multi-Zone Addressable LED Light Show, admite tiras LED Direccionables y LED RGB Smart Fan 5 cuenta con múltiples sensores de temperatura, cabezales de ventilador híbridos con FAN STOP Cabezales USB 3.1 Gen. 2 Tipo-C ™ frontales y traseros y soporte a HDMI 2.0 Adopta un ventilador de rodamiento de bola de alta calidad que garantiza 60,000 horas de trabajo Placa I/O trasera integrada Q-Flash Plus actualiza el BIOS sin instalar CPU, memoria y tarjeta gráfica",
+        "precio": 390,
+        "stock": 32,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/09/201334720190702105923370071687d0ed3756b328015b4ef6d5ca4_src_632cf5fdb40f4fb8b4a3f354813ebb40.png"
+    },
+    {
+        "nombre": "Gigabyte Z490 AORUS PRO AX",
+        "descripcion": "® Z490 AORUS placa base con Direct 12 fases de diseño VRM digital, la solución térmica integral con las aletas-Array II, Intel ® WiFi 6 802.11ax, Intel ® 2.5GbE LAN, RGB FUSION 2.0 Admite procesadores Intel® Core ™ de 10a generación. DDR4 sin búfer sin ECC de doble canal, 4 DIMM Intel ®  Memoria Ready ™ Optane Solución VRM digital directa de 12 fases con 55M DrMOS Enrutamiento de memoria blindado para un mejor overclocking de memoria Disipador de calor Fins-Array II y Heatpipe de contacto directo II Onboard Intel ®  WiFi 6 802.11ax 2T2R y BT5 con AORUS Antena Audio AMP-UP con ALC1220-VB y WIMA para SNR trasero de 120dB LAN ultrarrápida Intel ® 2.5GbE con cFosSpeed Doble NVMe PCIe 3.0 x4 M.2 ultrarrápido con protectores térmicos RGB FUSION 2.0 con diseño de espectáculo de luces LED direccionables multizona, compatible con tiras LED direccionables y LED RGB Smart Fan 5 presenta múltiples sensores de temperatura, encabezados de ventilador híbridos con FAN STOP Q-Flash Plus Update BIOS sin instalar la CPU, la memoria y la tarjeta gráfica",
+        "precio": 474.99,
+        "stock": 63,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/20200430172810322ff51069391531e9f6f1f402b3ed1ef6_m-1.png"
+    },
+    {
+        "nombre": "Gigabyte Z490 AORUS ULTRA",
+        "descripcion": "Intel ® Z490 AORUS placa base con Direct 12 Fase VRM digital de diseño, solución térmica integral con nanocarbono Aletas-Array II, Intel ® WiFi 6 802.11ax, Intel ® 2.5GbE LAN, RGB FUSION 2.0 Admite procesadores Intel® Core ™ de 10a generación. DDR4 sin búfer sin ECC de doble canal, 4 DIMM Intel ®  Memoria Ready ™ Optane Solución directa VRM digital de 12 fases con 55A DrMOS Enrutamiento de memoria blindado para un mejor overclocking de memoria NanoCarbon Fins-Array II Disipador térmico y Direct Touch Heatpipe II Onboard Intel ®  WiFi 6 802.11ax 2T2R y BT5 con AORUS Antena Audio AMP-UP con ALC1220-VB y WIMA para SNR trasero de 120dB LAN ultrarrápida Intel ® 2.5GbE con cFosSpeed Triple NVMe PCIe 3.0 x4 M.2 ultrarrápido con protectores térmicos II RGB FUSION 2.0 con diseño de espectáculo de luces LED direccionables multizona, compatible con tiras LED direccionables y LED RGB Smart Fan 5 presenta múltiples sensores de temperatura, encabezados de ventilador híbridos con FAN STOP y detección de ruido Q-Flash Plus Update BIOS sin instalar la CPU, la memoria y la tarjeta gráfica",
+        "precio": 545,
+        "stock": 13,
+        "marca": "Gigabyte",
+        "categoria": "MOTHERBOARD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/2020043017252389c24693fceac4941bf37ae50b6ed042f9_m.png"
+    },
+    {
+        "nombre": "Team Elite 4Gb DDR4 2666Mhz",
+        "descripcion": "Memoria TEAM GROUP Modelo TEAM ELITE UD-D4 Capacidad 4GB Velocidad 2666mhz Latencia CL19-19-19-43 Voltaje 1.2V",
+        "precio": 25,
+        "stock": 42,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/1512939team-group-elite-series-black-16gb-1x16gb-2400mhz-pc3-19200-cl16-memoria-ddr4-001_c3179c045cee4b859476a8ca4dc92c24.jpg"
+    },
+    {
+        "nombre": "Team Elite 4Gb DDR3 1600Mhz",
+        "descripcion": "Memoria TEAM GROUP Modelo TEAM ELITE TED34G1600C1101 Capacidad 4GB Velocidad 1600mhz Latencia CL11-11-11-28 Voltaje 1.5V",
+        "precio": 25,
+        "stock": 64,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/9474756team-group-elite-series-black-16gb-1x16gb-2400mhz-pc3-19200-cl16-memoria-ddr4-001_84ac0ec355b741caa4fed44e9ebc55c6.jpg"
+    },
+    {
+        "nombre": "Kingston HyperX Fury 4GB DDR3 1866mhz",
+        "descripcion": "La memoria HyperX, diseñada y probada para ofrecer un rendimiento extremo, soporta sin dificultades las demandas más exigentes de cualquier profesional creativo, jugador o aficionado a la informática 4Gb – 1866mhz",
+        "precio": 34.99,
+        "stock": 86,
+        "marca": "Kingston",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/8099976memoria-kingston-hyperx-fury-8gb-ddr3-1866-tienda-oficial-192611-MLA20584872840_022016-F_2e99ff6af5a745988509dae7e4a89ebe.jpg"
+    },
+    {
+        "nombre": "Kingston HyperX Fury 4GB DDR4 2400mhz",
+        "descripcion": "La memoria HyperX, diseñada y probada para ofrecer un rendimiento extremo, soporta sin dificultades las demandas más exigentes de cualquier profesional creativo, jugador o aficionado a la informática 4Gb – 2400mhz",
+        "precio": 35,
+        "stock": 57,
+        "marca": "Kingston",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/fury-ddr4.jpg"
+    },
+    {
+        "nombre": "Kingston HyperX Fury 4GB DDR4 2666mhz",
+        "descripcion": "HyperX® FURY DDR4 autodetecta sus componentes y overclocks a la frecuencia más alta publicada, hasta 2666MHz1, para un rendimiento sin problemas. Esta actualización rentable y premium para placas base con la serie 200 de Intel y los conjuntos de chips X99 también complementa los procesadores Intel de 2, 4, 6, 8 y 10 núcleos. Mejore el rendimiento de sus juegos favoritos, edición de video, renderizado y procesamiento AI. Disponible en velocidades de 2133MHz-2666MHz, latencias CL14-16, capacidades de módulo único de 4GB-16GB y capacidades de kits de 8GB-64GB.",
+        "precio": 35,
+        "stock": 42,
+        "marca": "Kingston",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/fury-ddr4.jpg"
+    },
+    {
+        "nombre": "Team Elite SO-DIMM DDR3 4Gb 1600mhz",
+        "descripcion": "Memoria TEAM GROUP Capacidad 4GB Velocidad 1600mhz Latencia CL11-11-11-28 Voltaje 1.5V",
+        "precio": 39,
+        "stock": 92,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/11/63031251360d607dc768f88641ccdaf3c752c67_98b15f3729a54cf6ab7ace66bdfffb9b.jpg"
+    },
+    {
+        "nombre": "Team Elite 8Gb DDR4 2666Mhz",
+        "descripcion": "Memoria TEAM GROUP Modelo TEAM ELITE UD-D4 Capacidad 8GB Velocidad 2666mhz Latencia CL19-19-19-43 Voltaje 1.2V",
+        "precio": 47.49,
+        "stock": 41,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/198075team-group-elite-series-black-16gb-1x16gb-2400mhz-pc3-19200-cl16-memoria-ddr4-001_4e37bcbe49f743bdb6c4f9b532aaea72.jpg"
+    },
+    {
+        "nombre": "Patriot Viper Elite DDR4 8GB 2666mhz",
+        "descripcion": "Capacity: 8GB • Base Frequency: PC4-17000 (2133MHz) • Base Timings: 15-15-15-36 • Tested Frequency: PC4-21300 (2666MHz) • Tested Timings: 16-17-17-36 • Voltage: 1.2V • Format: NON-ECC Unbuered DIMM • Pin Out: 288-Pin • Heat spreader: Anodized Aluminum",
+        "precio": 52.50,
+        "stock": 59,
+        "marca": "Patriot",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/memoria-patriot-viper-elite-ddr4-8gb-2666mhz.jpg"
+    },
+    {
+        "nombre": "Team Elite 8Gb DDR3 1600Mhz",
+        "descripcion": "Memoria TEAM GROUP Modelo TEAM ELITE TED38G1600C1101 Capacidad 8GB Velocidad 1600mhz Latencia CL11-11-11-28 Voltaje 1.5V",
+        "precio": 55,
+        "stock": 43,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/7914211team-group-elite-series-black-16gb-1x16gb-2400mhz-pc3-19200-cl16-memoria-ddr4-001_3226f60c58464067abbac69ffe4aa92f.jpg"
+    },
+    {
+        "nombre": "Kingston HyperX Fury 8GB DDR4 2400mhz",
+        "descripcion": "La memoria HyperX, diseñada y probada para ofrecer un rendimiento extremo, soporta sin dificultades las demandas más exigentes de cualquier profesional creativo, jugador o aficionado a la informática 8Gb – 2400mhz",
+        "precio": 57,
+        "stock": 68,
+        "marca": "Kingston",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/fury-ddr4.jpg"
+    },
+    {
+        "nombre": "Kingston HyperX Fury 8GB DDR4 2666mhz",
+        "descripcion": "La memoria HyperX, diseñada y probada para ofrecer un rendimiento extremo, soporta sin dificultades las demandas más exigentes de cualquier profesional creativo, jugador o aficionado a la informática 8Gb – 2666mhz",
+        "precio": 57,
+        "stock": 103,
+        "marca": "Kingston",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/fury-ddr4.jpg"
+    },
+    {
+        "nombre": "Kingston HyperX Fury 8GB DDR3 1866mhz",
+        "descripcion": "La memoria HyperX, diseñada y probada para ofrecer un rendimiento extremo, soporta sin dificultades las demandas más exigentes de cualquier profesional creativo, jugador o aficionado a la informática 8Gb – 1866mhz",
+        "precio": 69.99,
+        "stock": 83,
+        "marca": "Kingston",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/8775019memoria-kingston-hyperx-fury-8gb-ddr3-1866-tienda-oficial-192611-MLA20584872840_022016-F_2e99ff6af5a745988509dae7e4a89ebe.jpg"
+    },
+    {
+        "nombre": "Team Elite SO-DIMM DDR3 8Gb 1600mhz",
+        "descripcion": "Memoria TEAM GROUP Capacidad 8GB Velocidad 1600mhz Latencia CL11-11-11-28 Voltaje 1.5V",
+        "precio": 74.99,
+        "stock": 42,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/11/60208741360d607dc768f88641ccdaf3c752c67_3606fc7c517d4738ab96cb276ea0cb3e.jpg"
+    },
+    {
+        "nombre": "T-FORCE DELTA RGB BK 8GB DDR4 2666mhz",
+        "descripcion": "Modelo T-FOTCE DELTA RGB BK Capacidad 8GB Velocidad 2666mhz Latencia CL15-17-17-35 Voltaje 1.2V",
+        "precio": 85,
+        "stock": 27,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/9694756501af5e8842052e6672e35b33eb5d142_bb05e57a93b14d5197e5e95fa3a42f75.jpg"
+    },
+    {
+        "nombre": "T-FOTCE DELTA RGB WH 8GB DDR4 2666mhz",
+        "descripcion": "Modelo T-FOTCE DELTA RGB WH Capacidad 8GB Velocidad 2666mhz Latencia CL15-17-17-35 Voltaje 1.2V",
+        "precio": 85,
+        "stock": 47,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/3536709ec474861f464b173968573acaf952ddc_b9596fceefa648bc8e66bfb93d4955fd.jpg"
+    },
+    {
+        "nombre": "Crucial 16GB DDR4 2666mhz",
+        "descripcion": "16GB DDR4-2666 Capacidad: 16GB Detalles: DDR4 PC4-19200 • CL=17 • Single Ranked • x4 based • Registered • ECC • DDR4-2666 • 1.2V • 2048Meg x 72•",
+        "precio": 93.99,
+        "stock": 23,
+        "marca": "Crucial",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/06/39896173694760000000000000000000000_e3063574399444b597c564773773b968.jpg"
+    },
+    {
+        "nombre": "Team Elite SO-DIMM DDR4 8Gb 2400mhz",
+        "descripcion": "Memoria TEAM GROUP Capacidad 8GB Velocidad 2400mhz Latencia CL16-16-16-39 Voltaje 1.2V",
+        "precio": 98.99,
+        "stock": 37,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/11/53821161360d607dc768f88641ccdaf3c752c67_55827de8d0c84eb8b553cc0c74b02c43.jpg"
+    },
+    {
+        "nombre": "Crucial Sodimm 8Gb 1600",
+        "descripcion": "Crucial 8GB DDR3-1600 SODIMM DDR3 PC3-12800 • CL=11 • Unbuffered • NON-ECC • DDR3-1600 • 1.35V • 1024Meg x 64 •",
+        "precio": 104.99,
+        "stock": 51,
+        "marca": "Crucial",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/crucial_ddr3_1600_pc3_12800_8gb_cl11_1_35v_93dcc67e9b4e4c4fbad2a6dc473b217b.jpg"
+    },
+    {
+        "nombre": "Kingston HyperX Fury 16GB DDR4 2666mhz",
+        "descripcion": "La memoria HyperX, diseñada y probada para ofrecer un rendimiento extremo, soporta sin dificultades las demandas más exigentes de cualquier profesional creativo, jugador o aficionado a la informática 16Gb – 2666mhz",
+        "precio": 110,
+        "stock": 47,
+        "marca": "Kingston",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/fury-ddr4.jpg"
+    },
+    {
+        "nombre": "T-FORCE DARK SERIES 16GB (Kit 2×8) DDR4 3000Mhz RED",
+        "descripcion": "Series DARK Module Type 288 Pin Unbuffered DIMM Non ECC Capacity 16GB  (2x8Gb) Frequency 3000 Data Transfer Bandwidth 24,000 MB/s (PC4 24000) Latency CL16-18-18-38 Voltage 1.35V Dimensions 145.9(L) x 38.2(W) x 7.8(H)mm Heat Spreader Aluminum heat spreader",
+        "precio": 120,
+        "stock": 24,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/02/576085367797f861711ab7c3b55e45bac57d5f8_42d01084c74a4e0c844408d0b13a8e43.jpg"
+    },
+    {
+        "nombre": "T-FORCE DARK SERIES 16GB (Kit 2×8) DDR4 3000Mhz SILVER",
+        "descripcion": "Series DARK Module Type 288 Pin Unbuffered DIMM Non ECC Capacity 16GB  (2x8Gb) Frequency 3000 Data Transfer Bandwidth 24,000 MB/s (PC4 24000) Latency CL16-18-18-38 Voltage 1.35V Dimensions 145.9(L) x 38.2(W) x 7.8(H)mm Heat Spreader Aluminum heat spreader",
+        "precio": 120,
+        "stock": 57,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/02/4358785T_f_d_r_d0b03810afc04b34ace7108c75ff6324.png"
+    },
+    {
+        "nombre": "TEAM ELITE DARK SERIES 16GB DDR4 3200Mhz SILVER (Kit 2×8)",
+        "descripcion": "Series DARK Module Type 288 Pin Unbuffered DIMM Non ECC Capacity 16GB  (2x8Gb) Frequency 3200 Data Transfer Bandwidth 25,600 MB/s (PC4 25600) Latency CL16-18-18-38 Voltage 1.35V Dimensions 145.9(L) x 38.2(W) x 7.8(H)mm Heat Spreader Aluminum heat spreader",
+        "precio": 130,
+        "stock": 11,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/76500854358785T_f_d_r_d0b03810afc04b34ace7108c75ff6324.png"
+    },
+    {
+        "nombre": "TEAM ELITE DARK SERIES 16GB DDR4 3200Mhz RED (Kit 2×8)",
+        "descripcion": "Series DARK Module Type 288 Pin Unbuffered DIMM Non ECC Capacity 16GB  (2x8Gb) Frequency 3200 Data Transfer Bandwidth 25,600 MB/s (PC4 25600) Latency CL16-18-18-38 Voltage 1.35V Dimensions 145.9(L) x 38.2(W) x 7.8(H)mm Heat Spreader Aluminum heat spreader",
+        "precio": 130,
+        "stock": 25,
+        "marca": "Team Group",
+        "categoria": "RAM",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/1691919576085367797f861711ab7c3b55e45bac57d5f8_42d01084c74a4e0c844408d0b13a8e43.jpg"
+    },
+    {
+        "nombre": "DeepCool Theta 20 PWM",
+        "descripcion": "Intel Socket 95W LGA115X Core i7/i5/i3 Pentium G",
+        "precio": 9.99,
+        "stock": 68,
+        "marca": "DeepCool",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/04/8588490Sin_t_tulo_60564669d30c4c659d7bf77da2cf4832.png"
+    },
+    {
+        "nombre": "Cooler Master HYPER 212 LED",
+        "descripcion": "Cuatro tubos de calor de contacto directo con aletas de aluminio en forma de embudo proporcionan una mayor eficiencia y una excelente disipación de calor en comparación con las bases metálicas genéricas.",
+        "precio": 30,
+        "stock": 51,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/ventilador-cooler-master-hyper-212-led-roja-1.jpg"
+    },
+    {
+        "nombre": "Cooler Master HYPER H410R RGB",
+        "descripcion": "Ventilador PWM de amplio rango de velocidad que viene con iluminación LED RGB El controlador LED RGB con cable permite colores y efectos personalizables con solo tocar la cabeza de un botón. CONTROLADOR RGB CON CABLE C10 4 tubos de calor con tecnología exclusiva de contacto directo que proporcionan una disipación de calor efectiva y excelente La disposición precisa de la aleta apilada disminuye la resistencia al flujo de aire, lo que permite un flujo de aire más frío al disipador.",
+        "precio": 35,
+        "stock": 11,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/h410r-rgb-gallery-1-image.png"
+    },
+    {
+        "nombre": "Cooler Master MA410P",
+        "descripcion": "El MasterAir MA410P es la versión mejorada del MasterAir Pro 4, el estándar Pro en diseño y producción de refrigeración por aire de CPU de Cooler Master. La tecnología de contacto directo continuo 2.0 (CDC 2.0) aumenta el área de superficie de la base del refrigerador en un 45%. Con la ventaja adicional del MasterFan 120 Air Balance RGB, lo que lo hace no solo silencioso y eficiente en la transferencia de calor, sino también la opción más vibrante y divertida cuando se trata de refrigeración por aire. Si está buscando un enfriador de aire basado en el rendimiento, el silencio y la iluminación RGB de calidad, el MasterAir MA410P es el enfriador perfecto para usted. 4 TUBOS DE CALOR CON TECNOLOGÍA DE CONTACTO DIRECTO CONTINUO 2.0 En comparación con su versión anterior CDC 1.0., CDC 2.0 crea un 45% más de superficie de contacto en la base más fría al comprimir los tubos de calor juntos. Aumenta significativamente la capacidad de disipación de calor y supera a su predecesor.",
+        "precio": 39,
+        "stock": 34,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/610zfRUEh9L._AC_SX466_.jpg"
+    },
+    {
+        "nombre": "Cooler Master HYPER 212 LED TURBO",
+        "descripcion": "Hyper 212 LED Turbo está equipado con dos ventiladores PWM con LED rojos, que proporcionan el mejor equilibrio entre el flujo de aire y la presión estática para eliminar el calor. Cuatro tubos de calor de contacto directo con aletas de aluminio en forma de embudo proporcionan una mayor eficiencia y una excelente disipación de calor en comparación con las bases metálicas genéricas. Incremento en el rendimiento de enfriamiento de dos ventiladores de 120 mm",
+        "precio": 39,
+        "stock": 13,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/cooler-coolermaster-hyper-212-led-turbo-D_NQ_NP_770054-MLU28205397058_092018-F.jpg"
+    },
+    {
+        "nombre": "Cooler Master Hyper 212 Black Edition",
+        "descripcion": "CPU SOCKET LGA2066, LGA2011-v3, LGA2011, LGA1151, LGA1150, LGA1155, LGA1156, LGA1366, AM4, AM3+, AM3, AM2+, AM2, FM2+, FM2, FM1 DIMENSIONS (L X W X H) 120 x 79.6 x 158.8 mm / 4.7 x 3.1 x 6.3 inch HEAT SINK MATERIAL 4 Heat Pipes, Aluminum Fins, Direct Contact FAN DIMENSIONS (L X W X H) 120 x 120 x 25mm",
+        "precio": 44.99,
+        "stock": 28,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/288043581eWFgRrFZL._SX466__156e3da5a0e14825b30b69845c6398e8.jpg"
+    },
+    {
+        "nombre": "Thermaltake Frío Silent 12",
+        "descripcion": "Thermaltake presenta el nuevo cooler de la serie Frio Silent. Un Cooler para CPUs de alto rendimiento. Compatible con memorias RAM de todo tipo.",
+        "precio": 55,
+        "stock": 47,
+        "marca": "Thermaltake",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/6933754main_ad9fb14ffa374cb58a2e9c9787cd50a9.jpg"
+    },
+    {
+        "nombre": "Cooler Master HYPER 212 RGB BLACK EDITION",
+        "descripcion": "El legendario enfriador de aire Hyper está de regreso y mejor que antes. La Hyper 212 RGB Black Edition ofrece una mejor instalación y un gran rendimiento, fácilmente una de las mejores soluciones de refrigeración por aire. La cubierta superior de aluminio y las aletas de color negro azabache niquelado le dan al Hyper 212 RGB Black Edition un atractivo estético de primera calidad. El elegante negro azabache no solo hace que se vea genial, sino que también aumenta el rendimiento de enfriamiento.",
+        "precio": 55,
+        "stock": 7,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/5124-vkIwcL._SX500_SY500_CR00500500_.jpg"
+    },
+    {
+        "nombre": "Cooler Master Liquid Lite 120",
+        "descripcion": "Con su tubo resistente a la torcedura y el estilo negro mate, el MasterLiquid Lite 120 es un diseño original de Cooler Master y una entrada atractiva en refrigeración líquida. La fiabilidad, el funcionamiento y la operación silenciosa se aseguran por su bomba dual dual de la disipación y diseño del ventilador del balance de aire de 120m m. Ya sea que esté construyendo nuevos o simplemente actualizando, es fácil de instalar en los últimos sistemas Intel o AMD y el radiador de 120 mm se adapta a casi todos los chasis de la PC.",
+        "precio": 59,
+        "stock": 29,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/61727374_f970747ffe3b4d99892615aef8ab8ffd.png"
+    },
+    {
+        "nombre": "Cooler Master Liquid Lite 240 Watercooling",
+        "descripcion": "CPU Socket Intel® LGA 2066 / 2011-v3 / 2011 / 1366 / 1156 / 1155 / 1151 / 1150 / 775 socket AMD® AM4 / AM3+ / AM3 / AM2+ / AM2 / FM2+ / FM2 / FM1 socket",
+        "precio": 74.99,
+        "stock": 57,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/02/7974110Sin_t_tulo_d48fd1cd317d4abc966ff2f05a73a44d.png"
+    },
+    {
+        "nombre": "Cooler Master Liquid ML120L RGB",
+        "descripcion": "Refrigeración líquida de CPU optimizada para un bajo nivel de ruido y rendimiento. El radiador de 120 mm, fácil de instalar, lo convierte en la refrigeración líquida todo en uno perfecta para constructores novatos y experimentados. Ahora mejorado con la función de iluminación RGB, esto es para cualquiera que también quiera efectos de iluminación en su sistema. MasterLiquid ML120L RGB hace que sincronizar la iluminación sea más fácil que nunca. Viene con MF120R RGB, una bomba de agua que se ilumina con RGB y controlador para controlar y sincronizar todo fácilmente.",
+        "precio": 80,
+        "stock": 27,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/71pmkVukYNL._AC_SL1500_.jpg"
+    },
+    {
+        "nombre": "DeepCool Captain 120EX Watercooling",
+        "descripcion": "Captain 120EX nos ofrece funcionalidad y estética perfecta, en una solución de refrigeración líquida eficiente y con un precio razonable.",
+        "precio": 90,
+        "stock": 6,
+        "marca": "DeepCool",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/88270bc0d84a42e78571eb80a5ed6502_e9df21aada7f4a8bbe8d9e6421046b3b-2.jpg"
+    },
+    {
+        "nombre": "DeepCool Captain 240EX Watercooling",
+        "descripcion": "Captain 240EX nos ofrece funcionalidad y estética perfecta, en una solución de refrigeración líquida eficiente y con un precio razonable.",
+        "precio": 115,
+        "stock": 27,
+        "marca": "DeepCool",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/224661434918_10_cba369b5fa214bddbf14f68dd0214742-2.jpg"
+    },
+    {
+        "nombre": "Cooler Master ML120R RGB",
+        "descripcion": "MasterFan MF120R ARGB ofrece una solución de enfriamiento de aire específica ideal para maximizar la presión de aire para el enfriamiento con líquido AIO. Diseñado para constructores con PC con capacidad RGB direccionable, puede personalizar el color de sus ventiladores para que coincidan perfectamente con su PC.",
+        "precio": 118,
+        "stock": 38,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/94815685_22d28b3e7d3a430f9f5c7c28bb1fff79.jpg"
+    },
+    {
+        "nombre": "Cooler Master Liquid ML240L RGB",
+        "descripcion": "Refrigeración líquida de CPU optimizada para un bajo nivel de ruido y rendimiento. El radiador de 120 mm, fácil de instalar, lo convierte en la refrigeración líquida todo en uno perfecta para constructores novatos y experimentados. Ahora mejorado con la función de iluminación RGB, esto es para cualquiera que también quiera efectos de iluminación en su sistema. MasterLiquid ML240L RGB hace que sincronizar la iluminación sea más fácil que nunca. Viene con MF120R RGB, una bomba de agua que se ilumina con RGB y controlador para controlar y sincronizar todo fácilmente.",
+        "precio": 120,
+        "stock": 24,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/sistema-liquido-cooler-master-masterliquid-ml240l-rgb-D_NQ_NP_869764-MLM31236016549_062019-F.jpg"
+    },
+    {
+        "nombre": "EVGA 120 Liquid / Watercooling RGB LED",
+        "descripcion": "Waterblock: Piezas de retención Premium para Intel LGA2066 / 2011/2011-v3 / 1150/1151/1155/1156/1366 y próximas variantes Anillo de retención AMD para soportar AM2 / AM3 / AM4 / FM1 / FM2 / TR4 y próximas variantes 100% cobre LED RGB totalmente controlable Nivel de ruido = 20dB (A) (MAX) Radiador: 312mm X 139mm X 27mm (LxWxH) Aluminio Fan: Size: 140 x 140 x 25mm (x2) Teflon Nano Bearing Speed = 600-2200RPM Airflow = 113.50 CFM (MAX) Static Pressure = 4.20 mmAq (MAX) Noise Level = 16.0 dB(A) (MIN) – 39.5 dB(A) (MAX)",
+        "precio": 138.99,
+        "stock": 33,
+        "marca": "EVGA",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/3306393400-HY-CL12-V1_XL_1_590376b7137240dab72b9057c37de65b.jpg"
+    },
+    {
+        "nombre": "Cooler Master Liquid ML360R RGB",
+        "descripcion": "ZÓCALO DE LA CPU: LGA2066, LGA2011-v3, LGA2011, LGA1200, LGA1151, LGA1150, LGA1156, LGA1366, LGA775, AM4, AM3 +, AM3, AM2 +, AM2, FM2 +, FM2, FM1 MATERIAL DEL RADIADOR: Aluminio DIMENSIONES (L X W X H): 394 x 119 x 27.2 mm / 15.5 x 4.7 x 1.1 pulgadas DIMENSIONES DEL VENTILADOR (L X W X H): 120 x 120 x 25 mm / 4.7 x 4.7 x 1 pulgada TAMAÑO DEL RADIADOR: 360",
+        "precio": 175,
+        "stock": 17,
+        "marca": "Cooler Master",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/ml360r.png"
+    },
+    {
+        "nombre": "Cougar Helor 360 Watercooling RGB",
+        "descripcion": "La serie Helour Liquid Cooling de COUGAR es la solución perfecta para los jugadores que requieren un enfriamiento potente de la CPU con imágenes asombrosas.",
+        "precio": 215,
+        "stock": 36,
+        "marca": "Cougar",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/helor.png"
+    },
+    {
+        "nombre": "ASUS ROG Strix LC240 Watercooling",
+        "descripcion": "Ventiladores de radiador diseñados por ROG para optimizar el flujo de aire y la presión estática. La cubierta de la bomba de recubrimiento RGB y NCVM direccionable individualmente acentúa la estética elegante y moderna. Diseñado para complementar las placas base ROG, en el centro del escenario de su construcción. Tubo reforzado para mayor durabilidad. CPU Socket Support: Intel: LGA 115x,1366, 2011, 2011-3, 2066?AMD: AM4",
+        "precio": 249.99,
+        "stock": 11,
+        "marca": "ASUS",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/71p5JUs-V1L._AC_SL1500_.jpg"
+    },
+    {
+        "nombre": "ASUS ROG Strix LC360 Watercooling",
+        "descripcion": "Los ventiladores de radiador ROG optimizan la ventilación y la presión estática. La iluminación RGB independiente y el circuito con revestimiento NCVM le otorgan una estética elegante y moderna. Diseño a juego con las placas base de ROG. Tubo reforzado para incrementar su durabilidad. CPU Socket Support: Intel: LGA 115x,1366, 2011, 2011-3, 2066?AMD: AM4",
+        "precio": 360,
+        "stock": 27,
+        "marca": "ASUS",
+        "categoria": "CPU_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/71eZAb4jMLL._AC_SL1500_.jpg"
+    },
+    {
+        "nombre": "TC ARMY Fan S/LED 120mm",
+        "descripcion": "Fan Dimension – 120 x 120 x 25 mm Started Voltage – 9.0 V Rated Voltage – 12 V Fan Speed – 1200 R.P.M Noise – 16 dB-A Connector – Molex",
+        "precio": 4,
+        "stock": 67,
+        "marca": "TC ARMY",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/03/8851506mainv_2096b57eff214d7e815d778904feb497.jpg"
+    },
+    {
+        "nombre": "Cooler Golden Field Blue LED",
+        "descripcion": "Fancooler 120mm con led azul Marca Golden Field Conector molex y 3 pines",
+        "precio": 6,
+        "stock": 102,
+        "marca": "Golden Field",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/06/460755851JTm34GhxL._AC_US218__2819f8f0c81749a784fe36d70f4848c1.jpg"
+    },
+    {
+        "nombre": "Cooler Golden Field Red LED",
+        "descripcion": "Fancooler 120mm con led rojo Marca Golden Field Conector molex y 3 pines",
+        "precio": 6,
+        "stock": 87,
+        "marca": "Golden Field",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/06/4886870612Heoo7GZL._SY355__5d80febd29984d6f9148077104373bc2.jpg"
+    },
+    {
+        "nombre": "Cooler Master RGB SPLITTER CABLE 1 A 3",
+        "descripcion": "COLOR Negro LARGO TOTAL 58cm TIPO DE CONECTOR 4 pines (12V, G, R, B) TENSIÓN SOPORTADA DEL CONECTOR 300 V (min) CORRIENTE NOMINAL DEL PIN 3A TEMPERATURA DE OPERACIÓN DEL PASADOR -40 ° C -105 ° C TIPO DE ENFRIADOR Accesorios RGB SERIE Accesorios RGB",
+        "precio": 6.99,
+        "stock": 234,
+        "marca": "Cooler Master",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/4796889cable-coolermaster-rgb-splitter-D_NQ_NP_837879-MLU32832634710_112019-F_4a805a23a4fe453a93a58b1364b3f1c1.jpg"
+    },
+    {
+        "nombre": "Cooler Master Controlador RGB C10L",
+        "descripcion": "DIMENSIONES (L X W X H) 45 x 16 x 8 mm MATERIAL Plástico, PCB CONECTOR 4 pines VOLTAJE DEL CANAL DE SALIDA 12V CORRIENTE NOMINAL 2A ACCESORIOS INCLUIDOS Cable de extensión x 1 TIPO DE ENFRIADOR Accesorios RGB SERIE Accesorios RGB",
+        "precio": 6.99,
+        "stock": 62,
+        "marca": "Cooler Master",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/1564646productos34_3928_d8ce3108ddff4e699da1d47997ed6432.jpg"
+    },
+    {
+        "nombre": "RIOTORO FAN Blue LED",
+        "descripcion": "Los nuevos ventiladores RIOTORO Cross X de Leds, son el perfecto balance de presión estática, flujo de aire y nivel de ruido, con el agregado beneficio de ser únicos Esquinas con hule para mejor bloqueo del ruido. Motor protegido para una vida mas larga Aspas de Ventilador moldeadas a precisión para mayor flujo de aire.",
+        "precio": 9.99,
+        "stock": 28,
+        "marca": "RIOTORO",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/9052309000001_dde3c18efbe140ca9e6dd75c13d51216.png"
+    },
+    {
+        "nombre": "RIOTORO FAN Red LED",
+        "descripcion": "Los nuevos ventiladores RIOTORO Cross X de Leds, son el perfecto balance de presión estática, flujo de aire y nivel de ruido, con el agregado beneficio de ser únicos Esquinas con hule para mejor bloqueo del ruido. Motor protegido para una vida mas larga Aspas de Ventilador moldeadas a precisión para mayor flujo de aire.",
+        "precio": 9.99,
+        "stock": 39,
+        "marca": "RIOTORO",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/7008099000003_219e30c56c8940a3a3b38466df9edf99.png"
+    },
+    {
+        "nombre": "RIOTORO FAN White LED",
+        "descripcion": "Los nuevos ventiladores RIOTORO Cross X de Leds, son el perfecto balance de presión estática, flujo de aire y nivel de ruido, con el agregado beneficio de ser únicos Esquinas con hule para mejor bloqueo del ruido. Motor protegido para una vida mas larga Aspas de Ventilador moldeadas a precisión para mayor flujo de aire.",
+        "precio": 9.99,
+        "stock": 13,
+        "marca": "RIOTORO",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/8101098000002_4b78a56aa3bd4666a04d2e32714ae799.png"
+    },
+    {
+        "nombre": "Cougar 120mm Vortex Led",
+        "descripcion": "Nombre de comercialización    VORTEX PWM 120 Dimensiones (mm)    120 x 120 x 25 Velocidad (r.p.m.)    800-1500 Flujo de Aire a 12V (CFM, m3/h)    70,5 / 119,8 (máx.) Presión del Aire a 12V (mm H2O)    2.2 Ruido (dB)    17.9",
+        "precio": 12.99,
+        "stock": 52,
+        "marca": "Cougar",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/4059252product-image-6_325de8543f1c44719f969332beb5bcfc.png"
+    },
+    {
+        "nombre": "Cooler Master / Master Fan MF200R RGB 200mm",
+        "descripcion": "FAN PROFILE RGB FAN SPEED 800 RPM ± 150 FAN AIR FLOW 90 CFM ± 10% FAN AIR PRESSURE 0.88 mmH2O ± 10% FAN NOISE LEVEL 28 dBA FAN DIMENSIONS (L X W X H) 200 x 200 x 25 mm / 7.9 x 7.9 x 1 inch FAN MTTF 175,000 Hours FAN L-10 LIFE 25,000 Hours FAN RATED VOLTAGE 12V DC FAN SAFETY CURRENT 0.3A FAN POWER CONNECTOR 3-Pin",
+        "precio": 20,
+        "stock": 73,
+        "marca": "Cooler Master",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/921546061ZGBtUD7FL._SX466__402164528c984aa88cac712d135ffd2a.jpg"
+    },
+    {
+        "nombre": "Cooler Master Fan Pro 120 RGB",
+        "descripcion": "PERFIL DE FAN: Rojo, azul, RGB VELOCIDAD DEL VENTILADOR: 650-1300 RPM ± 10% FLUJO DE AIRE DEL VENTILADOR: 42.7 CFM ± 10% PRESIÓN DE AIRE DEL VENTILADOR: 0.96 mmH2O ± 10% DIMENSIONES DEL VENTILADOR (L X W X H): 120 x 120 x 25 mm / 4.7 x 4.7 x 1 pulgada CONECTOR DE ALIMENTACIÓN DEL VENTILADOR: 4 pines (PWM)",
+        "precio": 20,
+        "stock": 48,
+        "marca": "Cooler Master",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-14.png"
+    },
+    {
+        "nombre": "Kit x3 Cooler RGB Golden Field HUB",
+        "descripcion": "Kit X 3 Cooler RGB 120mm Marca Golden Field Incluye: HUB para hasta 6 fancooler Control remoto – colores y efectos",
+        "precio": 39.99,
+        "stock": 60,
+        "marca": "Golden Field",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/06/7266270rgb_fafcf468f93b406b993737e2323e8c47.png"
+    },
+    {
+        "nombre": "Kit x2 Cooler RGB RIOTORO Prism",
+        "descripcion": "Controladora de ventilador PRISM , para una personalización de un solo toque de velocidad de ventilador e iluminación Convierte cualquier CASE que soporte ventiladores de 120mm , en un case de clase PRISM RGB de 256 colores. Incluye: Controlador de velocidades de Ventiladores con dos modos de operación, modo “FAST” y modo “SLOW” X2 ventiladores de clase PRISM Sistema de montaje magnético para una instalación rápida y fácil Con el presionar de un botón el controlador te permite escoger : Rojo, Verde, Azul, Blanco, Amarillo, Rosado, Modo arcoíris, y bloqueo de color personalizado.",
+        "precio": 49,
+        "stock": 56,
+        "marca": "RIOTORO",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/33595610000000000_f9cccbb4e543473bacc6bb1352f910c0.png"
+    },
+    {
+        "nombre": "Cooler Master MF120R ARGB 3 en 1",
+        "descripcion": "PERFIL DE FAN RGB direccionable TIPO DE RODAMIENTO DE VENTILADOR Teniendo Rifle VELOCIDAD DEL VENTILADOR 650-2200 RPM (PWM) ± 10% FLUJO DE AIRE DEL VENTILADOR 59 CFM ± 10% PRESIÓN DE AIRE DEL VENTILADOR 2,14 mmH2O NIVEL DE RUIDO DEL VENTILADOR 31 dBA DIMENSIONES DEL VENTILADOR (L X W X H) 120 x 120 x 25 mm / 4.7 x 4.7 x 1 pulgada FAN MTTF 280,000 horas FAN L-10 LIFE 40,000 horas TENSIÓN NOMINAL RGB 5V DC CORRIENTE NOMINAL RGB 0.34A VOLTAJE NOMINAL DEL VENTILADOR 12V DC CORRIENTE NOMINAL DEL VENTILADOR 0.2A CORRIENTE DE SEGURIDAD DEL VENTILADOR 0.54A CONECTOR DE ALIMENTACIÓN DEL VENTILADOR 4 pines (PWM) PESO DEL VENTILADOR 137g x 3",
+        "precio": 50,
+        "stock": 47,
+        "marca": "Cooler Master",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/427789511_b8d5f3991eca4be39d54f245e04289e0.png"
+    },
+    {
+        "nombre": "Cooler Master MFP120 RGB 3 en 1",
+        "descripcion": "PERFIL DE FAN: Rojo, azul, RGB DIMENSIONES DEL VENTILADOR (L X W X H): 120 x 120 x 25 mm / 4.7 x 4.7 x 1 pulgada VELOCIDAD DEL VENTILADOR: 650-1100 RPM ± 10% FLUJO DE AIRE DEL VENTILADOR: 48.8 CFM ± 10% CONECTOR DE ALIMENTACIÓN DEL VENTILADOR: 4 pines (PWM) CONTROLADOR LED RGB – DIMENSIONES: 90 x 53 x 14 mm / 3.54 x 2.08 x 0.55 pulgadas CONTROLADOR LED RGB – CONECTOR LED: 4 puertos CONTROLADOR LED RGB – INTERFAZ: Conectores USB 2.0 de 9 pines CONTROLADOR LED RGB – CONECTOR DE ALIMENTACIÓN: Poder SATA CONTROLADOR LED RGB – SOFTWARE: si",
+        "precio": 82,
+        "stock": 17,
+        "marca": "Cooler Master",
+        "categoria": "CASE_COOLER",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-1.jpg"
+    },
+    {
+        "nombre": "WESTERN DIGITAL DISCO 1TB BLUE 3.5",
+        "descripcion": "DISCO 1TB",
+        "precio": 57,
+        "stock": 69,
+        "marca": "Western Digital",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXWD1BL.jpg"
+    },
+    {
+        "nombre": "SEAGATE DISCO 1TB BARRACUDA",
+        "descripcion": "DISCO 1TB",
+        "precio": 58,
+        "stock": 89,
+        "marca": "Seagate",
+        "categoria": "HDD",
+        "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXSE1T.jpg"
+    }
+]
