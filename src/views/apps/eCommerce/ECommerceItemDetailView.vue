@@ -170,7 +170,7 @@
             </div>
             <swiper :options="swiperOption" :dir="$vs.rtl ? 'rtl' : 'ltr'" :key="$vs.rtl" class="related-product-swiper px-12 py-6">
               <swiper-slide v-for="item in related_items" :key="item.id" class="p-6 rounded cursor-pointer">
-                <div @click="handleArticulo(item.id)">
+                <div>
                   <!-- Item Heading -->
                   <div class="item-heading mb-4">
                     <p class="text-lg font-semibold truncate">{{ item.nombre }}</p>
@@ -181,7 +181,7 @@
                   </div>
 
                   <!-- Item Image -->
-                  <div class="img-container w-32 mx-auto my-base">
+                  <div @click="handleArticulo(item.id)" class="img-container w-32 mx-auto my-base">
                     <img class="responsive imagen" :src="item.imagen" :alt="item.nombre">
                   </div>
 
