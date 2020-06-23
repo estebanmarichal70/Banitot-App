@@ -166,11 +166,6 @@ export default [
         ]
   },
   {
-    url: '/',
-    name: 'Nosotros',
-    icon: 'UsersIcon'
-  },
-  {
     url: '/contacto',
     name: 'Contacto',
     icon: 'PhoneIcon'

@@ -13,7 +13,7 @@ export const colors = {
   success : '#28C76F',
   danger  : '#EA5455',
   warning : '#FF9F43',
-  dark    : '#1E1E1E'
+  dark    : '#1E1E1E',
 }
 
 // CONFIGS

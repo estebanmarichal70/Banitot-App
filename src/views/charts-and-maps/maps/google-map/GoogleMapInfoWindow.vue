@@ -1,23 +1,34 @@
 <template>
-    <vx-card title="Ubicacion" code-toggler>
-
-        <div class="mt-5">
-            <gmap-map :center="center" :zoom="15" style="width: 100%; height: 500px">
-                <gmap-info-window :options="infoOptions" :position="infoWindowPos" :opened="infoWinOpen" @closeclick="infoWinOpen=false">
-                    {{infoContent}}
-                </gmap-info-window>
-                <gmap-marker :key="i" v-for="(m,i) in markers" :position="m.position" :clickable="true" @click="toggleInfoWindow(m,i)"></gmap-marker>
-            </gmap-map>
-        </div>
-    </vx-card>
+  <vx-card class="font-bold text-center" title="Ubicación">
+    
+    <div class="mt-5">
+      <gmap-map :center="center" :zoom="16" style="width: 100%; height: 500px">
+        <gmap-info-window
+          :options="infoOptions"
+          :position="infoWindowPos"
+          :opened="infoWinOpen"
+          @closeclick="infoWinOpen = false"
+        >
+          {{ infoContent }}
+        </gmap-info-window>
+        <gmap-marker
+          :key="i"
+          v-for="(m, i) in markers"
+          :position="m.position"
+          :clickable="true"
+          @click="toggleInfoWindow(m, i)"
+        ></gmap-marker>
+      </gmap-map>
+    </div>
+  </vx-card>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
-      center: { lat: 47.376332, lng: 8.547511 },
-      infoContent: '',
+      center: { lat: -34.9099, lng: -54.955 },
+      infoContent: "",
       infoWindowPos: null,
       infoWinOpen: false,
       currentMidx: null,
@@ -26,28 +37,24 @@ export default {
         pixelOffset: { width: 0, height: -35 }
       },
       markers: [
-        { position: { lat: 47.376332, lng: 8.547511 }, infoText: 'Marker 1' },
-        { position: { lat: 47.374592, lng: 8.548867 }, infoText: 'Marker 2' },
-        { position: { lat: 47.379592, lng: 8.549867 }, infoText: 'Marker 3' }
+        { position: { lat: -34.9083, lng: -54.9588832 }, infoText: "BaniTot" }
       ]
-    }
+    };
   },
   methods: {
-    toggleInfoWindow (marker, idx) {
-      this.infoWindowPos = marker.position
-      this.infoContent = marker.infoText
+    toggleInfoWindow(marker, idx) {
+      this.infoWindowPos = marker.position;
+      this.infoContent = marker.infoText;
 
       if (this.currentMidx === idx) {
-
         //check if its the same marker that was selected if yes toggle
-        this.infoWinOpen = !this.infoWinOpen
+        this.infoWinOpen = !this.infoWinOpen;
       } else {
-
         //if different marker set infowindow to open and reset current marker index
-        this.infoWinOpen = true
-        this.currentMidx = idx
+        this.infoWinOpen = true;
+        this.currentMidx = idx;
       }
     }
   }
-}
+};
 </script>
