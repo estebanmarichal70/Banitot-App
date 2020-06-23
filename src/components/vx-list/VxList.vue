@@ -55,5 +55,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/vuexy/components/vxList.scss";
+@import "@/assets/scss/banitot/components/vxList.scss";
 </style>

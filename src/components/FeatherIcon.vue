@@ -34,5 +34,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/vuexy/components/featherIcon.scss"
+@import "@/assets/scss/banitot/components/featherIcon.scss"
 </style>

@@ -573,5 +573,5 @@ export default {
 
 
 <style lang="scss">
-@import "@/assets/scss/vuexy/pages/profile.scss";
+@import "@/assets/scss/banitot/pages/profile.scss";
 </style>

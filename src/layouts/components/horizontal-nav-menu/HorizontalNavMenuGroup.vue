@@ -190,5 +190,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/vuexy/components/horizontalNavMenuGroup.scss"
+@import "@/assets/scss/banitot/components/horizontalNavMenuGroup.scss"
 </style>

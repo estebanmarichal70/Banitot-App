@@ -36,5 +36,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/vuexy/components/vxTimeline.scss";
+@import "@/assets/scss/banitot/components/vxTimeline.scss";
 </style>

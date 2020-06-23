@@ -235,5 +235,5 @@ export default {
 
 
 <style lang="scss">
-@import "@/assets/scss/vuexy/components/verticalNavMenuGroup.scss"
+@import "@/assets/scss/banitot/components/verticalNavMenuGroup.scss"
 </style>

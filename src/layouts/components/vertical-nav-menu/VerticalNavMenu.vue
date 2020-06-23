@@ -332,5 +332,5 @@ export default {
 
 
 <style lang="scss">
-@import "@/assets/scss/vuexy/components/verticalNavMenu.scss"
+@import "@/assets/scss/banitot/components/verticalNavMenu.scss"
 </style>

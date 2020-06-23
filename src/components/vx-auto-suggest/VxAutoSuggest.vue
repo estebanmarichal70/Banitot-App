@@ -259,5 +259,5 @@ export default{
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/vuexy/components/vxAutoSuggest.scss";
+@import "@/assets/scss/banitot/components/vxAutoSuggest.scss";
 </style>

@@ -140,7 +140,7 @@
 
 <script>
 import { AgGridVue } from 'ag-grid-vue'
-import '@/assets/scss/vuexy/extraComponents/agGridStyleOverride.scss'
+import '@/assets/scss/banitot/extraComponents/agGridStyleOverride.scss'
 import vSelect from 'vue-select'
 
 // Store Module

@@ -160,7 +160,7 @@
               </div>
             </div>
           </div>
-          
+
           <!-- Related Products -->
           <div class="related-products text-center px-6">
 
@@ -345,7 +345,7 @@ export default{
 
 <style lang="scss">
 
-@import "@/assets/scss/vuexy/_variables.scss";
+@import "@/assets/scss/banitot/_variables.scss";
 
 #item-detail-page {
   .color-radio {
@@ -377,7 +377,7 @@ export default{
     .swiper-wrapper {
       padding-bottom: 2rem;
 
-      
+
       .imagen{
         display:unset;
         height: 112px;

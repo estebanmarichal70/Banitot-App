@@ -57,7 +57,7 @@
 
             <!-- Item Image -->
             <img @click="handleArticulo(item.id)" class="responsive imagen" :src="item.imagen" :alt="item.nombre">
-            
+
 
             <!-- Item Meta -->
             <div class="item-meta">
@@ -155,7 +155,7 @@
 
 <style lang="scss">
 
-@import "@/assets/scss/vuexy/_variables.scss";
+@import "@/assets/scss/banitot/_variables.scss";
 
 #item-slider{
   .related-product-swiper {
