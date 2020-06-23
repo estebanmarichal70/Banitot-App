@@ -81,7 +81,7 @@ export default {
       }
     },
     additemInCart (item) {
-      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
+      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id; 
       this.$store.dispatch('eCommerce/additemInCart', item)
     }
   }

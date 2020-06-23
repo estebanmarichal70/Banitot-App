@@ -9,30 +9,30 @@ export default {
       wishlist_id: item.wishlist_id
     }
     if (index < 0) {
-      http.services.atachWishlist(articulo)
-      .then(() => {})
-      .catch(error => {
-        this.$vs.notify({
-          title: 'Error',
-          text: error.message,
-          iconPack: 'feather',
-          icon: 'icon-alert-circle',
-          color: 'danger'
+        http.services.atachWishlist(articulo)
+        .then(() => {})
+        .catch(error => {
+          this.$vs.notify({
+            title: 'Error',
+            text: error.message,
+            iconPack: 'feather',
+            icon: 'icon-alert-circle',
+            color: 'danger'
+          })
         })
-      })
       state.wishList.push(item)
     } else {
-      http.services.detachWishlist(articulo)
-      .then(() => {})
-      .catch(error => {
-        this.$vs.notify({
-          title: 'Error',
-          text: error.message,
-          iconPack: 'feather',
-          icon: 'icon-alert-circle',
-          color: 'danger'
+        http.services.detachWishlist(articulo)
+        .then(() => {})
+        .catch(error => {
+          this.$vs.notify({
+            title: 'Error',
+            text: error.message,
+            iconPack: 'feather',
+            icon: 'icon-alert-circle',
+            color: 'danger'
+          })
         })
-      })
       state.wishList.splice(index, 1)
     }
   },
