@@ -168,7 +168,6 @@
                                                         class="item-view-primary-action-btn p-3 flex flex-grow items-center justify-center cursor-pointer"
                                                         @click="toggleItemInWishList(item)">
                                                         <feather-icon icon="HeartIcon" :svgClasses="[{'text-danger fill-current' : isInWishList(item.id)}, 'h-4 w-4']" />
-
                                                         <span class="text-sm font-semibold ml-2">WISHLIST</span>
                                                     </div>
 
@@ -277,6 +276,7 @@ export default {
         'latency',
         '6be0576ff61c053d5f9a3225e2a90f76'
       ),
+      guest: true,
       // Filter Sidebar
       isFilterSidebarActive: true,
       clickNotClose: true,
@@ -383,7 +383,6 @@ export default {
         this.isFilterSidebarActive = this.clickNotClose = true
       }
     },
-
     loadProductsByCategoria(){
         switch(this.$route.params.categoria){
         case "procesadores" :
@@ -550,7 +549,7 @@ export default {
         .catch(err => {
           this.$vs.notify({
             title: 'Error',
-            text: error.message,
+            text: err.message,
             iconPack: 'feather',
             icon: 'icon-alert-circle',
             color: 'danger'
@@ -563,11 +562,24 @@ export default {
       this.isFilterSidebarActive = !this.isFilterSidebarActive
     },
     toggleItemInWishList (item) {
-      item['wishlist_id'] = this.$store.state.AppActiveUser.wishlist[0].id;
-      this.$store.dispatch('eCommerce/toggleItemInWishList', item)
+      if(!this.guest){
+        item['wishlist_id'] = this.$store.state.AppActiveUser.wishlist[0].id;
+        this.$store.dispatch('eCommerce/toggleItemInWishList', item)
+      } else {
+        this.$vs.notify({
+          title: 'Advertencia',
+          text: "Debes iniciar sesión para usar la lista de deseados",
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'warning',
+          time: 3000
+        })
+      }
     },
     additemInCart (item) {
-      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
+      if(!this.guest)
+        item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
+
       this.$store.dispatch('eCommerce/additemInCart', item)
     },
     cartButtonClicked (item) {
@@ -575,6 +587,9 @@ export default {
     }
   },
   created () {
+    if(this.$store.state.AppActiveUser.name)
+      this.guest = false;
+
     this.setSidebarWidth()
   }
 }

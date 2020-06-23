@@ -28,7 +28,7 @@
                                     <p class="text-sm">Unidades disponibles: <span class="font-semibold">{{item.stock}}</span></p>
 
                                     <p class="mt-4 font-bold text-sm">Cantidad</p>
-                                    <vs-input-number :min="1" :max="item.stock" :value="item.pivot.cantidad" @input="updateItemQuantity($event, index, item)" class="inline-flex" />
+                                    <vs-input-number :min="1" :max="item.stock" :value="guest ? item.quantity : item.pivot.cantidad" @input="updateItemQuantity($event, index, item)" class="inline-flex" />
 
                                 </template>
 
@@ -323,6 +323,7 @@ const ItemListView = () => import('./components/ItemListView.vue')
 export default {
   data () {
     return {
+      guest: true,
       precio: 0,
       precioT: 0,
       cartItems: [],
@@ -342,13 +343,21 @@ export default {
     }
   },
   computed: {
+    lcartItems () {
+      return this.$store.state.eCommerce.cartItems.slice().reverse()
+    },
     isInWishList () {
       return (itemId) => this.$store.getters['eCommerce/isInWishList'](itemId)
     }
   },
   async created () {
-    await this.fetchCarrito()
-    await this.fetchUser()
+    if(this.$store.state.AppActiveUser.name){
+      this.guest = false;
+      await this.fetchCarrito()
+      await this.fetchUser()
+    } else {
+      this.precioRating(this.lcartItems)
+    }
   },
   methods: {
     // TAB 1
@@ -373,21 +382,7 @@ export default {
       this.$vs.loading()
       await http.services.getCarrito(this.$store.state.AppActiveUser.carrito[0].id)
       .then(res => {
-        this.cartItems = res.data.articulos
-          this.cartItems.forEach(item => {
-          const feed = item.feedbacks
-          let rating = 0
-            feed.forEach(feed => {
-              rating += feed.rating
-            })
-          if(feed.length)
-            rating /= feed.length
-          else
-            rating = 0;
-          item['rating'] = rating
-          this.precio += (item.precio*item.pivot.cantidad)
-        })
-        this.precioT = (this.precio - this.precio * 0.05).toFixed(2)
+          this.precioRating(res.data.articulos)
         })
       .catch(error => {
         this.$vs.notify({
@@ -399,23 +394,63 @@ export default {
         })
       })
     },
+    precioRating (res) {
+      this.cartItems = res
+      this.cartItems.forEach(item => {
+        const feed = item.feedbacks
+        let rating = 0
+          feed.forEach(feed => {
+            rating += feed.rating
+          })
+        if(feed.length)
+          rating /= feed.length
+        else
+          rating = 0;
+        item['rating'] = rating
+        if(!this.guest)
+          this.precio += item.precio*item.pivot.cantidad
+        else{
+          this.precio += item.precio*item.quantity
+        }
+      })
+      this.precio = parseInt(this.precio)
+      this.precioT = parseInt(this.precio - this.precio * 0.05)
+    },
     removeItemFromCart (item) {
-      item['carrito_id'] = this.user.carrito[0].id
+      if(!this.guest)
+        item['carrito_id'] = this.user.carrito[0].id
+
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
       this.cartItems.forEach((i, index) => {
           if(i.id === item.id){
-            this.precio -= (i.precio*i.pivot.cantidad)
-            this.precioT = (this.precio - this.precio * 0.05).toFixed(2)
+            if(!this.guest)
+              this.precio -= i.precio*i.pivot.cantidad
+            else
+              this.precio -= i.precio*i.quantity
+
+            this.precio = parseInt(this.precio)
+            this.precioT = parseInt(this.precio - this.precio * 0.05)
             this.cartItems.splice(index, 1)
           }
       })
     },
     wishListButtonClicked (item) {
       // Toggle in Wish List
-      if (this.isInWishList(item.id)) this.$router.push('/deseados').catch(() => {})
-      else {
-        this.toggleItemInWishList(item)
-        this.removeItemFromCart(item)
+      if(!this.guest){
+        if (this.isInWishList(item.id)) this.$router.push('/deseados').catch(() => {})
+        else {
+          this.toggleItemInWishList(item)
+          this.removeItemFromCart(item)
+        }
+      } else {
+        this.$vs.notify({
+          title: 'Advertencia',
+          text: "Debes iniciar sesión para usar la lista de deseados",
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'warning',
+          time: 3000
+        })
       }
     },
     toggleItemInWishList (item) {
@@ -426,11 +461,19 @@ export default {
       if(event > 0 && event <= item.stock){
         const itemIndex = Math.abs(index + 1 - this.cartItems.length)
 
-        this.precio += (item.precio * event - item.precio * item.pivot.cantidad)
-        this.precioT = (this.precio - this.precio * 0.05).toFixed(2)
-        item.pivot.cantidad = event
+        let carritoid = null;
+        if(!this.guest){
+          carritoid = this.$store.state.AppActiveUser.carrito[0].id
+          this.precio += (item.precio * event - item.precio * item.pivot.cantidad)
+          item.pivot.cantidad = event
+        }
+        else
+          this.precio += (item.precio * event - item.precio * item.quantity)
 
-        this.$store.dispatch('eCommerce/updateItemQuantity', { quantity: event, articulo_id: item.id, carrito_id: this.$store.state.AppActiveUser.carrito[0].id,index: itemIndex })
+        this.precio = parseInt(this.precio)
+        this.precioT = parseInt(this.precio - this.precio * 0.05)
+
+        this.$store.dispatch('eCommerce/updateItemQuantity', { quantity: event, articulo_id: item.id, carrito_id: carritoid,index: itemIndex })
       }
     },
     // TAB 2

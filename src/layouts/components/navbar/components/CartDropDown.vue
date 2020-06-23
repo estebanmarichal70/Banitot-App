@@ -83,7 +83,9 @@ export default {
   },
   methods: {
     removeItemFromCart (item) {
-      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
+      if(this.$store.state.AppActiveUser.name)
+        item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
+
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
     }
   }

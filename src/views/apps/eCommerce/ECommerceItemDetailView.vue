@@ -102,6 +102,7 @@
                       <!-- Wishlist Button -->
                       <vs-button
                         v-if="isInWishList(item_data.id)"
+                        :disabled="guest"
                         key="filled"
                         class="mb-4"
                         icon-pack="feather"
@@ -113,6 +114,7 @@
 
                       <vs-button
                         v-else
+                        :disabled="guest"
                         key="border"
                         class="mb-4"
                         type="border"
@@ -219,6 +221,7 @@ export default{
         'latency',
         '6be0576ff61c053d5f9a3225e2a90f76'
       ).initIndex('instant_search'),
+      guest: true,
       item_data: null,
       error_occured: false,
       error_msg: '',
@@ -256,6 +259,8 @@ export default{
     }
   },
   created () {
+    if(this.$store.state.AppActiveUser.name)
+      this.guest = false
     this.$vs.loading()
     this.fetch_item_details(this.$route.params.item_id)
   },
@@ -280,11 +285,15 @@ export default{
         .catch(() => {})
     },
     toggleItemInWishList (item) {
-      item['wishlist_id'] = this.$store.state.AppActiveUser.wishlist[0].id;
-      this.$store.dispatch('eCommerce/toggleItemInWishList', item)
+      if(!this.guest){
+        item['wishlist_id'] = this.$store.state.AppActiveUser.wishlist[0].id;
+        this.$store.dispatch('eCommerce/toggleItemInWishList', item)
+      }
     },
     toggleItemInCart (item) {
-      item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
+      if(!this.guest)
+        item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
+
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
     },
     async fetch_item_details (id) {

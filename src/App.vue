@@ -63,7 +63,7 @@
       window.addEventListener('resize', this.handleWindowResize)
       window.addEventListener('scroll', this.handleScroll)
 
-      if (this.$store.state.AppActiveUser) {
+      if (this.$store.state.AppActiveUser.name) {
         if (this.$store.state.AppActiveUser.carrito) {
           http.services.getCarrito(this.$store.state.AppActiveUser.carrito[0].id)
             .then(res => {
