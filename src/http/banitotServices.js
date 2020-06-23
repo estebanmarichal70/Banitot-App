@@ -69,6 +69,10 @@ export default {
     },
     getPrecios(categoria) {
       return axios.get(`${API_URL}/articulos/precios?categoria=${categoria}`);
+    },
+    updateRating(data){
+      addDefaultHeaders();
+      return axios.post(`${API_URL}/feedback`, data);
     }
   }
 }

@@ -67,6 +67,7 @@
           localStorage.removeItem("userInfo");
           localStorage.removeItem("accessToken");
           this.hideUserData = true;
+          this.$router.push('/acceder').catch(() => {})
         }
         this.$acl.change("admin");
       }

@@ -95,7 +95,7 @@
                         </vs-td>
 
                         <vs-td>
-                          <star-rating :show-rating="false" :rating="item.rating" :star-size="14" read-only />
+                          <star-rating :show-rating="false" :rating="item.rating" @rating-selected="setCurrentRating($event, item.id)" :star-size="14" />
                         </vs-td>
 
                       </vs-tr>
@@ -139,7 +139,8 @@ export default {
       activeConfirm: false,
       estadoId: "",
       popupActivo4: false,
-      articulos:""
+      articulos:"",
+      rating:0
     };
   },
   computed: {
@@ -204,11 +205,39 @@ export default {
       .catch(err => {
           this.$vs.notify({
             title: "Error",
-            text: err.response.data.error,
+            text: "Ocurrio un mensaje inesperado",
             color: "danger"
           });
       });
       this.popupActivo4 = true
+    },
+    updateRating(rating, articuloId){
+
+      const data = {
+        user_id: this.$store.state.AppActiveUser.id,
+        rating,
+        articulo_id:articuloId,
+        feedback:"feedback"
+      };
+      http.services.updateRating(data)
+      .then(() => {
+        this.$vs.notify({
+            title: "Genial",
+            text: "Recibimos tu calificación correctamente",
+            color: "success"
+          });
+      })
+      .catch(() => {
+        this.$vs.notify({
+            title: "Error",
+            text: "Ocurrio un mensaje inesperado",
+            color: "danger"
+          });
+      })
+    },
+    setCurrentRating(rating, articuloId){
+
+      this.updateRating(rating, articuloId);
     },
     getOrderStatusColor(status) {
       if (status === "PENDIENTE") return "warning";
