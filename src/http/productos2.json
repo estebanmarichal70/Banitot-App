@@ -1285,5 +1285,419 @@
         "marca": "Cooler Master",
         "categoria": "GABINETE",
         "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/gabinete-cooler-master-cosmos-c700m-rgb-full-tower-gamer-D_NQ_NP_789987-MLU32033414224_092019-F.jpg"
+    },
+    {
+        "nombre": "Teclado Numérico Genius USB i130",
+        "descripcion": "Requisitos del sistema Windows 7, 8, 8.1, 10 o superior Puerto USB Especificaciones Tipo de teclasTeclas tipo bloque Dimensiones (A x A x P)155,7 x 89,5 x 24,1 mm (6,13 x 3,52 x 0,95 pulgadas) PesoAprox. 204 g ColoresNegro Contenido de la caja NumPad i130",
+        "precio": 9.49,
+        "stock": 96,
+        "marca": "Genius",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/productview03.jpg"
+    },
+    {
+        "nombre": "Teclado Genius Slimstar 230",
+        "descripcion": "Modelo Slimstar 230. Teclado en español (Ñ) Teclado Smart 230 Color Negro. Interface USB. Estilo de teclas: Concavo Medidas: 440,51 x 139,67 x 20,07 mm Windows 7, 8, 8.1, 10",
+        "precio": 9.99,
+        "stock": 48,
+        "marca": "Genius",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/teclado-genius-slimstar-230-usb-D_NQ_NP_782781-MLU40576751606_012020-O.jpg"
+    },
+    {
+        "nombre": "Teclado Logitech K120",
+        "descripcion": "El teclado no es sólo elegante: es resistente, con un diseño resistente a salpicaduras, sólidas patas ajustables y teclas duraderas.",
+        "precio": 12.99,
+        "stock": 35,
+        "marca": "Logitech",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/k120-gallery_93f09fe548df4b3687ba535011cde813.png"
+    },
+    {
+        "nombre": "Teclado Genius Scorpion K220",
+        "descripcion": "Retroiluminación del teclado7 colores InterfazUSB Teclas de función12 Tecla de pantalla de inicio WindowsSÍ Ciclo de vida del teclado2 millones de pulsaciones de tecla Longitud de cable1.5m Peso745g Dimensiones (A x A x P)466 x 205 x 30 mm (18.35 x 8.07 x 1.18 pulgadas)",
+        "precio": 16.99,
+        "stock": 31,
+        "marca": "Genius",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/1423916teclado-gamer-genius-gx-scorpion-k220-retroiluminado-con-n-D_NQ_NP_934265-MCO31060878359_062019-F_b486f14549a74c9286372fc5d7d92bb2.jpg"
+    },
+    {
+        "nombre": "Teclado Logitech K230 Wireless",
+        "descripcion": "Funciones de tamaño normal en un tamaño compacto La fiable conexión inalámbrica permite trabajar o jugar hasta a 10 metros de distancia sin apenas retrasos ni interrupciones.* Puede estar al corriente en Facebook, mandar correos electrónicos a los amigos y escribir reseñas en Yelp durante dos años sin preocuparse por cambiar las pilas.",
+        "precio": 23,
+        "stock": 11,
+        "marca": "Logitech",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/k230-eu-light-grey-gallery_b78b35a4dd7d4f26940608b305495f44.png"
+    },
+    {
+        "nombre": "Teclado Genius Scorpion K10",
+        "descripcion": "Respuesta rápida – Con la suspensión de teclas, y tonos claros, el teclado con sensación mecánica ofrece una respuesta rápida. Permite entrar al juego sin demora Fácil control de juegos con anti-ghosting – Con 19 teclas anti-ghosting, puedes presionar varias teclas a la vez para tener un mejor rendimiento en tus juegos. Hasta 12 teclas para las armas de juego – Con la aplicación SmartGenius, puede personalizar las teclas F1 a F12 para diferentes armas de juego.",
+        "precio": 29,
+        "stock": 38,
+        "marca": "Genius",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/teclado-gamer-genius-gxgaming-scorpion-k10-D_NQ_NP_624156-MLU31244917724_062019-F.jpg"
+    },
+    {
+        "nombre": "Teclado Logitech G105 Retroiluminado",
+        "descripcion": "Tanto si juega a altas horas de la noche, como en un entorno oscuro, nunca perderá de vista las teclas. G105 ofrece retroiluminación LED que se puede configurar en dos niveles diferentes, o se puede apagar por completo. G105 incluye seis teclas G programables que simplifican las acciones complejas. Tres modos separados dan acceso a un total de 18 funciones exclusivas y combinaciones de macros de forma rápida y coherente. Con las teclas G, el acceso instantáneo a todo tipo de funciones personalizables es cuestión de un clic",
+        "precio": 30,
+        "stock": 44,
+        "marca": "Logitech",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/g105-gaming-keyboard-images_d6b91944746946e6b374723b219cd3a2.png"
+    },
+    {
+        "nombre": "Taclado Redragon Karura k502 Iluminated SP",
+        "descripcion": "El Redragon Karura ofrece lo que ningún otro teclado puede ofrecer: extrema comodidad de escritura, estructura ultra liviana y tacto silencioso, y aún así reflejar la calidad que los periféricos Redragon tienen para ofrecer. Switches tipo tijera Los switches del Karura no se quedan atrás, con su estructura ultra compacta logran que el periférico se desenvuelva con total precisión. Con tacto similar a un teclado de notebook, las teclas se presionan con total facilidad, logrando un teclado sensible, ideal para escritura rápida o cualquier tipo de juego. Construcción La construcción del teclado está 100% realizada sobre ABS reforzado, combinado con teclas moldeadas sobre el mismo material y posteriormente grabadas, generan un producto durable y de excelente calidad, ideal para uso intensivo. Apenas 600 gramos de peso y 3,5 cm de alto, liviano y estilizado ninguno. Su cable de 1.8 metros resiste hasta 12kg de carga continua y hasta 10.000 flexiones bruscas. Su estructura real antisalpicaduras protege al usuario de derrames accidentales sobre nuestro periférico, drenando el líquido por la parte posterior de la base del teclado. Por último, pero no menos importante: todos los teclados Redragon poseen bases antideslizantes que aseguran la rigidez del periférico en el lugar que hayamos decidido colocarlo. Tecla FN La inclusión de la tecla FN admite el uso de atajos multimedia que aportan al confort del usuario en todo momento. Retroiluminación Las iluminación de siete colores del Karura fue desarrollada pensando en la experiencia del usuario en cualquier hora del día, mediante la tecla FN podrás regular la iluminación, tanto como para cambiar de color, efectos, como para también regular la intensidad, todo vale. Tecla de bloqueo de Windows Añade funcionalidad al teclado, evitando tocar accidentalmente la tecla que cierre nuestro juego mientras nos encontramos en el punto clave de la partida.",
+        "precio": 32.50,
+        "stock": 22,
+        "marca": "Redragon",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/751357K502-5-1200x1200_0ab6497e9e934778bb6b1112b9fbb88e.png"
+    },
+    {
+        "nombre": "Teclado Redragon k506 Centaur Rainbow EN",
+        "descripcion": "Centaur K506 es el teclado de membrana definitivo, dando una sensación y un rendimiento muy similar a sus superiores, los teclados mecánicos, nos sorprenderá con su inigualable relación entre precio y calidad.",
+        "precio": 33.50,
+        "stock": 57,
+        "marca": "Redragon",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/8126973K506-SP-6-1200x1200_1fbbbfc801f5468ca1806fb52931ca6a.png"
+    },
+    {
+        "nombre": "Teclado Cougar Core Multi Light",
+        "descripcion": "Los interruptores mecánicos híbridos y la tecnología anti-ghosting brindan respuestas rápidas, precisas y confiables para sus comandos. CORE le permite jugar en cualquier entorno y personalizar su apariencia a través de la retroiluminación de 8 colores de su teclado. ¡Contrólela fácilmente y cambie los colores sobre la marcha con la tecla dedicada y el atajo!",
+        "precio": 41.99,
+        "stock": 36,
+        "marca": "Cougar",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/226550605-1-2_6ba9da4d1c6b4d8fa5388919dbf80c1e.png"
+    },
+    {
+        "nombre": "Teclado Logitech K380 Bluetooth",
+        "descripcion": "K380 es un teclado inalámbrico multidispositivo que se conecta a todos los dispositivos inalámbricos Bluetooth® compatibles con teclados externos. – Tecnología inalámbrica Bluetooth – Multiplataforma – Windows®, Mac, Chrome OS™, Android™, iOS, Apple TV",
+        "precio": 45.99,
+        "stock": 20,
+        "marca": "Logitech",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/5897028k380-multi-device-bluetooth-keyboard_30e3eee8209746d8b5e12f5d89b1a0c7.png"
+    },
+    {
+        "nombre": "Teclado Steelseries Apex 100",
+        "descripcion": "Layout Standard Backlighting Blue Anti-ghosting 24 keys Easy Access Media Keys Yes Gaming Mode (Windows lock) Yes Fully Programmable Yes",
+        "precio": 50,
+        "stock": 66,
+        "marca": "SteelSeries",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/1505433STEELSERIES-GAMING-KEYBOARD-APEX-100-PC_e365bd1c27ab415e8f9a0c4cbcb7239e.jpg"
+    },
+    {
+        "nombre": "Teclado Logitech G213",
+        "descripcion": "Cada tecla de G213 está optimizada para mejorar la experiencia táctil y ofrecer una respuesta superrápida, hasta 4 veces superior a la de los teclados estándar. La matriz de prevención de efecto fantasma para juegos está programada para dominar el control al pulsar simultáneamente varias teclas de juego. Añade un toque personal con cinco zonas de iluminación individuales con un espectro de hasta 16,8 millones de colores. Cambia colores según una configuración o un juego específico o simplemente para usar tus favoritos. El bajo índice de fuga luminosa alrededor de las teclas significa que pasa más luz por las letras, con lo que cada tecla es más brillante y más fácil de encontrar.",
+        "precio": 60,
+        "stock": 4,
+        "marca": "Logitech",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/1440533g213-prodigy-gaming-keyboard__1__33dc7f51d85e4ea3b8d18e5ad4508c9b.png"
+    },
+    {
+        "nombre": "Kingston HyperX Alloy Core RGB Teclado de Membrana",
+        "descripcion": "Exclusiva barra de luz y efectos de iluminación dinámicos RGB Estructura duradera y sólida Teclas silenciosas y rápidas, con funcionalidad anti-ghosting Resistente a los derrames1 Controles multimedia especiales Botones de acceso rápido para brillo, modos de luz y modo Juego Modo de bloqueo del teclado",
+        "precio": 60,
+        "stock": 27,
+        "marca": "Kingston",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/11/7222953hx-features-keyboard-alloy-core-rgb-la_8cc86d33c34b48799e93dd5bbd572902.jpg"
+    },
+    {
+        "nombre": "Teclado Razer Blackwidow Tournament Stealth Edition",
+        "descripcion": "La tecnología de teclas mecánicas utilizada en el Razer BlackWidow Tournament Stealth Edition ofrece a tu experiencia de juego sensaciones totalmente nuevas, al proveer una respuesta táctil distintiva pero silenciosa, en la forma de pulsaciones suaves en la punta de tus dedos. ",
+        "precio": 65,
+        "stock": 50,
+        "marca": "Razer",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/razer-blackwidow-tournament-gallery-01_2b73cff033534d679d5c3acd4fa4c332.png"
+    },
+    {
+        "nombre": "Teclado Mecánico Redragon K551 Mitra RGB",
+        "descripcion": "Switches Outemu Blue El corazón de los teclados Redragon está equipado con tecnología Outemu, en este caso, los switches Outemu Blue, de click audible y con activación al ejercer solo 60 gramos de fuerza sobre la tecla, hacen del Mitra un teclado que acompaña cualquier escritura o juego. Iluminación RGB Porque no todo es tecnicismo, también nos importa la estética: el Mitra K552 posee retroiluminación real LED RGB con 16.8 millones de nítidos colores para transformar el teclado en TU teclado. Tecla de bloqueo de Windows Como su nombre lo dice, esta tecla añade funcionalidad al teclado, evitando tocar accidentalmente la tecla que cierre nuestro juego mientras nos encontramos en el punto clave de la partida. Construcción La construcción del teclado está realizada sobre ABS reforzado y placa de acero, combinado con teclas moldeadas por inyección láser de doble disparo y posteriormente grabadas, generan un producto durable y de excelente calidad, ideal para uso intensivo. Su cable de 8 metros resiste hasta 12kg de carga continua y hasta 10.000 flexiones bruscas. Estructura real antisalpicaduras que protege al usuario de derrames accidentales sobre nuestro periférico, drenando el líquido por la parte posterior de la base del teclado. Por último, pero no menos importante: todos los teclados Redragon poseen bases antideslizantes que aseguran la rigidez del periférico en el lugar que hayamos decidido colocarlo. Tecla FN La inclusión de la tecla FN admite el uso de atajos multimedia que aportan al comfort del usuario en todo momento, que jamás se vea interrumpido por accidente el punto clave de la partida. Software independiente El software independiente del Redragon Mitra nos permite configurar a gusto y confort del usuario la iluminación de nuestro periférico. No olvidemos que podemos guardar perfiles dentro de la memoria incorporada dentro del teclado. Extras El Mitra incluye adicionalmente un keypicker,  switches intercambiables y pinza extractora.",
+        "precio": 74.99,
+        "stock": 49,
+        "marca": "Redragon",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/7513912K551RGB-SP-3-1200x1200_1d5b449a1f314b68898ffe6c35b74a07.png"
+    },
+    {
+        "nombre": "Teclado Razer Cynosa Chroma",
+        "descripcion": "JUEGO ABSOLUTO. ILUMINACION INFINITA. Si piensa que un teclado con todos los elementos esenciales no podría mejorar, piénselo nuevamente. Con el Razer Cynosa Chroma, cumplimos con las necesidades y lo ampliamos con características. Ahora cuenta con un rendimiento de juego completo con teclas retroiluminadas individualmente, para que tenga más espacio para la personalización.",
+        "precio": 74.99,
+        "stock": 12,
+        "marca": "Razer",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/1297018Cynosa_5240214c30474b22be12e98572c6cd20.png"
+    },
+    {
+        "nombre": "Teclado Redragon Indrah K555",
+        "descripcion": "Reposamuñecas, teclas macro y teclas multimedia dedicadas, son algunas señales aunque muy claras del objetivo de este teclado: uso intensivo y prolongado. TECLAS MACRO DEDICADAS Esta función permite grabar hasta cinco macros diferentes mediante el botón REC integrado en el teclado o desde el software dedicado del periférico. Este teclado definitivamente es la tecnología que necesitas para ganar, más la personalización para hacerlo tuyo SWITCHES OUTEMU RED Los teclados Redragon están equipados con tecnología Outemu, para este teclado en particular, elegimos los switches Outemu Red, de click inaudible y con activación lineal al ejercer sólo 45 gramos de fuerza sobre la tecla, hacen del Indrah un teclado cómodo, duradero y listo para la batalla. ILUMINACIÓN RGB CHROMA Retroiluminación LED RGB brillante personalizable por hardware y software para una experiencia superior. 16.8 millones de colores, estilos preconfigurados con posibilidad de cambio On-the-Fly",
+        "precio": 80,
+        "stock": 36,
+        "marca": "Redragon",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/K555RGB-SP-8-768x768-1.png"
+    },
+    {
+        "nombre": "Kingston HyperX Alloy FPS PRO Cherry Teclado Mecánico",
+        "descripcion": "Los teclados HyperXTM Alloy FPS están diseñados para una gran durabilidad, confiabilidad y juego de alto nivel. Si lo que necesitas es un teclado completo, el Alloy FPS es el equipo ideal para ti. Si estás buscando un teclado tenkeyless (TKL, sin teclado numérico) que sólo te brinde las teclas más esenciales, el Alloy FPS Pro es el teclado que necesitas1. Todos los teclados cuentan con las características que todo shooter de primera persona (FPS) exigente querría en su teclado: teclas mecánicas CHERRY® MX, una sólida estructura de acero, cable desmontable, Modo Juego, 100% Anti-Ghosting, y N-key rollover. Ya sea que seas un shooter de primera persona (FPS) o que juegues como ellos, HyperX Alloy FPS es el teclado correcto para ti.",
+        "precio": 85,
+        "stock": 33,
+        "marca": "Kingston",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/10/344558600003_dc82f32a1dc64af198a73f9ed0d7fc22.png"
+    },
+    {
+        "nombre": "Teclado Logitech G413 Carbon",
+        "descripcion": "El G413 se concibió, diseñó y creó para ofrecer desempeño avanzado con las funciones justas. La ligera cubierta superior de aleación de aluminio 5052 alberga una carcasa extremadamente compacta. En la base encontrarás el sistema de gestión de cables de mouse y auriculares, y patas de altura ajustable con estabilizadores de goma especialmente útiles en momentos de juego intenso.",
+        "precio": 85,
+        "stock": 30,
+        "marca": "Logitech",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/4962423g413-mechanical-gaming-keyboard_fa8f76cc17fe4f3a8312056c0e554e9f.png"
+    },
+    {
+        "nombre": "Teclado Redragon Devarajas K556 RGB",
+        "descripcion": "ILUMINACIÓN RGB CHROMA: El Devarajas es una excelente combinación de componentes que lo hacen único para todos los tipos de jugadores, y para los gustos particulares de cada uno, incluyendo 16.8 millones de colores con los que podemos personalizar infinitamente nuestro periférico, guardarlo en su memoria interna, y portar con nuestra marca particular a todos lados sin necesidad de reconfigurarlo cada vez que lo conectamos en una PC diferente. SWITCHES OUTEMU BROWN El corazón de las teclas de los teclados Redragon están equipados con tecnología Outemu, en este caso, los switches Brown, de click inaudible, silenciosos y con activación al ejercer tan solo 45 gramos de fuerza sobre la tecla, logrando respuestas inmediatas que muestren de lo que son capaces nuestros reflejos. EXTRAS El Devarajas incluye un keypicker, que facilita la extracción de teclas para su reemplazo o higiene del periférico. Un switchpicker metálico, hecho para reemplazar los switches por uno de los ocho switches Outemu incluídos en la caja del Devarajas.",
+        "precio": 85,
+        "stock": 23,
+        "marca": "Redragon",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/5360557teclado-mecanico-redragon-devarajas-k556-negro-rgb-espanol-D_NQ_NP_803733-MLA32057010912_092019-F_2484ec6b44664d7f9f784f4d3e494e64.jpg"
+    },
+    {
+        "nombre": "Teclado Mecánico Cooler Master CK350",
+        "descripcion": "COLOR DEL LED: RGB TASA DE SONDEO DEL TECLADO: 1000Hz TASA DE RESPUESTA DEL TECLADO1ms / 1000Hz SISTEMA SOBRE LA MARCHA: Sí, para multimedia y control de iluminación CLAVES MULTIMEDIA: A través de FN CABLE: Fijo de goma de 1,8 m CABLE CONECTOR: USB 2.0 DIMENSIONES (L X W X H): 440 x 140 x 45 mm PESO: 1100g / 2.43 libras TIPO DE TECLADO: Mecánico",
+        "precio": 85,
+        "stock": 47,
+        "marca": "Cooler Master",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/06/1.jpg"
+    },
+    {
+        "nombre": "Teclado SteelSeries Apex 150",
+        "descripcion": "Layout Standard Backlighting Five-zone Prism RGB illumination Anti-ghosting 24 keys Easy Access Media Keys Yes Gaming Mode (Windows lock) Yes Fully Programmable Yes",
+        "precio": 90,
+        "stock": 38,
+        "marca": "SteelSeries",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/3291637STEELSERIES-GAMING-KEYBOARD-APEX-150-PC_306064394c4c4f41aeb4a79f791bb26c.png"
+    },
+    {
+        "nombre": "Teclado Razer Blackwidow Lite",
+        "descripcion": "El Razer BlackWidow Lite utiliza nuestros renombrados interruptores mecánicos Razer ™ que son bien conocidos por su precisión y capacidad de respuesta. La tacto en cada tecla individual ofrece una experiencia satisfactoria al escribir, haciendo que el trabajo se sienta bien. Todas las teclas del Razer BlackWidow Lite están retroiluminadas individualmente con retroiluminación LED blanca verdadera.",
+        "precio": 94.99,
+        "stock": 42,
+        "marca": "Razer",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/8518462lite_b7da28e104454a35aa993cab5f5b3903.png"
+    },
+    {
+        "nombre": "Kingston HyperX Alloy FPS Teclado Mecánico Cherry",
+        "descripcion": "El teclado mecánico HyperX™ Alloy FPS cuenta con un diseño minimalista y compacto que es ideal para videojuegos shooter de primera persona. Su diseño pensado para ahorrar espacio maximiza la movilidad del mouse para FPS. Ultra portátil, el teclado HyperX Alloy FPS viene con una bolsa para transporte de alta calidad para almacenar y proteger el teclado y los accesorios, y con un cable de energía trenzado desmontable mini USB que reduce el lugar de almacenamiento y el daño potencial al cable. Cuenta con interruptores mecánicos Cherry® MX, que brindan una mayor precisión y una confiabilidad incomparable para videojuegos.",
+        "precio": 98.99,
+        "stock": 68,
+        "marca": "Kingston",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/05/551732471I8mFYSrzL._SL1500__8146107be26048ed9249eb4e7f9cb75f.jpg"
+    },
+    {
+        "nombre": "Teclado Mecánico Redragon K550 Yama RGB",
+        "descripcion": "Este teclado en español tiene todo lo necesario: rueda de volumen, teclas multimedia dedicadas, USB Pass Through ubicado en la parte posterior del teclado, reposamuñecas desmontable y 12 teclas G completamente configurables.",
+        "precio": 99.99,
+        "stock": 10,
+        "marca": "Redragon",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/9431709K550-SP-1-1200x1200_fc619eac2d4d4798a252d6287b38d3d3.png"
+    },
+    {
+        "nombre": "Teclado SteelSeries Apex 300",
+        "descripcion": "Layout Low-Profile Programmable Keys Full, every key re-mappable USB Hub 2 USB 2.0 Hubs",
+        "precio": 99.99,
+        "stock": 28,
+        "marca": "SteelSeries",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/1388957purchase-gallery-image-apex300-hero.png__1850x800_q100_crop-scale_optimize_subsampling-2_3ca348b4da8e4a4f91ead3d5d32e2860.png"
+    },
+    {
+        "nombre": "Kingston HyperX Alloy Origins Core Teclado Mecánico",
+        "descripcion": "Interruptores mecánicos HyperX1 Cuerpo de aluminio de grado aeronáutico Diseño compacto y portátil con cable USB tipo C extraíble Asombrosa iluminación RGB con efectos dinámicos Personalización avanzada con el software HyperX NGenuity Tres ángulos de teclado ajustables Memoria interna para tres perfiles Modo Juego, 100% Anti-ghosting y N-Key Rollover",
+        "precio": 112,
+        "stock": 23,
+        "marca": "Kingston",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/2196828hx-product-keyboard-alloy-origins-core-us-1-zm-lg_026a6b6fc2144ca4a4a76f1e8d9dbcef.jpg"
+    },
+    {
+        "nombre": "Teclado Logitech Mecánico G513 RGB",
+        "descripcion": "G513 es un teclado para gaming de alto rendimiento, con una velocidad de respuesta de 1 ms y la posibilidad de elegir entre interruptores mecánicos avanzados: Romer-G Táctil, Romer-G Lineal o GX Blue. El espectro RGB completo, combinado con la tecnología LIGHTSYNC, mejora la experiencia de juego con iluminación. La aleación de aluminio crea un chasis extremadamente compacto con un atractivo acabado metálico.",
+        "precio": 124.99,   
+        "stock": 31,
+        "marca": "Logitech",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/2034246g513-backlit-mechanical-gaming-keyboard_2edc8b6ea6df41ce9f2b9abded490e45.png"
+    },
+    {
+        "nombre": "Kingston HyperX Alloy FPS RGB Teclado Mecánico Kailh Silver",
+        "descripcion": "Teclas RGB con retroiluminación y efectos radiantes de iluminación Personalización avanzada con el software HyperX NGenuity Diseño compacto y ultra portátil, con cable extraíble Estructura resistente de acero sólido Interruptores mecánicos Kailh Silver Speed Memoria interna para 3 perfiles Cómodo puerto de carga USB Modo Juego, 100% Anti-ghosting y N-Key Rollover",
+        "precio": 129.99,
+        "stock": 69,
+        "marca": "Kingston",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/328714123456_eec9882d09fe4dc39b95776f26b768bb.jpg"
+    },
+    {
+        "nombre": "Teclado Logitech Mecánico G512 RGB Edición Especial",
+        "descripcion": "G512 es un teclado para juegos de alto rendimiento con su elección de interruptores mecánicos avanzados Romer-G Tactile, Romer-G Linear y GX Blue. La tecnología avanzada de juegos y la construcción de aleación de aluminio hacen que el G512 sea simple, duradero y con todas las funciones.",
+        "precio": 130,
+        "stock": 47,
+        "marca": "Logitech",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/821779071rS5vo60GL._AC_SL1500__06c95e92047549e6a79df286d028c66a.jpg"
+    },
+    {
+        "nombre": "Kingston HyperX Alloy Origins Teclado Mecánico",
+        "descripcion": "HyperX Alloy Origins™ es un teclado compacto y robusto que cuenta con interruptores mecánicos diseñados para brindarle a los gamers la mejor combinación de estilo, rendimiento y confiabilidad. Estos interruptores mecánicos tienen LEDs expuestos para lograr una iluminación impresionante con una fuerza de accionamiento y una distancia de trayectoria equilibrada para obtener un alto nivel de respuesta y exactitud. Alloy Origins está construido con un cuerpo de aluminio sólido que lo mantiene rígido y estable cuando la acción lo requiera, y te permitirá elegir entre tres niveles diferentes de inclinación. Su diseño elegante y compacto deja más espacio para el movimiento del mouse y también cuenta con un cable USB tipo C extraíble para una mejor portabilidad. Personaliza tu iluminación, crea macros y ajusta el Modo juego con el software HyperX NGENUITY. Este programa, potente y a la vez fácil de usar, te permite configurar iluminación tecla por tecla, deslumbrantes efectos de capas de iluminación, agrega resultados y otros toques personalizados a tus productos compatibles con NGENUITY.",
+        "precio": 134.99,
+        "stock": 11,
+        "marca": "Kingston",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/5205743hx-product-keyboard-alloy-origins-de-3-zm-lg_9229b35090d74ee2a819d7208efcdfd6.jpg"
+    },
+    {
+        "nombre": "Teclado Razer Blackwidow Chroma",
+        "descripcion": "Desde su inicio, el nombre Razer BlackWidow ha sido sinónimo no solo de precisión, sino también de la sensación táctil de sus interruptores que los jugadores adoran. Hemos perfeccionado nuestros interruptores mecánicos para desbloquear el más alto nivel de rendimiento de juego con la última edición del Interruptor mecánico verde Razer ™. Disfrute del mejor teclado gamer y la iluminación Razer Chroma ™ con el nuevo Razer Blackwidow.",
+        "precio": 150,
+        "stock": 39,
+        "marca": "Razer",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/8360692Blackwidow_d73b3933f0ba41e6bd090f43de457e92.png"
+    },
+    {
+        "nombre": "Teclado Cougar Attack 3 – Mecánico RGB SP",
+        "descripcion": "Iluminación RGB y Aluminio, unidos: Un Espectáculo Glorioso Con 9 efectos de iluminación predefinidos, disfrutarás inmediatamente de las espectaculares capacidades RGB de este teclado. Contrólalo fácilmente y selecciona distintos efectos mientras juegas con teclas de acceso rápido. Por si esto no fuese suficiente, dispones de la posibilidad de crear tus propios efectos de retroiluminación con el sistema COUGAR UIX. Crea tu atmósfera gaming personalizada y desata tu creatividad! ATTACK X3 RGB’s aluminum front plate – mecánico RGB.",
+        "precio": 160,
+        "stock": 28,
+        "marca": "Cougar",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/07/845732104__1__1997c88457ab4250bd1a7e5a9b0e1621.png"
+    },
+    {
+        "nombre": "Kingston HyperX Alloy Elite RGB Teclado Mecánico Cherry",
+        "descripcion": "Incorpora a tu equipo un teclado que tiene un estilo y una esencia asombrosos. Elije entre HyperX™ Alloy Elite RGB con su asombrosa iluminación RGB o HyperX Alloy Elite de un único color. El modelo Alloy Elite RGB te permite personalizar el color para cada una de tus teclas con el software HyperX NGenuity de fácil uso y guardar tu configuración en su memoria interna. Ambos modelos tienen una sólida estructura de acero que ayuda a brindar controles resistentes y estables incluso en el fragor de las más intensas batallas, mientras que las funciones de Modo Juego, N-Key Rollover y anti-ghosting (multitáctil) mantienen la exactitud de tus pulsaciones. Los modelos Alloy Elites con funciones completas se diseñan de modo de satisfacer las necesidades del usuario con botones especiales multimedia, USB 2.0 pass-through, botones de acceso rápido y una variedad de teclados mecánicos de alta confiabilidad CHERRY® MX1. Alloy Elites cuenta además con una superficie removible cómoda para apoyar las muñecas y cobertores opcionales texturados de color titanio para teclas HyperX diseñados para ayudarte a encontrar las teclas más importantes con mayor rapidez cuando cada milisegundo cuenta.",
+        "precio": 180,
+        "stock": 34,
+        "marca": "Kingston",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/04/3341276HyperX_Alloy_Elite_RGB_-_Red_-_Spanish_Layout_-_Packaging_-_R1_HX-Product_KB_AlloyEliteRGB_KB2RD2-LAR2_pb_hr_14_12_2017_19_43_ce1d9dc7f62449939c76fee43578d7b3.jpg"
+    },
+    {
+        "nombre": "ZOWIE Celeritas II",
+        "descripcion": "ZOWIE CELERITAS II presenta un pretravel óptimo y más preciso que es la distancia que debe recorrer la tecla antes de realizar una acción. Un resorte de hierro de alta calidad permite que cada pulsación de tecla se ejecute con un aumento constante de la fuerza a la vez que mejora la durabilidad para cumplir con el estándar requerido en los eSports. El CELERITAS II presenta el interruptor óptico, que permite a los jugadores evitar presionar dos veces las teclas. También tiene teclas iluminadas, con niveles de brillo que se pueden ajustar o apagar por completo.",
+        "precio": 190,
+        "stock": 54,
+        "marca": "ZOWIE",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/3453726celeritasii_top_right45_c5250c7cb1a740cd973a26b03878cea6.png"
+    },
+    {
+        "nombre": "Teclado SteelSeries Apex M750 TKL",
+        "descripcion": "Diseño centrado en deportes sin llaves Interruptores de juegos mecánicos lineales QX2 Marco de aluminio duradero de la serie 5000 Iluminación RGB por tecla brillante y dinámica Notificaciones de iluminación Discord en tiempo real",
+        "precio": 198.99,
+        "stock": 65,
+        "marca": "SteelSeries",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/4540712Sin_t_tulo_aea3ded286b044f88538b73b8f46d9db.png"
+    },
+    {
+        "nombre": "Teclado Razer Blackwidow Tournament Edition Chroma V2",
+        "descripcion": "Presentamos Razer BlackWidow Tournament Edition Chroma V2, el teclado más rápido que hemos producido hasta el momento. Cuando te encuentras inmerso en una intensa partida de torneo, cada milésima de segundo cuenta para asegurarte una ventaja decisiva frente a tu rival. Ahora, con este teclado, puedes hacerla realidad.",
+        "precio": 219,
+        "stock": 41,
+        "marca": "Razer",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/7323807te_520daf83f2664fa688ec622e1b570c41.png"
+    },
+    {
+        "nombre": "Teclado Razer Huntsman – Opto-Mechanical Switch",
+        "descripcion": "Los interruptores ópticos Razer ™ tienen un sensor de luz dentro del interruptor. Al presionar una tecla, permite que un receptor se active con esta señal luminosa, actuando instantáneamente al comando del interruptor. Nunca antes has experimentado una velocidad como esta.",
+        "precio": 224.99,
+        "stock": 69,
+        "marca": "Razer",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/6486416Screenshot_6_6f60e6918cb2453586f25ba92ec65da7.png"
+    },
+    {
+        "nombre": "Teclado Logitech ORION SPARK G910 Mecánico",
+        "descripcion": "TECLADO MECÁNICO PARA JUEGOS SERIE G900 Los más altos niveles de rendimiento, ingeniería y diseño. El G910 está completamente cargado con teclas G programables, LIGHTSYNC RGB, interruptores táctiles Romer-G, reposamanos integrado y más. INTERRUPTORES MECÁNICOSTÁCTILES ROMER-G Los conmutadores Romer-G, elegidos por los mejores profesionales del deporte, ofrecen un rendimiento mecánico silencioso y preciso con una sensación y durabilidad increíbles. G910 presenta la variante táctil con retroalimentación de actuación discernible.",
+        "precio": 235,
+        "stock": 27,
+        "marca": "Logitech",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/896505451903-logitech-g910-orion-spark_38c144465e554093b1fdb70e3f7c9045.jpg"
+    },
+    {
+        "nombre": "Teclado Razer Blackwidow Chroma Elite",
+        "descripcion": "El Razer BlackWidow siempre ha sido el estándar de oro para los teclados de juegos, y ahora hemos llevado sus componentes al siguiente nivel: un interruptor mecánico Razer ™ actualizado y el nuevo dial digital multifunción. Conoce al Razer BlackWidow Elite. Diseñado como el teclado mecánico para juegos más completo en cualquier ámbito. Con Razer Hypershift e Hybrid On-board y Cloud Memory, ahora puede convertir cada tecla en una macro y activar su configuración preferida desde cualquier lugar.",
+        "precio": 245,
+        "stock": 36,
+        "marca": "Razer",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/1437587l_10185859_003_4d70927287c04250bfe9facac03a176a.jpg"
+    },
+    {
+        "nombre": "Teclado Razer Huntsman Elite – Opto-Mechanical Switch",
+        "descripcion": "Los interruptores ópticos Razer ™ tienen un sensor de luz dentro del interruptor. Al presionar una tecla, permite que un receptor se active con esta señal luminosa, actuando instantáneamente al comando del interruptor. Nunca antes has experimentado una velocidad como esta.",
+        "precio": 250,
+        "stock": 47,
+        "marca": "Razer",
+        "categoria": "TECLADO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/6612935R_h_418bf261230e4111b7a697da99b2b247.png"
+    },
+    {
+        "nombre": "Mouse Logitech M90",
+        "descripcion": "La instalación es rápida y fácil: basta con conectar el cable a un puerto USB. Sin necesidad de instalar software. Como tiene cable, puede conectarlo a un puerto USB y usarlo inmediatamente. Comodidad total, diseño para uso ambidiestro y seguimiento óptico de alta definición.",
+        "precio": 7,
+        "stock": 90,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/3DC3BE48BE55D336FC83FFDA4EC9272346870EF5_M90GALLERY_source_a836fcd5f4bd4d869c8be12048bf58bf.png"
+    },
+    {
+        "nombre": "Mouse Genius X-G200",
+        "descripcion": "Genial para ambas manos Moue ambidiestro con superficie de agarre que brinda comodidad y control para una mayor precisión en sjuegos. Atractiva iluminación LED en rojo La iluminación roja saca a flote su agresividad al jugar. Compatibilidad Funciona con Windows y Mac OS",
+        "precio": 7,
+        "stock": 74,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/mouse-gamer-genius-x-g200-usb-led-color-diginet-D_NQ_NP_656977-MLU31244960423_062019-F.jpg"
+    },
+    {
+        "nombre": "Mouse Genius Scorpion Spear",
+        "descripcion": "Botones: 6 800 – 1600 – 2000 DPI Aceleración max.: 30g Compatibilidad: windows 7/ 8/ 8.1/ 10 ,..mac os x 10.10 or later Color: black Dimensiones: 67,3 x 120 x 39 mm (2,45 pulgadas x 4,72 Pulgadas x 1,54 pulgadas)",
+        "precio": 9.99,
+        "stock": 35,
+        "marca": "Genius",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/BFXGEM32.jpg"
+    },
+    {
+        "nombre": "Mouse Logitech Wireless M170 Blue",
+        "descripcion": "Tipo de conexión: USB – Tecnología inalámbrica de 2,4 GHz Alcance inalámbrico: 10 m Batería: 1 batería AA",
+        "precio": 11.99,
+        "stock": 65,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/03/54875241_44f873686aa04883be882f77d65aa238.png"
     }
 ]

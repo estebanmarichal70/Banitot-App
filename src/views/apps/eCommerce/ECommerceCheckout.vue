@@ -380,7 +380,6 @@ export default {
           item['rating'] = rating
           this.precio += (item.precio*item.pivot.cantidad)
         })
-        this.precio = this.precio.toFixed(2)
         this.precioT = (this.precio - this.precio * 0.05).toFixed(2)
         })
       .catch(error => {
@@ -397,7 +396,6 @@ export default {
             this.cartItems.splice(index, 1)
           }
       })
-      this.precio = this.precio.toFixed(2)
     },
     wishListButtonClicked (item) {
       // Toggle in Wish List
@@ -416,7 +414,6 @@ export default {
         const itemIndex = Math.abs(index + 1 - this.cartItems.length)
 
         this.precio += (item.precio * event - item.precio * item.pivot.cantidad)
-        this.precio = this.precio.toFixed(2)
         this.precioT = (this.precio - this.precio * 0.05).toFixed(2)
         item.pivot.cantidad = event
 
