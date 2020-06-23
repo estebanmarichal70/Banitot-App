@@ -1,0 +1,1811 @@
+[
+    {
+        "nombre": "Mouse Genius Scorpion Spear Pro",
+        "descripcion": "Diseño Ergonomico 400 – 3200dpi 200 ips Aplicacion Smartgenius 10 Milliones clicks asegurados 1ms Respuesta Cable reforzado Usb",
+        "precio": 12.99,
+        "stock": 58,
+        "marca": "Genius",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/mouse-gx-genius-scorpion-spear-pro-programmable-buttons-gaming.jpg"
+    },
+    {
+        "nombre": "Mouse Logitech Wireless M185",
+        "descripcion": "Sin retrasos ni interrupciones. El minúsculo receptor inalámbrico proporciona una conexión de confianza. Disfrutará de la calidad y la fiabilidad por las que se conoce a Logitech",
+        "precio": 14.99,
+        "stock": 52,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/mouse-logitech-inalambrico-m185-14138-MCO20083606464_042014-O_fb6718ed43cf4ca1a1c37a89f0c57d80.jpg"
+    },
+    {
+        "nombre": "Microsoft Wireless Mouse 1850 Blue",
+        "descripcion": "El Wireless Mobile Mouse 1850 está diseñado para la vida en movimiento, ofreciendo libertad inalámbrica y almacenamiento de transceptor incorporado para la máxima movilidad. Cómodo de usar con cualquier mano y una rueda de desplazamiento para facilitar la navegación, hace de este mouse el dispositivo ideal para su estilo de vida moderno y móvil.",
+        "precio": 15.99,
+        "stock": 14,
+        "marca": "Microsoft",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-10.png"
+    },
+    {
+        "nombre": "Microsoft Wireless Mouse 1850 Magenta",
+        "descripcion": "El Wireless Mobile Mouse 1850 está diseñado para la vida en movimiento, ofreciendo libertad inalámbrica y almacenamiento de transceptor incorporado para la máxima movilidad. Cómodo de usar con cualquier mano y una rueda de desplazamiento para facilitar la navegación, hace de este mouse el dispositivo ideal para su estilo de vida moderno y móvil.",
+        "precio": 15.99,
+        "stock": 28,
+        "marca": "Microsoft",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/2.png"
+    },
+    {
+        "nombre": "Mouse Redragon Centrophorus",
+        "descripcion": "El Centrophorus se abre paso en el mercado demostrando que no es solo una cara bonita y una construcción sólida, sus switches Omron y su sensor Pixart 3317 óptico, aseguran movimiento fluído y clicks precisos. Todo conectado a la PC mediante una ficha USB recubierta en oro que la hace inoxidable y aporta la mejor conductividad posible.",
+        "precio": 16.99,
+        "stock": 34,
+        "marca": "Redragon",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/804960510431.Centrophorus_01.1920x1014_ca0ac1427b4d4a1bbe03cb6cb6ef9a45.png"
+    },
+    {
+        "nombre": "Mouse Logitech Wireless M187",
+        "descripcion": "Puede llevar Mini Mouse a cualquier parte junto con su laptop, gracias a su diseño extrapequeño para llevar en el bolsillo. El minúsculo nano receptor permanece en el puerto USB y permite disfrutar de la libertad de un dispositivo inalámbrico con más precisión y control que con el touchpad del portátil.",
+        "precio": 19,
+        "stock": 58,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/mouse-optico-negro-scroll-usb_008eda3be5534855b35e4d9df5267420.jpg"
+    },
+    {
+        "nombre": "Mouse Cougar Minos X2 Mouse Usb",
+        "descripcion": "COUGAR Minos X2 ha sido diseñado específicamente para satisfacer todas las necesidades de los jugadores de eSports: Sensor óptico ADNS-3050, 6 botones, Interruptores OMRON, DPI al vuelo, ajuste de la frecuencia de sondeo y retroiluminación de 3 zonas. No es necesario que salgas de los juegos ya, porque puedes hacer todos tus ajustes directamente desde el ratón para estar listo para cada desafío!",
+        "precio": 20,
+        "stock": 37,
+        "marca": "Cougar",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/09/1768333000001_1493876106_c90eeae1386f4de4ae47db84c02c85da.jpg"
+    },
+    {
+        "nombre": "Mouse Redragon Mirage Inalámbrico",
+        "descripcion": "El Mirage se conecta a la PC mediante un diminuto dongle USB, para obtener una conexión inalámbrica de 2.4 Ghz, que no genera demoras en los clicks o el movimiento. Adicionalmente con un mismo juego de baterías podemos obtener hasta 350 horas de uso continuo sin necesidad de reemplazarlas.",
+        "precio": 21.50,
+        "stock": 36,
+        "marca": "Redragon",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/7606353M690-5_c398d9100d09434dacf4e0eedb6e2a1c.png"
+    },
+    {
+        "nombre": "Mouse MSI Clutch GM10",
+        "descripcion": "USB 2.0 INTERFACE: USB DPI SWITCH: 800 / 1000(default) / 1600 / 2400 COLOR: Black WEIGHT(G): 104gb LED LIGHT: Red Dragon LED / Wheel (four colors) RESPONSE TIME: 1ms MAIN KEY SWITCHES: 10 Million+ clicks LIGHTING EFFECTS: Logo LED: Breathing effect – Wheel LED: by DPI (800 Blue / 1000 Red / 1600 Green / 2400 Purple) USB CABLE: 1.8m SENSOR: PixArt ADSN-5712 DIMENSIONS(MM): 125 (L)*64 (W)*43 (H) mm BUTTONS: 4 OS SUPPORTED: Windows 10/ 8.1/ 8/ 7/ Vista/ XP",
+        "precio": 25,
+        "stock": 10,
+        "marca": "MSI",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/1234.png"
+    },
+    {
+        "nombre": "Microsoft Wireless Mouse 900",
+        "descripcion": "Mouse de tamaño completo: El mouse se ha diseñado con un tamaño mayor para ofrecer más comodidad y precisión a la hora de navegar. Diseño de teclado para ambidiestros: El mouse cuenta con un diseño ambidiestro para que pueda usarlo cómodamente con cualquiera de las manos. Botones personalizables: Los botones personalizables le proporcionan acceso a las características de Windows que más usa.1 Duración media de la batería de 2 años: El bajo consumo de energía permite una duración media de la batería de dos años (basado en un uso normal).",
+        "precio": 25,
+        "stock": 22,
+        "marca": "Microsoft",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-9.png"
+    },
+    {
+        "nombre": "Mouse Genius Ammox X1 400",
+        "descripcion": "El diseño de suaves líneas del Ammox es ideal para cualquier mano y el tamaño expandido de la unidad brinda una mayor superficie de apoyo y reduce el cansancio. Las terminaciones en caucho en ambos lados brindan un mayor control. Con cuatro niveles ajustables de DPI (400/ 800/ 1200/ 3200), con solo presionar un botón podrá cambiar entre niveles de DPI y estar listo instantáneamente para cualquier situación de juego. Podrá programar su propio macro para fijar un botón único para acceder rápidamente a la funciones del juego. Ammox utiliza la tecnología Omron que tiene una vida útil de 8 millones de clics. suficiente para rendir al máximo en las sesiones más intensas de gaming.",
+        "precio": 29,
+        "stock": 47,
+        "marca": "Genius",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/3451675mouse-gamer-genius-gx-gaming-ammox-x1-400-3200dpi-1ms-D_NQ_NP_572305-MLA20853432105_082016-F_8b3924486c134b318c3eb0cbc960d5ec.jpg"
+    },
+    {
+        "nombre": "Mouse Redragon Nemealion Chroma",
+        "descripcion": "El ratón para juegos Redragon M710 MEMEANLION CHROMA  no es el típico mouse para juegos. El mouse está diseñado para jugadores que demandan el mejor rendimiento. El mouse ofrece un factor de forma ergonómico ambidiestro para una completa comodidad. Ideal para juegos FPS, el Redragon M710 cuenta con un sensor de juego óptico de 10000 DPI (DPI se puede ajustar libremente en ± 500 de 500 a 10000) con rastreo avanzado y detección de movimiento de alta velocidad para un control preciso. Ofrece DPI sobre la marcha y el cambio de perfil para que siempre realice los movimientos correctos en cualquier situación del juego. Ratón de juego profesional con 7 botones e interruptores programables que permiten una productividad y eficiencia superiores para satisfacer todas sus necesidades de juego. Potente unidad: asigne una acción personalizada a la mayoría de los botones para lograr teclas combinadas. Los tiempos de clic y los tiempos de retardo de la tecla se pueden establecer. Registra hasta 59 acciones y dispara con un solo clic. Personalización total: configúrela a su manera con 7 colores personalizables, iluminación Chroma y efectos de respiración. Respiración, Arco Iris, Completo encendido, Ola, Ir sin rastro, Reactivo, Flash. Redragon Chroma Lighting con 16,8 millones de opciones de color personalizables y crear un ratón diferente a cualquier otro.",
+        "precio": 29,
+        "stock": 57,
+        "marca": "Redragon",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/8568987M710-1-1200x1200_2ae3de9a7d134e73876d73789be8412e.png"
+    },
+    {
+        "nombre": "Mouse Redragon M711 Cobra RGB",
+        "descripcion": "Un mouse cómodo y bien pensado para cualquier necesidad, desde oficina hasta juegos FPS, MOBA y MMORPG, desde su estructura externa hasta sus componentes internos.",
+        "precio": 30,
+        "stock": 15,
+        "marca": "Redragon",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/6372232M711-1-1200x1200_dc8ffc7f848241e69a144b0b4904d8c2.png"
+    },
+    {
+        "nombre": "Mouse Cougar Minos XT",
+        "descripcion": "Minos XT is a nimble and powerful gaming mouse, ideal for those who enjoy an agile gaming experience.",
+        "precio": 30,
+        "stock": 29,
+        "marca": "Cougar",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/128137006-18_4eac09578fbc49e0ac523b7e0230e56e.png"
+    },
+    {
+        "nombre": "Mouse Logitech G203",
+        "descripcion": "G203 Prodigy puede comunicarse a 1.000 señales por segundo, una velocidad 8 veces superior a la de los mouse estándar. Por eso al moverlo o hacer click, la respuesta en pantalla es casi instantáne Juega hasta el máximo con más acierto que nunca. El G203 tiene un nuevo sensor de 200-6.000 dpi que ofrece increíble precisión, velocidad de seguimiento y uniformidad de respuesta. Esto permite un mejor control, sea cual sea tu estilo de juego. La coherencia y la precisión obtenidas se basan no sólo en lo que ves sino en lo que sientes.",
+        "precio": 31.99,
+        "stock": 12,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/2358924g102-g203_75b1cf4286e046e48d3c71d790166b74.png"
+    },
+    {
+        "nombre": "Mouse Cougar Minos X3 Black Edition",
+        "descripcion": "COUGAR Minos X3 ha sido diseñado para jugadores profesionales, por lo que utiliza 4 de las configuraciones DPI más populares para jugadores reales: 800 – 400 – 1600 – 3200. Mantenga la velocidad y la precisión de su mouse: un interruptor dedicado le permitirá seleccionar el nivel correcto de DPI para cada situación. Un interruptor dedicado le permitirá seleccionar el nivel que mejor se adapte a sus requisitos de hardware y preferencias personales. COUGAR Minos X3 cuenta con un diseño ergonómico refinado, flancos revestidos de goma y diseño único. Minos X3 es el mejor mouse para los jugadores de FPS / MOBA / RTS, experimentarás la comodidad pura y la estabilidad incomparable. Minos X3 le ofrece 10 efectos de iluminación diferentes. Si alguna vez quiere un cambio, un botón dedicado le permitirá cambiar los colores sobre la marcha.",
+        "precio": 32.50,
+        "stock": 48,
+        "marca": "Cougar",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/04/98913081111_3aa2929b5e5f4870b314c66619e9c4fd.png"
+    },
+    {
+        "nombre": "Mouse Redragon Inspirit M907",
+        "descripcion": "5 niveles de DPI ajustables (1000, 2000, 4000, 7200,14400) satisfacen sus múltiples necesidades, ya sea para el trabajo diario o los juegos. El DPI se puede ajustar libremente en ± 100 de 100 a 14400. Además, la configuración de Velocidad del punto del mouse en el software también le permite cambiar ligeramente la velocidad de movimiento del mouse para lograr el mejor modo de ajuste para usted. 8 BOTONES PROGRAMABLES Y 16-MILLONES DE COLORES CON LUZ DE FONDO BREATHING RGB LED",
+        "precio": 35,
+        "stock": 29,
+        "marca": "Redragon",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/7035443mouse-gamer-redragon-inspirit-m907-14400-dpi-rgb-D_NQ_NP_778201-MLU32031585080_082019-F_b2d2e083dd3d49d29e516bd8a1d200e0.jpg"
+    },
+    {
+        "nombre": "Mouse Razer DeathAdder Essential",
+        "descripcion": "El Razer DeathAdder Essential conserva la forma ergonómica clásica que ha sido un sello de las generaciones anteriores del Razer DeathAdder. Su cuerpo elegante y distintivo está diseñado para brindar comodidad, lo que te permite mantener altos niveles de rendimiento durante largos maratones de juego, por lo que nunca vacilarás en el calor de la batalla.",
+        "precio": 40,
+        "stock": 69,
+        "marca": "Razer",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/5756586deathadder_5ff3e951532340a68ad2ba68a699fe6c.png"
+    },
+    {
+        "nombre": "Mouse Redragon Impact RGB",
+        "descripcion": "Redragon M908 IMPACT MMO Gaming Mouse de hasta 12,400 DPI Mouse láser de alta precisión para PC, 18 botones programables, cartucho de ajuste de peso, 12 botones laterales, 5 perfiles de usuario programables, 16.8 millones de opciones de personalización de color de LED",
+        "precio": 40,
+        "stock": 53,
+        "marca": "Redragon",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/177670M908-6_grande_34364dbf-1263-4ce0-be81-adcaf89b404d_450x450_28b23cd82452417283c473cb61bb54d3.png"
+    },
+    {
+        "nombre": "Mouse Logitech G305 Lightspeed Inalámbrico",
+        "descripcion": "TECNOLOGÍA INALÁMBRICA LIGHTSPEED PARA TODOS Tecnología inalámbrica LIGHTSPEED de próxima generación lista ahora para todos los jugadores G305 es un ratón inalámbrico para gaming LIGHTSPEED diseñado para un rendimiento excelente con las innovaciones tecnológicas más recientes a un precio asequible. SENSOR HERO Rendimiento de 12.000 dpi, eficiencia 10x El sensor HERO es el sensor óptico para gaming de Logitech G de próxima generación capaz de un rendimiento increíble y de una eficiencia sin precedentes. Porque en el gaming inalámbrico, no puede haber concesiones.",
+        "precio": 44.99,
+        "stock": 24,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/637527g304-g305-lightspeed-wireless-gaming-mouse_a2aca04380084f7a9056f2a43ba11afd.png"
+    },
+    {
+        "nombre": "Mouse Logitech PRO HERO",
+        "descripcion": "HERO 16K es nuestro sensor para juegos con una precisión de próxima generación y una arquitectura específica. HERO 16K es capaz de 400+ ips y 100 – 16.000 dpi, sin suavizado, filtrado ni aceleración en todo el rango de dpi. HERO 16K ofrece precisión al más alto nivel competitivo y máxima uniformidad de respuesta. Asegúrate de personalizar y ajustar tu configuración de dpi con Logitech G HUB.",
+        "precio": 44.99,
+        "stock": 35,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/3346647pro_1e882c7f407a4fd2bcc846a6691947c7.jpg"
+    },
+    {
+        "nombre": "Mouse MSI Clutch Gm40 Black ",
+        "descripcion": "Ergonómico y ambidiestro Conveniente botón interruptor al costado Rápido ajuste DPI Bandas laterales antideslizantes Calidad Gaming de mayor durabilida",
+        "precio": 44.99,
+        "stock": 15,
+        "marca": "MSI",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/02/7750115product_10_20180213181246_5a82ba1ecae13_942e53ede34d45aebece5ff7ce8f73ea.png"
+    },
+    {
+        "nombre": "Mouse SteelSeries Rival 105",
+        "descripcion": "Rival 105 está diseñado a medida para juegos, con un sensor óptico S3059-SS personalizado y un diseño ergonómico universal para diestros basado en la legendaria forma SteelSeries Kana para todos los estilos de agarre. Con una calificación garantizada de 20 millones de clics y una construcción duradera y liviana de 80 g, el Rival 105 ofrece un rendimiento cómodo y duradero. Además, la iluminación Prism RGB con iluminación reactiva de GameSense y sincronización de iluminación, seis botones programables y memoria integrada se combinan para ofrecer el mouse para juegos perfecto.",
+        "precio": 44.99,
+        "stock": 55,
+        "marca": "SteelSeries",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/2173957110_dd6d575d84ce4ade83b23062606cc46f.png"
+    },
+    {
+        "nombre": "Mouse Cooler Master Storm Reaper",
+        "descripcion": "CM Reaper te ofrece: Hasta 8200DPI 8 botones programables Memoria 128Kb Iluminación Led",
+        "precio": 50,
+        "stock": 22,
+        "marca": "Cooler Master",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/CM-Storm-Reaper_dc845edab4a145fd9fe142a32fbb0e5c.jpg"
+    },
+    {
+        "nombre": "Mouse Razer Viper Mini",
+        "descripcion": "Sensor óptico de 8500 PPP reales Switches ópticos para ratón Razer Iluminación inferior Razer Chroma™ RGB Cable Razer Speedflex Perfil de memoria integrada 6 botones programables.",
+        "precio": 50,
+        "stock": 69,
+        "marca": "Razer",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-3.png"
+    },
+    {
+        "nombre": "Mouse Cooler Master MM710",
+        "descripcion": "El MM710 es un mouse verdaderamente innovador que hace más con mucho menos. Junto con todas las características de grado profesional que hacen que nuestros ratones para juegos sean mortales en combate, también hemos implementado un nuevo diseño llamativo y un cable Ultraweave engañosamente duradero y liviano para recortar el peso total del mouse a menos de 53 g. El resultado son movimientos más rápidos, sesiones de juego más largas, fatiga mínima y menos dolor de muñeca asociado con lesiones por estrés repetitivo.",
+        "precio": 50,
+        "stock": 4,
+        "marca": "Cooler Master",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/Cooler-Master-MM710.jpg"
+    },
+    {
+        "nombre": "Mouse Logitech G502 SE Hero",
+        "descripcion": "HERO es nuestro sensor para juegos con una precisión de próxima generación y una arquitectura específica. Con el procesamiento de frecuencia de cuadro más rápido hasta la fecha, HERO es capaz de más de 400 ips y 100 – 16.000 dpi, sin suavizado, filtrado ni aceleración. HERO ofrece precisión al más alto nivel competitivo y máxima uniformidad de respuesta. Asegúrate de personalizar y ajustar tu configuración de dpi con Logitech Gaming Software (LGS). Usa Logitech Gaming Software para programar 11 botones con tus macros y comandos favoritos. Construye, agáchate, lucha cuerpo a cuerpo, sana… pon tus poderes al alcance de tus dedos. Guarda hasta cinco perfiles diferentes directamente en el mouse para llevarte tu configuración a cualquier parte.",
+        "precio": 55,
+        "stock": 39,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/8577387Low_Resolution_JPG-G502_SE_Top_CMYK_4ca21b90ac8346529bafd166625893b0.jpg"
+    },
+    {
+        "nombre": "Kingston HyperX Pulsefire Surge Gaming MOUSE RGB",
+        "descripcion": "El HyperX Pulsefire Surge™ les brinda a los gamers el mejor estilo y esencia, brindando máxima precisión gracias al sensor Pixart 3389 y efectos de iluminación 360° RGB espectaculares con un exclusivo anillo de luz. Pulsefire Surge cuenta con ajustes de DPI nativos de hasta 16.000 DPI, lo cual brinda una gran precisión que será más que satisfactoria incluso para los shooters más exigentes. Los interruptores mecánicos Omron con gran capacidad de respuesta, preparados para 50 millones de clics, te aseguran que una vez que quieres seleccionar algo, lo harás con un sólo clic. Personaliza los DPI del mouse, configura colores LED individuales, asigna macros y guárdalos directamente en tu mouse con el software HyperX NGenuity. El Pulsefire Surge también viene equipado con grandes skates, que permiten un deslizamiento suave y controlado.",
+        "precio": 55,
+        "stock": 52,
+        "marca": "Kingston",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/9311620HX-MC002B_dba01f0adc5a4a59a9b95177e33bdf42.jpg"
+    },
+    {
+        "nombre": "Mouse Logitech MX518",
+        "descripcion": "El renovado MX518 cuenta con las últimas innovaciones en tecnología de juegos, entre ellas nuestro exclusivo sensor HERO 16K. Es el más preciso de nuestros sensores para juegos, con un desempeño de próxima generación y una flamante arquitectura. Con una velocidad de captura de hasta 17.000 fotogramas por segundo, HERO supera los 400 ips en toda la gama de dpi de 100 – 16.000 dpi sin suavizado, aceleración ni filtros. HERO proporciona los niveles de precisión más altos, tanto para profesionales como para aficionados.",
+        "precio": 55,
+        "stock": 22,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/09/1140054Logitech-unveils-MX518-replacement-G400-0_7629e68891794bfabd7a0530bf436eca.jpg"
+    },
+    {
+        "nombre": "Mouse Razer Basilisk X Essential",
+        "descripcion": "PERSONALIZACIÓN PARA ADAPTARSE A TU ESTILO DE JUEGOPara disfrutar de todo tu potencial, tienes que optimizar al máximo las herramientas de las que dispones. Descubre el Razer Basilisk Essential, el ratón para juegos con opciones personalizables que te permiten lograr un mayor control para tener ventaja en la batalla. DESCUBRE MÁS CONTROLES CON LA PALANCA MULTIFUNCIÓN",
+        "precio": 55,
+        "stock": 48,
+        "marca": "Razer",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/raton_gaming_razer_basilik_essential_01_l.jpg"
+    },
+    {
+        "nombre": "Mouse Cooler Master MM711 RGB",
+        "descripcion": "El MM711 es un mouse verdaderamente innovador que hace más con mucho menos. Junto con todas las características de grado profesional que hacen que nuestros ratones para juegos sean mortales en combate, también hemos implementado un nuevo diseño de carcasa llamativo, un cable Ultraweave liviano y duradero y RGB, todo mientras mantenemos el peso total del mouse a menos de 60 g. El resultado son movimientos más rápidos, sesiones de juego más largas, fatiga mínima y menos dolor de muñeca asociado con lesiones por estrés repetitivo.",
+        "precio": 55,
+        "stock": 51,
+        "marca": "Cooler Master",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/Cooler-Master-MM711.jpg"
+    },
+    {
+        "nombre": "Mouse Logitech G603 Wireless Gaming",
+        "descripcion": "HERO es un nuevo y revolucionario sensor óptico diseñado por Logitech G para ofrecer un rendimiento excelente y una eficiencia energética hasta 10 veces superior1. Con el sensor HERO, G603 ofrece además un rendimiento excepcionalmente preciso y estable en todo el rango de dpi, sin filtros, suavizado ni redondeo de píxeles de 200 a 12.000 dpi.",
+        "precio": 60,
+        "stock": 37,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/09/3462101mouse-gamer-logitech-g603-wireless-lightspeed-fullh4rd-D_NQ_NP_746794-MLA27564950821_062018-F-1_621dddb1ef214ee8b79f16cdb3933f3c.jpg"
+    },
+    {
+        "nombre": "Mouse Razer Spectre Starcraft II",
+        "descripcion": "Idóneo para utilizarlo durante torneos y diseñado exclusivamente para StarCraft II®, el ratón para juegos Razer Spectre StarCraft II es un ratón ligero de cinco botones ideal para aquellos jugadores que prefieren la precisión y el control en los juegos de estrategia en tiempo real. La posibilidad de ajustar la fuerza del botón, combinada con los botones antideslizantes de gran tamaño, te permiten aumentar de forma significativa tu número de acciones por minuto, que estará supervisado por el novedoso Sistema de iluminación por APM (Acciones por minuto) multicolor. No importa si perteneces a los Protoss, a los Terran o a los Zerg: el ratón para juegos Razer Spectre StarCraft II te da exactamente lo que buscas en un ratón para juegos de estrategia en tiempo real.",
+        "precio": 60,
+        "stock": 22,
+        "marca": "Razer",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/5549520mo-rssc_3_93e9c9fe43504a8192c327b2d2d2a406.jpg"
+    },
+    {
+        "nombre": "Mouse Logitech G403 Prodigy",
+        "descripcion": "Con G403 Prodigy, el juego mejora y tú también. Prodigy se ha creado para ofrecer velocidad, precisión y resistencia para gaming. Con una velocidad de respuesta de 1 ms, G403 es hasta ocho veces más rápido que los ratones estándar, por eso al moverlo o hacer clic, la respuesta es casi instantánea. Juega con más acierto que nunca. G403 Prodigy está dotado del sensor para gaming más avanzado que existe, usado por profesionales de eSports en todo el mundo. Excepcionalmente preciso y estable en su rendimiento, puedes confiar en la rapidez de repuesta y la precisión de captación de objetivos que te ofrece. La construcción ligera y una pesa de 10 g extraíble te dan opciones cuando quieres adaptar el ratón a tus preferencias. Logitech G403 Prodigy Gaming Mouse se puede usar tal cual o después de configurarlo con Logitech Gaming Software de acuerdo con tus preferencias. Elige los colores que quieras en una paleta de 16,8 millones de colores y distintos niveles de brillo, a juego con tus equipos favoritos, tu estilo personal, el sistema o el entorno. Con memoria integrada, puedes llevarte tus configuraciones a todas partes. Guarda tu configuración en la memoria integrada en el ratón y usa la configuración en cualquier PC sin necesidad de software adicional ni de un inicio de sesión para poder usarla. Logitech G403 Prodigy Gaming Mouse puede usarse con la programación predefinida o configurado totalmente a gusto del usuario. Los usuarios expertos pueden configurar seis botones programables para simplificar acciones de juego y realizar complejas tareas con gran rapidez.",
+        "precio": 63.99,
+        "stock": 29,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/8895118g403-prodigy-wireless-gaming-mouse_7cd959f7c10c45dd8a6e9bb799cea55b.png"
+    },
+    {
+        "nombre": "Mouse Razer Basilisk X Hyperspeed",
+        "descripcion": "Tecnología inalámbrica Razer HyperSpeed Sensor óptico avanzado Razer ™ 5G Duración de la batería ultra larga Interruptores de ratón mecánico Razer ™ 6 botones programables",
+        "precio": 64.99,
+        "stock": 46,
+        "marca": "Razer",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/basilisk.jpg"
+    },
+    {
+        "nombre": "Mouse Logitech G502 Hero",
+        "descripcion": "Altura: 132 mm Anchura: 75 mm Profundidad: 40 mm Peso: 121 g, sólo mouse Pesos adicionales opcionales: hasta 18 g (5 x 3,6 g) Longitud de cable: 2,10 m",
+        "precio": 64.99,
+        "stock": 50,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-17.png"
+    },
+    {
+        "nombre": "Mouse Cougar Revenger",
+        "descripcion": "COUGAR Revenger te ofrece toda la funcionalidad que necesitas para jugar. Sus 6 botones le permiten acceder, con sólo el ratón, hasta 21 funciones diferentes, incluyendo macros, atajos y más. Con los botones cuidadosamente localizados, incluyendo el Botón de Disparo, usar toda esta funcionalidad extendida será natural, casi instintiva. El Sistema UIX de COUGAR le ayudará a gestionar de forma fácil e intuitiva toda esta potencia para que pueda sacar el máximo provecho de ella. Por último, el almacenamiento a bordo de Revenger le permitirá almacenar hasta 3 perfiles de configuración completos y llevarlos consigo donde quiera que vaya.",
+        "precio": 66.99,
+        "stock": 47,
+        "marca": "Cougar",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/847434604_172cd02dcb6d45bb89e3f8bf629331b7.png"
+    },
+    {
+        "nombre": "Mouse Logitech G600 20 Botones",
+        "descripcion": "20 botones personalizados para MMO La evolución de la personalización Todo preconfigurado para uso inmediato en juegos MMO. G600 incluye tres botones principales, 12 botones para el pulgar, un botón rueda pulsable e inclinable y un botón G-Alt para doblar las opciones y dominar. Use Logitech Gaming Software, opcional, para disponer de todas las opciones de programación y personalización.",
+        "precio": 69.99,
+        "stock": 30,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/8140454g600-gaming-mouse-images_a26726c7223f4945b64264f4bb3922ae.png"
+    },
+    {
+        "nombre": "Mouse Razer Deathadder Elite",
+        "descripcion": "16.000 DPI Hasta 450 IPS / 50 g de aceleración Interruptores Razer Mechanical Mouse Diseño ergonómico para los diestros con empuñaduras laterales de goma texturizadas Iluminación Razer Chroma ™ con 16,8 millones de opciones de color personalizables Razer Synapse activado 1000 Hz ultrapolling Ajuste de sensibilidad en marcha Conector USB enchapado en oro Cable de fibra de tres pies, ligero y trenzado Tamaño aproximado: 127 mm / 5 in (Longitud) x 70 mm / 2.76 (Ancho) x 44 mm / Altura (1,73 pulg) Peso aproximado: 105 g / 0.23 libras",
+        "precio": 80,
+        "stock": 66,
+        "marca": "Razer",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/5720214deathadder_631e6d7e6cd748dd81a2e85494aeedf9.png"
+    },
+    {
+        "nombre": "Mouse SteelSeries Sensei 310 Ambidiestro",
+        "descripcion": "La tecnología del sensor SteelSeries TrueMove3 ofrece seguimiento verdadero 1 a 1 para una latencia ultra baja y una precisión milimétrica.",
+        "precio": 80,
+        "stock": 36,
+        "marca": "SteelSeries",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/4554869MSESTP62432_d01447215b2c46978e36f03262dd13c0.jpg"
+    },
+    {
+        "nombre": "Mouse ZOWIE FK1",
+        "descripcion": "No importa si es diestro o zurdo, la serie FK está diseñada para su comodidad. El diseño de bajo perfil proporciona un mejor control tanto para los usuarios con garras como con agarre de palma. La serie FK viene en tres tamaños diferentes.",
+        "precio": 80,
+        "stock": 65,
+        "marca": "ZOWIE",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/228156fk1-top_f6810881cf0b4d398e3bb804a62ce70d-600x400.png"
+    },
+    {
+        "nombre": "Mouse ZOWIE FK1 White",
+        "descripcion": "No importa si es diestro o zurdo, la serie FK está diseñada para su comodidad. El diseño de bajo perfil proporciona un mejor control tanto para los usuarios con garras como con agarre de palma. Las ediciones brillantes están diseñadas para jugadores que prefieren el agarre y la sensación que brinda la superficie brillante. La serie FK viene en tres tamaños diferentes.",
+        "precio": 80,
+        "stock": 44,
+        "marca": "ZOWIE",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/9877772zowie-fk1-white-back-left45_ea2c5cd9444a43ebacdc8e67bc4475fa.png"
+    },
+    {
+        "nombre": "Mouse SteelSeries Rival 310",
+        "descripcion": "El primer sensor de deportes electrónicos 1 a 1 verdadero del mundo. Diseño exclusivo de botón de mouse de disparo dividido. Interruptores mecánicos Omron de 50 millones de clics. Diseño ergonómico para diestros con agarres laterales de silicona pura.",
+        "precio": 80,
+        "stock": 11,
+        "marca": "SteelSeries",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/3860738Sin_t_tulo_3b4f251df18a4d51b1f99919735ffe62.png"
+    },
+    {
+        "nombre": "Mouse Logitech G703 Hero Lightspeed Inalámbrico",
+        "descripcion": "HERO 16K es nuestro sensor más avanzado, con seguimiento 1:1, 400+ IPS y una sensibilidad máxima de 100-16.000 dpi. Y además, sin suavizado, aceleración ni filtros. HERO 16K posee una eficiencia energética 10 veces superior a la de la generación anterior, lo que aporta duración de la batería mejorada y reducción de peso. TECNOLOGÍA INALÁMBRICA LIGHTSPEED La tecnología inalámbrica LIGHTSPEED ofrece un desempeño, una respuesta y una conectividad de nivel profesional para juego prolongado de hasta 35 horas de juego continuo con iluminación RGB LIGHTSYNC predeterminada.",
+        "precio": 85,
+        "stock": 38,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/9174880logitech_g703_lightspeed_hero_tradlos_2_77da35554f704b6fb8161a2eb7bf1713.jpg"
+    },
+    {
+        "nombre": "Mouse Genius Gila GX",
+        "descripcion": "Gila es la próxima generación de ratones laser gaming MMO / RTS  de la serie GX  de Genius. Cómodo para usar con cualquier mano y diseñado con hasta doce botones, Gila se puede personalizar para vencer cualquier desafío del juego y mejorar el rendimiento de combate 12 botones MMO / RTS Interfaz de usuario Scorpion 200 dpi a 8200 dpi Sistema de retroiluminación RGB en tres áreas Pesos ajustables de 4.5g x 6 ",
+        "precio": 95,
+        "stock": 24,
+        "marca": "Genius",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/A014538_0_1_c04d7f5236514716a93d8eea08d1e39b.jpeg"
+    },
+    {
+        "nombre": "Mouse ZOWIE EC1-B",
+        "descripcion": "Diseño ergonómico exclusivo para usuarios diestros. Ofrece a los usuarios una sala más grande para los movimientos de la muñeca. La forma del lado derecho del mouse está bien redondeada. Permite que las puntas de los dedos del usuario sostengan / cubran el mouse para moverse suavemente. La serie EC-B con sensor 3360 viene en dos tamaños para satisfacer diferentes necesidades.",
+        "precio": 95,
+        "stock": 29,
+        "marca": "ZOWIE",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/1372660ec1-b-02_28b185709e6c4de09503ea54c9c583b6.png"
+    },
+    {
+        "nombre": "Mouse Razer Viper",
+        "descripcion": "Controle el resultado de cualquier batalla con un mouse para juegos que combina alta precisión, un cuerpo liviano de vanguardia y el mejor desempeño en juegos. Cada clic que haces actúa a la velocidad de la luz. El interruptor de mouse óptico Razer ™ utiliza un haz de luz infrarroja para registrar un clic, lo que resulta en un tiempo de respuesta líder en la industria de 0.2 milisegundos.",
+        "precio": 95,
+        "stock": 33,
+        "marca": "Razer",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/5597679viper_ef3ae4e288144be5912f4f3340f543dd.png"
+    },
+    {
+        "nombre": "Mouse ZOWIE EC1-A CS:GO",
+        "descripcion": "Diseño ergonómico exclusivo para usuarios diestros. Ofrece a los usuarios una sala más grande para movimientos de muñeca. La forma del lado derecho del mouse está bien redondeada. Permite que las puntas de los dedos del usuario sostengan / cubran el mouse para moverse suavemente. La serie EC-B con sensor 3360 viene en dos tamaños para satisfacer diferentes necesidades.",
+        "precio": 95,
+        "stock": 36,
+        "marca": "ZOWIE",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/ec1-b-csgo-02.png"
+    },
+    {
+        "nombre": "Kingston HyperX Pulsefire DART GLOBAL Wireless",
+        "descripcion": "Pulsefire Dart Ratón inalámbrico para juegos El HyperX Pulsefire Dart™ es un ratón inalámbrico para juegos con una conexión RF fiable de 2,4GHz que te hará preguntarte por qué no te deshiciste antes del cable. El adaptador inalámbrico viene incluido para ampliar el alcance si utilizas un ordenador de sobremesa. Cuenta con la certificación Qi, que permite la carga inalámbrica1 y hasta 50 horas de batería2 en una sola carga. Gracias al sensor Pixart 3389 y al diseño de botón dividido con teclas Omron fiables, tendrás toda la precisión que necesitas para acabar con la competencia.",
+        "precio": 99.99,
+        "stock": 58,
+        "marca": "Kingston",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/HyperX-Pulsefire-Dart.jpg"
+    },
+    {
+        "nombre": "Mouse Razer Mamba Elite",
+        "descripcion": "El Razer Mamba Elite es el icónico mouse para juegos que conoces y amas con la mayor cantidad de Razer Chroma de nuestra línea: unas impresionantes 20 zonas de iluminación. Con características creadas para el rendimiento en un cuerpo ergonómico, tiene una ventaja insuperable sobre la competencia.",
+        "precio": 115,
+        "stock": 48,
+        "marca": "Razer",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/4647340mamba_elite_2eafef322b8a4ef48a9643c47177653c.png"
+    },
+    {
+        "nombre": "Mouse Logitech G502 Lightspeed Wireless",
+        "descripcion": "El mouse G502 es todo un icono que ha ocupado las primeras posiciones de las listas generación tras generación. Y es el mouse que eligen quienes juegan en serio. Ahora, el mouse G502 se une a las filas de los mouse inalámbricos para juegos más avanzados del mundo con el lanzamiento de G502 LIGHTSPEED. LIGHTSPEED es una tecnología ultrarrápida y confiable con desempeño probado en competencia por profesionales de eSports. G502 LIGHTSPEED posee además el sensor de próxima generación HERO 16K y es compatible con POWERPLAY. Junto con esta novedosa tecnología avanzada, G502 LIGHTSPEED mantiene esa forma apreciada por todos y logra una reducción de peso de 7 gramos.",
+        "precio": 115,
+        "stock": 32,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/g502-inal.png"
+    },
+    {
+        "nombre": "Mouse Logitech G903 Wireless Gaming",
+        "descripcion": "SPECIFICACIONES TÉCNICAS Seguimiento Resolución: 200 – 12,000 dpi Aceleración máxima: >40 G* Aceleración máxima: >300 ips* Respuesta Formato de datos USB: 16 bits/eje Velocidad de respuesta USB: 1000 Hz (1 ms) Velocidad de respuesta inalámbrica: 1000 Hz (1 ms) Tecnología inalámbrica: 2,4 GHz personalizada Microprocesador: 32 bits ARM",
+        "precio": 124.99,
+        "stock": 22,
+        "marca": "Logitech",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/58723421_f237a572c2d24b45964c6e9d028e6861.jpg"
+    },
+    {
+        "nombre": "Mouse Razer Naga Trinity MMO",
+        "descripcion": "Experimenta la potencia del control absoluto en tu mano, independientemente del juego que elijas. Diseñado para ofrecerte la ventaja que necesitas en juegos MOBA/MMO, Razer Naga Trinity te permite configurar tu ratón completamente para lo que necesites, desde armamento hasta personalizaciones, para que siempre vayas por delante en la competición.",
+        "precio": 125,
+        "stock": 40,
+        "marca": "Razer",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/5717108161471_3b39a1e1b30641ad8ed875b40c3d2e34.jpg"
+    },
+    {
+        "nombre": "Mouse Razer Mamba Wireless",
+        "descripcion": "Duración extendida de la batería de hasta 50 horas. Sensor óptico avanzado Razer 5G con 16,000 DPI verdaderos Durable hasta 50 millones de clics Ergonomía avanzada con agarres laterales mejorados 7 botones programables",
+        "precio": 150,
+        "stock": 49,
+        "marca": "Razer",
+        "categoria": "MOUSE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/8494283mamba_w_33afa26bba2945c2ad34fa9594048c33.png"
+    },
+    {
+        "nombre": "Mouse Pad Redragon Pisces P016",
+        "descripcion": "ALMOHADILLA DE JUEGO; Tamaño grande de tela L 1330 x 260 x 3 mm ideal para juegos y uso en la oficina. IMPERMEABLE; Lavable y fácil de limpiar. El revestimiento impermeable evita daños por bebidas derramadas u otros accidentes. PRECISIÓN MMO PIXEL PERFECTA; Diseñada para mejorar el deslizamiento del mouse, la superficie de seda súper fina de alta densidad proporciona una fricción mínima y una textura de superficie ultra suave que mejora la precisión optimizada para todos los ajustes de sensibilidad y sensores. La superficie multicapa avanzada proporciona miles de puntos microscópicos que reflejan la luz para un seguimiento ultra preciso para los tipos de mouse equipados con sensor óptico o láser MATERIALES GRUESOS DE ALTA CALIDAD; La parte inferior está hecha de gomaespuma natural procesada, que se adapta a diferentes materiales de superficie y proporciona una plataforma de juego sólida, diseño de alta calidad y larga duración. DESLIZAMIENTO CERO Y ANTI-RIZADO; La base de goma antideslizante de goma ayuda a la alfombrilla de ratón Redragon Gaming a mantenerse segura en su lugar y evita que se enrosque. El diseño vibrante y elegante lo hace divertido usarlo en cualquier escritorio ",
+        "precio": 8.99,
+        "stock": 102,
+        "marca": "Redragon",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/06/D_NQ_NP_845169-MLU28509115784_102018-O.jpg"
+    },
+    {
+        "nombre": "Mouse Pad Cougar Small Speed / Control",
+        "descripcion": "Mouse Pad en goma y tela Medidas 26 x 21 cm",
+        "precio": 10,
+        "stock": 69,
+        "marca": "Cougar",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/01252525252525252525252525252525252525252525252525252525252525252525252525252525202525252525252525252525252525252525252525252525252525252525252525252525_5b0652f221204d79b9c17acc55549609.png"
+    },
+    {
+        "nombre": "Mouse Pad HyperX Fury S Tamaño S",
+        "descripcion": "El Mouse Pad Profesional para Videojuegos HyperX™ FURY tiene bordes con costura uniforme antidesgaste que ofrecen una superficie lisa para un deslizamiento controlado. El pad está fabricado de un tejido de alta densidad que brinda una superficie suave al tacto pero a su vez tiene una textura fina ideal para el uso de un mouse óptico. Dimensiones: 290mm x 240mm",
+        "precio": 10.99,
+        "stock": 80,
+        "marca": "Kingston",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/6966902hyperx-pro-medium-21-46c2fe238ba261852815348099639211-480-0_dc6f6bbe83d749449612f29634ab3947.jpg"
+    },
+    {
+        "nombre": "Mouse Pad Redragon Archelon M P101",
+        "descripcion": "Este mousepad es el acompañamiento ideal para cualquier mouse, por su calidad aseguramos un producto durable y de alto rendimiento.",
+        "precio": 11.99,
+        "stock": 36,
+        "marca": "Redragon",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/5550170P001-3-1200x1200_8d9c279bfb164071837a332f5612a27a.png"
+    },
+    {
+        "nombre": "Mouse Pad Cougar Medium Speed / Control",
+        "descripcion": "Mouse Pad en goma y tela Medidas 32 x 27 cm",
+        "precio": 13,
+        "stock": 48,
+        "marca": "Cougar",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/01252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520252525252525252525252525252525252525252525_ceb7d7cc0da341a0a1b005794fdc5a53.png"
+    },
+    {
+        "nombre": "Mouse Pad SteelSeries QCK",
+        "descripcion": "Paño exclusivo de micro-tejido QcK para un máximo control Optimizado para movimientos de seguimiento de CPI bajo y alto Duradero y lavable para facilitar la limpieza La mejor elección de profesionales de los deportes desde hace más de 15 años. 320 mm x 270 mm x 2 mm",
+        "precio": 13.99,
+        "stock": 56,
+        "marca": "SteelSeries",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/1973626Sin_t_tulo_64d107083aaf46c4a2d2fcae0cb59318.png"
+    },
+    {
+        "nombre": "Mouse Pad Redragon Archelon L",
+        "descripcion": "Este mousepad es el acompañamiento ideal para cualquier mouse, por su calidad aseguramos un producto durable y de alto rendimiento.",
+        "precio": 14.99,
+        "stock": 69,
+        "marca": "Redragon",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/8459982P002-7_b9b27166b7664ea49d53f16e52ef8c84.png"
+    },
+    {
+        "nombre": "Mouse Pad Redragon Kunlun M",
+        "descripcion": "Tamaño: 700 x 350 mm – Grosor: 3 mm – Tipo Deslizamiento: Speed, optimizado para todos los sensores – Construcción: Tela entrelazada fibras de seda que garantiza máximo deslizamiento, fondo de caucho, antideslizante y adaptable a cualquier superficie. – Generalidades: Resistente al agua y fácil de limpiar. Los bordes son cosidos, con doble puntada, para evitar deshilvanado.",
+        "precio": 18,
+        "stock": 88,
+        "marca": "Redragon",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/03/7978088Sin_t_tulo_e820ace7aa954e6e92fb1268bd471e5d.png"
+    },
+    {
+        "nombre": "Mouse Pad Razer Goliathus Control Fissure Edition",
+        "descripcion": "ESPECIFICACIONES TÉCNICAS Tejido muy texturizado para un control preciso del ratón Orientación y seguimiento de píxeles precisos Optimizado para todas las sensibilidades y sensores del ratón. Diseño basado en tela altamente portátil Marco cosido anti-desgaste Base de goma antideslizante Disponible en cuatro tamaños diferentes: pequeño, mediano, grande, extendido",
+        "precio": 14.99,
+        "stock": 130,
+        "marca": "Razer",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/6384898320153050065499_625015_fc4d9698561d451180e60ea509495218-600x392_9826f8c4fe2d4722bf5f5cc19f38c01d.png"
+    },
+    {
+        "nombre": "Mouse Pad Razer Sphex V2",
+        "descripcion": "Superficie ultra fina de 0.5 mm / 0.02 Excelente calidad de rastreo para ratones láser y ópticos Acabado de policarbonato de alta resistencia Tamaño aproximado: 355 mm / 14 (longitud) x 254 mm / 10 (ancho) x 0.5 mm / 0.02 (altura) Peso aproximado: 51 g / 0.11 lb",
+        "precio": 19,
+        "stock": 92,
+        "marca": "Razer",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/1168890196ec2ce3c9bb585839c58acafa72b2a-4_d5e89928733749d48e287dae8a0e5569.png"
+    },
+    {
+        "nombre": "Mouse Pad CoolerMaster Soft L",
+        "descripcion": "DIMENSIONES (L X W X H): 450 x 350 x 3 mm (Tamaño L) COLOR Negro MATERIAL Caucho, tela Cordura®",
+        "precio": 20,
+        "stock": 60,
+        "marca": "Cooler Master",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/06/1.png"
+    },
+    {
+        "nombre": "Mouse Pad Cougar Arena",
+        "descripcion": "El diseño único de COUGAR Arena es el campo de batalla ideal para tus juegos. Su amplia área te permitirá moverte libremente, mientras que su superficie de juego te garantiza un deslizamiento suave y el nivel de precisión adecuado para evitar quedar rezagado en las batallas online más feroces. El espesor de 5 mm de COUGAR Arena proporciona el nivel adecuado de soporte y comodidad para largos períodos de juego. Lo suficientemente gruesa para proporcionar una superficie estable independientemente de lo que se encuentra detrás de ella, y lo suficientemente delgada como para evitar la sensación de jugar en una plataforma. Tamaño: 800mm x 300mm",
+        "precio": 22.50,
+        "stock": 47,
+        "marca": "Cougar",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/02/8823776product-image__1__3c917b66caaa44549d60f44ce8928cf0.png"
+    },
+    {
+        "nombre": "Mouse Pad Razer Goliathus Control Gravity Edition",
+        "descripcion": "ESPECIFICACIONES TÉCNICAS Tejido muy texturizado para un control preciso del ratón Orientación y seguimiento de píxeles precisos Optimizado para todas las sensibilidades y sensores del ratón. Diseño basado en tela altamente portátil Marco cosido anti-desgaste Base de goma antideslizante Disponible en cuatro tamaños diferentes: pequeño, mediano, grande, extendido",
+        "precio": 25,
+        "stock": 32,
+        "marca": "Razer",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/6261014gravity-m-04_d7e89163843244f7a55b3da16705228a.png"
+    },
+    {
+        "nombre": "Mouse Pad Logitech G440",
+        "descripcion": "G440 tiene una superficie de baja fricción de polímero rígido que mejora el control del ratón y la ubicación precisa del cursor, ideal para juegos con valores altos de dpi. La textura de superficie uniforme puede mejorar el rendimiento del sensor, en especial cuando se usa con los sensores para juegos Logitech G. Además, la base de goma y el núcleo de polímero rígido ayudan a mantener la estabilidad.",
+        "precio": 27,
+        "stock": 71,
+        "marca": "Logitech",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/g440-hard-gaming-mouse-pad_0b7c6020ce3d450ca07b47b155b497d0.png"
+    },
+    {
+        "nombre": "Mouse Pad ZOWIE P-SR",
+        "descripcion": "Size 345 x 305 mm ± 10 mm / 13.5 x 12 inches ±0.4 inch Thickness 3.5 mm",
+        "precio": 29,
+        "stock": 36,
+        "marca": "ZOWIE",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/2246293g-sr-top45_814560cc580d47179ce174fa17bfab3f-768x512-1.png"
+    },
+    {
+        "nombre": "Mouse Pad Genius GX-P500",
+        "descripcion": "Optimizado para precisión y velocidad: Con una superficie de micro-textura dura y de baja fricción, la alfombrilla del mouse garantiza una acción precisa y una velocidad sin esfuerzo durante la batalla. La base antideslizante te asegura una base sólida y estable y un movimiento preciso. Los modos de iluminación y colores múltiples presentan un efecto único qque podrás cambiar con un dedo. Dimensiones 255.1 x 355 x 12.2 mm",
+        "precio": 30,
+        "stock": 65,
+        "marca": "Genius",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/12/8970652s1_pr_0421b5d4e5334fbcaa6abc7bea5a04f4.png"
+    },
+    {
+        "nombre": "Mouse Pad Logitech G640",
+        "descripcion": "Disfruta de escritura en smartphones y tablets tan cómoda y práctica como en el escritorio con este teclado portátil. G640 tiene una superficie de baja fricción de polímero rígido que mejora el control del ratón y la ubicación precisa del cursor, ideal para juegos con valores altos de dpi. La textura de superficie uniforme puede mejorar el rendimiento del sensor, en especial cuando se usa con los sensores para juegos Logitech G. Además, la base de goma y el núcleo de polímero rígido ayudan a mantener la estabilidad.",
+        "precio": 31.99,
+        "stock": 48,
+        "marca": "Logitech",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/1165444123456_057fcb5646a043b6b7451954c811a1f4.png"
+    },
+    {
+        "nombre": "Mouse Pad HyperX Fury S XL",
+        "descripcion": "El Mouse Pad Profesional para Videojuegos HyperX™ FURY tiene bordes con costura uniforme antidesgaste que ofrecen una superficie lisa para un deslizamiento controlado. El pad está fabricado de un tejido de alta densidad que brinda una superficie suave al tacto pero a su vez tiene una textura fina ideal para el uso de un mouse óptico. Dimensiones: 900mm x 420mm",
+        "precio": 31.99,
+        "stock": 79,
+        "marca": "Kingston",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/03/9223103123456_4086e66b565c466591492ab260f2abe3.jpg"
+    },
+    {
+        "nombre": "Mouse Pad Razer Goliathus Fissure Edition Extended",
+        "descripcion": "ESPECIFICACIONES TÉCNICAS Tejido muy texturizado para un control preciso del ratón Orientación y seguimiento de píxeles precisos Optimizado para todas las sensibilidades y sensores del ratón. Diseño basado en tela altamente portátil Marco cosido anti-desgaste Base de goma antideslizante Disponible en cuatro tamaños diferentes: pequeño, mediano, grande, extendido",
+        "precio": 39,
+        "stock": 85,
+        "marca": "Razer",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/926518381kGsNqNdPL._SL1500__6949d022f0b64ceaae9c07eb8a1f0463.jpg"
+    },
+    {
+        "nombre": "Mouse Pad Razer Goliathus Speed Cosmic Edition Extended",
+        "descripcion": "ESPECIFICACIONES TÉCNICAS Tejido liso y tenso para movimientos rápidos del ratón Orientación y seguimiento de píxeles precisos Optimizado para todas las sensibilidades y sensores del ratón. Diseño basado en tela altamente portátil Marco cosido anti-desgaste Base de goma antideslizante Disponible en cuatro tamaños diferentes: pequeño, mediano, grande, extendido",
+        "precio": 39,
+        "stock": 37,
+        "marca": "Razer",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/38478291483991088030-33369185_0210096639_c4b1081bffe3476ab7cc9d0e4dc43c94.jpg"
+    },
+    {
+        "nombre": "Mouse Pad ZOWIE G-TFX",
+        "descripcion": "Size 470 x 390 mm ± 10 mm/ 18.5 x 15.3 inches ± 0.4 inch Thickness 3.5 mm",
+        "precio": 44.99,
+        "stock": 69,
+        "marca": "ZOWIE",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/2246293g-sr-top45_814560cc580d47179ce174fa17bfab3f-768x512-1.png"
+    },
+    {
+        "nombre": "Mouse Pad SteelSeries QCK Heavy",
+        "descripcion": "Base de goma antideslizante extra gruesa que elimina movimientos no deseados Paño exclusivo de micro-tejido QcK para un máximo control Optimizado para movimientos de seguimiento de CPI bajo y alto Duradero y lavable para facilitar la limpieza 320 mm x 270 mm x 6 mm",
+        "precio": 49,
+        "stock": 55,
+        "marca": "SteelSeries",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/3734144Qck-Heavy-f4_815328da7a4c4c88a71e870a68edda44.jpg"
+    },
+    {
+        "nombre": "Mouse Pad SteelSeries QCK Prism Medium RGB",
+        "descripcion": "Descripción Superficies duales incluidas. Iluminación RGB de 360 ??° Zonas de iluminación independientes. Iluminación reactiva con software estándar. Colocación intuitiva de cable.",
+        "precio": 44.99,
+        "stock": 56,
+        "marca": "SteelSeries",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/4824255Sin_t_tulo_d4b02a4c19254abbbd4219c6f4bb4172.png"
+    },
+    {
+        "nombre": "Mouse Pad Razer Firefly Hard Edition",
+        "descripcion": "Acabado microtexturizado para un juego equilibrado Revestimiento optimizado de la superficie para un seguimiento de máxima respuesta Iluminación personalizable Chroma Sincronización de colores entre dispositivos Base de caucho antideslizante Con habilitación Razer Synapse (para la iluminación personalizable Chroma) Conector USB chapado en oro (para alimentar la iluminación Chroma personalizable) Cable de fibra trenzada, de peso ligero y 2,13 m de longitud Tamaño aproximado: 355 mm / 13,98” (longitud) x 255 mm / 10,04” (anchura) x 4 mm / 0,16” (altura) Peso aproximado: 380 g / 0,84 lb",
+        "precio": 55,
+        "stock": 44,
+        "marca": "Razer",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/10/349251411_64adbce26f24481eb48d184a67bb5bac.png"
+    },
+    {
+        "nombre": "Mouse Pad SteelSeries QCK Prism XL RGB",
+        "descripcion": "Superficies duales incluidas. Iluminación RGB de 360 ??° Zonas de iluminación independientes. Iluminación reactiva con software estándar. Colocación intuitiva de cable. Medidas: 900 x 300 mm",
+        "precio": 74.99,
+        "stock": 66,
+        "marca": "SteelSeries",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/5458017Sin_t_tulo_33af6a089ba045e0b8b6d8d9b84c7c5a.png"
+    },
+    {
+        "nombre": "Mouse Pad HyperX Ultra RGB",
+        "descripcion": "Dale fuerza a tu estilo con el brillante mouse pad HyperX FURY Ultra RGB. Tiene 360° de efectos de iluminación suaves y llamativos, que puedes personalizar para complementar el estilo de tu sistema con el software de HyperX NGENUITY. Este mouse pad de superficie rígida cuenta con una superficie de baja fricción y micro texturizada sin bordes elevados, para obtener un movimiento del mouse rápido y fluido. El agarre antideslizante en la parte inferior del FURY Ultra ayuda a que se mantenga en su lugar, con lo cual no tendrás que sacrificar rendimiento para tener un estilo impresionante.",
+        "precio": 74.99,
+        "stock": 52,
+        "marca": "Kingston",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/kingston-hyperx-fury-ultra-gaming-mouse-pad-hx-mpfu-m-cgionline-1912-20-F1892220_6.jpeg"
+    },
+    {
+        "nombre": "Mouse Pad Razer Goliathus Extended Chroma Gaming – NASA",
+        "descripcion": "Nuestro mousepad más vendido ahora cuenta con la tecnología de Razer Chroma ™, lista para iluminar cada victoria en un impresionante espectro de colores. Mira cómo se ilumina tu juego con un brillo intenso mientras recorres el Razer Goliathus Chroma con velocidad y precisión.",
+        "precio": 80,
+        "stock": 21,
+        "marca": "Razer",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/80934291842751-n3_9e288d621a4e41a0a83f12b46fb8a72c.jpg"
+    },
+    {
+        "nombre": "Mouse Pad Razer Goliathus Extended Chroma Gaming – QUARTZ",
+        "descripcion": "Nuestro mousepad más vendido ahora cuenta con la tecnología de Razer Chroma ™, lista para iluminar cada victoria en un impresionante espectro de colores. Mira cómo se ilumina tu juego con un brillo intenso mientras recorres el Razer Goliathus Chroma con velocidad y precisión.",
+        "precio": 80,
+        "stock": 54,
+        "marca": "Razer",
+        "categoria": "MOUSEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/08/347701rz02-02500316_5be0cd58e53d4d35a6e7d0be8f91784b.jpg"
+    },
+    {
+        "nombre": "Auricular Genius M320",
+        "descripcion": "Disfruta cada llamada – Habla y escucha con claridad Ajuste y comodidad – Múltiples almohadillas de oreja para elegir",
+        "precio": 6,
+        "stock": 140,
+        "marca": "Genius",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/AURICULAR-GENIUS-IN-EAR-HS-M320-MOVILE.jpg"
+    },
+    {
+        "nombre": "Auricular Cliptec Mh484 Neckband",
+        "descripcion": "El diseño del collarín con almohadillas de colchón blando que sigue siendo cómodo durante el uso prolongado. sistema de banda para el cuello ligero y cómodo que se mantiene en su lugar, incluso durante el ejercicio y fácil para viajar. De tamaño mediano con una potencia de 30 mm orador dinámico conductor con imán de neodimio que proporciona sonido estéreo claro y verdadero. Auriculares estéreo + diseño ideal sesiones de juegos en línea, escuchar música, aplicaciones de telefonía como Skype chat. Apoyo a todas las plataformas, con salida de 3,5 mm, como la computadora, tableta, MP3, MP4, iPod, iPhone o incluso teléfonos móviles.",
+        "precio": 7.50,
+        "stock": 32,
+        "marca": "Cliptec",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/Cliptec2525252525252BMh484_5d70e16f0db5458da8e9497cb57c6b53.png"
+    },
+    {
+        "nombre": "Auricular Logitech H110",
+        "descripcion": "Sensibilidad: -58 dBV/µbar, -38 dBV/Pa +/- 4 dB Respuesta de frecuencia: Casco telefónico: 20 Hz – 20.000 Hz Micrófono: 100 Hz -16.000 Hz Cable blindado de 1,8 m Cable blindado de 1,8 m: Conectores de 3,5 mm identificados por colores Conectores de 3,5 mm identificados por colores:",
+        "precio": 11.99,
+        "stock": 67,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/10/284271511_2ddb4a270f144707a4d5dec2851b80b9.png"
+    },
+    {
+        "nombre": "Auricular Cliptec 835 Urban c/Micrófono",
+        "descripcion": "Cliptec BMH835 auricular multimedia Stereo, ofrece un sonido potente para una experiencia auditiva excepcional. El micrófono en línea entrega conversaciones nítidas durante las llamadas, botón de un solo toque integrado, permite llamadas, música y control de reproducción optimizado para una amplia gama de teléfonos inteligentes y tabletas.",
+        "precio": 15,
+        "stock": 55,
+        "marca": "Cliptec",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/Cliptec2525252525252B8352525252525252BUrban_aa92ebf8e1c4422b94ad4cef6d1c2d8d.png"
+    },
+    {
+        "nombre": "Auricular Cliptec 668 Poison P8",
+        "descripcion": "CLiPtec Poison P8 le permite disfrutar de la comodidad y la calidad de un auricular de juegos de alta calidad. Con un sonido increíble en la mejor relación calidad precio. Incluye tecnología de la cancelación del ruido del micrófono de SoundSmart. Control de volumen OFC de audio con control de volumen elegante que podría ser conectado. Extremadamente liviano, ideal para largas sesiones de juego.?",
+        "precio": 21,
+        "stock": 24,
+        "marca": "Cliptec",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/Cliptec252525252525252525252B668252525252525252525252BPoison252525252525252525252BP8_be5d5bb1bbd34d8d9288ff2014412658.png"
+    },
+    {
+        "nombre": "Auricular SteelSeries Flux",
+        "descripcion": "SteelSeries Flux son auriculares delgados y de calidad superior diseñados para jugar, escuchar música y disfrutar otros entretenimientos portátiles. Audio perfecto con un diseño de ingeniería inmejorable: Unidades de 40mm con almohadillas cubiertas SNDBlock que ofrecen un sonido de primera. Diseño óptimo para viajar que permite plegar los auriculares. Comparte tu sonido, deja que un amigo se conecte al extra purto de audio.",
+        "precio": 25,
+        "stock": 33,
+        "marca": "SteelSeries",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/6971867Sin_t_tulo1_251e29979b4348cd8639141fc666fad5.png"
+    },
+    {
+        "nombre": "Auricular Genius HS-G560",
+        "descripcion": "HS-G560 Audio real durante el juego Conductores potentes y sonido vivo – Gracias a la poderosa unidad de sonido de 40 mm, los auriculares le permiten determinar con precisión la posición de sus enemigos. Confort para largas sesiones de juego – El diseño de material suave le ofrece una experiencia de audio cómoda. Comunicación entre los integrados del equipo sin inconvenientes – La tecnología de reducción de ruido asegura una comunicación clara con sus compañeros de equipo. Liviano como una pluma – Con sólo 257g, el auricular ofrece una cómoda experiencia de uso, incluso durante largas horas",
+        "precio": 25,
+        "stock": 11,
+        "marca": "Genius",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/auricular-genius-gx-hs-g560-con-microfono-headset-gamer-D_NQ_NP_862799-MLA31033294460_062019-F.jpg"
+    },
+    {
+        "nombre": "Auricular Redragon Memecoleous h112 3.5 USB",
+        "descripcion": "Adecuados tanto para niños como para adultos. Las almohadillas de los auriculares están hechos de espuma con memoria y se adhieren bien a los oídos, lo que da comodidad de uso durante largos periodos de juego y bloqueo el ruido ambiente, dando a los jugadores la concentración completa que necesitan. El Redragon Memecoleous ofrece un increíble nivel de sonido a gamers gracias a su sonido diseñado a medida. Su estilo de diseño único y su espectro de frecuencia combinados entregan una precisión impresionante. El Memecoleous está concebido para ser confortable luego de varias horas de uso.",
+        "precio": 35,
+        "stock": 44,
+        "marca": "Redragon",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/6433963H112-1-1200x1200_809186506ce946c1902a96bdfcb36e59.png"
+    },
+    {
+        "nombre": "Auricular Cooler Master CH321",
+        "descripcion": "El CH321 combina comodidad y durabilidad en un controlador diario diseñado para PC y consolas por igual. La banda para la cabeza con suspensión y las almohadillas acolchadas brindan comodidad ligera y aislamiento de sonido de primera calidad, mientras que los controladores de alta fidelidad ofrecen un nivel de audio superior y el cable de PVC evita dobleces y torceduras. Agregue a eso un estilo discreto y un logotipo RGB, y tiene un auricular que se ve tan bien como funciona.",
+        "precio": 39,
+        "stock": 45,
+        "marca": "Cooler Master",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/Cooler-Master-CH321.jpg"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud Stinger Core XBOX Licensed",
+        "descripcion": "Los HyperX CloudX Stinger Core™ son los audífonos básicos perfectos para el gamer de Xbox, que busca gran calidad de sonido a un precio accesible. Estos audífonos con licencia oficial Xbox cuentan con todos los aspectos básicos que desean los gamers para su Xbox One: gran calidad de sonido, comodidad y confiabilidad. CloudX cuenta con controles de audio en el cable, para que no tengas que navegar a través de los menúes del sistema para ajustar el volumen o silenciar el micrófono. Su deslizador de metal ajustable y las almohadillas brindan gran comodidad para esas largas noches de juego, y el micrófono flexible y giratorio te permite posicionar el micrófono en el lugar en que lo desees. Mantente inmerso en el juego gracias al diseño de orejera cerrada y a los altavoces direccionales de 40mm que cuentan con graves sintonizados para juego en consolas. Con garantía de 2 años y soporte técnico gratuito, los CloudX Stinger Core están diseñados para brindarte el máximo placer auditivo a largo plazo.",
+        "precio": 39.99,
+        "stock": 21,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/1179354auriculares-hyperx-cloudx-stinger-core-xbox-one-nnet-D_NQ_NP_796521-MLU40246343831_122019-F_2f81f884de2d4681895f73d61e636abe.jpg"
+    },
+    {
+        "nombre": "Auricular MSI DS501 GAMING HEADSET",
+        "descripcion": "Auricular MSI",
+        "precio": 44.99,
+        "stock": 66,
+        "marca": "MSI",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/07/five_pictures1_3427_20150428104757553ef4dd765ba_fc08d845655e4a828c30bac303c4acea.png"
+    },
+    {
+        "nombre": "Auricular Genius HS-935BT",
+        "descripcion": "Tecnología Bluetooth 4.0 con un alcance de 30m. Disfrute de su música sin cables La batería de iones de litio de 450 mAh le permite reproducir música por hasta 15 horas o más. Al detener la reproducción, el HS-935BT entra en modo de espera automáticamente, y se activa al instante cuando la reproducción comienza de nuevo. Vincha ajustable que se adapta mejor que nunca. Pulse brevemente el botón para contestar y cortar llamadas.",
+        "precio": 44.90,
+        "stock": 23,
+        "marca": "Genius",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/auriculares-inalambricos-bluetooth-genius-hs-935bt-D_NQ_NP_615844-MLA31946568252_082019-F.jpg"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud Stinger Core",
+        "descripcion": "Los HyperX Cloud Stinger Core™ son los audífonos básicos perfectos para el gamer de consola que busca gran calidad de sonido a un precio imbatible. Compatibilidad multiconsola y controles de audio en el cable. Su deslizador de metal ajustable y las suaves almohadillas brindan gran comodidad, y el micrófono flexible y giratorio te permite ubicarlo en el lugar que desees. El diseño de orejera cerrada del Cloud Stinger Core y sus altavoces direccionales de 40mm te permiten mantenerte inmerso en tu juego",
+        "precio": 49,
+        "stock": 63,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/1254955hx-product-headset-stinger-core-2-zm-lg_529b42c5fee648e8917472abde6fc2a1.jpg"
+    },
+    {
+        "nombre": "Auricular Razer Kraken X Lite 7.1",
+        "descripcion": "Los auriculares están equipados con un software de sonido envolvente 7.1 para que disfrutes de un audio posicional preciso mientras juegas. Podrás elegir la dirección por la que suena la acción y así estarás listo para un tiroteo inminente. Gracias a los controladores optimizados de 40 mm, Razer Kraken X emite un sonido claro y equilibrado, tanto para las enormes explosiones en combate abierto como para las sigilosas pisadas de operaciones secretas. ",
+        "precio": 49,
+        "stock": 44,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/560033155375236342891_sd_05c2152c12e94f9886924bc8f6733c96-409x600_6ac52b0befaf49a5a2d10670b7416c6a.jpg"
+    },
+    {
+        "nombre": "Auricular Logitech G332",
+        "descripcion": "Los audífonos Logitech G332 para juegos producen un gran sonido que permite sumergirse en el juego. Vive la intensidad de una experiencia de juego completa donde lo oyes todo y te oyen todos. PRECISIÓN Y DETALLE DE AUDIO MICRÓFONO VOLTEABLE PARA SILENCIAR DE 6 mm COMPATIBLES CON PC, CONSOLA Y DISPOSITIVOS MÓVILES",
+        "precio": 55,
+        "stock": 21,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/7993170auricular-logitech-g332-gaming-headset-microfono-mexx-D_NQ_NP_741727-MLA29688293667_032019-F_c1f6bac3e82f4da590bf2abaac874499.jpg"
+    },
+    {
+        "nombre": "Auricular Logitech G332 SE",
+        "descripcion": "Transductores de 50 mm – los transductores de audio grandes ofrecen un sonido expansivo para una experiencia increíble e inmersiva Micrófono de 6.mm volteable para silenciar, con control de volumen – con el gran micrófono de varilla tus compañeros de gaming te oirán alto y claro Compatibilidad multiplataforma – usa este par de auriculares para todas las plataformas de juego: funcionan con pc o mac, con consolas de videojuegos incluidas playstation 4, xbox one y nintendo switch, y con dispositivos móviles a través de cable con conector de 3,5.mm Pensados para largas sesiones de juego – todo en estos auriculares es comodidad: las ligeras copas y la diadema de piel sintética de lujo se han creado para eliminar la presión en las orejas; las copas giran hasta 90 grados para mayor comodidad",
+        "precio": 55,
+        "stock": 27,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/4284219332_1b1cb1f6eaa14509b51d5795d03fbde8.png"
+    },
+    {
+        "nombre": "Auricular Razer Kraken X para Consola",
+        "descripcion": "Ultraligero a 250 g Micrófono cardioide flexible Controladores personalizados de 40 mm Controles en el auricular Compatibilidad multiplataforma",
+        "precio": 59,
+        "stock": 35,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/Sin-t%C3%ADtulo-4.png"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud Stinger",
+        "descripcion": "Los auriculares HyperX Cloud Stinger™ son ideales para jugadores que buscan una comodidad ligera, una calidad de sonido excepcional y la mayor ventaja. Con un peso de solo 275 gramos, son cómodos para el cuello y sus almohadillas giran en un ángulo de 90 grados para un mejor ajuste. Sus controladores direccionales de 50 mm?? posicionan el sonido directamente hacia el oído para una precisión de audio y una calidad del sonido al nivel del juego más exigente.",
+        "precio": 61.99,
+        "stock": 65,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/1616953Stinger_d0b8de96c1ed4616be1f3ede6aca13b8.png"
+    },
+    {
+        "nombre": "Auricular Cougar Phontum Essential Ivory",
+        "descripcion": "Excelente audio estéreo El controlador de 40 mm de Phontum Essential le brindará todos los detalles de audio que necesita para disfrutar de sus juegos y se asegurará de no perderse ningún matiz o señal en el juego.",
+        "precio": 64,
+        "stock": 11,
+        "marca": "Cougar",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/auriculares-gamer-cougar-phontum-essential-ivory-diginet-D_NQ_NP_818796-MLU40414866741_012020-F.jpg"
+    },
+    {
+        "nombre": "Auricular Razer Electra USB 7.1",
+        "descripcion": "SUMÉRGETE EN EL SONIDO Los Razer Electra V2 USB te dan una posición auditiva incrementada para que sepas exactamente desde dónde ataca tu enemigo. Gracias a su avanzado software de sonido envolvente virtual 7.1 a través de Razer Synapse, también puedes calibrar los auriculares según tus preferencias de audio. PARA UN CONFORT SIN PROBLEMAS Con esta banda de sujeción autoajustable, los Razer Electra V2 USB están diseñados para ajustarse perfectamente a tu cabeza y ser muy cómodos para largas sesiones de juego. Los auriculares están hechos con la misma estructura de aluminio de una sola pieza usada en modelos tan populares como las gamas Tiamat y Thresher, ligeros y con una resistencia duradera.",
+        "precio": 68.99,
+        "stock": 54,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/55455557678281444860_a84f4a34f77340818f35baa74b90eb25-600x600_2cad386a2a0a4e97b807d8969b040fbe.jpg"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud Core",
+        "descripcion": "Micrófono desmontable con cancelación de ruido Transductores de neodimio de 53 mm Orejeras de memory foam Compatible con PC, PS4, XBox One, Nintendo Switch, Celulares",
+        "precio": 68.99,
+        "stock": 32,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/4712598Sin_t_tulo_2ce13a023ed548d1b90d70c14238ad88.png"
+    },
+    {
+        "nombre": "Auricular Razer Kraken X USB",
+        "descripcion": "Experimenta una inmersión completa en el juego sin sentir el peso; te presentamos los Razer Kraken X USB, unos auriculares para juegos de PC que te permiten jugar sin interrupciones. Gracias a su diseño cómodo y ligero y a su audio de calidad superior, no querrás que tus maratones de juego terminen nunca.",
+        "precio": 68.99,
+        "stock": 87,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/LD0005529498_2.jpg"
+    },
+    {
+        "nombre": "Auricular Logitech G233 Prodigy",
+        "descripcion": "ESPECIFICACIONES FÍSICAS Altura: 172 mm Anchura: 81,7 mm Profundidad: 182 mm Peso (sin cable): 259 g Longitud de cable para PC: 2 m Longitud de cable móvil: 1,5 m ESPECIFICACIONES TÉCNICAS: Auriculares: Transductor: 40 mm Respuesta de frecuencia: 20 Hz-20 kHz Impedancia: 32 Ohms Sensibilidad: 107 dB a 1 KHz SPL 30 mW/1 cm Longitud de cable: 2 m Micrófono: Patrón de captación de micrófono: Cardioide (unidireccional) Tipo: Condensador de electreto posterior Tamaño: 4 mm Respuesta de frecuencia: 100 Hz – 10 kHz",
+        "precio": 74.99,
+        "stock": 28,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/12/73984831_aa806fdca55d435684750e49af47b11d.png"
+    },
+    {
+        "nombre": "Auricular Razer Kraken X 7.1",
+        "descripcion": "Los auriculares están equipados con un software de sonido envolvente 7.1 para que disfrutes de un audio posicional preciso mientras juegas. Podrás elegir la dirección por la que suena la acción y así estarás listo para un tiroteo inminente. Gracias a los controladores optimizados de 40 mm, Razer Kraken X emite un sonido claro y equilibrado, tanto para las enormes explosiones en combate abierto como para las sigilosas pisadas de operaciones secretas. ",
+        "precio": 74.99,
+        "stock": 32,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/08/55375236342891_sd_05c2152c12e94f9886924bc8f6733c96-scaled.jpg"
+    },
+    {
+        "nombre": "Auricular Cougar Phontum",
+        "descripcion": "PHONTUM ha sido creado para aquellos que desean disfrutar de un excelente audio en largas sesiones de juego. Su avanzada tecnología de audio le proporcionará una calidad de sonido de primer nivel, mientras que sus dos juegos de almohadillas maximizarán su comodidad en cada ocasión.",
+        "precio": 75.99,
+        "stock": 39,
+        "marca": "Cougar",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/07/478300005_bb8343b871df4371ba90c80403bed994.png"
+    },
+    {
+        "nombre": "Auricular MSI DS502 7.1 GAMING HEADSET",
+        "descripcion": "Auricular MSI",
+        "precio": 79,
+        "stock": 22,
+        "marca": "MSI",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/07/five_pictures6_3428_20150527115723556540a3d6289_c547556403fe4484b9ed55aac17b268b.png"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud Silver",
+        "descripcion": "La versátil gama de auriculares Cloud está diseñada para adaptarse a las necesidades de juego de todo el mundo, sin importar el sistema, el estilo de juego o el estilo personal. Si estás buscando unos auriculares con sonido envolvente 7.1 para tu PC, o una configuración estéreo a medida para satisfacer las demandas de tu consola, hay un Cloud para ti. Cada modelo Cloud está diseñado para mantenerte a la vanguardia del juego durante más tiempo, por lo que se ofrece una comodidad galardonada a través de la espuma viscoelástica exclusiva de HyperX™. Los drivers de 53 mm ofrecen sonido preciso y nítido, y los cascos cerrados bloquean el ruido exterior para sumergirte totalmente en el juego. Haciendo gala de una carcasa de aluminio duradero, todos los auriculares de la línea Cloud se diseñan para resistir los rigores del juego diario. El micrófono con cancelación de ruido desmontable de Cloud garantiza que tu voz siempre se escuchará alta y clara.",
+        "precio": 86,
+        "stock": 4,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/7603562cloud_silver_e744ebe5b2cc4b7e9acbf0ab498d491b.png"
+    },
+    {
+        "nombre": "Auricular Logitech G432 7.1",
+        "descripcion": "Con los auriculares G432 para gaming, estarás rodeado por el entorno del juego. Siente la emoción de estar totalmente inmerso en la acción y de que siempre te oigan para una experiencia de gaming completa. TRANSDUCTORES DE 50 mmGRAN SONIDO, PEQUEÑOS DETALLES DTS HEADPHONE:X 2.0SONIDO ENVOLVENTE DE PRÓXIMA GENERACIÓN MICRÓFONO DE 6 mmASEGÚRATE DE QUE TE RECIBEN ALTO Y CLARO",
+        "precio": 91.99,
+        "stock": 19,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/09/114514961j6ey6mBpL._SL1024__5fbf3356c58d42d88af4662bf9edcba9.jpg"
+    },
+    {
+        "nombre": "Auricular Genius GX Zabius c/Micrófono",
+        "descripcion": "GX Genius Zabius HS-G850 con Micrófono. Auriculares universales para PC, Mac, Xbox 360, PS3 y otros dispositivos de audio, con unidades de neodimio de 40mm para un excelente sonido.",
+        "precio": 95,
+        "stock": 21,
+        "marca": "Genius",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/photo_2544_53e3c96f9815d_54827b61683c40ab91f8ff94828012fe.jpg"
+    },
+    {
+        "nombre": "Auricular SteelSeries Artic 3 2019 Edition",
+        "descripcion": "Diseñado para todos los juegos, con un sonido, una comodidad y un estilo superiores en todas las plataformas de juego, incluyendo PC, PlayStation, Xbox One, Nintendo Switch, VR y dispositivos móviles a través de cables desmontables de 3,5 mm. Sonido envolvente a través de Windows-Sonic surround compatible en PC y Xbox ONE",
+        "precio": 99.99,
+        "stock": 32,
+        "marca": "SteelSeries",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/703721881FpaX4SvWL._SX425__50ec316895fd469d821e6255f7dc1278.jpg"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud Stinger Wireless",
+        "descripcion": "Los auriculares inalámbricos para juegos HyperX Cloud Stinger ™ utilizan una conexión inalámbrica sólida de 2,4 GHz para juegos para proporcionar libertad frente a los cables. Simplemente conecte el pequeño adaptador a un puerto USB disponible y estará listo para comenzar. Con la comodidad característica de HyperX y una batería de larga duración (hasta 17 horas con una sola carga 1)) este auricular inalámbrico tiene lo que necesitas para seguir jugando durante la noche. Si necesita apartarse por un momento, los auriculares giran 90 grados, para que pueda descansar los auriculares cómodamente alrededor de su cuello. El diseño de copa cerrada y los controladores de 50 mm con graves mejorados emiten un audio nítido y claro para mantenerlo involucrado en sus intensas peleas de equipo o inmerso en el drama digital que se desarrolla en esa escena clave. Incluye varias comodidades amigables para los jugadores, como los controles de volumen de la copa en la oreja para darle acceso directo al volumen de los auriculares y un micrófono giratorio para silenciarlo para silenciarse rápidamente.",
+        "precio": 107.49,
+        "stock": 36,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/KINGSTON_TECHNOLOGY_HX-HSCSW2-BK_WW.jpg"
+    },
+    {
+        "nombre": "Auricular Razer Kraken Negro",
+        "descripcion": "CON UN PERFECTO EQUILIBRIO DE PESO, FUNCIONALIDAD Y RENDIMIENTO, RAZER KRAKEN ES, SIN DUDA, EL AURICULAR PARA JUEGOS MÁS POPULAR QUE SE PUEDE ENCONTRAR EN EL MERCADO",
+        "precio": 110,
+        "stock": 69,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/39595256136303_sd_05012d0c0d0a42b093c21a6bca69fdf5.jpg"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud Revolver",
+        "descripcion": "Estructura resistente de acero Caja de control de audio con conectores de 3.5mm estereo y para micrófono Altavoces dereccionales de 50mm Diadema con suspensión Micrófono con cancelación de ruido extraible Compatible con PC, PS4, XBox One, Mac, Mobile, Nintendo Switch y VR",
+        "precio": 110,
+        "stock": 34,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/7236248Sin_t_tulo_de4f49a490934af59527ca572f25b055.png"
+    },
+    {
+        "nombre": "Auricular Razer Kraken para Consola",
+        "descripcion": "Controladores personalizados de 50 mm Almohadillas ovales infundidas con gel de enfriamiento Micrófono retráctil unidireccional Canales ocultos de gafas con sangría Marco de aluminio de bauxita con acolchado más grueso Compatible con todas las consolas.",
+        "precio": 110,
+        "stock": 29,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/Sin-t%C3%ADtulo-3.png"
+    },
+    {
+        "nombre": "Auricular Logitech G433 Azul",
+        "descripcion": "ESPECIFICACIONES FÍSICAS: Altura: 172 mm Anchura: 81,7 mm Profundidad: 182 mm Peso (sin cable): 259 g DAC USB: 160 mm Longitud de cable: 2 m Longitud de cable móvil: 1,5 m ESPECIFICACIONES TÉCNICAS: Auriculares: Transductor: 40 mm Respuesta de frecuencia: 20 Hz – 20 kHz Impedancia: 32 ohmios Sensibilidad: 107 dB a 1 kHz SPL 30 mW/1 cm Longitud del cable: 2 m (6,6 ft) Micrófono: Patrón de captación de micrófono: Cardioide (unidireccional) Tipo: Condensador de electreto posterior Tamaño: 4 mm Respuesta de frecuencia: 100 Hz – 10 kHz",
+        "precio": 120,
+        "stock": 44,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/03/437714761afyN7Yg0L._SX425__eed9ba3ac9654759afbba45aebbe8c88.jpg"
+    },
+    {
+        "nombre": "Auricular Razer Kraken Tournament Edition Negro",
+        "descripcion": "El sonido no es solo una mera experiencia, aumenta tus sentidos. Cuando sabes exactamente dónde está posicionado el enemigo, tú eres el que configura la emboscada. Tu sentido del oído se convierte en un arma, lo que te permite dominar el entorno del juego a medida que maniobras con la menor cantidad de señales de sonido. Libera tus instintos depredadores ahora a través de un audio posicional preciso de todos a tu alrededor.",
+        "precio": 120,
+        "stock": 65,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/3123143rten_96c69b013347439a8913c09c3d78aca6.png"
+    },
+    {
+        "nombre": "Auricular Razer True Hammerhead BT",
+        "descripcion": "Alcance inalámbrico Bluetooth: hasta 10 m Duración de la batería: auriculares 4 horas y 12 horas adicionales con estuche de carga * Tiempo de carga: hasta 1,5 horas. Conductores: 13 mm * Puede variar según el uso",
+        "precio": 120,
+        "stock": 33,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-13.png"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud Alpha",
+        "descripcion": "El innovador diseño del Cloud Alpha de HyperX™ con tecnología de altavoces con cámara doble te brindará un sonido con mayor nivel de nitidez y claridad gracias a la reducción de distorsión. La cámara doble separa los graves de los medios y agudos, permitiendo una sintonización óptima que producirá un sonido más limpio y suave. Los audífonos Cloud Alpha ostentan la fama de la galardonada comodidad de HyperX, con memory foam premium rojo, banda de sujeción expandida y cuero suave más flexible. La estructura de aluminio está construida para una mayor durabilidad, y pensando en las necesidades de cada jugador, el Cloud Alpha también cuenta con un resistente cable trenzado extraíble. El micrófono desmontable con cancelación de ruido está certificado por Discord y TeamSpeak™, lo cual te asegura que tendrás una gran calidad de comunicación con tu equipo. Compatibilidad multi-plataforma, con controles de audio en el cable, por eso los jugadores exigentes, ya sea de PC, PS4™, Xbox One™ y otras plataformas con puertos de 3.5mm se verán beneficiados con el sonido avanzado de la evolución del Cloud Alpha.",
+        "precio": 124.99,
+        "stock": 52,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/04/1445174HyperX_Cloud_Alpha_HyperX_Headset_Alpha_1_with_inlinecontroller_1428_22_08_2017_17_25_debe5bc6f04f4e368b064aeda835df03.jpg"
+    },
+    {
+        "nombre": "Auricular Logitech G633 Spectrum 7.1 RGB",
+        "descripcion": "Los transductores de audio avanzado Pro-G™ están hechos con materiales de malla híbrida que proporcionan desempeño de alta calidad y están diseñados específicamente para juegos. El diseño de los transductores Pro-G ofrece agudos precisos y nítidos, y graves profundos y potentes, para un sonido de primera calidad.",
+        "precio": 124.99,
+        "stock": 28,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/09/9288344g633-artemis-spectrum_b3d5e7784f224deb900147c1d367f1dd.png"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud II 7.1 rojo",
+        "descripcion": "HyperX® Cloud II cuenta con una caja de control de audio con tarjeta de sonido USB, rediseñada, que amplifica el audio y la voz para una experiencia de gaming Hi-Fi: no te pierdas ni un sonido. Características: Caja de control de audio USB avanzada con tarjeta de sonido DSP integrada Admite Hi-Fi con controladores de 53 mm, para una calidad de audio superior Sonido envolvente 7.1 virtual basado en hardware Cómodos, con la cinta para la cabeza de viscoelástica y almohadillas revestidas de piel sintética Optimizados para jugadores profesionales, con un diseño de casco cerrado para obtener cancelación de ruido pasiva Compatible: con conectividad USB para PC y Mac. Estéreo compatible con PS4, Xbox One1 y móviles",
+        "precio": 127.99,
+        "stock": 47,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/337770cloud_II_rojo_8f23eb22c32e484a9ca1b5f6fc2e01e8.png"
+    },
+    {
+        "nombre": "Auricular Logitech G433 Negro",
+        "descripcion": "ESPECIFICACIONES FÍSICAS: Altura: 172 mm Anchura: 81,7 mm Profundidad: 182 mm Peso (sin cable): 259 g DAC USB: 160 mm Longitud de cable: 2 m Longitud de cable móvil: 1,5 m",
+        "precio": 129.99,
+        "stock": 35,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/12/44123391_786c693174a64d67aa30a8c74d8e6ab4.jpg"
+    },
+    {
+        "nombre": "Auricular SteelSeries Artic 3 Analogico + Bluetooth 2019 Edition",
+        "descripcion": "Diseñado para todos los juegos, con un sonido, una comodidad y un estilo superiores en todas las plataformas de juego, incluyendo PC, PlayStation, Xbox One, Nintendo Switch, VR y dispositivos móviles a través de cables desmontables de 3,5 mm + conexión Bluetooth. Sonido envolvente a través de Windows-Sonic surround compatible en PC y Xbox ONE",
+        "precio": 129.99,
+        "stock": 8,
+        "marca": "SteelSeries",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/05/579712781FpaX4SvWL._SX425__2dd9a9375bf74124ba6f3949a809d0ff.jpg"
+    },
+    {
+        "nombre": "Auricular Logitech Pro Wired",
+        "descripcion": "Los primeros audífonos Logitech G con el apelativo PRO se diseñaron en colaboración con los mejores profesionales del mundo. Fabricados con materiales de calidad superior y tecnologías avanzadas para proporcionar un desempeño de audio inigualable. TRANSDUCTORES PRO-G Transductores de audio, para oírlo todo con más precisión: pasos sigilosos, disparos, comunicaciones de voz. Transductores de audio de malla híbrida Pro-G™ que resuelven problemas de distorsión comunes y ofrecen graves contundentes y agudos precisos. SONIDO ENVOLVENTE Los audífonos con micrófono Pro para juegos son compatibles con las características de sonido envolvente de Windows 10, como Windows Sonic y Dolby Atmos para audífonos, para un audio posicional preciso. El audio direccional y una claridad excepcional se combinan para una percepción óptima de todo lo que sucede a tu alrededor. AISLAMIENTO DE RUIDO PASIVO Las almohadillas de cuero sintético premium de Logitech G PRO se eligieron por el hermético ajuste alrededor de los oídos, que mejora el aislamiento pasivo del ruido. El acolchado de espuma es increíblemente confortable y las distracciones se reducen gracias al aislamiento acústico 50% superior al de otras almohadillas. También se incluyen en el paquete almohadillas de microgamuza. MICRÓFONO CONDENSADOR DE CALIDAD PROFESIONAL El micrófono avanzado tipo condensador de calidad profesional ofrece una respuesta de frecuencia más amplia, una relación señal/ruido más baja y una sensibilidad más alta. Con el filtro de ruido de tamaño normal la comunicación de voz es alta y clara.",
+        "precio": 134.99,
+        "stock": 67,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/09/6752854audifonos-gamer-logitech-g-pro-xbox-one-ps4-981-000720-D_NQ_NP_976661-MLM31231189611_062019-F_1ecc58da20b94470b14c1ff3d0764fb1.jpg"
+    },
+    {
+        "nombre": "Auricular Razer Kraken Ultimate",
+        "descripcion": "Detecta auditivamente y de primera mano las ventajas injustas y conviértete en el oponente a batir gracias a los Razer Kraken Ultimate, unos auriculares de PC para juegos creados para lograr la experiencia de juego competitivo definitiva. Con todas esas amenazas que te rodean, es hora de pasar a la ofensiva y dejarles claro quién es el cazador y quién la presa.",
+        "precio": 134.99,
+        "stock": 71,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/816okgFoTxL._AC_SL1500_.jpg"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud Flight Inalámbricos",
+        "descripcion": "Audífonos inalámbricos HyperX Cloud Flight para videojuegos Escapa de las limitaciones de las conexiones de cable y muévete libremente con HyperX Cloud Flight™. Con una sólida conexión inalámbrica especial para gaming, una vida útil de la batería de 30 horas1 y comodidad exclusiva de HyperX, Cloud Flight te permite jugar sin interrupciones por más tiempo. Monitorea fácilmente la vida útil de la batería y ajusta el volumen del micrófono y de salida con el software HyperX Ngenuity. El diseño de orejera cerrada te mantiene inmerso en el juego, mientras que el resistente deslizador de acero y su construcción de alta calidad permite soportar el desgaste diario. Estos audífonos para PC, PS4™ y PS4™ Pro ready también son compatibles con dispositivos que soporten una conexión de audio con cable de 3,5mm2 a través del cable incluido. Las orejeras rotan 90 grados y reposan cómodamente alrededor de tu cuello durante los descansos, y cuentan con cómodos controles para efectos LED, silenciar micrófono, encender y controlar el volumen. El micrófono desmontable con cancelación de ruido te asegura que la comunicación sea nítida; Cloud Flight ha sido certificado por TeamSpeak y Discord.",
+        "precio": 137.99,
+        "stock": 22,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/82654441558733874_236778llo_f1908e17ccda4f3f9650fbf6e0a87307.jpg"
+    },
+    {
+        "nombre": "Auricular Logitech G635 7.1",
+        "descripcion": "Oye enemigos al acecho, pistas de habilidades especiales y todo lo que te rodea. Entra de lleno en el mundo del juego y escucha al detalle las fabulosas pistas de audio. La tecnología de audio más avanzada se combina con materiales de gran resistencia para ofrecer un sonido cinemático expansivo. Los transductores Pro-G™ de 50 mm y el sonido envolvente DTS Headphone:X 2.0 crean la experiencia sónica definitiva. PRO-G™ de 50 mmTRANSDUCTORES DE BAJA DISTORSIÓN RGB LIGHTSYNC™~16,8 MILLONES DE COLORES PERSONALIZABLES DETERMINADOS POR EL JUEGO DTS HEADPHONE:X 2.0SONIDO ENVOLVENTE DE PRÓXIMA GENERACIÓN",
+        "precio": 140,
+        "stock": 26,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/09/775503561jFJCRTPkL._SX466__9a2e6c895da74574a1de142abbfbdf7b.jpg"
+    },
+    {
+        "nombre": "Auricular SteelSeries Siberia v3 Prism",
+        "descripcion": "Siberia V3 Prism cuenta con 16.8 millones de colores de iluminaciòn con un casco liviano. Almohadillas ligeras para una máxima comodidad. Ofrece un sonido natural increíble y graves potentes a través de sonido USB en PC, Mac y PS4.",
+        "precio": 168.99,
+        "stock": 74,
+        "marca": "SteelSeries",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/1282077Sin_t_tulo1_cd1a8b66693a45628c0c69bac683d744.png"
+    },
+    {
+        "nombre": "Auricular Razer Adaro STEREO",
+        "descripcion": "Para crear los auriculares ideales para escuchar música hemos enfocado el diseño considerando 3 aspectos: calidad de audio, comodidad y robusta portabilidad. Con los diafragmas de neodimio de 40mm optimizados, los auriculares Razer Adaro Stereo ofrecen una acústica nítida y un sonido natural para conseguir una experiencia sonora asombrosa.",
+        "precio": 169.99,
+        "stock": 55,
+        "marca": "Razer",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/Razer_Adaro_DJ_Analog_01_54aa654af6034a7fa757f35e8a5b510d.jpg"
+    },
+    {
+        "nombre": "Auricular HyperX Cloud Revolver S 7.1",
+        "descripcion": "Auriculares Gamer para PC/PS4/Xbox One Tecnología de Audio Plug N Play Dolby Surround 7.1 Dispositivo USB con control de audio avanzado y tarjeta de sonido DSP Percepción de escenario sonoro con calidad de estudio que te permite localizar a tus enemigos con más precisión durante el juego Su memory foam de alta calidad de Hyper X brinda mayor comodidad Nueva banda de sujeción que distribuye la presión de manera uniforme",
+        "precio": 169.99,
+        "stock": 61,
+        "marca": "Kingston",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/10/2840773revolver_s_35b32844b9ab4ee285644e1c7ca31083.png"
+    },
+    {
+        "nombre": "Auricular Logitech G935 Wireless",
+        "descripcion": "La tecnología de audio más avanzada ofrece la experiencia sónica inalámbrica definitiva. Los transductores Pro-G™ de 50 mm y DTS Headphone:X 2.0 crean nuestros espacios sonoros más expansivos, detallados e inmersivos. TECNOLOGÍA INALÁMBRICA DE 2,4 GHzRADIO DE ACCIÓN DE 15 M EN INTERIORES AUDIO INSUPERABLETRANSDUCTORES PRO-G DE 50 MM, DTS HEADPHONE:X 2.0",
+        "precio": 199.99,
+        "stock": 50,
+        "marca": "Logitech",
+        "categoria": "AURICULARES",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/09/67132661VNZqqIGEL._SY355__8a6fb9205c17412ca20a48f9b97402af.jpg"
+    },
+    {
+        "nombre": "Micrófono Xtreme ht-101",
+        "descripcion": "– Microfono color negro / base color metal – Base firme para colocarlo en el escritorio o mesa – Ajuste de ángulo de inclinación. – De fácil configuración. – Conexión a la tarjeta de sonido del Pc o Notebook",
+        "precio": 2.99,
+        "stock": 29,
+        "marca": "Otros",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/08/6948142productos36_9121_9323f777075b4146b5852610cba30c2d.jpg"
+    },
+    {
+        "nombre": "Micrófono Trust Starzz 21671",
+        "descripcion": "Micrófono de alto rendimiento con botón silenciador y trípode que garantiza una reproducción del sonido extraordinariamente clara y natural Ideal para grabaciones de voz, sesiones de juego en línea, chatear, Skype y aplicaciones controladas mediante la voz Para todo tipo de uso: Micrófono de mano con trípode que garantiza un posicionamiento estable, especialmente indóneo para aplicaciones manos libres o de mano Conector dorado de 3,5 mm para óptima conexión y reproducción de voz de excelente calidad Cable extralargo de 250 centímetros",
+        "precio": 14.99,
+        "stock": 46,
+        "marca": "Trust",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/367098021671_pictures_product_visual_1_45d04e11c61445e2b9aa1e1a0c7e5e8d.png"
+    },
+    {
+        "nombre": "Micrófono Condenser BM700",
+        "descripcion": "Diseño profesional: el condensador del producto solo graba el sonido desde la parte frontal del micrófono. No grabará el sonido de otra dirección o el ruido ambiental. Una excelente selección para usar en estudio profesional, podcast, juegos o PC. Hardware profesional: la respuesta de banda ancha hace de este producto un micrófono ideal para grabar voces, guitarras acústicas, pianos acústicos o cuerdas. El condensador del micrófono puede grabar con precisión cualquier diferencia en el sonido. Bajo ruido: la alta relación señal / ruido (SNR) del producto proporciona la menor posibilidad de distorsión para la grabación de sonido. Y el filtro de ruido adjunto evita que surja el sonido explosivo se produzca una distorsión. Incluye: 1x condenser microphone 1x shock mount 1x audio cable 1x anti-wind foam cap 1x user manual 1x Microphone desktop stand 1X pop filter",
+        "precio": 35,
+        "stock": 29,
+        "marca": "TC Army",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/bm700.png"
+    },
+    {
+        "nombre": "Micrófono Condenser BM800S",
+        "descripcion": "Diseño profesional: el condensador del producto solo graba el sonido desde la parte frontal del micrófono. No grabará el sonido de otra dirección o el ruido ambiental. Una excelente selección para usar en estudio profesional, podcast, juegos o PC. Hardware profesional: la respuesta de banda ancha hace de este producto un micrófono ideal para grabar voces, guitarras acústicas, pianos acústicos o cuerdas. El condensador del micrófono puede grabar con precisión cualquier diferencia en el sonido. Bajo ruido: la alta relación señal / ruido (SNR) del producto proporciona la menor posibilidad de distorsión para la grabación de sonido. Y el filtro de ruido adjunto evita que surja el sonido explosivo se produzca una distorsión.",
+        "precio": 55,
+        "stock": 69,
+        "marca": "TC Army",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/Hbeb21535c718425b9714e096c8217624d.jpg"
+    },
+    {
+        "nombre": "Micrófono Condenser BM800",
+        "descripcion": "Diseño profesional: el condensador del producto solo graba el sonido desde la parte frontal del micrófono. No grabará el sonido de otra dirección o el ruido ambiental. Una excelente selección para usar en estudio profesional, podcast, juegos o PC. Hardware profesional: la respuesta de banda ancha hace de este producto un micrófono ideal para grabar voces, guitarras acústicas, pianos acústicos o cuerdas. El condensador del micrófono puede grabar con precisión cualquier diferencia en el sonido. Bajo ruido: la alta relación señal / ruido (SNR) del producto proporciona la menor posibilidad de distorsión para la grabación de sonido. Y el filtro de ruido adjunto evita que surja el sonido explosivo se produzca una distorsión.",
+        "precio": 60,
+        "stock": 13,
+        "marca": "TC Army",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/bm880.png"
+    },
+    {
+        "nombre": "Micrófono Blue Yeti Snowball",
+        "descripcion": "Tipo de transductor: Condensador, gradiente de presión con salida digital USB Patrones polares: Cardioide u Omnidireccional Respuesta en frecuencia: Posición 1-3: 40 –18 kHz Tasa muestra/word: 44.1 kHz/16 bit Peso: 460g Dimensiones: 325mm (circunferencia)",
+        "precio": 68.99,
+        "stock": 47,
+        "marca": "Blue",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/Microfono-Blue-Yeti-Snowball-1.png"
+    },
+    {
+        "nombre": "Micrófono Blue Yeti Nano Blue",
+        "descripcion": "Calidad de sonido de transmisión legendaria azul Patrones de captación cardioide y omni Admite frecuencias de muestreo de hasta 24 bits / 48 kHz Salida de auriculares sin latencia, volumen de auriculares y silencio de micrófono Perfecto para podcasting, transmisión de juegos, llamadas de Skype, YouTube o grabación de música. Plug ‘n play: compatible con Mac y PC Roscado estándar para brazo de brazo de brújula y / o amortiguador Radius III opcional Aplicación complementaria Blue Sherpa para un control optimizado y actualizaciones de firmware.",
+        "precio": 128.99,
+        "stock": 25,
+        "marca": "Blue",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/2-1.png"
+    },
+    {
+        "nombre": "Micrófono Blue Yeti Nano Gris",
+        "descripcion": "Calidad de sonido de transmisión legendaria azul Patrones de captación cardioide y omni Admite frecuencias de muestreo de hasta 24 bits / 48 kHz Salida de auriculares sin latencia, volumen de auriculares y silencio de micrófono Perfecto para podcasting, transmisión de juegos, llamadas de Skype, YouTube o grabación de música. Plug ‘n play: compatible con Mac y PC Roscado estándar para brazo de brazo de brújula y / o amortiguador Radius III opcional Aplicación complementaria Blue Sherpa para un control optimizado y actualizaciones de firmware.",
+        "precio": 128.99,
+        "stock": 13,
+        "marca": "Blue",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-11.png"
+    },
+    {
+        "nombre": "Micrófono Blue Yeti Blackout USB",
+        "descripcion": "MICRÓFONO Y RENDIMIENTO Consumo de corriente: 5V 150mA Frecuencia de muestreo: 48 kHz Tasa de bits: 16-bit Cápsulas: 3 cápsulas de condensador de 14mm con patente Blue Patrones polares: Cardioide, bidireccional, omnidireccional, estéreo Respuesta en frecuencia: 20Hz – 20kHz Max SPL: 120dB (THD: 0.5% 1kHz) Dimensiones (extendido en el pie): 4.72″ (12cm) x 4.92″(12.5cm) x 11.61″(29.5cm) Peso (micrófono): 1.2 lbs (.55 kg) Peso (pie): 2.2 lbs (1 kg)",
+        "precio": 134.99,
+        "stock": 36,
+        "marca": "Blue",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/blackput.jpg"
+    },
+    {
+        "nombre": "Micrófono Razer Seiren X",
+        "descripcion": "Diseñado y probado por los mejores streamers, el Razer Seir?n X es tu clave para que te escuchen de la manera más poderosa posible. Respaldado por la mejor tecnología de micrófono, es el primer paso para llevar su transmisión en vivo a nuevas alturas de transmisión.",
+        "precio": 149,
+        "stock": 47,
+        "marca": "Razer",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/2632745625def1458311254b682e5a5783c50d0-hi_f68db72daf9b408990f0c0d40db77bf7.jpg"
+    },
+    {
+        "nombre": "Micrófono HyperX Quadcast",
+        "descripcion": "El HyperX QuadCast™ es el micrófono standalone ideal con todo incluido ya sea para el aspirante a streamer o el podcaster que busque un micrófono condensador con sonido de alta calidad. QuadCast viene con su propia montura anti-vibración para ayudar a reducir el murmullo cotidiano y un filtro contra chasquidos para amortiguar los desagradables sonidos de percusión. Conoce al instante el estado del micrófono con el indicador LED y simplemente toca para silenciar y así evitar accidentes desagradables en medio de la transmisión. Selecciona entre los cuatro patrones polares (estéreo, omnidireccional, cardioide, bidireccional) y usa el dial del control de ganancia cómodamente ubicado para ajustar la sensibilidad de entrada de tu micrófono. El adaptador de montura incluido es para roscas de 3/8” y 5/8” y es compatible con la mayoría de los soportes. Controla la entrada del micrófono con el conector de micrófono incorporado; QuadCast está certificado por Discord y TeamSpeak™ lo que te asegurará que tu micrófono está transmitiendo fuerte y claro para todos tus seguidores y oyentes. Ya sea que lo enchufes a una PC, PS4™, o Mac® podrás transmitir un sonido de alta calidad para quienes te sintonicen.",
+        "precio": 155,
+        "stock": 28,
+        "marca": "Kingston",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/485636hx-product-mic-quadcast-1-zm-lg_08201d15b27241f29851ba2ce0caa52b.jpg"
+    },
+    {
+        "nombre": "Micrófono Blue Yeti Yeticaster",
+        "descripcion": "Cápsulas: condensador, gradiente de presión Patrones polares: cardioide, bidireccional, omnidireccional, estéreo Respuesta en frecuencia: 20Hz – 20kHz Frecuencia de muestreo: 48kHz Tasa de bits: 16bit Max SPL: 120dB (THD: 0.5% 1kHz) Tipo de extensión: Aluminio extruído Rotación: 360 grados Alcance horizontal máximo: 32” Sujeción de peso máxima: 2.4libras (incluyendo micro y suspensión) Distribución del cableado: Distribución del cable por canal oculto",
+        "precio": 270,
+        "stock": 30,
+        "marca": "Blue",
+        "categoria": "MICROFONO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/yeticaster.png"
+    },
+    {
+        "nombre": "Webcam Logitech C170",
+        "descripcion": "Tecnología Logitech Fluid Crystal™. Para hacer mejores las cámaras Web Logitech. Vídeo más fluido, imágenes más nítidas, colores más vivos y sonido más claro en condiciones reales.",
+        "precio": 20,
+        "stock": 50,
+        "marca": "Logitech",
+        "categoria": "CAMARA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/c170-gallery_80b225b06cb74352a278343e71cf3a28-2.png"
+    },
+    {
+        "nombre": "Webcam Genius Facecam 1000x",
+        "descripcion": "Cámara Web Genius FaceCam 1000x HD Plug&Play, que le permitirá disfrutar de imágenes claras y brillantes para sus videollamadas. Zoom digital 3X.",
+        "precio": 21,
+        "stock": 63,
+        "marca": "Genius",
+        "categoria": "CAMARA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/facecam-1000x.png"
+    },
+    {
+        "nombre": "Webcam Logitech C270",
+        "descripcion": "Tecnología Logitech Fluid Crystal™. Para hacer mejores las cámaras Web Logitech. Vídeo más fluido, imágenes más nítidas, colores más vivos y sonido más claro en condiciones reales. Videoconferencias HD 720p en pantalla panorámica en la mayoría de aplicaciones de mensajería instantánea. Sus conocidos le verán tal como es en fotos de 3 megapíxeles. Se le escuchará alto y claro gracias al micrófono integrado que reduce el ruido de fondo.",
+        "precio": 39,
+        "stock": 27,
+        "marca": "Logitech",
+        "categoria": "CAMARA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/960-000582_22_1600x1600_818d72705aa44e9091b43d4f83fe1263.jpg"
+    },
+    {
+        "nombre": "Webcam High Definition 720p",
+        "descripcion": "Alta calidad con exquisita apariencia. Alta definición con 480P / 720P e imágenes en color verdadero. Arriba y abajo 30 grados giratorio Lente óptica, alta precisión y sin imágenes distorsionadas. Enfoque automático, no es necesario ajustar la lente. Compatible con USB 2.0. Soporte para Windows 2000 / XP / 7/8/10 / Vista 32bit. Alta definición: 12.0M píxeles Resolución dinámica: 640×480 / 1280×720 Velocidad de fotogramas: 30 fps Interfaz: USB 2.0 Características: Plug & Play, Grabación de video, Alta calidad Tamaño: 8cm x 3cm x 11cm / 3.15 » x 1.18 » x 4.33 » (Aprox.)",
+        "precio": 49,
+        "stock": 18,
+        "marca": "Otros",
+        "categoria": "CAMARA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/camara.png"
+    },
+    {
+        "nombre": "Webcam Logitech C525",
+        "descripcion": "Resolución máx.: 720p/30 fps Tipo de enfoque: automático Tecnología de lente: estándar Micrófono integrado: mono Campo visual: 69° Clip universal para monitores, pantallas LCD o laptops",
+        "precio": 68.99,
+        "stock": 29,
+        "marca": "Logitech",
+        "categoria": "CAMARA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/Sin-t%C3%ADtulo-5.png"
+    },
+    {
+        "nombre": "Webcam UNZANO c/Anillo de Luz",
+        "descripcion": "Vídeo Full 1080 píxeles a 30 fps de claridad real a viva, lo que hace que sea una buena opción para jugadores y streamer. Enfoque automático y corrección de luz baja. Clip ajustable que hace que sea fácil de montar tanto portátiles como monitores externos. Anillo de luz ajustable de 3 niveles: control táctil de luz blanca cómoda que te permite cambiar rápidamente el nivel de brillo en poca iluminación sin la necesidad de entrar en la configuración del software. Compresión avanzada de codificación H.264: para minimizar su dependencia de los recursos de la computadora y la red, permite cargas más rápidas y una impresionante transmisión en vivo Grabación de voz con cámara frontal USB para MacBook Pro: equipado con grabación de video/conferencia, luz de indicación roja, micrófono analógico de filtrado de ruido dual para grabar cada momento con claridad. Certificado compatible con Windows XP SP2/7/8/10 y superior, Mac OS 10.6 y superior, Chrome OS V29.0.1547.70 o superior, Smart TV Android 5.0 o versión superior, Linux 2.6.24 o superior, ubantu V 10.04 o superior.",
+        "precio": 69.99,
+        "stock": 36,
+        "marca": "UNZANO",
+        "categoria": "CAMARA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/Webcam-UNZANO-con-anillo-de-luz.jpg"
+    },
+    {
+        "nombre": "Webcam Logitech C920",
+        "descripcion": "Conéctate con tu gente usando Full HD 1080p en Skype, o HD 720p de gran fluidez en FaceTime para Mac. También puedes tener videoconferencias de alta calidad usando Google Hangouts™ y clientes de videoconferencias. Puedes incluso charlar con tus amigos de Facebook® a través de videoconferencias con tecnología de Skype o Facebook Messenger. Puedes grabar expresivos clips de video HD 1080p que capturan hasta el más mínimo detalle. Para conseguir Full HD se usa H.264, una tecnología de compresión avanzada. H.264 elimina los largos procedimientos de compresión, lo que acelera las cargas y permite utilizar menos recursos de la computadora.",
+        "precio": 115,
+        "stock": 20,
+        "marca": "Logitech",
+        "categoria": "CAMARA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/05/9850446hd-webcam-pro-c920-gallery_a5c87c7604984d8183f4a3508a440235.png"
+    },
+    {
+        "nombre": "Webcam Logitech C922 PRO STREAM",
+        "descripcion": "Conexión extremadamente nítida en directo para canales como Twitch y YouTube. Haz streaming de lo que quieras y elige entre Full HD 1080p a 30 fps o superrápido HD 720p a 60 fps. Difunde magistralmente con audio sin interrupciones, enfoque automático y un campo visual de 78 grados.",
+        "precio": 120,
+        "stock": 51,
+        "marca": "Logitech",
+        "categoria": "CAMARA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/09/58967171511961789_1374480_48d513c030f244b68306f90dd3f96f66.jpg"
+    },
+    {
+        "nombre": "Webcam Razer Kiyo Ring",
+        "descripcion": "Razer Kiyo, diseñada y probada por reconocidos streamers, es una cámara de escritorio para transmisiones en streaming con un potente anillo de luz multifase que puedes atenuar o acentuar a tu gusto y con capacidad para emitir a 60 fps para reproducir el juego con la mayor fidelidad. Es la cámara perfecta para emisiones profesionales.",
+        "precio": 155,
+        "stock": 63,
+        "marca": "Razer",
+        "categoria": "CAMARA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/1531551webcam-razer-kiyo-ring-light-video-1080p-4mp-microfono-D_NQ_NP_888155-MLA31596477824_072019-F_b385d16f79d04a619415716147b0d404.jpg"
+    },
+    {
+        "nombre": "Parlante Logitech X50 Bluetooth",
+        "descripcion": "Hay música que te da ganas de moverte. Ahora puedes hacerlo. La conexión inalámbrica Bluetooth® te ofrece hasta nueve metros de libertad inalámbrica.",
+        "precio": 37,
+        "stock": 78,
+        "marca": "Logitech",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/logitech-x50-bluetooth-speaker-black-blue-yellow-hypetech-1512-20-hypetech2525252525252525254030_e6e95bf2db634549bf4c5b329ece3921.jpg"
+    },
+    {
+        "nombre": "Parlante Logitech X100 Bluetooth",
+        "descripcion": "Sonido nítido Suba el volumen y disfrute a tope. Conexión inalámbrica, streaming de música, control de llamadas telefónicas y control de volumen. Perfecto para los desplazamientos Llévelo a cualquier parte o relájese y escuche en la tranquilidad del hogar",
+        "precio": 38.50,
+        "stock": 44,
+        "marca": "Logitech",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/logitechX100_92a3786943234a04b86120a83270751a.png"
+    },
+    {
+        "nombre": "Parlante Genius 2.1 385",
+        "descripcion": "Especificaciones Potencia total (watts)15W RMS (watts)Subwoofer: 8 W Satélites: 3.5 W x 2 Unidad de potenciaSubwoofer: 3; 8 Ω Satélites: 2.5 x 2; 4 Ω Control de volumenSÍ Entrada de audio3.5mm Longitud de cable de alimentación1.5m Alimentación110V or 220V AC Peso1587g Dimensiones (A x A x P)Subwoofer: 120 x 180 x 155 mm (4,73 x 7,09 x 6,11 pulgadas) Satélites: 84 x 130 x 94 mm (3,31 x 5,12 x 3,71 pulgadas)",
+        "precio": 39.99,
+        "stock": 52,
+        "marca": "Genius",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/02/4250324Sin_t_tulo_800ee590591d4937bf90efbaf922d95d.png"
+    },
+    {
+        "nombre": "Parlante Logitech Z211 2.1",
+        "descripcion": "Sonido pleno y graves mejorados con diseño compacto. Alimentación USB Fácil control del volumen desde el dispositivo Color Negro Conexiones USB, Jack 3,5 mm Dimensiones 183 x 130 x 197 mm (AlxAnxPrf) Peso 1055 g Parlantes Dimensiones 138 x 80 x 79,5 mm Peso 450 g Contenido de la caja Dos Parlantes Subwoofer",
+        "precio": 41.99,
+        "stock": 36,
+        "marca": "Logitech",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/1429211parlante-logitech-z211-2_1-13412-36_5972a7ad0a0d48d1a2856383fdf522ba.png"
+    },
+    {
+        "nombre": "Parlante Genius SP-HF500A Madera",
+        "descripcion": "Enfoque en la excelencia de sonido Con un total de 14 vatios RMS, el altavoz es un audio doméstico. Con un potente rango medio y altavoces de calidad ultra-alta, ofrece un sonido rico y cálido.",
+        "precio": 55,
+        "stock": 21,
+        "marca": "Genius",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/61JmeQVWzxL._SY355_.jpg"
+    },
+    {
+        "nombre": "Parlante Genius SW-HF800A II Madera",
+        "descripcion": "Excelencia de sonido en todos los detalles Las unidades de altavoz de alto rendimiento de 2 pulgadas cubre todo el espectro de sonido, y el altavoz de una pulgada, da al SP-HF800A, un sonido agudo cristalino.",
+        "precio": 59,
+        "stock": 67,
+        "marca": "Genius",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/946365-MLU40354460842_012020-O.jpg"
+    },
+    {
+        "nombre": "Parlante Logitech Z313 2.1",
+        "descripcion": "Este sistema de altavoces 2.1 ofrece una acústica equilibrada y proporciona graves mejorados con un compacto subwoofer. Conecta cualquier dispositivo a la entrada de 3,5 mm y accede fácilmente a los mandos de encendido y volumen en la sección de control con cable. 50 vatios de potencia de pico/25 vatios RMS ofrecen una gama completa de sonido con una acústica equilibrada. Graves mejorados a través del compacto subwoofer. Disfruta al instante de una experiencia de audio completa.",
+        "precio": 68.99,
+        "stock": 54,
+        "marca": "Logitech",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/z313-gallery_f63e272d77044280a05991eaa1b5cc9b.png"
+    },
+    {
+        "nombre": "Parlante Genius SW-5.1 1020 II",
+        "descripcion": "PARLANTES GENIUS SW-5.1 1020 II -Potencia total de salida 26 vatios (RMS) -Subwoofer: 14,5 vatios. -Satélites: 2,3 vatios (cada uno). -Subwoofer de 4» construido en madera de gran rigidez, ofrece una experiencia de graves increíble. -Controles de volumen y de graves del subwoofer. -Altavoces satélite con estilo bien diseñados. -Conectores de entrada de 3,5 mm con código de color. -Sonido envolvente.",
+        "precio": 72.49,
+        "stock": 8,
+        "marca": "Genius",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/p_sp_hf160_101-1.jpg"
+    },
+    {
+        "nombre": "Parlante Genius SW-g2.1 1250 II",
+        "descripcion": "Potencia total: 38 watts (RMS).Gabinete ultra rígido de MDF para graves profundos y potentes.Parlantes secundarios curvilíneos con enganche para pared.Controles ajustables de volumen y graves.Conector de micrófono para conversaciones en línea.Conector para auriculares para cuando desea escuchar de manera independiente.Su unidad de graves de 5.25'' está fabricada en MDF ultra rígido, que le permitirá obtener sonidos graves potentes y extendidos.Los parlantes secundarios curvilíneos con conos de protección magnética de 3'' producen un sonido total de rango medio y de gran claridad.La unidad individual de control facilita ajustar el nivel de volumen y graves, también tiene un conector para micrófono donde podrás chatear con otros jugadores en línea.",
+        "precio": 74.99,
+        "stock": 49,
+        "marca": "Genius",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/08/6045236genius_sw-g2.1_1250_zvucnici__c61e5fce71b743bfb59b3b522fbe8fd9.jpg"
+    },
+    {
+        "nombre": "Parlante Genius SW-g2.1 2000 II",
+        "descripcion": "Sistema 2.1 de gran potencia para juegos y multimedia Unidad de graves con gabinete de madera de madera ultra rígido de 6.5 pulgadas para graves sólidos, profundos y explosivos en juegos de batalla Dos altavoces secundarios curvilíneos para producir sonidos de gran potencia en las gamas media y alta.",
+        "precio": 104.99,
+        "stock": 56,
+        "marca": "Genius",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/Genius-GX-Gaming-SW-G2.1-2000-2.1-Speaker-System-45-W-RMS-Black-1bef442e-84e6-4d7c-bb25-c7690ddc4127_600_c4d6745ac88940c19c891d6361aedde7.jpg"
+    },
+    {
+        "nombre": "Parlante Genius GX SW-g2.1 3000",
+        "descripcion": "Potencia total: 70 watts (RMS). Gabinete de madera para unidad de graves para un excelente sonido. Parlantes secundarios curvilíneos con unidad de potencia metálica. Controles ajustables de volumen y graves Entrada de micrófono para chatear con otros jugadores Conector para auriculares para cuando desea escuchar de manera independiente.",
+        "precio": 108.99,
+        "stock": 63,
+        "marca": "Genius",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/08/31731016100_29cbf1ba415e4542871dc37dcc0c86ae.jpg"
+    },
+    {
+        "nombre": "Parlante Genius SW-G5.1 3500",
+        "descripcion": "Sonido potente a su alrededor Con un sonido envolvente de gran realismo, podrá sentir que está en el medio de una batalla o película de acción. Viva la vida al máximo volumen con los SW-G5.1 3500.",
+        "precio": 124.99,
+        "stock": 27,
+        "marca": "Genius",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/parlantes-51-genius-80w-gamer-sw-g51-3500-mfshop-D_NQ_NP_705251-MLU31749761282_082019-F.jpg"
+    },
+    {
+        "nombre": "Parlante Logitech Z607 5.1 BT",
+        "descripcion": "Total de vatios reales (RMS): 160 W de pico/80 W RMS Subwoofer: 25 W RMS Altavoces satélite: 55 W RMS (total) Bluetooth 4.2: 1 Cables RCA a RCA: 3 Cable de 3,5 mm a RCA: 1 Lector de tarjetas SD: 1 Admite tarjetas SDHC de hasta 32 GB Admite formatos de archivos de audio: MP3, WMA, WAV, APE, FLAC Puerto USB: 1 Admite unidades USB de hasta 32 GB con formato FAT16 o FAT32 Admite formatos de archivos de audio: MP3, WMA, WAV, APE, FLAC Radio FM: sí Remoto: 1",
+        "precio": 134.99,
+        "stock": 55,
+        "marca": "Logitech",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/3258980Sin_t_tulo_ba5e6d59203545a0ab9d3a8f9d5aae88.png"
+    },
+    {
+        "nombre": "Parlante Logitech z506 5.1",
+        "descripcion": "Este sistema de altavoces 5.1 con 150 vatios de potencia de pico ofrece sonido envolvente con todos los matices. Cinco altavoces y un subwoofer proporcionan audio que se oye y se siente. Disfruta de sonido envolvente genuino a través de entradas directas de seis canales con la tarjeta de sonido de tu equipo, o crea sonido envolvente estéreo 3D procedente de fuentes de dos canales, mediante una conexión de entrada de 3,5 mm o RCA. Acceso fácil a los controles de encendido y volumen en el altavoz satélite derecho.",
+        "precio": 155.99,
+        "stock": 23,
+        "marca": "Logitech",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/z506-gallery_3a9ad093bffa406683f7e918dd3a241a.png"
+    },
+    {
+        "nombre": "Parlante Logitech Z625",
+        "descripcion": "Diseñado para ofrecer una experiencia perfecta desde el principio. Estos altavoces con certificación THX® se han optimizado con unas especificaciones exactas para ofrecer con el máximo realismo la visión original del artista directamente en tu sala de estar.",
+        "precio": 249.99,
+        "stock": 73,
+        "marca": "Logitech",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/01/3484738z625-powerful-thx-sound_33534161c9c1498e9a3a4e9a4f8c10fb.png"
+    },
+    {
+        "nombre": "Parlante Razer Leviathan Bluetooh Mini",
+        "descripcion": "Parlante Razer",
+        "precio": 264,
+        "stock": 38,
+        "marca": "Razer",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/02/5955968parlantes-razer-leviathan-bluetooth-mini-gamer-D_NQ_NP_919449-MLU26787271829_022018-F_03e35b142e634a108d2dfdc5f4501126.jpg"
+    },
+    {
+        "nombre": "Parlante Logitech G560 2.1",
+        "descripcion": "Total de vatios de pico: 240 W Total de vatios reales 120 W Versión de Bluetooth: 4.1 Confiable radio de acción de 25 metros con línea de visión directa Entrada USB: 1 Toma de audífonos: 1 Los botones de emparejamiento Bluetooth y de encendido se encuentran en la parte posterior del altavoz derecho. La tecla G y los controles de volumen se encuentran en la parte superior del altavoz derecho. Respuesta de frecuencia: 40 Hz – 18 KHz SPL máx.: 97 dB a 426 B Sensibilidad: 84 dB a 1 m/1 w Impedancia de entrada: > 10.000 ohmios",
+        "precio": 318.99,
+        "stock": 52,
+        "marca": "Logitech",
+        "categoria": "PARLANTE",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/564571parlante_bebb1c9420894134bbc4c606f3864a63.jpg"
+    },
+    {
+        "nombre": "Silla TC-Army CY-57",
+        "descripcion": "Estilo – Silla Gamer Recomendado hasta 120Kg Inclinación 90-135 grados Incluye reposacabezas, almohada lumbar y reposapiés TAMAÑO DEL EMPAQUE 80 cm * 63 cm * 32 cm Peso 15 kg",
+        "precio": 140,
+        "stock": 69,
+        "marca": "TC Army",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/2491773Sillas_TC_ARMY_fdfaac872da1413491dcd9fe04ac0aa3.png"
+    },
+    {
+        "nombre": "Silla TC-Army CY-57 PRO2 Negro/Naranja",
+        "descripcion": "Estilo – Silla Gamer ergonómica Recomendado hasta 150Kg Estructura de acero Apoyabrazos 2D PU Ascensor de Gas 100mm Clase 3 Inclinación 90-135 grados Incluye reposacabezas y almohada lumbar TAMAÑO DEL EMPAQUE 85 cm * 65 cm * 35 cm Peso 24,8 kg",
+        "precio": 198.99,
+        "stock": 32,
+        "marca": "TC Army",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/3412416EasyCapture1__2__e603009a72db49bf8f1c44657b7489c0-6.png"
+    },
+    {
+        "nombre": "Silla Cougar Gaming Fusion Black",
+        "descripcion": "COUGAR FUSION le ofrece la comodidad que necesita para disfrutar plenamente de largas sesiones de juego. Totalmente ajustable y fabricada con materiales de primera calidad, esta silla para juegos presenta también el diseño exclusivo COUGAR que se ha convertido en un signo de la pasión por los juegos.",
+        "precio": 244.99,
+        "stock": 65,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/Sin-t%C3%ADtulo.png"
+    },
+    {
+        "nombre": "Silla DXRacer Origin Series Negro / Rojo OH/OA168/NR",
+        "descripcion": "Incluye cojín lumbar y almohada para reposacabezas. Respaldo ajustable Malla fuerte (tela), cubierta de PU (cuero sintético) Espuma de alta densidad Se adapta a usuarios de hasta 175 cm (5'9 ) Consulta a nuestros vendedores por otros modelos y colores.",
+        "precio": 258.99,
+        "stock": 41,
+        "marca": "DXRacer",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/12/9233946LADO_VERMELHO_69fbf5173b1c40b4ad3364e1dc7e054d-scaled.jpg"
+    },
+    {
+        "nombre": "Silla DXRacer Racing Series – Black OH/RW01/N",
+        "descripcion": "SÓLO DXRACER PUEDE PROPORCIONAR LA MEJOR EXPERIENCIA CUANDO EL ASUNTO ES CONFORT, DURABILIDAD Y ERGONOMÍA! EL MODELO OH / RW01, ES INDICADO PARA PERSONAS CON HASTA 190 CM DE ALTURA Y SOPORTA HASTA 100 KG Consulta a nuestros vendedores por otros modelos y colores.",
+        "precio": 279,
+        "stock": 32,
+        "marca": "DXRacer",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/6112185d2_2e88891e7de142a88697db97b375501f.png"
+    },
+    {
+        "nombre": "Silla DXRacer Racing Series – Black / Red OH/RW01/RN",
+        "descripcion": "SÓLO DXRACER PUEDE PROPORCIONAR LA MEJOR EXPERIENCIA CUANDO EL ASUNTO ES CONFORT, DURABILIDAD Y ERGONOMÍA! EL MODELO OH / RW01, ES INDICADO PARA PERSONAS CON HASTA 190 CM DE ALTURA Y SOPORTA HASTA 100 KG Consulta a nuestros vendedores por otros modelos y colores.",
+        "precio": 279,
+        "stock": 49,
+        "marca": "DXRacer",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/1235343dxr_rn_13df6dfd130545ed82b7505d5850adee.png"
+    },
+    {
+        "nombre": "Silla Cooler Master Gamer",
+        "descripcion": "Usted está en control de su destino, así que compita con el Cooler Master Caliber R1. Dirige tus ejércitos, desafía a tus oponentes, construye tus personajes y conquista todos. La calidad superior y el diseño lo distinguen de la competencia. El cuero de PU transpirable proporciona la máxima comodidad para todo tipo de cuerpo y te mantiene fresco y con energía en todo momento. Ajuste el ángulo con el respaldo reclinable y colóquelo en su lugar. Los reposabrazos móviles y la elevación de gas de altura ajustable minimizan la fatiga y maximizan la comodidad de sus sesiones de juego. El reposacabezas y la almohada lumbar le brindarán el mejor nivel de confort para reducir el dolor de espalda y aliviar la tensión del cuello.",
+        "precio": 279.99,
+        "stock": 32,
+        "marca": "Cooler Master",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/01/1380392_4c920e3f20ed4ec7a26cd7ce50f70b03.jpg"
+    },
+    {
+        "nombre": "Silla Redragon Metis Rojo",
+        "descripcion": "Silla gamer, sillón gamer, butaca, ponle el nombre que quieras, solo es cuestión de sentarte en ella para que quedes sin palabras. La Metis es la primera silla de la familia Redragon, una silla sin competencia en precio y calidad. Reclinado: 85-120º Apoya brazos: 6.5 x 32 cm (ancho x alto) Respaldo: 54 x 81 cm (ancho x alto) Asiento: 52.5 x 55.5 cm (ancho x profundidad) Altura del asiento: 44 a 54 cm Altura total: 118 a 128 cm Base: plástico reforzado 70 cm diámetro Peso recomendado: < 150 kg",
+        "precio": 295,
+        "stock": 48,
+        "marca": "Redragon",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/4328397rdr_b9931296fa5f42cd9679cf0370c631a9.png"
+    },
+    {
+        "nombre": "Silla Redragon Metis Negra",
+        "descripcion": "Silla gamer, sillón gamer, butaca, ponle el nombre que quieras, solo es cuestión de sentarte en ella para que quedes sin palabras. La Metis es la primera silla de la familia Redragon, una silla sin competencia en precio y calidad. Reclinado: 85-120º Apoya brazos: 6.5 x 32 cm (ancho x alto) Respaldo: 54 x 81 cm (ancho x alto) Asiento: 52.5 x 55.5 cm (ancho x profundidad) Altura del asiento: 44 a 54 cm Altura total: 118 a 128 cm Base: plástico reforzado 70 cm diámetro Peso recomendado: < 150 kg",
+        "precio": 295,
+        "stock": 10,
+        "marca": "Redragon",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/9960515rdn_84146ba739e94deaaafa67050f152a4c.png"
+    },
+    {
+        "nombre": "Silla Cougar Gaming Armor ONE EVA",
+        "descripcion": "COUGAR ARMOR ONE le ofrece la comodidad que necesita para disfrutar plenamente de largas sesiones de juego. Totalmente ajustable y fabricada con materiales de primera calidad, esta silla para juegos presenta también el diseño exclusivo COUGAR que se ha convertido en un signo de la pasión por los juegos.",
+        "precio": 295,
+        "stock": 66,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/5076149eva_c3d3570bf7684947b48087fd6f6d62e3.png"
+    },
+    {
+        "nombre": "Silla Cougar Gaming Armor ONE",
+        "descripcion": "COUGAR ARMOR ONE le ofrece la comodidad que necesita para disfrutar plenamente de largas sesiones de juego. Totalmente ajustable y fabricada con materiales de primera calidad, esta silla para juegos presenta también el diseño exclusivo COUGAR que se ha convertido en un signo de la pasión por los juegos.",
+        "precio": 304,
+        "stock": 22,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/07/15231090008_c514eb6e730240b397b6bca872af281c.png"
+    },
+    {
+        "nombre": "Silla Cougar Gaming Armor ONE Black",
+        "descripcion": "COUGAR ARMOR ONE le ofrece la comodidad que necesita para disfrutar plenamente de largas sesiones de juego. Totalmente ajustable y fabricada con materiales de primera calidad, esta silla para juegos presenta también el diseño exclusivo COUGAR que se ha convertido en un signo de la pasión por los juegos.",
+        "precio": 304,
+        "stock": 24,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/2581639one_bk_b0f27a4bfe994681947170c2ed2a060c.png"
+    },
+    {
+        "nombre": "Silla Cougar Gaming Armor ONE X Verde",
+        "descripcion": "COUGAR ARMOR ONE le ofrece la comodidad que necesita para disfrutar plenamente de largas sesiones de juego. Totalmente ajustable y fabricada con materiales de primera calidad, esta silla para juegos presenta también el diseño exclusivo COUGAR que se ha convertido en un signo de la pasión por los juegos.",
+        "precio": 304,
+        "stock": 55,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/06/5700905preventa-silla-gamer-cougar-armor-one-x-futuro21-D_NQ_NP_657359-MLU29941875757_042019-F_d7f753dff9054b54aa73b682ae53d83e.jpg"
+    },
+    {
+        "nombre": "Silla Cougar Gaming Armor Black",
+        "descripcion": "Cougar Armor es el asiento perfecto para los jugadores de nivel profesional. Esta silla giratoria de juego totalmente ajustable satisface a los jugadores más exigentes. Con una estructura de acero y componentes de alta calidad para una mayor durabilidad y un montón de opciones para ajustar con precisión a sus necesidades. Diseño ergonómico de alta calidad creado especialmente para los jugadores, Cougar Armor ha sido creada para apoyar comodamente a tu cuerpo. La estructura de respaldo alto es especial para apoyar la espalda baja, lo que minimiza la tensión.",
+        "precio": 325,
+        "stock": 33,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/02/6252663_7dffebe6aa3648f3959b64e125b673f2.png"
+    },
+    {
+        "nombre": "Silla Cougar Armor Orange",
+        "descripcion": "Cougar Armor es el asiento perfecto para los jugadores de nivel profesional. Esta silla giratoria de juego totalmente ajustable satisface a los jugadores más exigentes. Con una estructura de acero y componentes de alta calidad para una mayor durabilidad y un montón de opciones para ajustar con precisión a sus necesidades. Diseño ergonómico de alta calidad creado especialmente para los jugadores, Cougar Armor ha sido creada para apoyar comodamente a tu cuerpo. La estructura de respaldo alto es especial para apoyar la espalda baja, lo que minimiza la tensión.",
+        "precio": 325,
+        "stock": 22,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/3744923armor_7590b40990664fffa968074fc504bdac.png"
+    },
+    {
+        "nombre": "Silla Cougar Gaming Armor S",
+        "descripcion": "COUGAR Armor S te trae la comodidad que necesitas para disfrutar completamente de largas sesiones de juego. Completamente ajustable y con materiales de primera calidad, esta silla de juego te trae también el diseño característico de COUGAR, que se ha convertido en sinónimo de la pasión por el juego.",
+        "precio": 344.99,
+        "stock": 58,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/07/2915758c_e4e82ab431c04958a4d01d4fb1960006.png"
+    },
+    {
+        "nombre": "Silla Cougar Gaming Armor S Royal",
+        "descripcion": "COUGAR Armor S te trae la comodidad que necesitas para disfrutar completamente de largas sesiones de juego. Completamente ajustable y con materiales de primera calidad, esta silla de juego te trae también el diseño característico de COUGAR, que se ha convertido en sinónimo de la pasión por el juego.",
+        "precio": 349.99,
+        "stock": 33,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/7988030royal_c093ce2c7b344bff908a32916cca7e6a.png"
+    },
+    {
+        "nombre": "Silla DXRacer Drifting Series Negro / Rojo",
+        "descripcion": "Apoyabrazos 3D Cubierta Vinilo Perforado y PU (símil cuero) Apoyacabeza y almohadón lumbar incluido Ruedas de 3 Mecanismo multi función Altura usuario recomendada 1,78 mts Peso Neto de la silla 27,3 kg Límite de peso recomendado 102 kg Color Negro/Rojo",
+        "precio": 360,
+        "stock": 55,
+        "marca": "DXRacer",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/9651618d4_f6db006a00b744ed92104db7d1ca7231.png"
+    },
+    {
+        "nombre": "Silla Cougar Gaming Armor Titan Orange",
+        "descripcion": "Con su capacidad de soportar hasta 160kg, un asiento de 60mm de grosor, una gran superficie y una sólida estructura de acero, Armor Titan es un gran lugar donde sentarse. Su diseño ergonómico te permitirá sentarte durante horas con la mayor comodidad posible. Diseño Envolvente con Respaldo Alto Dotada de un diseño ergonómico creado especialmente para garantizar comodidad durante el juego, Armor Titan ha sido creada para proporcionar un soporte fiable y cómodo para tu cuerpo, minimizando la tensión en la zona lumbar y permitiéndote rendir al mejor nivel. Almohadas para la Cabeza y la Zona Lumbar Dos cómodas almohadas te permitirán experimentar cómodamente largas sesiones de juego. ¡Olvídate de todo lo demás y disfruta!",
+        "precio": 524.99,
+        "stock": 63,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/06/titan-orange-1.png"
+    },
+    {
+        "nombre": "Silla Cougar Gaming Armor Titan Black",
+        "descripcion": "Con su capacidad de soportar hasta 160kg, un asiento de 60mm de grosor, una gran superficie y una sólida estructura de acero, Armor Titan es un gran lugar donde sentarse. Su diseño ergonómico te permitirá sentarte durante horas con la mayor comodidad posible.",
+        "precio": 524.99,
+        "stock": 22,
+        "marca": "Cougar",
+        "categoria": "SILLA",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/06/titan.png"
+    },
+    {
+        "nombre": "Lenovo IDEAPAD AMD A6-9220E 4GB 64GB 14″ Win10 Platinium Gray",
+        "descripcion": "14 inches Storage Type eMMC Total Storage Capacity 64 gigabytes eMMC Capacity 64 gigabytes Memory 4 gigabytes AMD Radeon R4 Graphics Processor Speed Base 1,6 Processoe Model AMD A6 Processor Model Number A6-9220e Windows 10 Home",
+        "precio": 325,
+        "stock": 7,
+        "marca": "Lenovo",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/71W74aUpflL.jpg"
+    },
+    {
+        "nombre": "Lenovo IDEAPAD S340 15,6 I3 8145U 4GB 1TB W10 REFURBISHED",
+        "descripcion": "Operating System Edition  Home Storage Type HDD (Hard Disk Drive) Processor Intel Core i3 8th Gen. Operating System    Windows 10 RAM Size    4 GB Manufacturer Color    Platinum Grey Hard Drive Capacity    1 TB Processor Speed    2.30 GHz Most Suitable For    Casual Computing Hardware Connectivity    HDMI Graphics Processing Type    Integrated/On-Board Graphics Additional Product Features Color    Platinum Grey Screen Size    15.6 in Inin. Maximum Resolution    1366×768 HD",
+        "precio": 575,
+        "stock": 27,
+        "marca": "Lenovo",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/2004227989214-1.jpg"
+    },
+    {
+        "nombre": "Lenovo AMD Ryzen™ 3 3200U/8GB/1TB/W10/15.6” touchscreen",
+        "descripcion": "Processor AMD® Ryzen™ 3 3200U Processor (2.60 GHz, up to 3.50 GHz Max Boost, 2 Cores, 4 Threads, 4 MB Cache) Operating System Windows 10 Home 64 Display Type 15.6” HD (1366 x 768) anti-glare, touchscreen, 220 nits Memory 8 GB DDR4 2400MHz Hard Drive 1 TB 5400 RPM HDD Optical Drive DVD-RW Graphics Integrated AMD Radeon™ Vega 3 graphics Bluetooth Bluetooth® 4.2 Camera 0.3MP Wireless 802.11AC (1 x 1)",
+        "precio": 650,
+        "stock": 6,
+        "marca": "Lenovo",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/2004227989214-1.jpg"
+    },
+    {
+        "nombre": "Notebook HP 245 G7, Ryzen 5 2500U/8GB/1TB/14.0/W10 Home refurbished",
+        "descripcion": "Modelo: Notebook HP 245 G7 Procesador: Ryzen 5 2500U Ram: 8GB Unidad óptica: HDD 1TB Pantalla: 14.0″ Sistema: W10 Home",
+        "precio": 679.99,
+        "stock": 26,
+        "marca": "HP",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/06/hp-245-g7.jpg"
+    },
+    {
+        "nombre": "Lenovo V145-15AST A9-9425 8GB 256GB 15.6″ 2GB Radeon 530",
+        "descripcion": "Sistema Windows 10 Home 64bit en español Procesador AMD A9-9425 3.1Ghz (hasta 3.7Ghz con turbo). Memoria 8GB DDR4-2133. Disco Duro 256GB SSD SATA. Pantalla LED 15.6 pulgadas Full HD 1920 x 1080. Video AMD Radeon 530 2GB GDDR5 dedicados. Sonido HD Dolby con parlantes estéreo. Red 10/100 integrada. Wifi 802.11ac wireless. Bluetooth v4.1. Camara Web con micrófono integrado. Teclado en español completo con teclado numérico.",
+        "precio": 700,
+        "stock": 4,
+        "marca": "Lenovo",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/notebook-lenovo-nueva-156-amd-a9-256ssd-8gb-radeon-530-loi-D_NQ_NP_700245-MLU33084005800_122019-F.jpg"
+    },
+    {
+        "nombre": "HP 240 G7 Core i5 8265U 8GB 1TB 14″ RX 520 2GB",
+        "descripcion": "Sistema Freedos OS. No incluye Windows instalado. Procesador Intel Core i5 8265U 1.6Ghz. (Hasta 3.9Ghz con turbo boost). 8GB DDR4-2400 SDRAM. (Soporta hasta 16GB) Disco duro 1TB 5400RPM. Pantalla LED 14″ HD SVA eDP Anti-glare Slim (1366 x 768). Video AMD Radeon RX 520 con 2GB GDDR5 de memoria dedicada. Audio DTS HD con parlantes estéreo. Red Gigabit 10/100/1000. Wi-Fi 802.11a/b/g/n/ac + Bluetooth v4.2 combo. Webcam Web y micrófono integrados. Teclado en ESPAÑOL. Batería de 3 celdas 41WHr litio-ion. Lector de memoria flash SD, SDHC y SDXC. Dimensiones: 33,50 x 23,4 x 1,98 cm. Peso: 1,52 kg",
+        "precio": 785,
+        "stock": 8,
+        "marca": "HP",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/04/notebook-hp-core-i5-8gb-1tb-14-pulgadas-hd-rx520-2gb-nnet-50490-36.jpg"
+    },
+    {
+        "nombre": "Acer Core I5/8Gb/GTX1050 4Gb/W10 15,6″",
+        "descripcion": "Marca Acer Cpu Intel Core i5-8300u Memoria 8GB DDR4 Disco Duro 1TB 2.5-inch 7200 RPM Pantalla 15,6″ con IPS (In-Plane-Switching) Full HD 1920×1080 Acer Comfy View LED-backlit TFT LCD Tarj. Video NVIDIA GeForce GTX 1050 con 4gb of dedicated GDDR5 VRAM Camara Web HD 1280 x 720 y 720P HD AUDIO/VIDEO RECORDING Audio 2 parlantes stereo y 2 micrófonos incorporados Batería 48 Wh 3220 mAh 15.2 V 4-cell Li-ion battery Autonomía Máxima 7 horas Card Reader SD /SDXC card reader (accepts cards up to 128 GB capacity) Bluetooth 5.0 Hdmi 2.0 port",
+        "precio": 989.99,
+        "stock": 15,
+        "marca": "Acer",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/10/667330Nitro5_gallery_01_2c6dbc1d03ca40429b29645d39198457.png"
+    },
+    {
+        "nombre": "MSI GL65 9SC I5-9300H/8G/SSD 512GB/GTX1650",
+        "descripcion": "CPU Intel® Core™ i5 9300H OS Windows 10 Home Windows 10 Pro DISPLAY 15.6'' FHD (1920×1080), IPS-Level CHIPSET Intel® HM370 GRAPHICS NVIDIA® GeForce® GTX 1650 With 4GB GDDR5 MEMORY 8GB DDR4-2666 NUMBER OF DIMM SLOT 2 Slots MAX CAPACITY  Max 64GB SSD 1x M.2 SSD 512GB (NVMe PCIe Gen3 / SATA) HDD  1x 2.5'' SATA HDD OPTIONAL WEBCAM HD type (30fps@720p) KEYBOARD Backlight Keyboard (Single-Color, Red) LAN Gb LAN WIRELESS LAN & BLUETOOTH 802.11 ac Wi-Fi + Bluetooth v5 SPEAKER 2x 2W AUDIO JACK 1x Mic-in 1x Headphone-out TYPE-C USB3.1 GEN1    1x TYPE-A USB3.1 GEN1    3x RJ45    1x SD (XC / HC) 1x HDMI    1x (4K @ 30Hz) BATTERY (CELL)    6-Cell BATTERY (TYPE)    Li-Ion BATTERY (WHR)    41 AC ADAPTER    150W adapter DIMENSION (WXDXH) MM   357,7 x 248 x 27,5 mm WEIGHT (W/ BATTERY)    2,3 kg",
+        "precio": 1350,
+        "stock": 7,
+        "marca": "MSI",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/83295544375622product_8_20180212152725_5a8141dd4d7e4__1__3166e74184004fb68979b309e9c0dc35.png"
+    },
+    {
+        "nombre": "Lenovo L340 GAMING Core™ i7-9750H 2.6GHz/512GB SSD/8GB/17.3″ (192×1080) IPS/NVIDIA® GTX 1650",
+        "descripcion": "Modelo IdeaPad L340 Memoria RAM 8 GB Capacidad del SSD 512 GB Resolución de la pantalla 1920 px x 1080 px GPU NVIDIA GeForce GTX 1650 Marca del procesador Intel Línea del procesador Core i7 Modelo del procesador 9750H Frecuencia de actualización de la pantalla 60 Hz Nombre del sistema operativo Windows 10 Home Tamaño de la pantalla 15.6 » Tipo de batería Polímero de litio Peso 2.1 kg",
+        "precio": 1590,
+        "stock": 8,
+        "marca": "Lenovo",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/lenovo-ideapad-l340-gaming-156-i5-256gb-8gb-netpc-D_NQ_NP_648612-MLU32158078274_092019-F.jpg"
+    },
+    {
+        "nombre": "MSI GL63 Intel Core i7 9750H/32Gb/SSD 512/15,6″ GTX1660ti",
+        "descripcion": "Color Black GL63 9SDK CPU Core i7-9750H CPU Speed 2.6 – 4.5GHz Chipset HM370 Screen Size 15.6″ FHD (1920×1080) Video Memory 6G GDDR6 Resolution 1920×1080 (16:9) GPU NVIDIA GeForce® GTX 1660 Ti HDD Capacity 256GB NVMe SSD HDD Interface NVMe LAN Killer Gaming Network E2400 Memory 32GB (16G*2) DDR4 2666MHz WLAN Intel 9560 Jefferson Peak (2×2 802.11 ac) Audio Nahimic 3 Optical Drive Type _ Bluetooth BT 5 Card Reader SD (XC/HC) USB USB 3.2 Gen1 *3 Keyboard Steel Series Single backlight with Anti-Ghost key+ silver lining Type-C Port USB 3.2 Gen2 Type C *1 Speaker Giant Speakers 3W*2 Video Port HDMI (supports 4K @ 60Hz), mDP v1.2*1 Webcam 720p HD Webcam Audio Port Headset AMP + Gold Flash jacks AC Power Adaptor 180W Battery Pack 6 cell (51Wh) OS Windows 10 Home Dimension 16.49″x11.29″x1.25″ Weight 5.95lbs Manufacturer Warranty 1 year Limited warranty (Include 1 Year Global)",
+        "precio": 2100,
+        "stock": 6,
+        "marca": "MSI",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/75529964375622product_8_20180212152725_5a8141dd4d7e4__1__3166e74184004fb68979b309e9c0dc35.png"
+    },
+    {
+        "nombre": "MSI GL63 GAMING Core i5-8300H 256GB SSD 16GB 15.6″ 120hz RTX2060 6Gb",
+        "descripcion": "Octava Gen de procesadores Intel® Core™ i7 Windows 10 Home / Windows 10 Pro GeForce® GTX 1050 con 4/2 GB GDDR5 15.6'' Full HD (1920x1080), Panel de tasa de refresco de 120 Hz y 3ms de tiempo de respuesta (Opcional) 15.6'' Full HD (1920x1080), panel IPS (Opcional) 15.6'' Full HD (1920x1080), 94% NTSC(Opcional) Teclado gaming de SteelSeries con color rojo retroiluminado 5X bigger Upgraded Giant Speakers para cautivarte Exclusiva tecnología Cooler Boost 5 Exclusiva tecnología SHIFT que incrementa el rendimiento manteniendo el control sobre el ruido y la temperatura Dragon Center 2.0 Tecnología Nahimic 3 Audio proporciona una experiencia de audio inmersiva de 360⁰ Matrix Display compatible 4K con dos salidas para monitores externos Licencia gratuita de WTFast durante dos meses",
+        "precio": 2500,
+        "stock": 2,
+        "marca": "MSI",
+        "categoria": "PORTATIL",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/1945566product_8_20180212152725_5a8141dd4d7e4__1__0f0e5dbca71449e6b9492e21a83035b6.png"
+    }
+]

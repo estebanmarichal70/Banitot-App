@@ -72,7 +72,7 @@
         "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/12/1816963zt-t16510f-10l-image1_9bf35c578cfd450cb5cbcf5812f58033.jpg"
     },
     {
-        "nombre": "Asrock Radeon RX580 8gb Phantom",
+        "nombre": "AsRock Radeon RX580 8gb Phantom",
         "descripcion": "Core Clock/Memory OC Mode: 1435 MHz / 8032 MHz Default Mode: 1380 MHz / 8000 MHz Silent Mode: 1324 MHz / 7968 MHz 8 GB GDDR5 Features Double Ball Bearings Fan Design High Performance Composite Heatpipes Support 8K Resolution Graphic Outputs: 3 DisplayPort, HDMI, DVI Phantom Gaming Tweak Utility Temperature and Fan Speed Monitoring Core / Memory Clock Tweak Core / Memory Voltage Tweak",
         "precio": 284.99,
         "stock": 15,
@@ -1546,5 +1546,131 @@
         "marca": "Seagate",
         "categoria": "HDD",
         "imagen": "https://www.banifox.com/imagenes/img_contenido/productos/a/BFXSE1T.jpg"
+    },
+    {
+        "nombre": "Escritorio Cougar Mars RGB",
+        "descripcion": " Serie Escritorio de juegos COUGAR MARS Panel de E / S USB 3.0 x 2 / Conectores de audio x 2 / Botón de encendido / Botón de reinicio / Botón de retroiluminación Dimensión del escritorio (ancho x profundidad)1533 x 771 (mm) 60,4 x 30,4 ( pulgadas ) Altura del escritorio (H) Tres ajustes: 750/800/850 (mm) 29.5 / 31.5 / 33.5 (in)",
+        "precio": 474.99,
+        "stock": 26,
+        "marca": "Cougar",
+        "categoria": "ESCRITORIO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/02/62723221_1_8830dd5f99f54a2d853ed0d536ca98d0.png"
+    },
+    {
+        "nombre": "Escritorio DXRacer Gaming Desk Negro",
+        "descripcion": "Escritorio DXRacer Gaming Desk Negro",
+        "precio": 335,
+        "stock": 21,
+        "marca": "DXRacer",
+        "categoria": "ESCRITORIO",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/11/5003236b6e066060314998d92b4a8779444d757-8684019-700_700_cf029514e7744e188b2770d167f25a85.jpg"
+    },
+    {
+        "nombre": "Escritorio Gamer Con Luces Led Scorpion Mvd Sport",
+        "descripcion": "DESCRIPCIÓN: Esritorio gamer con luces led diseño moderno y elegante luz de fondo de 7 colores estructura de marco de acero solido y confiable tamaño: 120x60x74cm altura ajustable",
+        "precio": 361,
+        "stock": 13,
+        "marca": "Scorpion",
+        "categoria": "ESCRITORIO",
+        "imagen": "https://http2.mlstatic.com/escritorio-gamer-con-luces-led-scorpion-mvd-sport-D_NQ_NP_673546-MLU32148874140_092019-F.webp"
+    },
+    {
+        "nombre": "Escritorio Mesa Pc Gamer o Laptop con Estantes",
+        "descripcion": "MEDIDAS: Altura: 76 Cm Ancho: 136 Cm Profundidad:60 Cm",
+        "precio": 58.28,
+        "stock": 24,
+        "marca": "Otros",
+        "categoria": "ESCRITORIO",
+        "imagen": "https://http2.mlstatic.com/escritorio-mesa-pc-gamer-laptop-estantes-oficina-oferta-D_NQ_NP_679892-MLU41902867455_052020-F.webp"
+    },
+    {
+        "nombre": "Joystick Redragon Seymour G806",
+        "descripcion": "Todas las funciones necesarias a un precio accesible. Un excelente grip engomado para pasar largas sesiones de juegos sin que tu control te moleste. 2 joysticks analogicos que te permiten jugar más juegos y de forma más realista y sencilla. Respuesta vibratoria para hacer las colisiones más realistas! Pad direccional D-Pad de 4 posiciones Dos joysticks analógicos: Dos mini joysticks permiten jugar más juegos, como simuladores de fútbol Vibración: Hace que las colisiones sean más realistas (si el juego admite la retroalimentación por vibración del controlador del juego)",
+        "precio": 22,
+        "stock": 5,
+        "marca": "Redragon",
+        "categoria": "GAMEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/08/2657298G806-1-2_2be95cb52aae41a28abec7b923bc7a30.png"
+    },
+    {
+        "nombre": "SteelSeries Stratus Wireless",
+        "descripcion": "Stratus Wireless White Joystick bluetooth para iPhone e iPad Steelseries Stratus Wireless White. • Perfomance superior para jugar – Botones sensibles a la presión para un control preciso del juego • Bluetooth 2.1 – duración extendida de la batería a 10 horas • 4 LEDs para mostrar el estado del jugador en las partidas multijugador • Botón On/Off (encendido/apagado) deslizante para aumentar la vida de la batería – Botón de conexión dedicado • Vasrias combinaciones de color – Botones de distintos colores para fácil ubicación • Compatibilidad Multi Dispositivo – requires iOS 7 o posterior (puede requerir actualización de firmware por cable): iPhone 5s, iPhone 5c, iPhone 5 iPhone 6, 6S, 7S, 8 y X, iPad mini, iPad mini with Retina Display, iPad Air, iPad 4th Gen / iPod Touch (5th Generation) • Cobertor protector que sirve tambien de agarre seleccionable • La sensación de un control de tamaño completo pero en una medida reducida",
+        "precio": 39.99,
+        "stock": 4,
+        "marca": "SteelSeries",
+        "categoria": "GAMEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/6971619stratus-wireless-white_ddf5fe785bc3402d90b93c204ea873e4.jpg"
+    },
+    {
+        "nombre": "Gamepad Logitech F710",
+        "descripcion": "Adapta y personaliza. Cambia los comandos estándar o adapta F710 mediante el software Logitech Profiler para usar un juego no compatible. Los botones y controles son programables e incluso pueden emular comandos de teclado y ratón.",
+        "precio": 50,
+        "stock": 7,
+        "marca": "Logitech",
+        "categoria": "GAMEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/12/4691919f710_92bc131045f745e39ee9d5fe244b6bac.png"
+    },
+    {
+        "nombre": "Palanca de cambios Logitech G Driving Force para G29 y G920",
+        "descripcion": "DISEÑADO PARA VOLANTES DE CARRERAS G29 Y G920 DRIVING FORCE Mete la marcha adecuada en el momento preciso. La palanca de cambio Driving Force™ se ha diseñado para los volantes de carreras G29 y G920 Driving Force, para hacer aún mejores los juegos para PC y consola modernos. Agrega la palanca de cambio Driving Force a tu volante para completar tu soporte para conducción y hacer las carreras aún más reales. CONSTRUCCIÓN DURADERA Compite con total comodidad y confianza Dotada de un robusto eje de acero, la palanca de cambio Driving Force se ha diseñado para conducir con toda precisión y fiabilidad duradera. La empuñadura y la funda están forradas de cuero de calidad cosido a mano, con un aspecto y un tacto similares a los de las palancas de los coches de carreras reales, para un uso más cómodo y prolongado. PALANCA DE CAMBIO DE SEIS VELOCIDADES CON MARCHA ATRÁS MEDIANTE PRESIÓN HACIA ABAJO Aceleración mantenida entre marchas La palanca de cambio de seis velocidades con diseño en “H” se mueve con soltura y entra en cada marcha con un clic, para cambios fluidos y precisos en curvas cerradas y tramos rectos. MONTAJE SEGURO Se mantiene firme aunque cambies de marcha Las resistentes abrazaderas integradas permiten instalar la palanca de cambio Driving Force de forma segura en una mesa o en un soporte para conducción, a fin de minimizar movimientos u oscilaciones en maniobras agresivas.", 
+        "precio": 63.99,
+        "stock": 8,
+        "marca": "Logitech",
+        "categoria": "GAMEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/3962025driving-force-shifter_24ef8a75e91743469569bb82501cdb7e.png"
+    },
+    {
+        "nombre": "Joystick Logitech Extreme 3D Pro",
+        "descripcion": "CONTROL DE TIMÓN CON EJE DE TORSIÓN DE GRAN PRECISIÓN Está todo en la muñeca. Los estudios han demostrado que el vuelo avanzado se basa en el instinto y el tiempo de reacción. Para ayudar a los pilotos, nuestros expertos diseñaron un timón con eje de torsión para Extreme 3D Pro, lo que dio como resultado un control natural con una mano en un dispositivo más compacto. 12 BOTONES PROGRAMABLES Personaliza tu equipo. Extreme 3D Pro pone todos los comandos al alcance de la mano y justo donde los quieres para poder mantener la vista en el horizonte. Cada botón programable se puede configurar para ejecutar simples comandos individuales o macros complejas de varias acciones de teclado, eventos de ratón y mucho más.",
+        "precio": 65,
+        "stock": 9,
+        "marca": "Logitech",
+        "categoria": "GAMEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/12/59702823dpro_3227b22a42e8477eabd93921f4e05a40.png"
+    },
+    {
+        "nombre": "Control Xbox Negro con cable para Windows",
+        "descripcion": "Experimenta la comodidad mejorada y la sensación del nuevo control inalámbrico Xbox, con un diseño más elegante y aerodinámico, y una textura antiderrapante. Disfruta de la asignación personalizada de botones y de un rango inalámbrico que es casi el doble. Con el conector para auriculares estéreo de 3,5 mm, puedes conectar directamente cualquier tipo de auriculares compatibles. Y, gracias a la tecnología Blu",
+        "precio": 85,
+        "stock": 12,
+        "marca": "XBox",
+        "categoria": "GAMEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-5.png"
+    },
+    {
+        "nombre": "Razer Tartarus V2 – Chroma Gaming Keypad",
+        "descripcion": "Gracias a su ergonomía avanzada, solo sentirás un ajuste cómodo mientras juegas, sea una hora o diez. Incluye un reposamuñecas extraíble con dos posiciones ajustables que se adaptan a tu ángulo de comodidad favorito.",
+        "precio": 99.99,
+        "stock": 23,
+        "marca": "Razer",
+        "categoria": "GAMEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/08/30630289437231.01.big_66452b5fda8145769fffed7488122f03.jpg"
+    },
+    {
+        "nombre": "Joystick Razer Wolverine TE",
+        "descripcion": "PERSONALIZACIÓN AVANZADA PARA EL MÁXIMO CONTROL Para un profesional de los deportes electrónicos, es crucial tener un controlador que se adapte sin esfuerzo a cualquier situación. Nuestro objetivo era lograr eso, y fuimos más allá. Al optimizar la ergonomía para la comodidad y agregar un conjunto completo de características, hemos dominado el controlador hecho para el juego de torneos y las victorias triunfantes.",
+        "precio": 189.99,
+        "stock": 28,
+        "marca": "Razer",
+        "categoria": "GAMEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/01/9783637x1aparaz_1_2dddbf7977bd41b9b64b64e747a2c25e.png"
+    },
+    {
+        "nombre": "Volante Logitech G29 PC-PS4",
+        "descripcion": "Mejora tu experiencia con la consola Después de añadir Driving Force a tu selección de controlador, ya no querrás simular carreras con un controlador estándar nunca más. El volante G29 se ha diseñado para los juegos de carreras más recientes para PlayStation®4 y PlayStation®3. G29 Driving Force también se puede usar en PC con Logitech Gaming Software.",
+        "precio": 355,
+        "stock": 12,
+        "marca": "Logitech",
+        "categoria": "GAMEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/7365367logitech-g29-driving-force-extra0_562f7ce3947944f1a861fbdf4cf0e6fa.jpg"
+    },
+    {
+        "nombre": "Volante Logitech G920 PC-XBOX",
+        "descripcion": "Volante Rotación: 900 grados de bloqueo a bloqueo Sensor de conducción tipo sala de juegos Force Feedback con dos motores Protección contra sobrecalentamiento Pedales Pedal de freno no lineal Sistema de alfombrilla antideslizante patentado Recubrimiento antideslizante Calibración automática Materiales Radios del volante: aluminio anodizado Recubrimiento del volante: cuero cosido a mano Eje de conducción: acero Palancas de cambio: acero inoxidable bruñido Pernos de montaje: nylon relleno de cristal Brazos y estructuras de pedales: acero laminado en frío Superficies de los pedales: acero inoxidable bruñido Fundas de pistones de pedales: termoplástico polioximetileno (POM)",
+        "precio": 373.99,
+        "stock": 12,
+        "marca": "Logitech",
+        "categoria": "GAMEPAD",
+        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2018/03/7365367logitech-g29-driving-force-extra0_562f7ce3947944f1a861fbdf4cf0e6fa.jpg"
     }
 ]
