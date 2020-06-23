@@ -18,7 +18,7 @@
         "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/mouse-logitech-inalambrico-m185-14138-MCO20083606464_042014-O_fb6718ed43cf4ca1a1c37a89f0c57d80.jpg"
     },
     {
-        "nombre": "Microsoft Wireless Mouse 1850 Blue",
+        "nombre": "Mouse Microsoft Wireless 1850 Blue",
         "descripcion": "El Wireless Mobile Mouse 1850 está diseñado para la vida en movimiento, ofreciendo libertad inalámbrica y almacenamiento de transceptor incorporado para la máxima movilidad. Cómodo de usar con cualquier mano y una rueda de desplazamiento para facilitar la navegación, hace de este mouse el dispositivo ideal para su estilo de vida moderno y móvil.",
         "precio": 15.99,
         "stock": 14,
@@ -27,7 +27,7 @@
         "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/05/1-10.png"
     },
     {
-        "nombre": "Microsoft Wireless Mouse 1850 Magenta",
+        "nombre": "Mouse Microsoft Wireless 1850 Magenta",
         "descripcion": "El Wireless Mobile Mouse 1850 está diseñado para la vida en movimiento, ofreciendo libertad inalámbrica y almacenamiento de transceptor incorporado para la máxima movilidad. Cómodo de usar con cualquier mano y una rueda de desplazamiento para facilitar la navegación, hace de este mouse el dispositivo ideal para su estilo de vida moderno y móvil.",
         "precio": 15.99,
         "stock": 28,
@@ -54,7 +54,7 @@
         "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/mouse-optico-negro-scroll-usb_008eda3be5534855b35e4d9df5267420.jpg"
     },
     {
-        "nombre": "Mouse Cougar Minos X2 Mouse Usb",
+        "nombre": "Mouse Cougar Minos X2 USB",
         "descripcion": "COUGAR Minos X2 ha sido diseñado específicamente para satisfacer todas las necesidades de los jugadores de eSports: Sensor óptico ADNS-3050, 6 botones, Interruptores OMRON, DPI al vuelo, ajuste de la frecuencia de sondeo y retroiluminación de 3 zonas. No es necesario que salgas de los juegos ya, porque puedes hacer todos tus ajustes directamente desde el ratón para estar listo para cada desafío!",
         "precio": 20,
         "stock": 37,
@@ -81,7 +81,7 @@
         "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/1234.png"
     },
     {
-        "nombre": "Microsoft Wireless Mouse 900",
+        "nombre": "Mouse Microsoft Wireless 900",
         "descripcion": "Mouse de tamaño completo: El mouse se ha diseñado con un tamaño mayor para ofrecer más comodidad y precisión a la hora de navegar. Diseño de teclado para ambidiestros: El mouse cuenta con un diseño ambidiestro para que pueda usarlo cómodamente con cualquiera de las manos. Botones personalizables: Los botones personalizables le proporcionan acceso a las características de Windows que más usa.1 Duración media de la batería de 2 años: El bajo consumo de energía permite una duración media de la batería de dos años (basado en un uso normal).",
         "precio": 25,
         "stock": 22,
@@ -243,7 +243,7 @@
         "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2019/10/8577387Low_Resolution_JPG-G502_SE_Top_CMYK_4ca21b90ac8346529bafd166625893b0.jpg"
     },
     {
-        "nombre": "Kingston HyperX Pulsefire Surge Gaming MOUSE RGB",
+        "nombre": "Mouse Kingston HyperX Pulsefire Surge RGB",
         "descripcion": "El HyperX Pulsefire Surge™ les brinda a los gamers el mejor estilo y esencia, brindando máxima precisión gracias al sensor Pixart 3389 y efectos de iluminación 360° RGB espectaculares con un exclusivo anillo de luz. Pulsefire Surge cuenta con ajustes de DPI nativos de hasta 16.000 DPI, lo cual brinda una gran precisión que será más que satisfactoria incluso para los shooters más exigentes. Los interruptores mecánicos Omron con gran capacidad de respuesta, preparados para 50 millones de clics, te aseguran que una vez que quieres seleccionar algo, lo harás con un sólo clic. Personaliza los DPI del mouse, configura colores LED individuales, asigna macros y guárdalos directamente en tu mouse con el software HyperX NGenuity. El Pulsefire Surge también viene equipado con grandes skates, que permiten un deslizamiento suave y controlado.",
         "precio": 55,
         "stock": 52,
@@ -432,7 +432,7 @@
         "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2020/03/ec1-b-csgo-02.png"
     },
     {
-        "nombre": "Kingston HyperX Pulsefire DART GLOBAL Wireless",
+        "nombre": "Mouse Kingston HyperX Pulsefire DART GLOBAL Wireless",
         "descripcion": "Pulsefire Dart Ratón inalámbrico para juegos El HyperX Pulsefire Dart™ es un ratón inalámbrico para juegos con una conexión RF fiable de 2,4GHz que te hará preguntarte por qué no te deshiciste antes del cable. El adaptador inalámbrico viene incluido para ampliar el alcance si utilizas un ordenador de sobremesa. Cuenta con la certificación Qi, que permite la carga inalámbrica1 y hasta 50 horas de batería2 en una sola carga. Gracias al sensor Pixart 3389 y al diseño de botón dividido con teclas Omron fiables, tendrás toda la precisión que necesitas para acabar con la competencia.",
         "precio": 99.99,
         "stock": 58,
@@ -1383,7 +1383,7 @@
         "stock": 78,
         "marca": "Logitech",
         "categoria": "PARLANTE",
-        "imagen": "https://thotcomputacion.com.uy/wp-content/uploads/2017/04/logitech-x50-bluetooth-speaker-black-blue-yellow-hypetech-1512-20-hypetech2525252525252525254030_e6e95bf2db634549bf4c5b329ece3921.jpg"
+        "imagen": "https://http2.mlstatic.com/parlante-logitech-x50-bluetooth-D_NQ_NP_660254-MLA31525441034_072019-O.webp"
     },
     {
         "nombre": "Parlante Logitech X100 Bluetooth",

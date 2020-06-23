@@ -24,7 +24,7 @@
                                     <h6
                                       class="item-name font-semibold mb-1 cursor-pointer hover:text-primary"
                                       @click="$router.push({name: 'ecommerce-item-detail-view', params: {item_id: item.id }}).catch(() => {})">{{ item.nombre }}</h6>
-                                    <p class="text-sm mb-2">De <span class="font-semibold">{{ item.marca }}</span></p>
+                                    <p class="text-sm mb-2">de <span class="font-semibold">{{ item.marca }}</span></p>
                                     <p class="text-sm">Unidades disponibles: <span class="font-semibold">{{item.stock}}</span></p>
 
                                     <p class="mt-4 font-bold text-sm">Cantidad</p>
@@ -356,11 +356,12 @@ export default {
       await http.services.fetchUser()
       .then(res => {
             this.user = res.data.user
+            this.$vs.loading.close()
         })
       .catch(error => {
         console.log(error)
+        this.$vs.loading.close()
       })
-      this.$vs.loading.close()
     },
     async fetchCarrito() {
       this.$vs.loading()

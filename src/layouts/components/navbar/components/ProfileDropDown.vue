@@ -40,7 +40,7 @@
       </vs-dropdown-menu>
     </vs-dropdown>
   </div>
-  <router-link to="/acceder" v-else class="the-navbar__user-meta flex items-center">
+  <router-link to="/acceder" v-else class="font-semibold ">
     Acceder
   </router-link>
 </template>

@@ -121,7 +121,7 @@
                         <vs-divider />
 
                         <ais-clear-refinements class="flex justify-center">
-                            <vs-button class="w-full" @click="resetAll" >Remover Filtros</vs-button>
+                            <vs-button class="w-full" @click="resetAll">Remover Filtros</vs-button>
                         </ais-clear-refinements>
                     </div>
                 </vs-sidebar>
@@ -225,9 +225,10 @@
                             :total="totalPages"
                             :max="5"
                             :value="page"
-                            @input="(val) => changePage(val)" />
+                            @input="(val) => changePage(val)" 
+                            />
                         </div>
-                    <div class="flex mt-4 mx-auto h-8"/>
+                    <div class="flex mt-4 mx-auto mb-6 h-8"/>
                 </div>
             </div>
         </ais-instant-search>
@@ -350,9 +351,11 @@ export default {
       this.fetchProducts()
     },
     marca(){
+      this.page = 1
       this.fetchProducts()
     },
     precio(){
+      this.page = 1
       if(this.precio === 0){
         this.precioMin = 0;
         this.precioMax = 100;
@@ -483,6 +486,7 @@ export default {
     },
 
     resetAll () {
+        this.rango =[this.rangoMin, this.rangoMax]
         this.resetSearch()
         this.resetMarca()
         this.resetPrecio()
@@ -490,10 +494,12 @@ export default {
     },
 
     search(){
+      this.page = 1
       this.fetchProducts();
     },
 
     onChange(){
+      this.page = 1
       this.precioMin = this.rango[0];
       this.precioMax = this.rango[1];
       this.fetchProducts();
@@ -519,12 +525,12 @@ export default {
         this.totalPages = res.data.articulos.last_page;
         this.totalProducts = res.data.articulos.total;
         this.marcas = res.data.marcas;
-
+        this.$vs.loading.close()
       })
       .catch(error => {
         console.log(error)
+        this.$vs.loading.close()
       })
-      this.$vs.loading.close()
     },
 
     async getPrecios(){

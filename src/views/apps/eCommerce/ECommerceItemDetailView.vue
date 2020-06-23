@@ -170,7 +170,7 @@
             </div>
             <swiper :options="swiperOption" :dir="$vs.rtl ? 'rtl' : 'ltr'" :key="$vs.rtl" class="related-product-swiper px-12 py-6">
               <swiper-slide v-for="item in related_items" :key="item.id" class="p-6 rounded cursor-pointer">
-                <div @click="handleArticulo(item.id)">
+                <div class="contenedor" @click="handleArticulo(item.id)">
                   <!-- Item Heading -->
                   <div class="item-heading mb-4">
                     <p class="text-lg font-semibold truncate">{{ item.nombre }}</p>
@@ -181,9 +181,7 @@
                   </div>
 
                   <!-- Item Image -->
-                  <div class="img-container w-32 mx-auto my-base">
-                    <img class="responsive imagen" :src="item.imagen" :alt="item.nombre">
-                  </div>
+                  <img class="responsive imagen" :src="item.imagen" :alt="item.nombre">
 
                   <!-- Item Meta -->
                   <div class="item-meta">
@@ -306,7 +304,6 @@ export default{
           else
             rating = 0;
           this.item_data['rating'] = rating
-          console.log(this.item_data)
         })
         .catch(error => {
           console.log(error)
@@ -339,6 +336,7 @@ export default{
       })
       .catch(error => {
         console.log(error)
+        this.$vs.loading.close()
       })
     }
   }
@@ -379,7 +377,9 @@ export default{
     .swiper-wrapper {
       padding-bottom: 2rem;
 
+      
       .imagen{
+        display:unset;
         height: 112px;
         width: auto;
       }

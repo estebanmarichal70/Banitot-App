@@ -56,9 +56,8 @@
             </div>
 
             <!-- Item Image -->
-            <div class="img-container w-32 mx-auto my-base">
-              <img class="responsive imagen" :src="item.imagen" :alt="item.nombre">
-            </div>
+            <img class="responsive imagen" :src="item.imagen" :alt="item.nombre">
+            
 
             <!-- Item Meta -->
             <div class="item-meta">
@@ -164,6 +163,7 @@
       padding-bottom: 2rem;
 
       .imagen{
+        display:unset;
         height: 112px;
         width: auto;
       }

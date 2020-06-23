@@ -215,7 +215,7 @@
 
       registerUserJWt() {
         if (!this.validateForm) return;
-
+        this.$vs.loading()
         const payload = {
           name: this.nombre,
           email: this.email,
@@ -236,6 +236,7 @@
               text: "Se ha enviado un mail de confirmacion.",
               color: 'success'
             });
+            this.$vs.loading.close()
             this.$router.push("/");
           })
           .catch(err => {
@@ -260,6 +261,7 @@
                 color: 'danger'
               })
             }
+            this.$vs.loading.close()
           })
       }
     }

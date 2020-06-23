@@ -15,7 +15,7 @@
                     <div class="p-4 pt-6">
                         <slot name="item-meta">
                             <h6 class="item-name font-semibold mb-1 hover:text-primary cursor-pointer" @click="navigate_to_detail_view">{{ item.nombre }}</h6>
-                            <p class="text-sm mb-4">De <span class="font-semibold cursor-pointer">{{ item.marca }}</span></p>
+                            <p class="text-sm mb-4">de <span class="font-semibold cursor-pointer">{{ item.marca }}</span></p>
                             <p class="item-description text-sm">{{ item.descripcion }}</p>
                         </slot>
                     </div>
