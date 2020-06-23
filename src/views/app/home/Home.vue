@@ -56,7 +56,7 @@
             </div>
 
             <!-- Item Image -->
-            <img class="responsive imagen" :src="item.imagen" :alt="item.nombre">
+            <img @click="handleArticulo(item.id)" class="responsive imagen" :src="item.imagen" :alt="item.nombre">
             
 
             <!-- Item Meta -->

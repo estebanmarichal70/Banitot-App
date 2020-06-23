@@ -19,6 +19,14 @@ const router = new Router({
           redirect: '/inicio'
         },
         {
+          path: '/contacto',
+          name: 'google-map',
+          component: () => import('./views/charts-and-maps/maps/google-map/GoogleMap.vue'),
+          meta: {
+            rule: 'editor'
+          }
+        },
+        {
           path: '/inicio',
           name: 'inicio',
           component: () => import('./views/app/home/Home.vue'),
