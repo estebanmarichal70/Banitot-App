@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import state from './store/state'
 
 Vue.use(Router)
 
@@ -53,11 +54,7 @@ const router = new Router({
           name: 'ecommerce-wish-list',
           component: () => import('./views/apps/eCommerce/ECommerceWishList.vue'),
           meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'eCommerce', url: '/apps/eCommerce/shop' },
-              { title: 'Wish List', active: true }
-            ],
+            authRequired: true,
             pageTitle: 'Wish List',
             rule: 'editor'
           }
@@ -120,11 +117,7 @@ const router = new Router({
           name: 'app-user-edit',
           component: () => import('@/views/apps/user/user-edit/UserEdit.vue'),
           meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'User' },
-              { title: 'Edit', active: true }
-            ],
+            authRequired: true,
             pageTitle: 'User Edit',
             rule: 'editor'
           }
@@ -317,22 +310,21 @@ router.afterEach(() => {
 })
 
 
-/*router.beforeEach((to, from, next) => {
-  if (to.path === "/deseados" ) {
-    //return next();
-  }
+router.beforeEach((to, from, next) => {
 
   // If auth required, check login. If login fails redirect to login page
-  if (to.meta.authRequired) {
-    if (!(auth.isAuthenticated())) {
-      router.push({ path: '/pages/login', query: { to: to.path } })
-    }
+  if (to.meta.authRequired && state.AppActiveUser.name && to.path !== "/acceder") {
+    return next();
   }
+  if(to.path !== "/acceder" && !state.AppActiveUser.name && to.meta.authRequired){
+    return router.push('/acceder');
+  }
+  return next();
 
   //return next()
   // Specify the current path as the customState parameter, meaning it
   // will be returned to the application after auth
   // auth.login({ target: to.path });
-})*/
+})
 
 export default router

@@ -13,12 +13,10 @@
           Lunes a Viernes 9:30 a 13 y 14 a 19 hrs. Sábados 9 a 13hrs.
         </h6>
         <div class="mt-5">
-            <feather-icon
-              icon="FacebookIcon"
-              class="p-2 ml-4 iconoF shadow-drop rounded-lg cursor-pointer hidden sm:inline-flex"
-            />
-          </router-link>
-          
+          <feather-icon
+            icon="FacebookIcon"
+            class="p-2 ml-4 iconoF shadow-drop rounded-lg cursor-pointer hidden sm:inline-flex"
+          />
           <feather-icon
             icon="YoutubeIcon"
             class="p-2 ml-4 iconoY shadow-drop rounded-lg cursor-pointer hidden sm:inline-flex"

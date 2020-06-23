@@ -81,7 +81,8 @@
                                 <span>US$ {{precioT}}</span>
                             </div>
 
-                            <vs-button class="w-full" @click="$refs.checkoutWizard.nextTab()">Comprar</vs-button>
+                            <vs-button class="w-full" v-if="!guest" @click="$refs.checkoutWizard.nextTab()">Comprar</vs-button>
+                            <vs-button class="w-full" v-else to="/acceder" >Iniciar Sesión</vs-button>
                         </vx-card>
                     </div>
                 </div>

@@ -64,6 +64,7 @@
                     <vs-th>Marca</vs-th>
                     <vs-th>Precio</vs-th>
                     <vs-th>Rating</vs-th>
+                    <vs-th>Calificar</vs-th>
                   </template>
 
                   <template>
@@ -95,7 +96,14 @@
                         </vs-td>
 
                         <vs-td>
-                          <star-rating :show-rating="false" :rating="item.rating" @rating-selected="setCurrentRating($event, item.id)" :star-size="14" />
+                          <div class="text-warning border border-solid border-warning flex py-1 px-2 rounded justify-center">
+                              <span class="text-sm mr-1">{{item.rating}}</span>
+                              <feather-icon icon="StarIcon" svgClasses="h-4 w-4" />
+                          </div>
+                        </vs-td>
+
+                        <vs-td>
+                          <star-rating :show-rating="false" @rating-selected="setCurrentRating($event, item.id)" :star-size="14" />
                         </vs-td>
 
                       </vs-tr>
@@ -202,7 +210,7 @@ export default {
           item['rating'] = rating
         })
       })
-      .catch(err => {
+      .catch(() => {
           this.$vs.notify({
             title: "Error",
             text: "Ocurrio un mensaje inesperado",

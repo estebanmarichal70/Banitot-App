@@ -452,7 +452,8 @@ export default {
           this.categoria = "ESCRITORIO"
           break;
         default:
-          this.categoria = ''
+          this.$router.push('/error-404')
+
       }
       this.page = 1;
       this.fetchProducts();
