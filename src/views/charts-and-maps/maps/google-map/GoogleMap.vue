@@ -15,12 +15,9 @@
 <script>
 import GoogleMapBasic from './GoogleMapBasic.vue'
 import GoogleMapInfoWindow from './GoogleMapInfoWindow.vue'
-import GoogleMapStreetView from './GoogleMapStreetView.vue'
-
 export default {
   components: {
     GoogleMapInfoWindow,
-    GoogleMapStreetView,
     GoogleMapBasic
   }
 }

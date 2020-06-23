@@ -72,7 +72,13 @@
               })
             })
             .catch(error => {
-              console.log(error)
+              this.$vs.notify({
+                title: 'Error',
+                text: error.message,
+                iconPack: 'feather',
+                icon: 'icon-alert-circle',
+                color: 'danger'
+              })
             })
           http.services.getWishlist(this.$store.state.AppActiveUser.wishlist[0].id)
             .then(res => {
@@ -81,7 +87,13 @@
               })
             })
             .catch(error => {
-              console.log(error)
+              this.$vs.notify({
+                title: 'Error',
+                text: error.message,
+                iconPack: 'feather',
+                icon: 'icon-alert-circle',
+                color: 'danger'
+              })
             })
         }
       }

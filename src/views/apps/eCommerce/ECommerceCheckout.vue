@@ -247,7 +247,7 @@
                                     <!-- CVV BLOCK -->
                                     <form data-vv-scope="cvv-form">
                                         <div class="flex items-center flex-wrap">
-                                            
+
                                             <vs-button class="mt-4" @click.prevent="makePayment" :disabled="false">Confirmar</vs-button>
                                         </div>
                                         <span v-show="errors.has('cvv-form.cvv')" class="text-danger ml-24">{{ errors.first('cvv-form.cvv') }}</span>
@@ -359,7 +359,13 @@ export default {
             this.$vs.loading.close()
         })
       .catch(error => {
-        console.log(error)
+        this.$vs.notify({
+          title: 'Error',
+          text: error.message,
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'danger'
+        })
         this.$vs.loading.close()
       })
     },
@@ -384,7 +390,13 @@ export default {
         this.precioT = (this.precio - this.precio * 0.05).toFixed(2)
         })
       .catch(error => {
-        console.log(error)
+        this.$vs.notify({
+          title: 'Error',
+          text: error.message,
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'danger'
+        })
       })
     },
     removeItemFromCart (item) {
@@ -496,9 +508,15 @@ export default {
                 this.$router.push('/inicio').catch(() => {})
               })
             .catch(error => {
-              console.log(error)
+              this.$vs.notify({
+                title: 'Error',
+                text: error.message,
+                iconPack: 'feather',
+                icon: 'icon-alert-circle',
+                color: 'danger'
+              })
             })
-            
+
           } else {
             this.$vs.notify({
               title: 'Error',

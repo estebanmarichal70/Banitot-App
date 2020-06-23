@@ -306,12 +306,24 @@ export default{
           this.item_data['rating'] = rating
         })
         .catch(error => {
-          console.log(error)
+          this.$vs.notify({
+            title: 'Error',
+            text: error.message,
+            iconPack: 'feather',
+            icon: 'icon-alert-circle',
+            color: 'danger'
+          })
         })
         await this.fetchProducts(this.item_data.categoria)
       })
       .catch(error => {
-        console.log(error)
+        this.$vs.notify({
+          title: 'Error',
+          text: error.message,
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'danger'
+        })
       })
     },
     async fetchProducts(categoria) {
@@ -335,7 +347,13 @@ export default{
         this.$vs.loading.close()
       })
       .catch(error => {
-        console.log(error)
+        this.$vs.notify({
+          title: 'Error',
+          text: error.message,
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'danger'
+        })
         this.$vs.loading.close()
       })
     }

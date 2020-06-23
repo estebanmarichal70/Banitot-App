@@ -22,7 +22,7 @@
                         <!-- Stats -->
                         <ais-stats>
                             <p  class="font-semibold md:block hidden">
-                                {{totalProducts}} resultados encontrados 
+                                {{totalProducts}} resultados encontrados
                             </p>
                         </ais-stats>
 
@@ -86,13 +86,13 @@
 
                         <ais-range-input attribute="price">
                             <div>
-                                <vs-slider 
-                                  class="algolia-price-slider"  
-                                  text-fixed="US$" 
+                                <vs-slider
+                                  class="algolia-price-slider"
+                                  text-fixed="US$"
                                   step="1"
                                   :min="rangoMin"
                                   :max="rangoMax"
-                                  v-model="rango" 
+                                  v-model="rango"
                                   @input="onChange" />
                             </div>
                         </ais-range-input>
@@ -114,7 +114,7 @@
                                     <li v-for="item in marcas" :key="item.id" class="mb-2 flex items-center justify-between">
                                         <vs-radio v-model="marca" :vs-value="item.marca" class="ml-0">{{ item.marca }}</vs-radio>
                                     </li>
-                                    
+
                                 </ul>
                             </div>
                         </ais-refinement-list>
@@ -225,7 +225,7 @@
                             :total="totalPages"
                             :max="5"
                             :value="page"
-                            @input="(val) => changePage(val)" 
+                            @input="(val) => changePage(val)"
                             />
                         </div>
                     <div class="flex mt-4 mx-auto mb-6 h-8"/>
@@ -320,7 +320,7 @@ export default {
   beforeMount(){
     this.fetchProducts = debounce(this.fetchProducts,200)
     this.loadProductsByCategoria();
-    
+
   },
   computed: {
     toValue () {
@@ -386,10 +386,10 @@ export default {
 
     loadProductsByCategoria(){
         switch(this.$route.params.categoria){
-        case "procesadores" : 
+        case "procesadores" :
           this.categoria = "CPU";
           break;
-        case "motherboards" : 
+        case "motherboards" :
           this.categoria = "MOTHERBOARD";
           break;
         case "rams" :
@@ -528,7 +528,13 @@ export default {
         this.$vs.loading.close()
       })
       .catch(error => {
-        console.log(error)
+        this.$vs.notify({
+          title: 'Error',
+          text: error.message,
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'danger'
+        })
         this.$vs.loading.close()
       })
     },
@@ -542,7 +548,13 @@ export default {
           this.rango =[this.rangoMin, this.rangoMax];
         })
         .catch(err => {
-          console.log(err);
+          this.$vs.notify({
+            title: 'Error',
+            text: error.message,
+            iconPack: 'feather',
+            icon: 'icon-alert-circle',
+            color: 'danger'
+          })
         })
     },
     // GRID VIEW - ACTIONS

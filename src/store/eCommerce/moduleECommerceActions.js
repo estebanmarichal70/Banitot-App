@@ -17,16 +17,22 @@ export default {
       articulo_id: item.id,
       carrito_id: item.carrito_id
     }
-    if(getters.isInCart(item.id)) 
+    if(getters.isInCart(item.id))
     {
       http.services.detachCarrito(articulo)
       .then(() => {})
       .catch(error => {
-        console.log(error)
+        this.$vs.notify({
+          title: 'Error',
+          text: error.message,
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'danger'
+        })
       })
       commit('REMOVE_ITEM_FROM_CART', item)
     }
-    else 
+    else
       dispatch('additemInCart', item)
   },
   additemInCart ({ commit }, item) {
@@ -40,7 +46,13 @@ export default {
     http.services.atachCarrito(articulo)
     .then(() => {})
     .catch(error => {
-      console.log(error)
+      this.$vs.notify({
+        title: 'Error',
+        text: error.message,
+        iconPack: 'feather',
+        icon: 'icon-alert-circle',
+        color: 'danger'
+      })
     })
     commit('ADD_ITEM_IN_CART', item)
   },
@@ -56,7 +68,13 @@ export default {
       commit('UPDATE_ITEM_QUANTITY', payload)
     })
     .catch(error => {
-      console.log(error)
+      this.$vs.notify({
+        title: 'Error',
+        text: error.message,
+        iconPack: 'feather',
+        icon: 'icon-alert-circle',
+        color: 'danger'
+      })
     })
   }
 }

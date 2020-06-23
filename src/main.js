@@ -53,6 +53,16 @@ Vue.use(VueHammer)
 // Feather font icon
 require('./assets/css/iconfont.css')
 
+// Google Maps
+import * as VueGoogleMaps from 'vue2-google-maps'
+Vue.use(VueGoogleMaps, {
+  load: {
+    // Add your API key here
+    key: 'AIzaSyB4DDathvvwuwlwnUu7F4Sow3oU22y5T1Y',
+    libraries: 'places' // This is required if you use the Auto complete plug-in
+  }
+})
+
 
 // Vue select css
 // Note: In latest version you have to add it separately

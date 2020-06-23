@@ -12,14 +12,26 @@ export default {
       http.services.atachWishlist(articulo)
       .then(() => {})
       .catch(error => {
-        console.log(error)
+        this.$vs.notify({
+          title: 'Error',
+          text: error.message,
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'danger'
+        })
       })
       state.wishList.push(item)
     } else {
       http.services.detachWishlist(articulo)
       .then(() => {})
       .catch(error => {
-        console.log(error)
+        this.$vs.notify({
+          title: 'Error',
+          text: error.message,
+          iconPack: 'feather',
+          icon: 'icon-alert-circle',
+          color: 'danger'
+        })
       })
       state.wishList.splice(index, 1)
     }
