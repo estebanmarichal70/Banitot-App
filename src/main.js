@@ -4,10 +4,6 @@ import App from './App.vue'
 import Vuesax from 'vuesax'
 import 'material-icons/iconfont/material-icons.css' //Material Icons
 import 'vuesax/dist/vuesax.css' // Vuesax
-// axios
-import axios from './axios.js'
-// API Calls
-import './http/requests'
 // Theme Configurations
 import '../themeConfig.js'
 // ACL
@@ -39,8 +35,6 @@ import 'prismjs/themes/prism-tomorrow.css'
 
 Vue.use(Vuesax)
 
-
-Vue.prototype.$http = axios
 
 Vue.use(VueClipboard)
 

@@ -39,7 +39,7 @@
               ref="contraseña"
               type="password"
               data-vv-validate-on="blur"
-              v-validate="'required|min:6|max:10'"
+              v-validate="'required|min:8|max:128'"
               name="contraseña"
               label-placeholder="Contraseña"
               placeholder="Contraseña"
@@ -233,9 +233,10 @@
           .then(() => {
             this.$vs.notify({
               title: 'Genial!',
-              text: "Se ha creado el usuario. Por favor, inicie sesion.",
+              text: "Se ha enviado un mail de confirmacion.",
               color: 'success'
-            })
+            });
+            this.$router.push("/");
           })
           .catch(err => {
             if (err.response) {

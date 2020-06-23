@@ -18,8 +18,6 @@ export default {
             // Update user details
             commit('UPDATE_USER_INFO', response.data.user, {root: true})
 
-            // Set bearer token in axios
-            commit('SET_BEARER', response.data.token)
             resolve(response)
           } else {
             reject({message: 'Wrong Email or Password'})

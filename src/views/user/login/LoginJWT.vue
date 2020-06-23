@@ -26,7 +26,7 @@
     <span class="text-danger text-sm">{{ errors.first('contraseña') }}</span>
 
     <div class="flex flex-wrap justify-between my-5">
-      <router-link to="/pages/forgot-password">Olvidaste tu contraseña?</router-link>
+      <router-link to="/olvide-contraseña">Olvidaste tu contraseña?</router-link>
     </div>
     <div class="flex flex-wrap justify-between mb-3">
       <vs-button type="border" @click="registerUser">Registrar</vs-button>
@@ -39,8 +39,8 @@
   export default {
     data() {
       return {
-        email: 'admin@admin.com',
-        password: 'adminadmin',
+        email: '',
+        password: '',
         checkbox_remember_me: false
       }
     },
