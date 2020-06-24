@@ -175,11 +175,11 @@ export default {
           }
 
           if (this.dataId !== null && this.dataId >= 0) {
-            this.$store.dispatch('dataList/updateItem', obj).catch(err => { console.error(err) })
+            this.$store.dispatch('dataList/updateItem', obj).catch(() => { })
           } else {
             delete obj.id
             obj.popularity = 0
-            this.$store.dispatch('dataList/addItem', obj).catch(err => { console.error(err) })
+            this.$store.dispatch('dataList/addItem', obj).catch(() => { })
           }
 
           this.$emit('closeSidebar')
