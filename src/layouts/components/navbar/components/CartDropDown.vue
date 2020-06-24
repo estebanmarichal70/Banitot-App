@@ -75,7 +75,7 @@ export default {
   computed: {
     // CART DROPDOWN
     cartItems () {
-      return this.$store.state.eCommerce.cartItems.slice().reverse()
+      return this.$store.state.eCommerce.cartItems
     },
     scrollbarTag () {
       return this.$store.getters.scrollbarTag
@@ -85,7 +85,7 @@ export default {
     removeItemFromCart (item) {
       if(this.$store.state.AppActiveUser.name)
         item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
-
+        
       this.$store.dispatch('eCommerce/toggleItemInCart', item)
     }
   }

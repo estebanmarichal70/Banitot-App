@@ -59,7 +59,7 @@ export default {
   },
   computed: {
     wishListitems () {
-      return this.$store.state.eCommerce.wishList.slice().reverse()
+      return this.$store.state.eCommerce.wishList
     },
     isInCart () {
       return (itemId) => this.$store.getters['eCommerce/isInCart'](itemId)
@@ -70,7 +70,7 @@ export default {
   },
   methods: {
     removeItemFromWishList (item) {
-      item['wishlist_id'] = this.$store.state.AppActiveUser.carrito[0].id;
+      item['wishlist_id'] = this.$store.state.AppActiveUser.wishlist[0].id;
       this.$store.dispatch('eCommerce/toggleItemInWishList', item)
     },
     cartButtonClicked (item) {

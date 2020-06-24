@@ -11,11 +11,19 @@ export default {
     commit('ADD_ITEM_IN_WISH_LIST', item)
   },
   toggleItemInWishList ({ commit }, item) {
+    if(localStorage.getItem('wishList') === null){
+      const wishList = []    
+      localStorage.setItem('wishList', JSON.stringify(wishList));
+    }
     commit('TOGGLE_ITEM_IN_WISH_LIST', item)
   },
   toggleItemInCart ({ getters, commit, dispatch }, item) {
+    console.log("entra")
+    if(localStorage.getItem('cartItems') === null){
+      const cartItems = []    
+      localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    }
     if(state.AppActiveUser.name){
-      console.log("entra")
       const articulo = {
         articulo_id: item.id,
         carrito_id: item.carrito_id
@@ -45,6 +53,10 @@ export default {
     }
   },
   additemInCart ({ commit }, item) {
+    if(localStorage.getItem('cartItems') === null){
+      const cartItems = []    
+      localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    }
     item['quantity'] = 1
     if(state.AppActiveUser.name){
       const articulo = {
@@ -52,7 +64,6 @@ export default {
         carrito_id: item.carrito_id,
         cantidad: item.quantity
       }
-
       http.services.atachCarrito(articulo)
       .then(() => {})
       .catch(error => {
@@ -69,16 +80,18 @@ export default {
       commit('ADD_ITEM_IN_CART', item)
   },
   updateItemQuantity ({ commit }, payload) {
+    if(localStorage.getItem('cartItems') === null){
+      const cartItems = []    
+      localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    }
     if(state.AppActiveUser.name){
       const articulo = {
         articulo_id: payload.articulo_id,
         carrito_id: payload.carrito_id,
         cantidad: payload.quantity
       }
-
       http.services.atachCarrito(articulo)
       .then(() => {
-        commit('UPDATE_ITEM_QUANTITY', payload)
       })
       .catch(error => {
         this.$vs.notify({
@@ -89,8 +102,12 @@ export default {
           color: 'danger'
         })
       })
+      commit('UPDATE_ITEM_QUANTITY', payload)
     }
     else
       commit('UPDATE_ITEM_QUANTITY', payload)
+  },
+  resetData({commit}){
+    commit('RESET_ALL')
   }
 }

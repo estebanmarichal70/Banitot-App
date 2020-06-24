@@ -64,6 +64,7 @@
     methods: {
       logout() {
         if (localStorage.getItem("accessToken")) {
+          this.$store.dispatch('eCommerce/resetData')
           localStorage.removeItem("userInfo");
           localStorage.removeItem("accessToken");
           this.hideUserData = true;

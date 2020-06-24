@@ -6,7 +6,6 @@
 
 <script>
   import themeConfig from '@/../themeConfig.js'
-  import http from '@/http/banitotServices';
 
   export default {
     data() {
@@ -63,40 +62,6 @@
       window.addEventListener('resize', this.handleWindowResize)
       window.addEventListener('scroll', this.handleScroll)
 
-      if (this.$store.state.AppActiveUser.name) {
-        if (this.$store.state.AppActiveUser.carrito) {
-          http.services.getCarrito(this.$store.state.AppActiveUser.carrito[0].id)
-            .then(res => {
-              res.data.articulos.forEach(item => {
-                this.$store.dispatch('eCommerce/loadCart', item)
-              })
-            })
-            .catch(error => {
-              this.$vs.notify({
-                title: 'Error',
-                text: error.message,
-                iconPack: 'feather',
-                icon: 'icon-alert-circle',
-                color: 'danger'
-              })
-            })
-          http.services.getWishlist(this.$store.state.AppActiveUser.wishlist[0].id)
-            .then(res => {
-              res.data.articulos.forEach(item => {
-                this.$store.dispatch('eCommerce/loadWishlist', item)
-              })
-            })
-            .catch(error => {
-              this.$vs.notify({
-                title: 'Error',
-                text: error.message,
-                iconPack: 'feather',
-                icon: 'icon-alert-circle',
-                color: 'danger'
-              })
-            })
-        }
-      }
     },
     destroyed() {
       window.removeEventListener('resize', this.handleWindowResize)
