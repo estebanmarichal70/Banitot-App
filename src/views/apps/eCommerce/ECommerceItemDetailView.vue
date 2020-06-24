@@ -423,7 +423,7 @@ export default{
 
     .swiper-button-next,
     .swiper-button-prev {
-      transform: scale(.5);
+      transform: scale(.8);
       filter: hue-rotate(40deg);
     }
 

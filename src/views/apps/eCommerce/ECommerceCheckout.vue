@@ -505,8 +505,8 @@ export default {
                   icon: 'icon-check',
                   time: 4000
                 })
-                this.cartItems.forEach(item => {
-                  item['carrito_id'] = this.$store.state.AppActiveUser.carrito[0].id;
+                const cartItems = JSON.parse(localStorage.getItem('cartItems'));
+                cartItems.forEach(item => {
                   this.$store.dispatch('eCommerce/toggleItemInCart', item)
                 })
                 this.$router.push('/inicio').catch(() => {})

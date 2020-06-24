@@ -55,9 +55,11 @@ export default {
   },
   methods: {
     fetch_user_data () {
+      this.$vs.loading();
       http.services.fetchUser()
       .then(res => {
         this.user_data = res.data.user
+        this.$vs.loading.close();
       })
       .catch(err => {
         this.$vs.notify({
@@ -66,6 +68,7 @@ export default {
             color: "danger"
           });
       })
+      this.$vs.loading.close();
     }
   },
   created () {

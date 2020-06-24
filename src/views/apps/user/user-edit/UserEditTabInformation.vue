@@ -161,6 +161,9 @@ export default {
   },
   watch: {
     data_local: {
+      data () {
+        this.data_local = JSON.parse(JSON.stringify(this.data.ordenes))
+      },
       handler() {
         if (this.data.name !== this.data_local.name && this.data_local.name !== "") {
             this.usuarioActualizado.nombre = this.data_local.name;
@@ -203,6 +206,7 @@ export default {
       http.services
         .updateUser(this.usuarioActualizado)
         .then(() => {
+          this.$emit('fetch')
           this.$vs.notify({
             title: "Genial!",
             text: "Se ha actualizado el usuario correctamente.",
@@ -216,7 +220,6 @@ export default {
             color: "danger"
           });
         });
-        this.$emit('fetch');
     },
     reset_data() {
       this.data_local = Object.assign({}, this.data);

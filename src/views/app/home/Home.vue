@@ -92,7 +92,8 @@
       Slide
     },
     created () {
-      http.services.getAllArticulos(1, "", "", "", "", "", "GPU")
+      const categorias = ['GPU','CPU','RAM','CPU_COOLER','CASE_COOLER','MOTHERBOARD','SSD','HDD','MONITOR','FUENTE','GABINETE','TECLADO','MOUSE','MOUSEPAD','AURICULARES','MICROFONO', 'GAMEPAD', 'CAMARA', 'PARLANTE', 'PORTATIL', 'SILLA', 'ESCRITORIO']
+      http.services.getAllArticulos(1, "", "", "", "", "", categorias[Math.floor(Math.random() * categorias.length)])
       .then(res => {
         res.data.articulos.data.forEach(item => {
           const feed = item.feedbacks
@@ -186,7 +187,7 @@
 
     .swiper-button-next,
     .swiper-button-prev {
-      transform: scale(.5);
+      transform: scale(0.8);
       filter: hue-rotate(40deg);
     }
 

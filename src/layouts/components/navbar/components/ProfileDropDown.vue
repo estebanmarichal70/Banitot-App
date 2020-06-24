@@ -40,9 +40,7 @@
       </vs-dropdown-menu>
     </vs-dropdown>
   </div>
-  <router-link to="/acceder" v-else class="font-semibold ">
-    Acceder
-  </router-link>
+  <vs-button  to="/acceder" v-else type="filled">Iniciar Sesión</vs-button>
 </template>
 
 <script>

@@ -24,7 +24,7 @@
             </vs-td>
 
             <vs-td>
-              <p class="product-price">${{ item.monto }}</p>
+              <p class="product-price">${{ item.monto * 42 }}</p>
             </vs-td>
 
             <vs-td class="whitespace-no-wrap">
@@ -55,8 +55,7 @@
           >
             <template>
               <div id="data-list-thumb-view" class="data-list-container">
-                <vs-table  :data="articulos"
-                >
+                <vs-table  :data="articulos">
                   <template slot="thead">
                     <vs-th>Imagen</vs-th>
                     <vs-th>Nombre</vs-th>
@@ -84,15 +83,15 @@
                         </vs-td>
 
                         <vs-td>
-                          <p class="product-category">{{ item.descripcion }}</p>
+                          <p class="product-description recorte-text">{{ item.descripcion }}</p>
                         </vs-td>
 
                         <vs-td>
-                          <p class="product-category">{{ item.marca }}</p>
+                          <p class="product-brand">{{ item.marca }}</p>
                         </vs-td>
 
                         <vs-td>
-                          <p class="product-price">${{ item.precio - item.precio * 0.05  }}</p>
+                          <p class="product-price">${{ item.precio * 42 }}</p>
                         </vs-td>
 
                         <vs-td>
@@ -148,9 +147,15 @@ export default {
       estadoId: "",
       popupActivo4: false,
       articulos:"",
-      rating:0
+      rating:0,
+      ordenId: null
     };
   },
+  watch:{
+    data() {
+      this.data_local = JSON.parse(JSON.stringify(this.data.ordenes))
+    }
+  }, 
   computed: {
     currentPage() {
       if (this.isMounted) {
@@ -179,11 +184,12 @@ export default {
       http.services
         .cambiarEstado(id)
         .then(() => {
+          this.$emit('fetch');
           this.$vs.notify({
-            title: "Genial!",
-            text: "Se ha actualizado el estado correctamente.",
+            title: "Genial",
+            text: "Se ha cancelado la orden correctamente.",
             color: "success"
-          });
+           });
         })
         .catch(err => {
           this.$vs.notify({
@@ -194,6 +200,8 @@ export default {
         });
     },
     infoOrden(id){
+      this.ordenId = id;
+      this.$vs.loading()
       http.services.fetchOrden(id)
       .then(res => {
         this.articulos = res.data.articulos;
@@ -207,20 +215,22 @@ export default {
             rating /= feed.length
           else
             rating = 0;
+          item.precio = parseInt(item.precio - item.precio * 0.05)
           item['rating'] = rating
         })
+        this.$vs.loading.close()
       })
       .catch(() => {
           this.$vs.notify({
             title: "Error",
-            text: "Ocurrio un mensaje inesperado",
+            text: "Ocurrio un error inesperado",
             color: "danger"
           });
       });
+      this.$vs.loading.close()
       this.popupActivo4 = true
     },
     updateRating(rating, articuloId){
-
       const data = {
         user_id: this.$store.state.AppActiveUser.id,
         rating,
@@ -229,22 +239,23 @@ export default {
       };
       http.services.updateRating(data)
       .then(() => {
+        this.$emit('fetch');
+        this.infoOrden(this.ordenId)
         this.$vs.notify({
             title: "Genial",
-            text: "Recibimos tu calificación correctamente",
+            text: "Recibimos tu calificación correctamente.",
             color: "success"
           });
       })
       .catch(() => {
         this.$vs.notify({
             title: "Error",
-            text: "Ocurrio un mensaje inesperado",
+            text: "Ocurrio un error inesperado",
             color: "danger"
           });
       })
     },
     setCurrentRating(rating, articuloId){
-
       this.updateRating(rating, articuloId);
     },
     getOrderStatusColor(status) {
@@ -298,6 +309,13 @@ export default {
           }
         }
       }
+    }
+
+    .recorte-text{
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 6;
+      -webkit-box-orient: vertical;  
     }
 
     .vs-table {

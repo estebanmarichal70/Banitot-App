@@ -18,18 +18,17 @@ export default {
     commit('TOGGLE_ITEM_IN_WISH_LIST', item)
   },
   toggleItemInCart ({ getters, commit, dispatch }, item) {
-    console.log("entra")
     if(localStorage.getItem('cartItems') === null){
       const cartItems = []    
       localStorage.setItem('cartItems', JSON.stringify(cartItems));
     }
     if(state.AppActiveUser.name){
-      const articulo = {
-        articulo_id: item.id,
-        carrito_id: item.carrito_id
-      }
       if(getters.isInCart(item.id))
       {
+        const articulo = {
+          articulo_id: item.id,
+          carrito_id: item.carrito_id
+        }
         http.services.detachCarrito(articulo)
         .then(() => {})
         .catch(error => {
