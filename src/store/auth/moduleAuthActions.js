@@ -14,7 +14,7 @@ export default {
 
             // Set accessToken
             if(localStorage.getItem('cartItems') === null){
-              const cartItems = []    
+              const cartItems = []
               localStorage.setItem('cartItems', JSON.stringify(cartItems));
             }
             const wishList = []
@@ -43,7 +43,7 @@ export default {
                 http.services.atachCarrito(articulo)
                 .then(() => {})
                 .catch(error => {
-                  this.$vs.notify({
+                  this._vm.notify({
                     title: 'Error',
                     text: error.message,
                     iconPack: 'feather',
@@ -54,14 +54,13 @@ export default {
               })
             })
             .catch(error => {
-              console.log(error)
-              /*this.$vs.notify({
+              this._vm.notify({
                 title: 'Error',
                 text: error.message,
                 iconPack: 'feather',
                 icon: 'icon-alert-circle',
                 color: 'danger'
-              })*/
+              })
             })
             http.services.getWishlist(response.data.user.wishlist[0].id)
             .then(res => {
@@ -70,14 +69,13 @@ export default {
               })
             })
             .catch(error => {
-              console.log(error)
-              /*this.$vs.notify({
+              this._vm.notify({
                 title: 'Error',
                 text: error.message,
                 iconPack: 'feather',
                 icon: 'icon-alert-circle',
                 color: 'danger'
-              })*/
+              })
             })
             commit('UPDATE_USER_INFO', response.data.user, {root: true})
 

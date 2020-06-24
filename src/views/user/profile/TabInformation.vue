@@ -4,7 +4,7 @@
       <div class="vx-col w-full md:w-1/2">
         <!-- Col Header -->
         <div class="flex items-end">
-          <feather-icon icon="UserIcon" class="mr-2" svgClasses="w-5 h-5" />
+          <feather-icon icon="UserIcon" class="mr-2" svgClasses="w-5 h-5"/>
           <span class="leading-none font-medium">Información Personal</span>
         </div>
 
@@ -44,15 +44,23 @@
 
           <vs-input
             class="w-full mt-4"
+            data-vv-validate-on="blur"
+            v-validate="'required|min:8|max:128'"
             label="Contraseña nueva"
+            data-vv-as="contraseña nueva"
             v-model="passwordNuevo"
-            name="passwordNuevo"
+            name="contraseña_nueva"
+            pla
             type="password"
           />
+          <span class="text-danger text-sm">{{
+              errors.first("contraseña_nueva")
+            }}</span>
 
           <vs-input
             class="w-full mt-4"
             label="Contraseña actual"
+            data-vv-validate-on="blur"
             v-model="passwordViejo"
             name="passwordViejo"
             type="password"
@@ -66,7 +74,7 @@
       <div class="vx-col w-full md:w-1/2">
         <!-- Col Header -->
         <div class="flex items-end md:mt-0 mt-base">
-          <feather-icon icon="MapPinIcon" class="mr-2" svgClasses="w-5 h-5" />
+          <feather-icon icon="MapPinIcon" class="mr-2" svgClasses="w-5 h-5"/>
           <span class="leading-none font-medium">Dirección</span>
         </div>
 
@@ -108,14 +116,16 @@
                 class="ml-auto mt-2"
                 @click="save_changes"
                 :disabled="contador == 0"
-                >Guardar cambios</vs-button
+              >Guardar cambios
+              </vs-button
               >
               <vs-button
                 class="ml-4 mt-2"
                 type="border"
                 color="warning"
                 @click="reset_data"
-                >Reiniciar</vs-button
+              >Reiniciar
+              </vs-button
               >
             </div>
           </div>
@@ -126,104 +136,112 @@
 </template>
 
 <script>
-import flatPickr from "vue-flatpickr-component";
-import "flatpickr/dist/flatpickr.css";
-import vSelect from "vue-select";
-import http from "@/http/banitotServices";
+  import flatPickr from "vue-flatpickr-component";
+  import "flatpickr/dist/flatpickr.css";
+  import vSelect from "vue-select";
+  import http from "@/http/banitotServices";
 
-export default {
-  components: {
-    vSelect,
-    flatPickr
-  },
-  props: {
-    data: {
-      type: Object,
-      required: true,
-    }
-  },
-  data() {
-    return {
-      data_local: JSON.parse(JSON.stringify(this.data)),
-      nombre: "",
-      email: "",
-      passwordViejo: "",
-      passwordNuevo: "",
-      calle: "",
-      ciudad: "",
-      departamento: "",
-      cp: "",
-      fecha_nac: null,
-      telefono: "",
-      contador: 0,
-      usuarioActualizado: {}
-    };
-  },
-  watch: {
-    data_local: {
-      data () {
-        this.data_local = JSON.parse(JSON.stringify(this.data.ordenes))
-      },
-      handler() {
-        if (this.data.name !== this.data_local.name && this.data_local.name !== "") {
+  export default {
+    components: {
+      vSelect,
+      flatPickr
+    },
+    props: {
+      data: {
+        type: Object,
+        required: true,
+      }
+    },
+    computed: {
+      validateForm() {
+        return (
+          !this.errors.any()
+        );
+      }
+    },
+    data() {
+      return {
+        data_local: JSON.parse(JSON.stringify(this.data)),
+        nombre: "",
+        email: "",
+        passwordViejo: "",
+        passwordNuevo: "",
+        calle: "",
+        ciudad: "",
+        departamento: "",
+        cp: "",
+        fecha_nac: null,
+        telefono: "",
+        contador: 0,
+        usuarioActualizado: {}
+      };
+    },
+    watch: {
+      data_local: {
+        data() {
+          this.data_local = JSON.parse(JSON.stringify(this.data.ordenes))
+        },
+        handler() {
+          if (this.data.name !== this.data_local.name && this.data_local.name !== "") {
             this.usuarioActualizado.nombre = this.data_local.name;
             this.contador = this.contador + 1;
-        }
-        if (this.data.telefono !== this.data_local.telefono && this.data_local.telefono !== "") {
+          }
+          if (this.data.telefono !== this.data_local.telefono && this.data_local.telefono !== "") {
             this.usuarioActualizado.telefono = this.data_local.telefono;
             this.contador = this.contador + 1;
-        }
-        if (this.data.departamento !== this.data_local.departamento && this.data_local.departamento !== "") {
+          }
+          if (this.data.departamento !== this.data_local.departamento && this.data_local.departamento !== "") {
             this.usuarioActualizado.departamento = this.data_local.departamento;
             this.contador = this.contador + 1;
-        }
-        if (this.data.cp !== this.data_local.cp && this.data_local.cp !== "") {
+          }
+          if (this.data.cp !== this.data_local.cp && this.data_local.cp !== "") {
             this.usuarioActualizado.cp = this.data_local.cp;
             this.contador = this.contador + 1;
-        }
-        if (this.data.calle !== this.data_local.calle && this.data_local.calle !== "") {
+          }
+          if (this.data.calle !== this.data_local.calle && this.data_local.calle !== "") {
             this.usuarioActualizado.calle = this.data_local.calle;
             this.contador = this.contador + 1;
-        }
-        if (this.data.ciudad !== this.data_local.ciudad && this.data_local.ciudad !== "") {
+          }
+          if (this.data.ciudad !== this.data_local.ciudad && this.data_local.ciudad !== "") {
             this.usuarioActualizado.ciudad = this.data_local.ciudad;
             this.contador = this.contador + 1;
-        }
+          }
+        },
+        deep: true
       },
-      deep: true
+      passwordViejo() {
+        if (this.passwordViejo !== "" && this.passwordNuevo !== "") {
+          this.usuarioActualizado.passwordViejo = this.passwordViejo;
+          this.usuarioActualizado.passwordNuevo = this.passwordNuevo;
+          this.contador = this.contador + 1;
+        }
+      }
     },
-    passwordViejo() {
-      if(this.passwordViejo !== "" && this.passwordNuevo !== ""){
-        this.usuarioActualizado.passwordViejo = this.passwordViejo;
-        this.usuarioActualizado.passwordNuevo = this.passwordNuevo;
-        this.contador = this.contador + 1;
+    methods: {
+      save_changes() {
+        if (!this.validateForm) return;
+        this.contador = 0;
+        http.services
+          .updateUser(this.usuarioActualizado)
+          .then(() => {
+            this.$emit('fetch')
+            this.$vs.notify({
+              title: "Genial!",
+              text: "Se ha actualizado el usuario correctamente.",
+              color: "success"
+            });
+          })
+          .catch(err => {
+            this.$vs.notify({
+              title: "Error",
+              text: err.response.data.error,
+              color: "danger"
+            });
+          });
+      },
+      reset_data() {
+        this.data_local = Object.assign({}, this.data);
       }
     }
-  },
-  methods: {
-    save_changes() {
-      this.contador = 0;
-      http.services
-        .updateUser(this.usuarioActualizado)
-        .then(() => {
-          this.$emit('fetch')
-          this.$vs.notify({
-            title: "Genial!",
-            text: "Se ha actualizado el usuario correctamente.",
-            color: "success"
-          });
-        })
-        .catch(err => {
-          this.$vs.notify({
-            title: "Error",
-            text: err.response.data.error,
-            color: "danger"
-          });
-        });
-    },
-    reset_data() {
-      this.data_local = Object.assign({}, this.data);
-    }
-  }
-};
+  };
 </script>
