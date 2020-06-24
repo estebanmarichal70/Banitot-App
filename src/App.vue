@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import themeConfig from '@/../themeConfig.js'
+  import appConfig from '@/config/appConfig.js'
 
   export default {
     data() {
@@ -48,7 +48,7 @@
       }
     },
     mounted() {
-      this.toggleClassInBody(themeConfig.theme)
+      this.toggleClassInBody(appConfig.theme)
       this.$store.commit('UPDATE_WINDOW_WIDTH', window.innerWidth)
 
       const vh = window.innerHeight * 0.01

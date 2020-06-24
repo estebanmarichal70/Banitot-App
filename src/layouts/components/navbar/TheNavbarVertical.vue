@@ -21,10 +21,7 @@
 
 
 <script>
-import Bookmarks            from './components/Bookmarks.vue'
-import SearchBar            from './components/SearchBar.vue'
 import CartDropDown         from './components/CartDropDown.vue'
-import NotificationDropDown from './components/NotificationDropDown.vue'
 import ProfileDropDown      from './components/ProfileDropDown.vue'
 
 export default {
@@ -36,10 +33,7 @@ export default {
     }
   },
   components: {
-    Bookmarks,
-    SearchBar,
     CartDropDown,
-    NotificationDropDown,
     ProfileDropDown
   },
   computed: {

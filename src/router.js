@@ -8,7 +8,7 @@ const router = new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   scrollBehavior() {
-    return { x: 0, y: 0 }
+    return {x: 0, y: 0}
   },
   routes: [
     {
@@ -22,55 +22,41 @@ const router = new Router({
         {
           path: '/contacto',
           name: 'google-map',
-          component: () => import('./views/charts-and-maps/maps/google-map/GoogleMap.vue'),
-          meta: {
-            rule: 'editor'
-          }
+          component: () => import('./views/app/contact/Contact.vue'),
+          meta: {}
         },
         {
           path: '/inicio',
           name: 'inicio',
           component: () => import('./views/app/home/Home.vue'),
-          meta: {
-            rule: 'editor'
-          }
+          meta: {}
         },
         {
           path: '/tienda/:categoria',
           name: 'ecommerce-shop',
-          component: () => import('./views/apps/eCommerce/ECommerceShop.vue'),
+          component: () => import('./views/app/shop/Shop.vue'),
           meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'eCommerce' },
-              { title: 'Shop', active: true }
-            ],
             pageTitle: 'Shop',
-            rule: 'editor'
+
           }
         },
         {
           path: '/deseados',
           name: 'ecommerce-wish-list',
-          component: () => import('./views/apps/eCommerce/ECommerceWishList.vue'),
+          component: () => import('./views/app/shop/Wishlist.vue'),
           meta: {
             authRequired: true,
             pageTitle: 'Wish List',
-            rule: 'editor'
+
           }
         },
         {
           path: '/checkout',
           name: 'ecommerce-checkout',
-          component: () => import('./views/apps/eCommerce/ECommerceCheckout.vue'),
+          component: () => import('./views/app/shop/Checkout.vue'),
           meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'eCommerce', url: '/apps/eCommerce/shop' },
-              { title: 'Checkout', active: true }
-            ],
             pageTitle: 'Checkout',
-            rule: 'editor'
+
           }
         },
         /*
@@ -85,142 +71,22 @@ const router = new Router({
         {
           path: '/articulo/:item_id',
           name: 'ecommerce-item-detail-view',
-          component: () => import('./views/apps/eCommerce/ECommerceItemDetailView.vue'),
+          component: () => import('./views/app/shop/ItemDetail.vue'),
           meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'eCommerce' },
-              { title: 'Shop', url: { name: 'ecommerce-shop' } },
-              { title: 'Item Details', active: true }
-            ],
             parent: 'ecommerce-item-detail-view',
             pageTitle: 'Item Details',
-            rule: 'editor'
+
           }
         },
-        {
-          path: '/apps/user/user-view/:userId',
-          name: 'app-user-view',
-          component: () => import('@/views/apps/user/UserView.vue'),
-          meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'User' },
-              { title: 'View', active: true }
-            ],
-            pageTitle: 'User View',
-            rule: 'editor'
-          }
-        },
+
         {
           path: '/usuario/perfil',
           name: 'app-user-edit',
-          component: () => import('@/views/apps/user/user-edit/UserEdit.vue'),
+          component: () => import('@/views/user/profile/Profile.vue'),
           meta: {
             authRequired: true,
-            pageTitle: 'User Edit',
-            rule: 'editor'
-          }
-        },
-        {
-          path: '/pages/profile',
-          name: 'page-profile',
-          component: () => import('@/views/pages/Profile.vue'),
-          meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'Pages' },
-              { title: 'Profile', active: true }
-            ],
             pageTitle: 'Profile',
-            rule: 'editor'
-          }
-        },
-        {
-          path: '/pages/user-settings',
-          name: 'page-user-settings',
-          component: () => import('@/views/pages/user-settings/UserSettings.vue'),
-          meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'Pages' },
-              { title: 'User Settings', active: true }
-            ],
-            pageTitle: 'Settings',
-            rule: 'editor'
-          }
-        },
-        {
-          path: '/pages/faq',
-          name: 'page-faq',
-          component: () => import('@/views/pages/Faq.vue'),
-          meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'Pages' },
-              { title: 'FAQ', active: true }
-            ],
-            pageTitle: 'FAQ',
-            rule: 'editor'
-          }
-        },
-        {
-          path: '/pages/knowledge-base',
-          name: 'page-knowledge-base',
-          component: () => import('@/views/pages/KnowledgeBase.vue'),
-          meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'Pages' },
-              { title: 'KnowledgeBase', active: true }
-            ],
-            pageTitle: 'KnowledgeBase',
-            rule: 'editor'
-          }
-        },
-        {
-          path: '/pages/knowledge-base/category',
-          name: 'page-knowledge-base-category',
-          component: () => import('@/views/pages/KnowledgeBaseCategory.vue'),
-          meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'Pages' },
-              { title: 'KnowledgeBase', url: '/pages/knowledge-base' },
-              { title: 'Category', active: true }
-            ],
-            parent: 'page-knowledge-base',
-            rule: 'editor'
-          }
-        },
-        {
-          path: '/pages/knowledge-base/category/question',
-          name: 'page-knowledge-base-category-question',
-          component: () => import('@/views/pages/KnowledgeBaseCategoryQuestion.vue'),
-          meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'Pages' },
-              { title: 'KnowledgeBase', url: '/pages/knowledge-base' },
-              { title: 'Category', url: '/pages/knowledge-base/category' },
-              { title: 'Question', active: true }
-            ],
-            parent: 'page-knowledge-base',
-            rule: 'editor'
-          }
-        },
-        {
-          path: '/pages/invoice',
-          name: 'page-invoice',
-          component: () => import('@/views/pages/Invoice.vue'),
-          meta: {
-            breadcrumb: [
-              { title: 'Home', url: '/' },
-              { title: 'Pages' },
-              { title: 'Invoice', active: true }
-            ],
-            pageTitle: 'Invoice',
-            rule: 'editor'
+
           }
         },
       ]
@@ -239,57 +105,37 @@ const router = new Router({
           path: '/acceder',
           name: 'page-login',
           component: () => import('@/views/user/login/Login.vue'),
-          meta: {
-            rule: 'editor'
-          }
+          meta: {}
         },
         {
           path: '/registrarse',
           name: 'page-register',
           component: () => import('@/views/user/register/Register.vue'),
-          meta: {
-            rule: 'editor'
-          }
+          meta: {}
         },
         {
           path: '/cuenta-confirmada',
           name: 'page-account-confirmed',
           component: () => import('@/views/user/confirm-account/ConfirmAccount.vue'),
-          meta: {
-            rule: 'editor'
-          }
+          meta: {}
         },
         {
           path: '/olvide-contraseña',
           name: 'page-forgot-password',
           component: () => import('@/views/user/forgot-password/ForgotPassword.vue'),
-          meta: {
-            rule: 'editor'
-          }
+          meta: {}
         },
         {
           path: '/restablecer-contraseña',
           name: 'page-reset-password',
           component: () => import('@/views/user/reset-password/ResetPassword.vue'),
-          meta: {
-            rule: 'editor'
-          }
+          meta: {}
         },
         {
           path: '/error-404',
           name: 'page-error-404',
-          component: () => import('@/views/pages/Error404.vue'),
-          meta: {
-            rule: 'editor'
-          }
-        },
-        {
-          path: '/pages/not-authorized',
-          name: 'page-not-authorized',
-          component: () => import('@/views/pages/NotAuthorized.vue'),
-          meta: {
-            rule: 'editor'
-          }
+          component: () => import('@/views/Error404.vue'),
+          meta: {}
         },
       ]
     },
@@ -312,19 +158,13 @@ router.afterEach(() => {
 
 router.beforeEach((to, from, next) => {
 
-  // If auth required, check login. If login fails redirect to login page
   if (to.meta.authRequired && state.AppActiveUser.name && to.path !== "/acceder") {
     return next();
   }
-  if(to.path !== "/acceder" && !state.AppActiveUser.name && to.meta.authRequired){
+  if (to.path !== "/acceder" && !state.AppActiveUser.name && to.meta.authRequired) {
     return router.push('/acceder');
   }
   return next();
-
-  //return next()
-  // Specify the current path as the customState parameter, meaning it
-  // will be returned to the application after auth
-  // auth.login({ target: to.path });
 })
 
 export default router

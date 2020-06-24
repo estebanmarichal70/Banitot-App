@@ -1,14 +1,5 @@
-/*=========================================================================================
-  File Name: state.js
-  Description: Vuex Store - state
-  ----------------------------------------------------------------------------------------
-  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
-
 import navbarSearchAndPinList from '@/layouts/components/navbar/navbarSearchAndPinList'
-import themeConfig, { colors } from '@/../themeConfig.js'
+import appConfig, { colors } from '@/config/appConfig.js'
 
 // /////////////////////////////////////////////
 // Helper
@@ -69,14 +60,14 @@ const state = {
   bodyOverlay             : false,
   isVerticalNavMenuActive : true,
   is_touch_device         : is_touch_device(),
-  mainLayoutType          : themeConfig.mainLayoutType || 'vertical',
+  mainLayoutType          : appConfig.mainLayoutType || 'vertical',
   navbarSearchAndPinList,
-  reduceButton            : themeConfig.sidebarCollapsed,
+  reduceButton            : appConfig.sidebarCollapsed,
   verticalNavMenuWidth    : 'default',
   verticalNavMenuItemsMin : false,
   scrollY                 : 0,
   starredPages            : navbarSearchAndPinList['pages'].data.filter((page) => page.is_bookmarked),
-  theme                   : themeConfig.theme || 'light',
+  theme                   : appConfig.theme || 'light',
   themePrimaryColor       : colors.primary,
 
   // Can be used to get current window with

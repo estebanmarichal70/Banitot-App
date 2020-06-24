@@ -2,12 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 
 import Vuesax from 'vuesax'
-import 'material-icons/iconfont/material-icons.css' //Material Icons
-import 'vuesax/dist/vuesax.css' // Vuesax
-// Theme Configurations
-import '../themeConfig.js'
-// ACL
-import acl from './acl/acl'
+import 'material-icons/iconfont/material-icons.css'
+import 'vuesax/dist/vuesax.css'
+
+import './config/appConfig.js'
 // Globally Registered Components
 import './globalComponents.js'
 // Styles: SCSS
@@ -18,7 +16,7 @@ import '@/assets/css/main.css'
 import router from './router'
 // Vuex Store
 import store from './store/store'
-// Vuexy Admin Filters
+
 import './filters/filters'
 // Clipboard
 import VueClipboard from 'vue-clipboard2'
@@ -74,6 +72,5 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
-  acl,
   render: h => h(App)
 }).$mount('#app')

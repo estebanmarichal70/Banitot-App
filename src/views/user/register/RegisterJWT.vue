@@ -234,7 +234,8 @@
             this.$vs.notify({
               title: 'Genial!',
               text: "Se ha enviado un mail de confirmacion.",
-              color: 'success'
+              color: 'success',
+              time: 4000
             });
             this.$vs.loading.close()
             this.$router.push("/");
@@ -245,20 +246,24 @@
                 this.$vs.notify({
                   title: 'Error',
                   text: "El mail ingresado ya existe.",
-                  color: 'danger'
+                  color: 'danger',
+                  time: 4000
                 })
               } else {
                 this.$vs.notify({
                   title: 'Error',
                   text: "Ha ocurrido un error inesperado",
-                  color: 'danger'
+                  color: 'danger',
+                  time: 4000
                 })
               }
             } else {
               this.$vs.notify({
                 title: 'Error',
                 text: "Ha ocurrido un error inesperado",
-                color: 'danger'
+                color: 'danger',
+                time: 4000
+
               })
             }
             this.$vs.loading.close()
