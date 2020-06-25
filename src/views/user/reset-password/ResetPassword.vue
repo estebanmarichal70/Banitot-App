@@ -46,7 +46,7 @@
 
                 <div class="flex flex-wrap justify-between mt-6 flex-col-reverse sm:flex-row">
                   <vs-button type="border" to="/acceder" class="w-full sm:w-auto mb-8 sm:mb-auto mt-3 sm:mt-auto">
-                    Iniciar Sesion
+                    Iniciar Sesión
                   </vs-button>
                   <vs-button :disabled="!validateForm" @click="resetPassword" class="w-full sm:w-auto">Restablecer
                   </vs-button>

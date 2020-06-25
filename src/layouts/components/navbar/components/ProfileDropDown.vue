@@ -4,7 +4,7 @@
     v-if="hideUserData != null && hideUserData === false"
   >
     <vs-dropdown vs-custom-content vs-trigger-click class="cursor-pointer">
-      <div class="text-right leading-tight hidden sm:block">
+      <div class="text-right leading-tight sm:block">
         <p class="font-semibold">{{ activeUserInfo.name }}</p>
         <small>En linea</small>
       </div>
