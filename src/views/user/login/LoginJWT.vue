@@ -41,7 +41,6 @@
       return {
         email: '',
         password: '',
-        checkbox_remember_me: false
       }
     },
     computed: {

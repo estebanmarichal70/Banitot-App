@@ -12,10 +12,10 @@
           <div class="clearfix">
             <vs-input
               v-validate="'required'"
-              data-vv-validate-on="blur"
-              label-placeholder="Nombre"
+              data-vv-validate-on="none"
+              label-placeholder="Nombre completo*"
               name="nombre"
-              placeholder="Nombre"
+              placeholder="Nombre completo*"
               v-model="nombre"
               class="w-full"
             />
@@ -25,11 +25,11 @@
 
             <vs-input
               v-validate="'required|email'"
-              data-vv-validate-on="blur"
+              data-vv-validate-on="none"
               name="email"
               type="email"
-              label-placeholder="Email"
-              placeholder="Email"
+              label-placeholder="Email*"
+              placeholder="Email*"
               v-model="email"
               class="w-full mt-6"
             />
@@ -38,11 +38,11 @@
             <vs-input
               ref="contraseña"
               type="password"
-              data-vv-validate-on="blur"
+              data-vv-validate-on="none"
               v-validate="'required|min:8|max:128'"
               name="contraseña"
-              label-placeholder="Contraseña"
-              placeholder="Contraseña"
+              label-placeholder="Contraseña*"
+              placeholder="Contraseña*"
               v-model="password"
               class="w-full mt-6"
             />
@@ -52,12 +52,12 @@
 
             <vs-input
               type="password"
-              v-validate="'min:8|max:128|confirmed:contraseña'"
-              data-vv-validate-on="blur"
-              data-vv-as="contraseña"
+              v-validate="'required|min:8|max:128|confirmed:contraseña'"
+              data-vv-validate-on="none"
+              data-vv-as="confirmar contraseña"
               name="confirmar_contraseña"
-              label-placeholder="Confirmar contraseña"
-              placeholder="Confirmar contraseña"
+              label-placeholder="Confirmar contraseña*"
+              placeholder="Confirmar contraseña*"
               v-model="confirm_password"
               class="w-full mt-6"
             />
@@ -66,10 +66,12 @@
             }}</span>
 
             <vs-input
+              v-validate="'required'"
               type="date"
-              data-vv-as="fechaNac"
+              data-vv-as="fecha de nacimiento"
+              data-vv-validate-on="none"
               name="fechaNac"
-              label-placeholder="Fecha de nacimiento"
+              label-placeholder="Fecha de nacimiento*"
               v-model="fecha_nac"
               class="w-full mt-8"
             />
@@ -91,11 +93,11 @@
           <div class="clearfix">
             <vs-input
               v-validate="'required'"
-              data-vv-validate-on="blur"
+              data-vv-validate-on="none"
               name="telefono"
               type="text"
-              label-placeholder="Telefono"
-              placeholder="Telefono"
+              label-placeholder="Telefono*"
+              placeholder="Telefono*"
               v-model="telefono"
               class="w-full mt-6"
             />
@@ -105,11 +107,11 @@
 
             <vs-input
               v-validate="'required'"
-              data-vv-validate-on="blur"
+              data-vv-validate-on="none"
               name="departamento"
               type="text"
-              label-placeholder="Departamento"
-              placeholder="Departamento"
+              label-placeholder="Departamento*"
+              placeholder="Departamento*"
               v-model="departamento"
               class="w-full mt-6"
             />
@@ -119,11 +121,11 @@
 
             <vs-input
               v-validate="'required'"
-              data-vv-validate-on="blur"
+              data-vv-validate-on="none"
               name="ciudad"
               type="text"
-              label-placeholder="Ciudad"
-              placeholder="Ciudad"
+              label-placeholder="Ciudad*"
+              placeholder="Ciudad*"
               v-model="ciudad"
               class="w-full mt-6"
             />
@@ -133,11 +135,11 @@
 
             <vs-input
               v-validate="'required'"
-              data-vv-validate-on="blur"
+              data-vv-validate-on="none"
               name="calle"
               type="text"
-              label-placeholder="Calle"
-              placeholder="Calle"
+              label-placeholder="Calle*"
+              placeholder="Calle*"
               v-model="calle"
               class="w-full mt-6"
             />
@@ -145,11 +147,11 @@
 
             <vs-input
               v-validate="'required'"
-              data-vv-validate-on="blur"
+              data-vv-validate-on="none"
               name="codigo postal"
               type="text"
-              label-placeholder="Codigo Postal"
-              placeholder="Código Postal"
+              label-placeholder="Codigo Postal*"
+              placeholder="Código Postal*"
               v-model="codigo_postal"
               class="w-full mt-6"
             />
@@ -168,7 +170,6 @@
       <vs-button
         class="float-right mt-6"
         @click="registerUserJWt"
-        :disabled="!validateForm"
       >Registrarse
       </vs-button
       >
@@ -214,60 +215,73 @@
     methods: {
 
       registerUserJWt() {
-        if (!this.validateForm) return;
-        this.$vs.loading()
-        const payload = {
-          name: this.nombre,
-          email: this.email,
-          password: this.password,
-          password_confirmation: this.confirm_password,
-          calle: this.calle,
-          ciudad: this.ciudad,
-          departamento: this.departamento,
-          cp: this.codigo_postal,
-          telefono: this.telefono,
-          fecha_nac: this.fecha_nac
-        };
 
-        http.services.register(payload)
-          .then(() => {
-            this.$vs.notify({
-              title: 'Genial!',
-              text: "Se ha enviado un mail de confirmacion.",
-              color: 'success',
-              time: 4000
-            });
-            this.$vs.loading.close()
-            this.$router.push("/");
-          })
-          .catch(err => {
-            if (err.response) {
-              if (err.response.data.error.email) {
-                this.$vs.notify({
-                  title: 'Error',
-                  text: "El mail ingresado ya existe.",
-                  color: 'danger',
-                  time: 4000
-                })
+        this.$validator.validateAll().then(success => {
+          if (!success) return;
+
+          this.$vs.loading()
+          const payload = {
+            name: this.nombre,
+            email: this.email,
+            password: this.password,
+            password_confirmation: this.confirm_password,
+            calle: this.calle,
+            ciudad: this.ciudad,
+            departamento: this.departamento,
+            cp: this.codigo_postal,
+            telefono: this.telefono,
+            fecha_nac: this.fecha_nac
+          };
+
+          http.services.register(payload)
+            .then(() => {
+              this.$vs.notify({
+                title: 'Genial!',
+                text: "Se ha enviado un mail de confirmacion.",
+                color: 'success',
+                time: 4000
+              });
+              this.$vs.loading.close()
+              this.$router.push("/");
+            })
+            .catch(err => {
+              if (err.response) {
+                if (err.response.data.error) {
+                  if(err.response.data.error.email) {
+                    this.$vs.notify({
+                      title: 'Error',
+                      text: "El mail ingresado ya existe.",
+                      color: 'danger',
+                      time: 4000
+                    })
+                  }else{
+                    this.$vs.notify({
+                      title: 'Error',
+                      text: "Ha ocurrido un error inesperado",
+                      color: 'danger',
+                      time: 4000
+                    })
+                  }
+                } else {
+                  this.$vs.notify({
+                    title: 'Error',
+                    text: "Ha ocurrido un error inesperado",
+                    color: 'danger',
+                    time: 4000
+                  })
+                }
               } else {
                 this.$vs.notify({
                   title: 'Error',
                   text: "Ha ocurrido un error inesperado",
                   color: 'danger',
                   time: 4000
+
                 })
               }
-            } else {
-              this.$vs.notify({
-                title: 'Error',
-                text: "Ha ocurrido un error inesperado",
-                color: 'danger',
-                time: 4000
-
-              })
-            }
-            this.$vs.loading.close()
-          })
+              this.$vs.loading.close()
+            })
+        })
       }
     }
   };
