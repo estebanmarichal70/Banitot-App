@@ -405,16 +405,14 @@
           })
       },
       removeItemFromCart(item) {
-        this.$store.dispatch('eCommerce/toggleItemInCart', item)
-        this.cartItems.forEach((i, index) => {
-          if (i.id === item.id) {
-            this.precio -= i.precio * i.quantity
-
+        this.cartItems.forEach((it) => {  
+          if (it.id === item.id) {
+            this.precio = this.precio - (it.precio * it.quantity)
             this.precio = Math.round(Number(this.precio))
             this.precioT = Math.round(this.precio - this.precio * 0.05)
-            this.cartItems.splice(index, 1)
           }
         })
+        this.$store.dispatch('eCommerce/toggleItemInCart', item)
       },
       wishListButtonClicked(item) {
         if (!this.guest) {

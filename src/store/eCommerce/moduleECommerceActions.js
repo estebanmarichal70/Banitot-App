@@ -31,15 +31,7 @@ export default {
         }
         http.services.detachCarrito(articulo)
         .then(() => {})
-        .catch(error => {
-          this.$vs.notify({
-            title: 'Error',
-            text: error.message,
-            iconPack: 'feather',
-            icon: 'icon-alert-circle',
-            color: 'danger'
-          })
-        })
+        .catch(() => {})
         commit('REMOVE_ITEM_FROM_CART', item)
       }
       else
@@ -65,15 +57,7 @@ export default {
       }
       http.services.atachCarrito(articulo)
       .then(() => {})
-      .catch(error => {
-        this.$vs.notify({
-          title: 'Error',
-          text: error.message,
-          iconPack: 'feather',
-          icon: 'icon-alert-circle',
-          color: 'danger'
-        })
-      })
+      .catch(() => {})
       commit('ADD_ITEM_IN_CART', item)
     } else
       commit('ADD_ITEM_IN_CART', item)
@@ -92,15 +76,7 @@ export default {
       http.services.atachCarrito(articulo)
       .then(() => {
       })
-      .catch(error => {
-        this.$vs.notify({
-          title: 'Error',
-          text: error.message,
-          iconPack: 'feather',
-          icon: 'icon-alert-circle',
-          color: 'danger'
-        })
-      })
+      .catch(() => {})
       commit('UPDATE_ITEM_QUANTITY', payload)
     }
     else

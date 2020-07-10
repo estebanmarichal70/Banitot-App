@@ -12,30 +12,12 @@ export default {
     if (index < 0) {
       http.services.atachWishlist(articulo)
       .then(() => {})
-      .catch(error => {
-        this.$vs.notify({
-          title: 'Error',
-          text: error.message,
-          iconPack: 'feather',
-          icon: 'icon-alert-circle',
-          color: 'danger'
-        })
-      })
       wishList.push(item);
       localStorage.setItem("wishList", JSON.stringify(wishList));
       state.wishList.push(item)
     } else {
       http.services.detachWishlist(articulo)
       .then(() => {})
-      .catch(error => {
-        this.$vs.notify({
-          title: 'Error',
-          text: error.message,
-          iconPack: 'feather',
-          icon: 'icon-alert-circle',
-          color: 'danger'
-        })
-      })
       wishList.splice(index, 1)
       localStorage.setItem("wishList", JSON.stringify(wishList));
       state.wishList.splice(index, 1)
